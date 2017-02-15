@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classes.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,7 +119,7 @@ $(document).ready(function(){initNavTree('classes.html','');});
 <table style="margin: 10px; white-space: nowrap;" align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
 <tr><td rowspan="2" valign="bottom"><a name="letter_B"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;B&#160;&#160;</div></td></tr></table>
 </td><td valign="top"><a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classSerializer.html">Serializer</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_e"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;e&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="classsqlite_1_1result_1_1iterator.html">result::iterator</a> (sqlite)&#160;&#160;&#160;</td></tr>
+</td><td valign="top"><a class="el" href="classsqlite_1_1result_1_1iterator.html">result::iterator</a> (<a class="el" href="namespacesqlite.html">sqlite</a>)&#160;&#160;&#160;</td></tr>
 <tr><td valign="top"><a class="el" href="classHamiltonianOne.html">HamiltonianOne</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classState.html">State</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;&#160;&#160;</td></tr>
 <tr><td valign="top"><a class="el" href="classBasisnames.html">Basisnames</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classHamiltonianTwo.html">HamiltonianTwo</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classStateOne.html">StateOne</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classConfiguration_1_1const__iterator_1_1entry.html">Configuration::const_iterator::entry</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_n"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;n&#160;&#160;</div></td></tr></table>
 </td></tr>
@@ -130,10 +132,10 @@ $(document).ready(function(){initNavTree('classes.html','');});
 </td><td rowspan="2" valign="bottom"><a name="letter_r"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;r&#160;&#160;</div></td></tr></table>
 </td></tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_N"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;N&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="classsqlite_1_1handle.html">handle</a> (sqlite)&#160;&#160;&#160;</td></tr>
-<tr><td valign="top"><a class="el" href="classConfiguration.html">Configuration</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classTriple.html">Triple</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="structstd_1_1hash_3_01StateOne_01_4.html">hash&lt; StateOne &gt;</a> (std)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classsqlite_1_1result.html">result</a> (sqlite)&#160;&#160;&#160;</td></tr>
+</td><td valign="top"><a class="el" href="classsqlite_1_1handle.html">handle</a> (<a class="el" href="namespacesqlite.html">sqlite</a>)&#160;&#160;&#160;</td></tr>
+<tr><td valign="top"><a class="el" href="classConfiguration.html">Configuration</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classTriple.html">Triple</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="structstd_1_1hash_3_01StateOne_01_4.html">hash&lt; StateOne &gt;</a> (<a class="el" href="namespacestd.html">std</a>)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classsqlite_1_1result.html">result</a> (<a class="el" href="namespacesqlite.html">sqlite</a>)&#160;&#160;&#160;</td></tr>
 <tr><td valign="top"><a class="el" href="classConstIter.html">ConstIter</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classNumerov.html">Numerov</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_W"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;W&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="structstd_1_1hash_3_01StateTwo_01_4.html">hash&lt; StateTwo &gt;</a> (std)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">result::row</a> (sqlite)&#160;&#160;&#160;</td></tr>
+</td><td valign="top"><a class="el" href="structstd_1_1hash_3_01StateTwo_01_4.html">hash&lt; StateTwo &gt;</a> (<a class="el" href="namespacestd.html">std</a>)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">result::row</a> (<a class="el" href="namespacesqlite.html">sqlite</a>)&#160;&#160;&#160;</td></tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_F"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;F&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_Q"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;Q&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_i"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;i&#160;&#160;</div></td></tr></table>
@@ -141,10 +143,10 @@ $(document).ready(function(){initNavTree('classes.html','');});
 </td></tr>
 <tr><td valign="top"><a class="el" href="classWhittaker.html">Whittaker</a>&#160;&#160;&#160;</td></tr>
 <tr><td valign="top"><a class="el" href="structFixture.html">Fixture</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classQuantumDefect.html">QuantumDefect</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_c"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;c&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="structutils_1_1is__complex.html">is_complex</a> (utils)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="structsqlite_1_1sqlite__error.html">sqlite_error</a> (sqlite)&#160;&#160;&#160;</td></tr>
+</td><td valign="top"><a class="el" href="structutils_1_1is__complex.html">is_complex</a> (<a class="el" href="namespaceutils.html">utils</a>)&#160;&#160;&#160;</td><td valign="top"><a class="el" href="structsqlite_1_1sqlite__error.html">sqlite_error</a> (<a class="el" href="namespacesqlite.html">sqlite</a>)&#160;&#160;&#160;</td></tr>
 <tr><td rowspan="2" valign="bottom"><a name="letter_H"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;H&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_S"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;S&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="structutils_1_1is__complex_3_01std_1_1complex_3_01T_01_4_01_4.html">is_complex&lt; std::complex&lt; T &gt; &gt;</a> (utils)&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_v"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;v&#160;&#160;</div></td></tr></table>
+</td><td valign="top"><a class="el" href="structutils_1_1is__complex_3_01std_1_1complex_3_01T_01_4_01_4.html">is_complex&lt; std::complex&lt; T &gt; &gt;</a> (<a class="el" href="namespaceutils.html">utils</a>)&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_v"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;v&#160;&#160;</div></td></tr></table>
 </td></tr>
 <tr><td valign="top"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;&#160;&#160;</td><td></td></tr>
 <tr><td valign="top"><a class="el" href="classHamiltonian.html">Hamiltonian</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classSerializable.html">Serializable</a>&#160;&#160;&#160;</td><td></td><td></td><td valign="top"><a class="el" href="classConfiguration_1_1value.html">Configuration::value</a>&#160;&#160;&#160;</td></tr>
@@ -156,7 +158,7 @@ $(document).ready(function(){initNavTree('classes.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

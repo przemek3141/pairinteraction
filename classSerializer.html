@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classSerializer.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,42 +118,300 @@ $(document).ready(function(){initNavTree('classSerializer.html','');});
 <div class="title">Serializer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="Serializable_8h_source.html">Serializable.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a26e560124d2dd1daa304ac8e878db630"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26e560124d2dd1daa304ac8e878db630"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (const bytes_t &amp;bytes)</td></tr>
+<tr class="memitem:a9fe7f31924098f75278d059f8443fd5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSerializer.html#a9fe7f31924098f75278d059f8443fd5b">Serializer</a> ()</td></tr>
+<tr class="separator:a9fe7f31924098f75278d059f8443fd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e560124d2dd1daa304ac8e878db630"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSerializer.html#a26e560124d2dd1daa304ac8e878db630">load</a> (const <a class="el" href="dtypes_8h.html#a33f775e78c117d933bf09c6270caefa7">bytes_t</a> &amp;bytes)</td></tr>
 <tr class="separator:a26e560124d2dd1daa304ac8e878db630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79a572d0a14988acd13217beb7d5547b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79a572d0a14988acd13217beb7d5547b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> (bytes_t &amp;bytes)</td></tr>
+<tr class="memitem:a79a572d0a14988acd13217beb7d5547b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSerializer.html#a79a572d0a14988acd13217beb7d5547b">save</a> (<a class="el" href="dtypes_8h.html#a33f775e78c117d933bf09c6270caefa7">bytes_t</a> &amp;bytes)</td></tr>
 <tr class="separator:a79a572d0a14988acd13217beb7d5547b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab522845e3e3b6570edf42ab19d699872"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab522845e3e3b6570edf42ab19d699872"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>position</b> ()</td></tr>
+<tr class="memitem:ab522845e3e3b6570edf42ab19d699872"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSerializer.html#ab522845e3e3b6570edf42ab19d699872">position</a> ()</td></tr>
 <tr class="separator:ab522845e3e3b6570edf42ab19d699872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a9410500bf38362eb078800e3e8cba8ae"><td class="memTemplParams" colspan="2"><a class="anchor" id="a9410500bf38362eb078800e3e8cba8ae"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:a9410500bf38362eb078800e3e8cba8ae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator&lt;&lt;</b> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, const T &amp;data)</td></tr>
+<tr class="memitem:a9410500bf38362eb078800e3e8cba8ae"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9410500bf38362eb078800e3e8cba8ae"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSerializer.html#a9410500bf38362eb078800e3e8cba8ae">operator&lt;&lt;</a> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, const T &amp;data)</td></tr>
 <tr class="separator:a9410500bf38362eb078800e3e8cba8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2679250fc1cd40103614196e3e6b1dab"><td class="memTemplParams" colspan="2"><a class="anchor" id="a2679250fc1cd40103614196e3e6b1dab"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:a2679250fc1cd40103614196e3e6b1dab"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator&lt;&lt;</b> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, const std::vector&lt; T &gt; &amp;data)</td></tr>
+<tr class="memitem:a2679250fc1cd40103614196e3e6b1dab"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2679250fc1cd40103614196e3e6b1dab"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSerializer.html#a2679250fc1cd40103614196e3e6b1dab">operator&lt;&lt;</a> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, const std::vector&lt; T &gt; &amp;data)</td></tr>
 <tr class="separator:a2679250fc1cd40103614196e3e6b1dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e38de4aece956b803b5cacd2550985"><td class="memTemplParams" colspan="2"><a class="anchor" id="a13e38de4aece956b803b5cacd2550985"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:a13e38de4aece956b803b5cacd2550985"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator&gt;&gt;</b> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, T &amp;data)</td></tr>
+<tr class="memitem:a13e38de4aece956b803b5cacd2550985"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a13e38de4aece956b803b5cacd2550985"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSerializer.html#a13e38de4aece956b803b5cacd2550985">operator&gt;&gt;</a> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, T &amp;data)</td></tr>
 <tr class="separator:a13e38de4aece956b803b5cacd2550985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c989428f17d66cfcbfa79f4623d834"><td class="memTemplParams" colspan="2"><a class="anchor" id="ae7c989428f17d66cfcbfa79f4623d834"></a>
-template&lt;class T &gt; </td></tr>
-<tr class="memitem:ae7c989428f17d66cfcbfa79f4623d834"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>operator&gt;&gt;</b> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, std::vector&lt; T &gt; &amp;data)</td></tr>
+<tr class="memitem:ae7c989428f17d66cfcbfa79f4623d834"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae7c989428f17d66cfcbfa79f4623d834"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classSerializer.html#ae7c989428f17d66cfcbfa79f4623d834">operator&gt;&gt;</a> (<a class="el" href="classSerializer.html">Serializer</a> &amp;s, std::vector&lt; T &gt; &amp;data)</td></tr>
 <tr class="separator:ae7c989428f17d66cfcbfa79f4623d834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="Serializable_8h_source.html#l00037">37</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a9fe7f31924098f75278d059f8443fd5b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Serializer::Serializer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00039">39</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a26e560124d2dd1daa304ac8e878db630"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Serializer::load </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="dtypes_8h.html#a33f775e78c117d933bf09c6270caefa7">bytes_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>bytes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00054">54</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00350">Hamiltonianmatrix::doDeserialization()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab522845e3e3b6570edf42ab19d699872"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Serializer::position </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00088">88</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79a572d0a14988acd13217beb7d5547b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Serializer::save </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a33f775e78c117d933bf09c6270caefa7">bytes_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>bytes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00060">60</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00288">Hamiltonianmatrix::doSerialization()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a9410500bf38362eb078800e3e8cba8ae"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSerializer.html">Serializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00098">98</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2679250fc1cd40103614196e3e6b1dab"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSerializer.html">Serializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00107">107</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13e38de4aece956b803b5cacd2550985"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSerializer.html">Serializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00116">116</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7c989428f17d66cfcbfa79f4623d834"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSerializer.html">Serializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Serializable_8h_source.html#l00121">121</a> of file <a class="el" href="Serializable_8h_source.html">Serializable.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="Serializable_8h_source.html">Serializable.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -160,7 +420,7 @@ template&lt;class T &gt; </td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classSerializer.html">Serializer</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

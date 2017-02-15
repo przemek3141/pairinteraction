@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('sqlite__test_8cpp_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('sqlite__test_8cpp_source.html','');});
 <div class="title">sqlite_test.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="sqlite__test_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2017 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -130,34 +132,34 @@ $(document).ready(function(){initNavTree('sqlite__test_8cpp_source.html','');});
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;SQLite.h&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define BOOST_TEST_MODULE SQLite interface test</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SQLite_8h.html">SQLite.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="sqlite__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985">   21</a></span>&#160;<span class="preprocessor">#define BOOST_TEST_MODULE SQLite interface test</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;boost/test/unit_test.hpp&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;BOOST_AUTO_TEST_CASE( sqlite_query_test )</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="sqlite__test_8cpp.html#a20fecf620cb330b84abd5166034e113a">   24</a></span>&#160;<a class="code" href="sqlite__test_8cpp.html#a20fecf620cb330b84abd5166034e113a">BOOST_AUTO_TEST_CASE</a>( sqlite_query_test )</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="comment">// Open an in-memory database for tests</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="classsqlite_1_1handle.html">sqlite::handle</a> db(<span class="stringliteral">&quot;:memory:&quot;</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  BOOST_CHECK_THROW( db.query(<span class="stringliteral">&quot;This is not valid SQL&quot;</span>),</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  BOOST_CHECK_THROW( db.<a class="code" href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">query</a>(<span class="stringliteral">&quot;This is not valid SQL&quot;</span>),</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                     <a class="code" href="structsqlite_1_1sqlite__error.html">sqlite::sqlite_error</a> );</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  BOOST_CHECK_THROW( db.exec(<span class="stringliteral">&quot;Neither is this&quot;</span>),</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  BOOST_CHECK_THROW( db.<a class="code" href="classsqlite_1_1handle.html#aecd304431641dc41b48e3076c80e5d0a">exec</a>(<span class="stringliteral">&quot;Neither is this&quot;</span>),</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                     <a class="code" href="structsqlite_1_1sqlite__error.html">sqlite::sqlite_error</a> );</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="comment">// Check string calling</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  std::string string_query( <span class="stringliteral">&quot;create table test(text);&quot;</span> );</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  BOOST_CHECK_EQUAL( db.query( string_query ).size(), 0 );</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  BOOST_CHECK_EQUAL( db.<a class="code" href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">query</a>( string_query ).<a class="code" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a>(), 0 );</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">// Check stringstream calling</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  std::stringstream ss_query;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  ss_query &lt;&lt; <span class="stringliteral">&quot;insert into test values(\&quot;Hello World!\&quot;);&quot;</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  ss_query &lt;&lt; <span class="stringliteral">&quot;insert into test values(\&quot;Goodbye Earth!\&quot;);&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  BOOST_CHECK_EQUAL( db.query( ss_query ).size(), 0 );</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  BOOST_CHECK_EQUAL( db.<a class="code" href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">query</a>( ss_query ).<a class="code" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a>(), 0 );</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// Check result</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> res = db.query(<span class="stringliteral">&quot;select * from test;&quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> res = db.<a class="code" href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">query</a>(<span class="stringliteral">&quot;select * from test;&quot;</span>);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  BOOST_CHECK_EQUAL( res.size(), 2 );</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  std::string entry = *res.begin();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  std::string entry = *res.<a class="code" href="classsqlite_1_1result.html#ab745a58d4ffe96ebd438e3e58965085a">begin</a>();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  BOOST_CHECK_EQUAL( entry, <span class="stringliteral">&quot;Hello World!&quot;</span> );</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="comment">// Check if result is iterable</span></div>
@@ -172,14 +174,20 @@ $(document).ready(function(){initNavTree('sqlite__test_8cpp_source.html','');});
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 <div class="ttc" id="classsqlite_1_1result_html"><div class="ttname"><a href="classsqlite_1_1result.html">sqlite::result</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00047">SQLite.h:47</a></div></div>
 <div class="ttc" id="structsqlite_1_1sqlite__error_html"><div class="ttname"><a href="structsqlite_1_1sqlite__error.html">sqlite::sqlite_error</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00031">SQLite.h:31</a></div></div>
+<div class="ttc" id="classsqlite_1_1handle_html_ae61250faffadb67aabc5498878204732"><div class="ttname"><a href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">sqlite::handle::query</a></div><div class="ttdeci">result query(const std::string sql)</div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00202">SQLite.h:202</a></div></div>
 <div class="ttc" id="classsqlite_1_1handle_html"><div class="ttname"><a href="classsqlite_1_1handle.html">sqlite::handle</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00175">SQLite.h:175</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_ab745a58d4ffe96ebd438e3e58965085a"><div class="ttname"><a href="classsqlite_1_1result.html#ab745a58d4ffe96ebd438e3e58965085a">sqlite::result::begin</a></div><div class="ttdeci">result::iterator begin() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00135">SQLite.h:135</a></div></div>
+<div class="ttc" id="classsqlite_1_1handle_html_aecd304431641dc41b48e3076c80e5d0a"><div class="ttname"><a href="classsqlite_1_1handle.html#aecd304431641dc41b48e3076c80e5d0a">sqlite::handle::exec</a></div><div class="ttdeci">void exec(const std::string sql)</div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00218">SQLite.h:218</a></div></div>
+<div class="ttc" id="SQLite_8h_html"><div class="ttname"><a href="SQLite_8h.html">SQLite.h</a></div></div>
+<div class="ttc" id="sqlite__test_8cpp_html_a20fecf620cb330b84abd5166034e113a"><div class="ttname"><a href="sqlite__test_8cpp.html#a20fecf620cb330b84abd5166034e113a">BOOST_AUTO_TEST_CASE</a></div><div class="ttdeci">BOOST_AUTO_TEST_CASE(sqlite_query_test)</div><div class="ttdef"><b>Definition:</b> <a href="sqlite__test_8cpp_source.html#l00024">sqlite_test.cpp:24</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_aa8bbef223f2525c4a803ee81cf7e2976"><div class="ttname"><a href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">sqlite::result::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00130">SQLite.h:130</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="dir_9fc872c10b2c6bf5d35588792d944cf7.html">unit_test</a></li><li class="navelem"><b>sqlite_test.cpp</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="dir_9fc872c10b2c6bf5d35588792d944cf7.html">unit_test</a></li><li class="navelem"><a class="el" href="sqlite__test_8cpp.html">sqlite_test.cpp</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classConfiguration_1_1iterator.html','
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,6 +118,8 @@ $(document).ready(function(){initNavTree('classConfiguration_1_1iterator.html','
 <div class="title">Configuration::iterator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="ConfParser_8h_source.html">ConfParser.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -124,26 +128,111 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7d9606e82e23af31934b6842daf84afd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d9606e82e23af31934b6842daf84afd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> (std::map&lt; std::string, <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &gt;::<a class="el" href="classConfiguration_1_1iterator.html">iterator</a> itr)</td></tr>
+<tr class="memitem:a7d9606e82e23af31934b6842daf84afd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration_1_1iterator.html#a7d9606e82e23af31934b6842daf84afd">iterator</a> (std::map&lt; std::string, <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &gt;::<a class="el" href="classConfiguration_1_1iterator.html">iterator</a> itr)</td></tr>
 <tr class="separator:a7d9606e82e23af31934b6842daf84afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0766ecd8e3991e3dc440c71c4948522"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0766ecd8e3991e3dc440c71c4948522"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
+<tr class="memitem:ac0766ecd8e3991e3dc440c71c4948522"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration_1_1iterator.html#ac0766ecd8e3991e3dc440c71c4948522">operator!=</a> (const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
 <tr class="separator:ac0766ecd8e3991e3dc440c71c4948522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab215da8d7a583c1a7773010205e45c0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab215da8d7a583c1a7773010205e45c0f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
+<tr class="memitem:ab215da8d7a583c1a7773010205e45c0f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration_1_1iterator.html#ab215da8d7a583c1a7773010205e45c0f">operator==</a> (const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
 <tr class="separator:ab215da8d7a583c1a7773010205e45c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a801c745ae07d59d80aff158f86231b59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a801c745ae07d59d80aff158f86231b59"></a>
-const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator++</b> ()</td></tr>
+<tr class="memitem:a801c745ae07d59d80aff158f86231b59"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration_1_1iterator.html#a801c745ae07d59d80aff158f86231b59">operator++</a> ()</td></tr>
 <tr class="separator:a801c745ae07d59d80aff158f86231b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1323e585f9eda154e880d33c60621cbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1323e585f9eda154e880d33c60621cbf"></a>
-<a class="el" href="classConfiguration_1_1iterator_1_1entry.html">iterator::entry</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> ()</td></tr>
+<tr class="memitem:a1323e585f9eda154e880d33c60621cbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1iterator_1_1entry.html">iterator::entry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration_1_1iterator.html#a1323e585f9eda154e880d33c60621cbf">operator*</a> ()</td></tr>
 <tr class="separator:a1323e585f9eda154e880d33c60621cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="ConfParser_8h_source.html#l00064">64</a> of file <a class="el" href="ConfParser_8h_source.html">ConfParser.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a7d9606e82e23af31934b6842daf84afd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Configuration::iterator::iterator </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; std::string, <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &gt;::<a class="el" href="classConfiguration_1_1iterator.html">iterator</a>&#160;</td>
+          <td class="paramname"><em>itr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00041">41</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac0766ecd8e3991e3dc440c71c4948522"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Configuration::iterator::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00046">46</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1323e585f9eda154e880d33c60621cbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1iterator_1_1entry.html">Configuration::iterator::entry</a> Configuration::iterator::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00053">53</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a801c745ae07d59d80aff158f86231b59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a> &amp; Configuration::iterator::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00049">49</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab215da8d7a583c1a7773010205e45c0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Configuration::iterator::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00043">43</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="ConfParser_8h_source.html">ConfParser.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a></li>
 </ul>
@@ -153,7 +242,7 @@ const <a class="el" href="classConfiguration_1_1iterator.html">iterator</a> &amp
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classConfiguration.html">Configuration</a></li><li class="navelem"><a class="el" href="classConfiguration_1_1iterator.html">iterator</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classWhittaker.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,35 +119,171 @@ $(document).ready(function(){initNavTree('classWhittaker.html','');});
 <div class="title">Whittaker Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a805ef00cef1f03cc2b1dbfbfd4f487d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a805ef00cef1f03cc2b1dbfbfd4f487d2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Whittaker</b> (<a class="el" href="classQuantumDefect.html">QuantumDefect</a> const &amp;qd)</td></tr>
+<tr class="memitem:a805ef00cef1f03cc2b1dbfbfd4f487d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWhittaker.html#a805ef00cef1f03cc2b1dbfbfd4f487d2">Whittaker</a> (<a class="el" href="classQuantumDefect.html">QuantumDefect</a> const &amp;qd)</td></tr>
+<tr class="memdesc:a805ef00cef1f03cc2b1dbfbfd4f487d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a805ef00cef1f03cc2b1dbfbfd4f487d2">More...</a><br/></td></tr>
 <tr class="separator:a805ef00cef1f03cc2b1dbfbfd4f487d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1d8620c4f857c9a5745a03ce86acfc4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1d8620c4f857c9a5745a03ce86acfc4"></a>
-std::vector&lt; real_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>axis</b> () const </td></tr>
+<tr class="memitem:ae1d8620c4f857c9a5745a03ce86acfc4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWhittaker.html#ae1d8620c4f857c9a5745a03ce86acfc4">axis</a> () const </td></tr>
+<tr class="memdesc:ae1d8620c4f857c9a5745a03ce86acfc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">x values  <a href="#ae1d8620c4f857c9a5745a03ce86acfc4">More...</a><br/></td></tr>
 <tr class="separator:ae1d8620c4f857c9a5745a03ce86acfc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3969b968abcecf81fb9999732bb80b16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3969b968abcecf81fb9999732bb80b16"></a>
-std::vector&lt; real_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>integrate</b> ()</td></tr>
+<tr class="memitem:a3969b968abcecf81fb9999732bb80b16"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWhittaker.html#a3969b968abcecf81fb9999732bb80b16">integrate</a> ()</td></tr>
+<tr class="memdesc:a3969b968abcecf81fb9999732bb80b16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the radial wavefunction.  <a href="#a3969b968abcecf81fb9999732bb80b16">More...</a><br/></td></tr>
 <tr class="separator:a3969b968abcecf81fb9999732bb80b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a404d4b31d2188040fa2a24ae0ce329a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a404d4b31d2188040fa2a24ae0ce329a5"></a>
-static constexpr real_t&#160;</td><td class="memItemRight" valign="bottom"><b>power_kernel</b> (int power)</td></tr>
+<tr class="memitem:a404d4b31d2188040fa2a24ae0ce329a5"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWhittaker.html#a404d4b31d2188040fa2a24ae0ce329a5">power_kernel</a> (int power)</td></tr>
+<tr class="memdesc:a404d4b31d2188040fa2a24ae0ce329a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power kernel for matrix elements.  <a href="#a404d4b31d2188040fa2a24ae0ce329a5">More...</a><br/></td></tr>
 <tr class="separator:a404d4b31d2188040fa2a24ae0ce329a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:aaab5dd623e42f2f7458629e714ecbdc8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaab5dd623e42f2f7458629e714ecbdc8"></a>
-real_t const&#160;</td><td class="memItemRight" valign="bottom"><b>dx</b></td></tr>
+<tr class="memitem:aaab5dd623e42f2f7458629e714ecbdc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWhittaker.html#aaab5dd623e42f2f7458629e714ecbdc8">dx</a></td></tr>
+<tr class="memdesc:aaab5dd623e42f2f7458629e714ecbdc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integration step size.  <a href="#aaab5dd623e42f2f7458629e714ecbdc8">More...</a><br/></td></tr>
 <tr class="separator:aaab5dd623e42f2f7458629e714ecbdc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="Wavefunction_8h_source.html#l00055">55</a> of file <a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<p>Definition at line <a class="el" href="Wavefunction_8h_source.html#l00178">178</a> of file <a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a805ef00cef1f03cc2b1dbfbfd4f487d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Whittaker::Whittaker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classQuantumDefect.html">QuantumDefect</a> const &amp;&#160;</td>
+          <td class="paramname"><em>qd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>The constructor initializes the <code>qd</code> member and sets the initial condition for the integrator. It determines the outer integration bound by semiclassical and empirical arguments. The inner intergration boundary is set to 1.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">qd</td><td>Quantum defect data (parameters for the potentials) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="Wavefunction_8cpp_source.html#l00143">143</a> of file <a class="el" href="Wavefunction_8cpp_source.html">Wavefunction.cpp</a>.</p>
+
+<p>References <a class="el" href="Wavefunction_8h_source.html#l00183">dx</a>, and <a class="el" href="QuantumDefect_8h_source.html#l00076">QuantumDefect::n</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae1d8620c4f857c9a5745a03ce86acfc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &gt; Whittaker::axis </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>x values </p>
+<p>Returns the domain on which the wavefunction was evaluated.</p>
+<dl class="section return"><dt>Returns</dt><dd>vector with radial points </dd></dl>
+
+<p>Definition at line <a class="el" href="Wavefunction_8cpp_source.html#l00158">158</a> of file <a class="el" href="Wavefunction_8cpp_source.html">Wavefunction.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="wavefunction__test_8cpp_source.html#l00057">BOOST_FIXTURE_TEST_CASE()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3969b968abcecf81fb9999732bb80b16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &gt; Whittaker::integrate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evaluate the radial wavefunction. </p>
+<p>This does not perform an integration but merely evaluates the <a class="el" href="classWhittaker.html">Whittaker</a> functions over the domain.</p>
+<dl class="section return"><dt>Returns</dt><dd>vector with wavefunction amplitude </dd></dl>
+
+<p>Definition at line <a class="el" href="Wavefunction_8cpp_source.html#l00164">164</a> of file <a class="el" href="Wavefunction_8cpp_source.html">Wavefunction.cpp</a>.</p>
+
+<p>References <a class="el" href="QuantumDefect_8h_source.html#l00079">QuantumDefect::l</a>, <a class="el" href="QuantumDefect_8h_source.html#l00076">QuantumDefect::n</a>, <a class="el" href="QuantumDefect_8h_source.html#l00106">QuantumDefect::nstar</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00134">whittaker_functions::RadialWFWhittaker()</a>.</p>
+
+<p>Referenced by <a class="el" href="wavefunction__test_8cpp_source.html#l00057">BOOST_FIXTURE_TEST_CASE()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a404d4b31d2188040fa2a24ae0ce329a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Whittaker::power_kernel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>power</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Power kernel for matrix elements. </p>
+<p>The power kernel accounts for the fact that for the <a class="el" href="classWhittaker.html">Whittaker</a> functions the domain is linear scaled. This is important for the calculation of matrix elements.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">power</td><td>exponent of r </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>power kernel </dd></dl>
+
+<p>Definition at line <a class="el" href="Wavefunction_8h_source.html#l00222">222</a> of file <a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="aaab5dd623e42f2f7458629e714ecbdc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> const Whittaker::dx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Integration step size. </p>
+
+<p>Definition at line <a class="el" href="Wavefunction_8h_source.html#l00183">183</a> of file <a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Wavefunction_8cpp_source.html#l00143">Whittaker()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="Wavefunction_8h_source.html">Wavefunction.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="Wavefunction_8cpp_source.html">Wavefunction.cpp</a></li>
 </ul>
@@ -155,7 +293,7 @@ real_t const&#160;</td><td class="memItemRight" valign="bottom"><b>dx</b></td></
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classWhittaker.html">Whittaker</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

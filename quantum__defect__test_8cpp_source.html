@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('quantum__defect__test_8cpp_source.html
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('quantum__defect__test_8cpp_source.html
 <div class="title">quantum_defect_test.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="quantum__defect__test_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2017 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -127,51 +129,68 @@ $(document).ready(function(){initNavTree('quantum__defect__test_8cpp_source.html
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * limitations under the License.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;SQLite.h&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;QuantumDefect.h&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define BOOST_TEST_MODULE Quantum defect test</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SQLite_8h.html">SQLite.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="QuantumDefect_8h.html">QuantumDefect.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="quantum__defect__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985">   19</a></span>&#160;<span class="preprocessor">#define BOOST_TEST_MODULE Quantum defect test</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;boost/test/unit_test.hpp&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;BOOST_AUTO_TEST_CASE( qd_test )</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e">   22</a></span>&#160;<a class="code" href="quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e">BOOST_AUTO_TEST_CASE</a>( qd_test )</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <a class="code" href="classQuantumDefect.html">QuantumDefect</a> qd( <span class="stringliteral">&quot;Rb&quot;</span>, 45, 1, 0.5 );</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="comment">// Check whether the input was stored correctly</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  BOOST_CHECK_EQUAL( qd.species, <span class="stringliteral">&quot;Rb&quot;</span> );</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  BOOST_CHECK_EQUAL( qd.n      , 45   );</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  BOOST_CHECK_EQUAL( qd.l      , 1    );</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  BOOST_CHECK_EQUAL( qd.j      , 0.5  );</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a6759cac42cda4c935f6d3253047b4815">species</a>, <span class="stringliteral">&quot;Rb&quot;</span> );</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a37e09d7e28751618b98208bd5ff8766e">n</a>      , 45   );</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa">l</a>      , 1    );</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a9a51dee2acc4a9b59c0e2bbec1c5bae0">j</a>      , 0.5  );</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="comment">// Check whether values are correctly read from the db</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="classsqlite_1_1handle.html">sqlite::handle</a> db(<span class="stringliteral">&quot;databases/quantum_defects.db&quot;</span>);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> res = db.query( <span class="stringliteral">&quot;select ac,Z,a1,a2,a3,a4,rc from model_potential &quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> res = db.<a class="code" href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">query</a>( <span class="stringliteral">&quot;select ac,Z,a1,a2,a3,a4,rc from model_potential &quot;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                 <span class="stringliteral">&quot;where ( (element = &#39;Rb&#39;) and (L = 1) );&quot;</span> );</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment">// The database should be consistent</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  BOOST_CHECK( res.size() &gt; 0 );</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  BOOST_CHECK( res.<a class="code" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a>() &gt; 0 );</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="comment">// Check the retrieved values</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">int</span> Z;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">double</span> ac, a1, a2, a3, a4, rc;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  res.first() &gt;&gt; ac &gt;&gt; Z &gt;&gt; a1 &gt;&gt; a2 &gt;&gt; a3 &gt;&gt; a4 &gt;&gt; rc;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  res.<a class="code" href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">first</a>() &gt;&gt; ac &gt;&gt; Z &gt;&gt; a1 &gt;&gt; a2 &gt;&gt; a3 &gt;&gt; a4 &gt;&gt; rc;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  BOOST_CHECK_EQUAL( qd.ac , ac );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  BOOST_CHECK_EQUAL( qd.Z  , Z  );</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  BOOST_CHECK_EQUAL( qd.a1 , a1 );</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  BOOST_CHECK_EQUAL( qd.a2 , a2 );</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  BOOST_CHECK_EQUAL( qd.a3 , a3 );</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  BOOST_CHECK_EQUAL( qd.a4 , a4 );</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  BOOST_CHECK_EQUAL( qd.rc , rc );</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#ad6f5e4b43431162ca4dfc7d1149dc6dc">ac</a> , ac );</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a2b5fbc7d1f32217408ba82543cd14db2">Z</a>  , Z  );</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#ae010fa4d43124176841b9455a3bc630c">a1</a> , a1 );</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#ae1f20ad27365446e4543260ecfe46c6e">a2</a> , a2 );</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a4314c18ff3fe112e12d54a80c679afc7">a3</a> , a3 );</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#acae7283570fbc063e87b08441a11e51e">a4</a> , a4 );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  BOOST_CHECK_EQUAL( qd.<a class="code" href="classQuantumDefect.html#a912ca57b9a32d64614397bb790cc25af">rc</a> , rc );</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="ttc" id="classQuantumDefect_html_a37e09d7e28751618b98208bd5ff8766e"><div class="ttname"><a href="classQuantumDefect.html#a37e09d7e28751618b98208bd5ff8766e">QuantumDefect::n</a></div><div class="ttdeci">const int &amp; n</div><div class="ttdoc">Principal quantum number. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00076">QuantumDefect.h:76</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_ae010fa4d43124176841b9455a3bc630c"><div class="ttname"><a href="classQuantumDefect.html#ae010fa4d43124176841b9455a3bc630c">QuantumDefect::a1</a></div><div class="ttdeci">const real_t &amp; a1</div><div class="ttdoc">Parameter of effective Coulomb potential. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00091">QuantumDefect.h:91</a></div></div>
 <div class="ttc" id="classsqlite_1_1result_html"><div class="ttname"><a href="classsqlite_1_1result.html">sqlite::result</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00047">SQLite.h:47</a></div></div>
+<div class="ttc" id="QuantumDefect_8h_html"><div class="ttname"><a href="QuantumDefect_8h.html">QuantumDefect.h</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_acae7283570fbc063e87b08441a11e51e"><div class="ttname"><a href="classQuantumDefect.html#acae7283570fbc063e87b08441a11e51e">QuantumDefect::a4</a></div><div class="ttdeci">const real_t &amp; a4</div><div class="ttdoc">Parameter of effective Coulomb potential. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00100">QuantumDefect.h:100</a></div></div>
+<div class="ttc" id="quantum__defect__test_8cpp_html_aa6d045e9def139cd75c41b225e83676e"><div class="ttname"><a href="quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e">BOOST_AUTO_TEST_CASE</a></div><div class="ttdeci">BOOST_AUTO_TEST_CASE(qd_test)</div><div class="ttdef"><b>Definition:</b> <a href="quantum__defect__test_8cpp_source.html#l00022">quantum_defect_test.cpp:22</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_ae1f20ad27365446e4543260ecfe46c6e"><div class="ttname"><a href="classQuantumDefect.html#ae1f20ad27365446e4543260ecfe46c6e">QuantumDefect::a2</a></div><div class="ttdeci">const real_t &amp; a2</div><div class="ttdoc">Parameter of effective Coulomb potential. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00094">QuantumDefect.h:94</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_ad6f5e4b43431162ca4dfc7d1149dc6dc"><div class="ttname"><a href="classQuantumDefect.html#ad6f5e4b43431162ca4dfc7d1149dc6dc">QuantumDefect::ac</a></div><div class="ttdeci">const real_t &amp; ac</div><div class="ttdoc">Polarizability. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00085">QuantumDefect.h:85</a></div></div>
+<div class="ttc" id="classsqlite_1_1handle_html_ae61250faffadb67aabc5498878204732"><div class="ttname"><a href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732">sqlite::handle::query</a></div><div class="ttdeci">result query(const std::string sql)</div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00202">SQLite.h:202</a></div></div>
 <div class="ttc" id="classsqlite_1_1handle_html"><div class="ttname"><a href="classsqlite_1_1handle.html">sqlite::handle</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00175">SQLite.h:175</a></div></div>
-<div class="ttc" id="classQuantumDefect_html"><div class="ttname"><a href="classQuantumDefect.html">QuantumDefect</a></div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00025">QuantumDefect.h:25</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_a6759cac42cda4c935f6d3253047b4815"><div class="ttname"><a href="classQuantumDefect.html#a6759cac42cda4c935f6d3253047b4815">QuantumDefect::species</a></div><div class="ttdeci">const std::string &amp; species</div><div class="ttdoc">Atomic species. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00073">QuantumDefect.h:73</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_a4314c18ff3fe112e12d54a80c679afc7"><div class="ttname"><a href="classQuantumDefect.html#a4314c18ff3fe112e12d54a80c679afc7">QuantumDefect::a3</a></div><div class="ttdeci">const real_t &amp; a3</div><div class="ttdoc">Parameter of effective Coulomb potential. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00097">QuantumDefect.h:97</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_af78c8dea80e09f11ddd64f0bca6b74fa"><div class="ttname"><a href="classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa">QuantumDefect::l</a></div><div class="ttdeci">const int &amp; l</div><div class="ttdoc">Angular quantum number. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00079">QuantumDefect.h:79</a></div></div>
+<div class="ttc" id="SQLite_8h_html"><div class="ttname"><a href="SQLite_8h.html">SQLite.h</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_a2b5fbc7d1f32217408ba82543cd14db2"><div class="ttname"><a href="classQuantumDefect.html#a2b5fbc7d1f32217408ba82543cd14db2">QuantumDefect::Z</a></div><div class="ttdeci">const int &amp; Z</div><div class="ttdoc">Core charge. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00088">QuantumDefect.h:88</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_a912ca57b9a32d64614397bb790cc25af"><div class="ttname"><a href="classQuantumDefect.html#a912ca57b9a32d64614397bb790cc25af">QuantumDefect::rc</a></div><div class="ttdeci">const real_t &amp; rc</div><div class="ttdoc">Effective core size. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00103">QuantumDefect.h:103</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_aa8bbef223f2525c4a803ee81cf7e2976"><div class="ttname"><a href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">sqlite::result::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00130">SQLite.h:130</a></div></div>
+<div class="ttc" id="classQuantumDefect_html_a9a51dee2acc4a9b59c0e2bbec1c5bae0"><div class="ttname"><a href="classQuantumDefect.html#a9a51dee2acc4a9b59c0e2bbec1c5bae0">QuantumDefect::j</a></div><div class="ttdeci">const real_t &amp; j</div><div class="ttdoc">Magnetic quantum number. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00082">QuantumDefect.h:82</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_a1a941d0671be57ed3f7bebf7d3da240f"><div class="ttname"><a href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">sqlite::result::first</a></div><div class="ttdeci">result::row first() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00145">SQLite.h:145</a></div></div>
+<div class="ttc" id="classQuantumDefect_html"><div class="ttname"><a href="classQuantumDefect.html">QuantumDefect</a></div><div class="ttdoc">Quantum defect storage. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8h_source.html#l00049">QuantumDefect.h:49</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="dir_9fc872c10b2c6bf5d35588792d944cf7.html">unit_test</a></li><li class="navelem"><b>quantum_defect_test.cpp</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="dir_9fc872c10b2c6bf5d35588792d944cf7.html">unit_test</a></li><li class="navelem"><a class="el" href="quantum__defect__test_8cpp.html">quantum_defect_test.cpp</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

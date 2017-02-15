@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('Hamiltonian_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('Hamiltonian_8h_source.html','');});
 <div class="title">Hamiltonian.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="Hamiltonian_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2016 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -130,52 +132,62 @@ $(document).ready(function(){initNavTree('Hamiltonian_8h_source.html','');});
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef HAMILTONIAN_H</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define HAMILTONIAN_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;Hamiltonianmatrix.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Hamiltonianmatrix_8h.html">Hamiltonianmatrix.h</a>&quot;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classHamiltonian.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="classHamiltonian.html">Hamiltonian</a> {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="classHamiltonian.html">Hamiltonian</a>() {}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::shared_ptr&lt;Hamiltonianmatrix&gt; <span class="keyword">get</span>(<span class="keywordtype">size_t</span> idx) {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> matrix_diag[idx];</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02">   27</a></span>&#160;    <a class="code" href="classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02">Hamiltonian</a>() {}</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classHamiltonian.html#ae06d5d6278a88f91726baca40685b945">   28</a></span>&#160;    std::shared_ptr&lt;Hamiltonianmatrix&gt; <span class="keyword">get</span>(<span class="keywordtype">size_t</span> idx) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>[idx];</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    std::shared_ptr&lt;const Hamiltonianmatrix&gt; <span class="keyword">get</span>(<span class="keywordtype">size_t</span> idx) <span class="keyword">const</span> {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> matrix_diag[idx];</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a27c3dbd2c031304a0bf3e60fde9192e2">   31</a></span>&#160;    std::shared_ptr&lt;const Hamiltonianmatrix&gt; <span class="keyword">get</span>(<span class="keywordtype">size_t</span> idx) <span class="keyword">const</span> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>[idx];</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::shared_ptr&lt;const Configuration&gt; getParams(<span class="keywordtype">size_t</span> idx)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> params[idx];</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classHamiltonian.html#ac04e9f029464d572e01e19bbad712521">   34</a></span>&#160;    std::shared_ptr&lt;const Configuration&gt; <a class="code" href="classHamiltonian.html#ac04e9f029464d572e01e19bbad712521">getParams</a>(<span class="keywordtype">size_t</span> idx)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">params</a>[idx];</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">size_t</span> size()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> matrix_diag.size();</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a7fe649fef92f54c234e1dccfe6efd054">   37</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classHamiltonian.html#a7fe649fef92f54c234e1dccfe6efd054">size</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>.size();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    std::shared_ptr&lt;const T&gt; names()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> basis;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classHamiltonian.html#af87b2635fbec405c55f5afbbda134509">   40</a></span>&#160;    std::shared_ptr&lt;const T&gt; <a class="code" href="classHamiltonian.html#af87b2635fbec405c55f5afbbda134509">names</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> removeUnnecessaryStates(std::vector&lt;bool&gt; &amp;necessary) {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        basis-&gt;removeUnnecessaryStates(necessary);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;p : matrix_diag) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0">   43</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0">removeUnnecessaryStates</a>(std::vector&lt;bool&gt; &amp;necessary) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;removeUnnecessaryStates(necessary);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;p : <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>) {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            p-&gt;removeUnnecessaryStates(necessary);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::vector&lt;std::shared_ptr&lt;Hamiltonianmatrix&gt;&gt; matrix_diag;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    std::vector&lt;std::string&gt; matrix_path;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    std::vector&lt;std::shared_ptr&lt;Configuration&gt;&gt; params;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    std::shared_ptr&lt;T&gt; basis;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">   51</a></span>&#160;    std::vector&lt;std::shared_ptr&lt;Hamiltonianmatrix&gt;&gt; <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">   52</a></span>&#160;    std::vector&lt;std::string&gt; <a class="code" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">   53</a></span>&#160;    std::vector&lt;std::shared_ptr&lt;Configuration&gt;&gt; <a class="code" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">params</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">   54</a></span>&#160;    std::shared_ptr&lt;T&gt; <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif // HAMILTONIAN_H</span></div>
+<div class="ttc" id="classHamiltonian_html_ac04e9f029464d572e01e19bbad712521"><div class="ttname"><a href="classHamiltonian.html#ac04e9f029464d572e01e19bbad712521">Hamiltonian::getParams</a></div><div class="ttdeci">std::shared_ptr&lt; const Configuration &gt; getParams(size_t idx) const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00034">Hamiltonian.h:34</a></div></div>
 <div class="ttc" id="classHamiltonian_html"><div class="ttname"><a href="classHamiltonian.html">Hamiltonian</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00025">Hamiltonian.h:25</a></div></div>
+<div class="ttc" id="classHamiltonian_html_abafd89e4b6fa89d0e05eaf7175b767b3"><div class="ttname"><a href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">Hamiltonian::matrix_path</a></div><div class="ttdeci">std::vector&lt; std::string &gt; matrix_path</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00052">Hamiltonian.h:52</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a1bfd94d6fb13a6dadb14685532e66303"><div class="ttname"><a href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">Hamiltonian::params</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Configuration &gt; &gt; params</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00053">Hamiltonian.h:53</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a89c3cddde595e0f735ae75a2a1bb5dc0"><div class="ttname"><a href="classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0">Hamiltonian::removeUnnecessaryStates</a></div><div class="ttdeci">void removeUnnecessaryStates(std::vector&lt; bool &gt; &amp;necessary)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00043">Hamiltonian.h:43</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a7fe649fef92f54c234e1dccfe6efd054"><div class="ttname"><a href="classHamiltonian.html#a7fe649fef92f54c234e1dccfe6efd054">Hamiltonian::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00037">Hamiltonian.h:37</a></div></div>
+<div class="ttc" id="classHamiltonian_html_adbbb38ce9d7c245825db767a54c64113"><div class="ttname"><a href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">Hamiltonian::basis</a></div><div class="ttdeci">std::shared_ptr&lt; T &gt; basis</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00054">Hamiltonian.h:54</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a90386ed827db9b79a8df1d2a9d3dd3b5"><div class="ttname"><a href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">Hamiltonian::matrix_diag</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Hamiltonianmatrix &gt; &gt; matrix_diag</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00051">Hamiltonian.h:51</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a83ca78010fe499270b3ce6e06f68ed02"><div class="ttname"><a href="classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02">Hamiltonian::Hamiltonian</a></div><div class="ttdeci">Hamiltonian()</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00027">Hamiltonian.h:27</a></div></div>
+<div class="ttc" id="Hamiltonianmatrix_8h_html"><div class="ttname"><a href="Hamiltonianmatrix_8h.html">Hamiltonianmatrix.h</a></div></div>
+<div class="ttc" id="classHamiltonian_html_af87b2635fbec405c55f5afbbda134509"><div class="ttname"><a href="classHamiltonian.html#af87b2635fbec405c55f5afbbda134509">Hamiltonian::names</a></div><div class="ttdeci">std::shared_ptr&lt; const T &gt; names() const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00040">Hamiltonian.h:40</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><b>Hamiltonian.h</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="Hamiltonian_8h.html">Hamiltonian.h</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

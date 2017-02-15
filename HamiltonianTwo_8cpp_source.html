@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="title">HamiltonianTwo.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="HamiltonianTwo_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2016 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -127,25 +129,25 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * limitations under the License.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;HamiltonianTwo.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="HamiltonianTwo_8h.html">HamiltonianTwo.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;HamiltonianTwo::HamiltonianTwo(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one)  :</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c">   19</a></span>&#160;<a class="code" href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c">HamiltonianTwo::HamiltonianTwo</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one)  :</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classHamiltonian.html">Hamiltonian</a>&lt;<a class="code" href="classBasisnamesTwo.html">BasisnamesTwo</a>&gt;(), hamiltonian_one1(hamiltonian_one), hamiltonian_one2(hamiltonian_one), path_cache(path_cache) { <span class="comment">// TODO</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    samebasis = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    calculate(config);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">calculate</a>(config);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;HamiltonianTwo::HamiltonianTwo(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one1, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one2) :</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classHamiltonianTwo.html#a7f3a2599cb21e5b766e7c9ce0f2fe431">   27</a></span>&#160;<a class="code" href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c">HamiltonianTwo::HamiltonianTwo</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one1, std::shared_ptr&lt;HamiltonianOne&gt; hamiltonian_one2) :</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classHamiltonian.html">Hamiltonian</a>&lt;<a class="code" href="classBasisnamesTwo.html">BasisnamesTwo</a>&gt;(), hamiltonian_one1(hamiltonian_one1), hamiltonian_one2(hamiltonian_one2), path_cache(path_cache) {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    samebasis = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    calculate(config);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">calculate</a>(config);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> HamiltonianTwo::calculate(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;conf_tot) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">HamiltonianTwo::calculate</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;conf_tot) {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    boost::filesystem::path path_cache_mat;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="structutils_1_1is__complex.html">utils::is_complex&lt;scalar_t&gt;::value</a>) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        path_cache_mat = path_cache / <span class="stringliteral">&quot;cache_matrix_complex&quot;</span>;</div>
@@ -156,7 +158,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        boost::filesystem::create_directory(path_cache_mat);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    real_t tol = 1e-32;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> tol = 1e-32;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (hamiltonian_one1-&gt;size() != hamiltonian_one2-&gt;size()) {</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;The number of single atom Hamiltonians must be the same for both atoms.&quot;</span> &lt;&lt; std::endl;</div>
@@ -172,11 +174,11 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// new, pair hamiltonian specific configuration</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">if</span> (samebasis) {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        basis = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names()); <span class="comment">// TODO remove</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a> = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names()); <span class="comment">// TODO remove</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        basis = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names(), hamiltonian_one2-&gt;names()); <span class="comment">// TODO remove</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a> = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names(), hamiltonian_one2-&gt;names()); <span class="comment">// TODO remove</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classConfiguration.html">Configuration</a> conf_matpair = basis-&gt;getConf();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classConfiguration.html">Configuration</a> conf_matpair = <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;getConf();</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    conf_matpair[<span class="stringliteral">&quot;deltaEPair&quot;</span>] = conf_tot[<span class="stringliteral">&quot;deltaEPair&quot;</span>];</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    conf_matpair[<span class="stringliteral">&quot;deltaNPair&quot;</span>] = conf_tot[<span class="stringliteral">&quot;deltaNPair&quot;</span>];</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    conf_matpair[<span class="stringliteral">&quot;deltaLPair&quot;</span>] = conf_tot[<span class="stringliteral">&quot;deltaLPair&quot;</span>];</div>
@@ -209,7 +211,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    conf_tot[<span class="stringliteral">&quot;maxR&quot;</span>] &gt;&gt; max_R;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    conf_tot[<span class="stringliteral">&quot;exponent&quot;</span>] &gt;&gt; multipoleexponent;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    real_t minEx, minEy, minEz, maxEx, maxEy, maxEz, minBx, minBy, minBz, maxBx, maxBy, maxBz;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> minEx, minEy, minEz, maxEx, maxEy, maxEz, minBx, minBy, minBz, maxBx, maxBy, maxBz;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    conf_tot[<span class="stringliteral">&quot;minEx&quot;</span>] &gt;&gt; minEx;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    conf_tot[<span class="stringliteral">&quot;minEy&quot;</span>] &gt;&gt; minEy;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    conf_tot[<span class="stringliteral">&quot;minEz&quot;</span>] &gt;&gt; minEz;</div>
@@ -229,19 +231,19 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">//fields_change_l = true; // TODO</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    std::vector&lt;parity_t&gt; sym_inversion;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;invE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_inversion.push_back(EVEN);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;invO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_inversion.push_back(ODD);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> (!sym_inversion.size()) sym_inversion.push_back(NA);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;invE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_inversion.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;invO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_inversion.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290aa29cedab858353a26006af9db7cd1ed8">ODD</a>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> (!sym_inversion.size()) sym_inversion.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    std::vector&lt;parity_t&gt; sym_permutation;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;perE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_permutation.push_back(EVEN);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;perO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_permutation.push_back(ODD);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (!sym_permutation.size()) sym_permutation.push_back(NA);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;perE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_permutation.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;perO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_permutation.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290aa29cedab858353a26006af9db7cd1ed8">ODD</a>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (!sym_permutation.size()) sym_permutation.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    std::vector&lt;parity_t&gt; sym_reflection;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;refE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_reflection.push_back(EVEN);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;refO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_reflection.push_back(ODD);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">if</span> (!sym_reflection.size()) sym_reflection.push_back(NA);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;refE&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_reflection.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">if</span> (conf_tot[<span class="stringliteral">&quot;refO&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>) sym_reflection.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290aa29cedab858353a26006af9db7cd1ed8">ODD</a>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">if</span> (!sym_reflection.size()) sym_reflection.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordtype">bool</span> conserveM = conf_tot[<span class="stringliteral">&quot;conserveM&quot;</span>].str() == <span class="stringliteral">&quot;true&quot;</span>;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
@@ -322,67 +324,67 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, build pair state basis&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">if</span> (samebasis) {</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        basis = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names());</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a> = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names());</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        basis = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names(), hamiltonian_one2-&gt;names());</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a> = std::make_shared&lt;BasisnamesTwo&gt;(hamiltonian_one1-&gt;names(), hamiltonian_one2-&gt;names());</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, basis size without restrictions: &quot;</span> &lt;&lt; basis-&gt;size() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, basis size without restrictions: &quot;</span> &lt;&lt; <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size() &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// === Determine necessary symmetries ===</span></div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, determine symmetrized subspaces&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="classStateTwo.html">StateTwo</a> initial = basis-&gt;initial();</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    parity_t initalParityL = <span class="keyword">static_cast&lt;</span>parity_t<span class="keyword">&gt;</span>(std::pow(-1, initial.l[0] + initial.l[1]));</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordtype">int</span> initalM = initial.m[0] + initial.m[1];</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordtype">int</span> initalJ = initial.j[0] + initial.j[1];</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">bool</span> samestates = initial.first() == initial.second();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="classStateTwo.html">StateTwo</a> initial = <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;initial();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> initalParityL = <span class="keyword">static_cast&lt;</span><a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a><span class="keyword">&gt;</span>(std::pow(-1, initial.<a class="code" href="classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357">l</a>[0] + initial.<a class="code" href="classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357">l</a>[1]));</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordtype">int</span> initalM = initial.<a class="code" href="classStateTwo.html#a1cf1ee41c6624ac05ba71ccf902dd2ba">m</a>[0] + initial.<a class="code" href="classStateTwo.html#a1cf1ee41c6624ac05ba71ccf902dd2ba">m</a>[1];</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordtype">int</span> initalJ = initial.<a class="code" href="classStateTwo.html#ae5effe7b3e21a8824a972a83a858d7b4">j</a>[0] + initial.<a class="code" href="classStateTwo.html#ae5effe7b3e21a8824a972a83a858d7b4">j</a>[1];</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">bool</span> samestates = initial.<a class="code" href="classStateTwo.html#a6ae12f8c26a5cc44676eb65f28c18cb7">first</a>() == initial.<a class="code" href="classStateTwo.html#ab76184c4f2fbebe8f5dd28bac62b0054">second</a>();</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    std::vector&lt;int&gt; sym_rotation;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span> (conserveM) {</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">if</span> (!sametrafo) {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: *basis) sym_rotation.push_back(state.m[0] + state.m[1]);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: *<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>) sym_rotation.push_back(state.m[0] + state.m[1]);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!zerotheta) {</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> M = -initalJ; M &lt;= initalJ; ++M) sym_rotation.push_back(M);</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            sym_rotation.push_back(initalM);</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        }</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        sym_rotation.push_back(NA);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        sym_rotation.push_back(<a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>);</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="structSymmetry.html">Symmetry</a> sym;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    std::set&lt;Symmetry&gt; symmetries_set;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> parity_t &amp;inv : sym_inversion) {</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        sym.inversion = inv;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> &amp;inv : sym_inversion) {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a> = inv;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="comment">// In case of even inversion symmetry and the same inital state for the first and second atom: the inital state ist not contained in the corresponding block</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordflow">if</span> (sym.inversion == EVEN &amp;&amp; samestates &amp;&amp; sametrafo) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordflow">if</span> (sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a> &amp;&amp; samestates &amp;&amp; sametrafo) {</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> parity_t &amp;per : sym_permutation) {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            sym.permutation = per;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> &amp;per : sym_permutation) {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> = per;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="comment">// In case of even permutation symmetry and the same inital state for the first and second atom: the inital state ist not contained in the corresponding block</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">if</span> (sym.permutation == EVEN &amp;&amp; samestates &amp;&amp; sametrafo) {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">if</span> (sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a> &amp;&amp; samestates &amp;&amp; sametrafo) {</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            }</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="comment">// In case of inversion and permutation symmetry: the orbital parity is conserved and we just use the blocks with the same parity as the inital state</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">if</span> (sym.inversion != NA &amp;&amp; sym.permutation != NA &amp;&amp; sametrafo) {</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="keywordflow">if</span> (sym.inversion*sym.permutation != initalParityL) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">if</span> (sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> &amp;&amp; sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> &amp;&amp; sametrafo) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="keywordflow">if</span> (sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a>*sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> != initalParityL) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            }</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">const</span> parity_t &amp;ref : sym_reflection) {</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                sym.reflection = ref;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> &amp;ref : sym_reflection) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                sym.<a class="code" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a> = ref;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;rot : sym_rotation) {</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    <span class="comment">// In case of reflection symmetry: do just use the absolute value of rot</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                    <span class="keywordflow">if</span> (sym.reflection != NA) {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                        sym.rotation = std::abs(rot);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                    <span class="keywordflow">if</span> (sym.<a class="code" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>) {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                        sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> = std::abs(rot);</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                        sym.rotation = rot;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                        sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> = rot;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                    }</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                    symmetries_set.insert(sym);</div>
@@ -396,28 +398,28 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, build up the list of necessary pair states&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">// Apply energy cutoff</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    std::vector&lt;bool&gt; necessary_tmp(basis-&gt;size(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    std::vector&lt;bool&gt; necessary_tmp(<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size(), <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#pragma omp parallel for</span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; nSteps_one; ++i) {</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        energycutoff(*(hamiltonian_one1-&gt;get(i)), *(hamiltonian_one2-&gt;get(i)), deltaE, necessary_tmp);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="code" href="Hamiltonianmatrix_8cpp.html#a9c1aa9b1f2d67867c66a9636b96fac7e">energycutoff</a>(*(hamiltonian_one1-&gt;get(i)), *(hamiltonian_one2-&gt;get(i)), deltaE, necessary_tmp);</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="comment">// Apply restrictions due to symmetries</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    std::vector&lt;bool&gt; necessary(basis-&gt;size(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    std::vector&lt;bool&gt; necessary(<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size(), <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: *basis) {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: *<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>) {</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="structSymmetry.html">Symmetry</a> sym : symmetries) {</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordtype">float</span> M = state.m[0]+state.m[1];</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordtype">int</span> parityL = std::pow(-1, state.l[0] + state.l[1]);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="comment">// In case of rotation symmetry: skip pair states with wrong total magnetic momentum</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">if</span>(sym.rotation != NA &amp;&amp; sym.rotation != M &amp;&amp; (sym.reflection == NA || sym.rotation != -M)) {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">if</span>(sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> &amp;&amp; sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> != M &amp;&amp; (sym.<a class="code" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> || sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> != -M)) {</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            }</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            <span class="comment">// In case of inversion and permutation symmetry: skip pair states with wrong orbital parity</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <span class="keywordflow">if</span>(sym.inversion != NA &amp;&amp; sym.permutation != NA &amp;&amp; parityL != initalParityL &amp;&amp; sametrafo) {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <span class="keywordflow">if</span>(sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> &amp;&amp; sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> != <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a> &amp;&amp; parityL != initalParityL &amp;&amp; sametrafo) {</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            }</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
@@ -480,13 +482,13 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <span class="comment">// --- Precalculate matrix elements --- // TODO parallelization</span></div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, get one-atom states needed for the pair state basis&quot;</span>&lt;&lt; std::endl;</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="keyword">auto</span> basis_one1_needed = std::make_shared&lt;BasisnamesOne&gt;(BasisnamesOne::fromFirst(basis));</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="keyword">auto</span> basis_one2_needed = std::make_shared&lt;BasisnamesOne&gt;(BasisnamesOne::fromSecond(basis));</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="keyword">auto</span> basis_one1_needed = std::make_shared&lt;BasisnamesOne&gt;(<a class="code" href="classBasisnamesOne.html#a37fe3571090885a8a594eed4019befa9">BasisnamesOne::fromFirst</a>(basis));</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="keyword">auto</span> basis_one2_needed = std::make_shared&lt;BasisnamesOne&gt;(<a class="code" href="classBasisnamesOne.html#a683ae34cba3c56f9a0185e932de62078">BasisnamesOne::fromSecond</a>(basis));</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> kappa = kappa_min; kappa&lt;=kappa_max; ++kappa) {</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;            std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, precalculate matrix elements for kappa = &quot;</span> &lt;&lt; kappa &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;            matrixelements_atom1.precalculateMultipole(basis_one1_needed, kappa);</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;            matrixelements_atom2.precalculateMultipole(basis_one2_needed, kappa);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;            matrixelements_atom1.<a class="code" href="classMatrixElements.html#a266e5119717ebc9475fc88ebc3ea0218">precalculateMultipole</a>(basis_one1_needed, kappa);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;            matrixelements_atom2.<a class="code" href="classMatrixElements.html#a266e5119717ebc9475fc88ebc3ea0218">precalculateMultipole</a>(basis_one2_needed, kappa);</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        }</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="comment">// TODO if (samebasis) ...</span></div>
@@ -514,7 +516,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                        <span class="keywordtype">int</span> kappa2 = sumOfKappas - kappa1;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;                        <span class="comment">// allowed deltaL, deltaJ, and deltaM?</span></div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                        <span class="keywordflow">if</span> (selectionRulesMultipole(state_row.first(), state_col.first(), kappa1) &amp;&amp; selectionRulesMultipole(state_row.second(), state_col.second(), kappa2)) {</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row.first(), state_col.first(), kappa1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row.second(), state_col.second(), kappa2)) {</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;                            <span class="keywordtype">int</span> q1 = state_row.first().m-state_col.first().m;</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                            <span class="keywordtype">int</span> q2 = state_row.second().m-state_col.second().m;</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
@@ -558,21 +560,21 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                    }</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                    <span class="comment">// multipole interaction with 1/R^(sumOfKappas+1) = 1/R^(idx_multipole+3) decay</span></div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                    real_t val = 0;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = 0;</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;</div>
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> kappa1 = kappa_min; kappa1 &lt;= sumOfKappas-1; ++kappa1) {</div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                        <span class="keywordtype">int</span> kappa2 = sumOfKappas - kappa1;</div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;</div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                        <span class="comment">// allowed deltaL, deltaJ, and deltaM?</span></div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                        <span class="keywordflow">if</span> (selectionRulesMultipole(state_row.first(), state_col.first(), kappa1) &amp;&amp; selectionRulesMultipole(state_row.second(), state_col.second(), kappa2)) {</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row.first(), state_col.first(), kappa1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row.second(), state_col.second(), kappa2)) {</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                            <span class="keywordtype">int</span> q1 = state_row.first().m-state_col.first().m;</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                            <span class="keywordtype">int</span> q2 = state_row.second().m-state_col.second().m;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                            <span class="comment">// total momentum preserved?</span></div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                            <span class="keywordflow">if</span> (q1 == -q2) {</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;                                <span class="keywordtype">double</span> binomials = boost::math::binomial_coefficient&lt;double&gt;(kappa1+kappa2, kappa1+q1)*boost::math::binomial_coefficient&lt;double&gt;(kappa1+kappa2, kappa2-q2);</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                                val += std::pow(-1,kappa2) * std::sqrt(binomials) * matrixelements_atom1.getMultipole(state_row.first(), state_col.first(), kappa1)*</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                                        matrixelements_atom2.getMultipole(state_row.second(), state_col.second(), kappa2);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                                val += std::pow(-1,kappa2) * std::sqrt(binomials) * matrixelements_atom1.<a class="code" href="classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b">getMultipole</a>(state_row.first(), state_col.first(), kappa1)*</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                                        matrixelements_atom2.<a class="code" href="classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b">getMultipole</a>(state_row.second(), state_col.second(), kappa2);</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                            }</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;                        }</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                    }</div>
@@ -614,7 +616,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="comment">// === Initialize variables ===</span></div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <span class="keywordtype">bool</span> flag_perhapsmissingtable = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    matrix_path.resize(nSteps_two*symmetries.size());</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    <a class="code" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a>.resize(nSteps_two*symmetries.size());</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <span class="comment">// --- Determine combined single atom matrices ---</span></div>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <span class="comment">// Construct pair Hamiltonian consistent of combined one-atom Hamiltonians (1 x Hamiltonian2 + Hamiltonian1 x 1)</span></div>
@@ -633,7 +635,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;            <a class="code" href="structSymmetry.html">Symmetry</a> sym = symmetries[idx_symmetry];</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;            <span class="comment">// Combine the Hamiltonians of the two atoms</span></div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;            mat_single[idx_symmetry] = combine(*(hamiltonian_one1-&gt;get(0)), *(hamiltonian_one2-&gt;get(0)), deltaE, basis, sym);</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;            mat_single[idx_symmetry] = <a class="code" href="Hamiltonianmatrix_8cpp.html#a944e9d56e12146abbdaad531a3192dc1">combine</a>(*(hamiltonian_one1-&gt;get(0)), *(hamiltonian_one2-&gt;get(0)), deltaE, basis, sym);</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;            <span class="comment">// Remove more or less empty basis vectors</span></div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;            mat_single[idx_symmetry].removeUnnecessaryBasisvectors();</div>
@@ -652,7 +654,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;<span class="preprocessor">#pragma omp parallel for collapse(2)</span></div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> idx_symmetry = 0; idx_symmetry &lt; symmetries.size(); ++idx_symmetry) {</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> idx_multipole = 0; idx_multipole &lt;= idx_multipole_max; ++idx_multipole) {</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                mat_multipole_transformed[idx_symmetry*(idx_multipole_max+1)+idx_multipole] = mat_multipole[idx_multipole].changeBasis(mat_single[idx_symmetry].basis());</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                mat_multipole_transformed[idx_symmetry*(idx_multipole_max+1)+idx_multipole] = mat_multipole[idx_multipole].changeBasis(mat_single[idx_symmetry].<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>());</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;            }</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        }</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    }</div>
@@ -679,16 +681,16 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;            <span class="keywordtype">int</span> single_idx = (nSteps_two == nSteps_one) ? step_two : 0;</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;            <span class="comment">// Get interatomic distance</span></div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            real_t normalized_position = (nSteps_two &gt; 1) ? step_two/(nSteps_two-1.) : 0;</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;            real_t position = min_R+normalized_position*(max_R-min_R);</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> normalized_position = (nSteps_two &gt; 1) ? step_two/(nSteps_two-1.) : 0;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;            <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> position = min_R+normalized_position*(max_R-min_R);</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;            <span class="comment">// Get configuration and save postions and symmetries</span></div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;            <a class="code" href="classConfiguration.html">Configuration</a> conf = conf_mat[single_idx];</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;            conf[<span class="stringliteral">&quot;R&quot;</span>] = position;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;            conf[<span class="stringliteral">&quot;inversion&quot;</span>] = (sym.inversion == NA) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.inversion);</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            conf[<span class="stringliteral">&quot;permutation&quot;</span>] = (sym.permutation == NA) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.permutation);</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            conf[<span class="stringliteral">&quot;reflection&quot;</span>] = (sym.reflection == NA) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.reflection);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;            conf[<span class="stringliteral">&quot;rotation&quot;</span>] = (sym.rotation == NA) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.rotation);</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;            conf[<span class="stringliteral">&quot;inversion&quot;</span>] = (sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.<a class="code" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a>);</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            conf[<span class="stringliteral">&quot;permutation&quot;</span>] = (sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.<a class="code" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a>);</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            conf[<span class="stringliteral">&quot;reflection&quot;</span>] = (sym.<a class="code" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.<a class="code" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a>);</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;            conf[<span class="stringliteral">&quot;rotation&quot;</span>] = (sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a> == <a class="code" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a>) ? <span class="stringliteral">&quot;&quot;</span> : std::to_string(sym.<a class="code" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a>);</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;            <span class="comment">// === Create table if necessary ===</span></div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;            std::stringstream query;</div>
@@ -724,8 +726,8 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="preprocessor">#pragma omp critical(database)</span></div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor"></span>            {</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> result = db.query(query);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                <span class="keywordflow">if</span> (result.size() == 1) {</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                    uuid = result.first();</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                <span class="keywordflow">if</span> (result.<a class="code" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a>() == 1) {</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                    uuid = result.<a class="code" href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">first</a>();</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                }</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            }</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
@@ -768,7 +770,7 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;            <span class="keywordflow">if</span> (boost::filesystem::exists(path_mat)) {</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                <span class="keywordflow">if</span> (boost::filesystem::exists(path_json)) {</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                    <a class="code" href="classConfiguration.html">Configuration</a> params_loaded;</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                    params_loaded.load_from_json(path_json.string());</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                    params_loaded.<a class="code" href="classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc">load_from_json</a>(path_json.string());</div>
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                    <span class="keywordflow">if</span> (conf == params_loaded) {</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                        is_existing = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                    }</div>
@@ -783,21 +785,21 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;            <span class="comment">// === Build and diagonalize total matrix if not existent ===</span></div>
 <div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;            <a class="code" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> totalmatrix;</div>
 <div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            <span class="keywordflow">if</span> (!is_existing || !totalmatrix.load(path_mat.string())) {</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            <span class="keywordflow">if</span> (!is_existing || !totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e">load</a>(path_mat.string())) {</div>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;</div>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;                <span class="comment">// --- Combine single atom matrices ---</span></div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;                <span class="keywordflow">if</span> (nSteps_two == nSteps_one) {</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                    totalmatrix = combine(*(hamiltonian_one1-&gt;get(step_two)), *(hamiltonian_one2-&gt;get(step_two)), deltaE, basis, sym);</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                    totalmatrix.removeUnnecessaryBasisvectors();</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                    totalmatrix = <a class="code" href="Hamiltonianmatrix_8cpp.html#a944e9d56e12146abbdaad531a3192dc1">combine</a>(*(hamiltonian_one1-&gt;get(step_two)), *(hamiltonian_one2-&gt;get(step_two)), deltaE, basis, sym);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                    totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a2ff416efff07de6e3df93948c2688989">removeUnnecessaryBasisvectors</a>();</div>
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                    totalmatrix = mat_single[idx_symmetry];</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;                }</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;</div>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;                <span class="comment">// --- Add interaction ---</span></div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> idx_multipole = 0; idx_multipole &lt;= idx_multipole_max; ++idx_multipole) {</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                    real_t pos = 1./std::pow(position,exponent_multipole[idx_multipole]);</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> pos = 1./std::pow(position,exponent_multipole[idx_multipole]);</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                    <span class="keywordflow">if</span> (nSteps_two == nSteps_one) {</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                        totalmatrix += mat_multipole[idx_multipole].changeBasis(totalmatrix.basis())*pos;</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                        totalmatrix += mat_multipole[idx_multipole].<a class="code" href="classHamiltonianmatrix.html#ad1eba87443ffeebe01064838b998f726">changeBasis</a>(totalmatrix.<a class="code" href="classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78">basis</a>())*pos;</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;                    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                        totalmatrix += mat_multipole_transformed[idx_symmetry*(idx_multipole_max+1)+idx_multipole]*pos;</div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                    }</div>
@@ -805,12 +807,12 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;</div>
 <div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                <span class="comment">// Stdout: Hamiltonian assembled</span></div>
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor"></span>                std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.num_basisvectors() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor"></span>                std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">num_basisvectors</a>() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                          &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, &quot;</span> &lt;&lt;  step+1 &lt;&lt; <span class="stringliteral">&quot;. Hamiltonian assembled&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                <span class="comment">// --- Diagonalize matrix and save diagonalized matrix ---</span></div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                totalmatrix.diagonalize();</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                totalmatrix.save(path_mat.string());</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee">diagonalize</a>();</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                totalmatrix.<a class="code" href="classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051">save</a>(path_mat.string());</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;</div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;                <span class="comment">// Stdout: Hamiltonian diagonalized</span></div>
 <div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
@@ -820,36 +822,72 @@ $(document).ready(function(){initNavTree('HamiltonianTwo_8cpp_source.html','');}
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;                <span class="comment">// Stdout: Hamiltonian loaded</span></div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="preprocessor"></span>                std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.num_basisvectors() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="preprocessor"></span>                std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">num_basisvectors</a>() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;                          &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;OUT&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; step+1 &lt;&lt; std::setw(7) &lt;&lt; step_two &lt;&lt; std::setw(7) &lt;&lt; symmetries.size() &lt;&lt; std::setw(7) &lt;&lt; idx_symmetry &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; path.string() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;                          &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, &quot;</span> &lt;&lt;  step+1 &lt;&lt; <span class="stringliteral">&quot;. Hamiltonian loaded&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;            }</div>
 <div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;            <span class="comment">// === Store path to configuration and diagonalized matrix ===</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;            matrix_path[step] = path.string();</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;            <a class="code" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a>[step] = path.string();</div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        }</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    }</div>
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Two-atom Hamiltonian, all Hamiltonians processed&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;}</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;</div>
+<div class="ttc" id="dtypes_8h_html_a8c9f47bdc80c9f4db63b7bf8b1ad5290aa29cedab858353a26006af9db7cd1ed8"><div class="ttname"><a href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290aa29cedab858353a26006af9db7cd1ed8">ODD</a></div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00067">dtypes.h:67</a></div></div>
+<div class="ttc" id="classStateTwo_html_ae5effe7b3e21a8824a972a83a858d7b4"><div class="ttname"><a href="classStateTwo.html#ae5effe7b3e21a8824a972a83a858d7b4">StateTwo::j</a></div><div class="ttdeci">std::array&lt; float, 2 &gt; j</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00131">State.h:131</a></div></div>
 <div class="ttc" id="classMatrixElements_html"><div class="ttname"><a href="classMatrixElements.html">MatrixElements</a></div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8h_source.html#l00035">MatrixElements.h:35</a></div></div>
+<div class="ttc" id="structSymmetry_html_a912a4b798d9c8e0a2b10cbeff3d1859d"><div class="ttname"><a href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">Symmetry::inversion</a></div><div class="ttdeci">parity_t inversion</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00071">dtypes.h:71</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc"><div class="ttname"><a href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc">EVEN</a></div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00066">dtypes.h:66</a></div></div>
 <div class="ttc" id="classHamiltonian_html"><div class="ttname"><a href="classHamiltonian.html">Hamiltonian</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00025">Hamiltonian.h:25</a></div></div>
+<div class="ttc" id="classHamiltonianTwo_html_a8d51d632bd7862cf1e566f6faf9ccc8c"><div class="ttname"><a href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c">HamiltonianTwo::HamiltonianTwo</a></div><div class="ttdeci">HamiltonianTwo(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianTwo_8cpp_source.html#l00019">HamiltonianTwo.cpp:19</a></div></div>
 <div class="ttc" id="structutils_1_1is__complex_html"><div class="ttname"><a href="structutils_1_1is__complex.html">utils::is_complex</a></div><div class="ttdef"><b>Definition:</b> <a href="utils_8h_source.html#l00026">utils.h:26</a></div></div>
+<div class="ttc" id="classBasisnamesOne_html_a683ae34cba3c56f9a0185e932de62078"><div class="ttname"><a href="classBasisnamesOne.html#a683ae34cba3c56f9a0185e932de62078">BasisnamesOne::fromSecond</a></div><div class="ttdeci">static BasisnamesOne fromSecond(const Configuration &amp;config)</div><div class="ttdef"><b>Definition:</b> <a href="Basisnames_8cpp_source.html#l00054">Basisnames.cpp:54</a></div></div>
 <div class="ttc" id="classsqlite_1_1result_html"><div class="ttname"><a href="classsqlite_1_1result.html">sqlite::result</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00047">SQLite.h:47</a></div></div>
+<div class="ttc" id="classHamiltonian_html_abafd89e4b6fa89d0e05eaf7175b767b3"><div class="ttname"><a href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">Hamiltonian&lt; BasisnamesTwo &gt;::matrix_path</a></div><div class="ttdeci">std::vector&lt; std::string &gt; matrix_path</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00052">Hamiltonian.h:52</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a0d00e2b3dfadee81331bbb39068570c4"><div class="ttname"><a href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a></div><div class="ttdeci">double real_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00027">dtypes.h:27</a></div></div>
 <div class="ttc" id="structSymmetry_html"><div class="ttname"><a href="structSymmetry.html">Symmetry</a></div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00070">dtypes.h:70</a></div></div>
+<div class="ttc" id="HamiltonianTwo_8h_html"><div class="ttname"><a href="HamiltonianTwo_8h.html">HamiltonianTwo.h</a></div></div>
+<div class="ttc" id="classStateTwo_html_a1cf1ee41c6624ac05ba71ccf902dd2ba"><div class="ttname"><a href="classStateTwo.html#a1cf1ee41c6624ac05ba71ccf902dd2ba">StateTwo::m</a></div><div class="ttdeci">std::array&lt; float, 2 &gt; m</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00131">State.h:131</a></div></div>
+<div class="ttc" id="Hamiltonianmatrix_8cpp_html_a9c1aa9b1f2d67867c66a9636b96fac7e"><div class="ttname"><a href="Hamiltonianmatrix_8cpp.html#a9c1aa9b1f2d67867c66a9636b96fac7e">energycutoff</a></div><div class="ttdeci">void energycutoff(const Hamiltonianmatrix &amp;lhs, const Hamiltonianmatrix &amp;rhs, const real_t &amp;deltaE, std::vector&lt; bool &gt; &amp;necessary)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00666">Hamiltonianmatrix.cpp:666</a></div></div>
+<div class="ttc" id="classBasisnamesOne_html_a37fe3571090885a8a594eed4019befa9"><div class="ttname"><a href="classBasisnamesOne.html#a37fe3571090885a8a594eed4019befa9">BasisnamesOne::fromFirst</a></div><div class="ttdeci">static BasisnamesOne fromFirst(const Configuration &amp;config)</div><div class="ttdef"><b>Definition:</b> <a href="Basisnames_8cpp_source.html#l00027">Basisnames.cpp:27</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_ad1eba87443ffeebe01064838b998f726"><div class="ttname"><a href="classHamiltonianmatrix.html#ad1eba87443ffeebe01064838b998f726">Hamiltonianmatrix::changeBasis</a></div><div class="ttdeci">Hamiltonianmatrix changeBasis(eigen_sparse_t basis) const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00083">Hamiltonianmatrix.cpp:83</a></div></div>
+<div class="ttc" id="classHamiltonian_html_adbbb38ce9d7c245825db767a54c64113"><div class="ttname"><a href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">Hamiltonian&lt; BasisnamesTwo &gt;::basis</a></div><div class="ttdeci">std::shared_ptr&lt; BasisnamesTwo &gt; basis</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00054">Hamiltonian.h:54</a></div></div>
+<div class="ttc" id="classMatrixElements_html_a266e5119717ebc9475fc88ebc3ea0218"><div class="ttname"><a href="classMatrixElements.html#a266e5119717ebc9475fc88ebc3ea0218">MatrixElements::precalculateMultipole</a></div><div class="ttdeci">void precalculateMultipole(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one, int k)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00075">MatrixElements.cpp:75</a></div></div>
+<div class="ttc" id="classHamiltonianTwo_html_a6ca0a318f25170b69e571a07064a5afb"><div class="ttname"><a href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">HamiltonianTwo::calculate</a></div><div class="ttdeci">void calculate(const Configuration &amp;conf_tot)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo.cpp:35</a></div></div>
+<div class="ttc" id="Hamiltonianmatrix_8cpp_html_a944e9d56e12146abbdaad531a3192dc1"><div class="ttname"><a href="Hamiltonianmatrix_8cpp.html#a944e9d56e12146abbdaad531a3192dc1">combine</a></div><div class="ttdeci">Hamiltonianmatrix combine(const Hamiltonianmatrix &amp;lhs, const Hamiltonianmatrix &amp;rhs, const real_t &amp;deltaE, std::shared_ptr&lt; BasisnamesTwo &gt; basis_two, const Symmetry &amp;sym)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00465">Hamiltonianmatrix.cpp:465</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558"><div class="ttname"><a href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558">NA</a></div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00065">dtypes.h:65</a></div></div>
 <div class="ttc" id="classHamiltonianmatrix_html"><div class="ttname"><a href="classHamiltonianmatrix.html">Hamiltonianmatrix</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8h_source.html#l00036">Hamiltonianmatrix.h:36</a></div></div>
+<div class="ttc" id="classStateTwo_html_ab76184c4f2fbebe8f5dd28bac62b0054"><div class="ttname"><a href="classStateTwo.html#ab76184c4f2fbebe8f5dd28bac62b0054">StateTwo::second</a></div><div class="ttdeci">StateOne second() const </div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00116">State.h:116</a></div></div>
+<div class="ttc" id="classStateTwo_html_a6ae12f8c26a5cc44676eb65f28c18cb7"><div class="ttname"><a href="classStateTwo.html#a6ae12f8c26a5cc44676eb65f28c18cb7">StateTwo::first</a></div><div class="ttdeci">StateOne first() const </div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00113">State.h:113</a></div></div>
 <div class="ttc" id="classsqlite_1_1handle_html"><div class="ttname"><a href="classsqlite_1_1handle.html">sqlite::handle</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00175">SQLite.h:175</a></div></div>
 <div class="ttc" id="classBasisnamesTwo_html"><div class="ttname"><a href="classBasisnamesTwo.html">BasisnamesTwo</a></div><div class="ttdef"><b>Definition:</b> <a href="Basisnames_8h_source.html#l00110">Basisnames.h:110</a></div></div>
+<div class="ttc" id="classMatrixElements_html_a84d60d8bd6285b9a851909f0a7fe578b"><div class="ttname"><a href="classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b">MatrixElements::getMultipole</a></div><div class="ttdeci">real_t getMultipole(StateOne const &amp;state_row, StateOne const &amp;state_col, int kappa)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00119">MatrixElements.cpp:119</a></div></div>
 <div class="ttc" id="classConfiguration_html"><div class="ttname"><a href="classConfiguration.html">Configuration</a></div><div class="ttdef"><b>Definition:</b> <a href="ConfParser_8h_source.html#l00025">ConfParser.h:25</a></div></div>
+<div class="ttc" id="structSymmetry_html_a539f82bb5c22b4c99a49c379cc805fb2"><div class="ttname"><a href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">Symmetry::reflection</a></div><div class="ttdeci">parity_t reflection</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00072">dtypes.h:72</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a6af1c71facf2f4987c543cc177175c0e"><div class="ttname"><a href="classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e">Hamiltonianmatrix::load</a></div><div class="ttdeci">bool load(std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00435">Hamiltonianmatrix.cpp:435</a></div></div>
+<div class="ttc" id="MatrixElements_8cpp_html_a0426020af6225ce85898528250c929b8"><div class="ttname"><a href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a></div><div class="ttdeci">bool selectionRulesMultipole(StateOne const &amp;state1, StateOne const &amp;state2, int kappa, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00040">MatrixElements.cpp:40</a></div></div>
+<div class="ttc" id="classStateTwo_html_a299c17289eaa1d22cad8c8d3befde357"><div class="ttname"><a href="classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357">StateTwo::l</a></div><div class="ttdeci">std::array&lt; int, 2 &gt; l</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00130">State.h:130</a></div></div>
+<div class="ttc" id="structSymmetry_html_a91b0bb693f79162c9909c50b30626404"><div class="ttname"><a href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">Symmetry::rotation</a></div><div class="ttdeci">int rotation</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00074">dtypes.h:74</a></div></div>
+<div class="ttc" id="structSymmetry_html_ad968a2af211d87122bd132b6bb5051ba"><div class="ttname"><a href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">Symmetry::permutation</a></div><div class="ttdeci">parity_t permutation</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00073">dtypes.h:73</a></div></div>
 <div class="ttc" id="classStateTwo_html"><div class="ttname"><a href="classStateTwo.html">StateTwo</a></div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00084">State.h:84</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a8c9f47bdc80c9f4db63b7bf8b1ad5290"><div class="ttname"><a href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a></div><div class="ttdeci">parity_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00064">dtypes.h:64</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a1db6d20a1d88ef89f1acdad819af34ee"><div class="ttname"><a href="classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee">Hamiltonianmatrix::diagonalize</a></div><div class="ttdeci">void diagonalize()</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00227">Hamiltonianmatrix.cpp:227</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a1f2520c68069458abac563f6c40bca85"><div class="ttname"><a href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">Hamiltonianmatrix::num_basisvectors</a></div><div class="ttdeci">size_t num_basisvectors() const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00048">Hamiltonianmatrix.cpp:48</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_aa3c3a422c8c3e87c47700c9f32e02051"><div class="ttname"><a href="classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051">Hamiltonianmatrix::save</a></div><div class="ttdeci">void save(std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00421">Hamiltonianmatrix.cpp:421</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_ab0f42b034579983088548dd6dd4e1e78"><div class="ttname"><a href="classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78">Hamiltonianmatrix::basis</a></div><div class="ttdeci">eigen_sparse_t &amp; basis()</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00039">Hamiltonianmatrix.cpp:39</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_aa8bbef223f2525c4a803ee81cf7e2976"><div class="ttname"><a href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">sqlite::result::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00130">SQLite.h:130</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a2ff416efff07de6e3df93948c2688989"><div class="ttname"><a href="classHamiltonianmatrix.html#a2ff416efff07de6e3df93948c2688989">Hamiltonianmatrix::removeUnnecessaryBasisvectors</a></div><div class="ttdeci">void removeUnnecessaryBasisvectors(const std::vector&lt; bool &gt; &amp;isNecessaryCoordinate)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00128">Hamiltonianmatrix.cpp:128</a></div></div>
+<div class="ttc" id="classConfiguration_html_a17fff65a69b1b968f4862b6fbb4137bc"><div class="ttname"><a href="classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc">Configuration::load_from_json</a></div><div class="ttdeci">void load_from_json(std::string filename)</div><div class="ttdef"><b>Definition:</b> <a href="ConfParser_8cpp_source.html#l00073">ConfParser.cpp:73</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_a1a941d0671be57ed3f7bebf7d3da240f"><div class="ttname"><a href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">sqlite::result::first</a></div><div class="ttdeci">result::row first() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00145">SQLite.h:145</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><b>HamiltonianTwo.cpp</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="HamiltonianTwo_8cpp.html">HamiltonianTwo.cpp</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

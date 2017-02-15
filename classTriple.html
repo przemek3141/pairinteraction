@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classTriple.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,29 +118,140 @@ $(document).ready(function(){initNavTree('classTriple.html','');});
 <div class="title">Triple Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="dtypes_8h_source.html">dtypes.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a54d71f6a0d56cfa455323a4def001045"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54d71f6a0d56cfa455323a4def001045"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Triple</b> (idx_t row, idx_t col, scalar_t val)</td></tr>
+<tr class="memitem:a7a5222cee17f3d79acb1f16947c0249c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTriple.html#a7a5222cee17f3d79acb1f16947c0249c">Triple</a> ()</td></tr>
+<tr class="separator:a7a5222cee17f3d79acb1f16947c0249c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d71f6a0d56cfa455323a4def001045"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTriple.html#a54d71f6a0d56cfa455323a4def001045">Triple</a> (<a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> <a class="el" href="classTriple.html#aebd4724fb6326ba59c0b3f45b103e4e0">row</a>, <a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> <a class="el" href="classTriple.html#a0254fdff97175a12bfb9f9f4da38a528">col</a>, <a class="el" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> <a class="el" href="classTriple.html#a43863e96edd7cc59431daa832a7525e8">val</a>)</td></tr>
 <tr class="separator:a54d71f6a0d56cfa455323a4def001045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:aebd4724fb6326ba59c0b3f45b103e4e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aebd4724fb6326ba59c0b3f45b103e4e0"></a>
-idx_t&#160;</td><td class="memItemRight" valign="bottom"><b>row</b></td></tr>
+<tr class="memitem:aebd4724fb6326ba59c0b3f45b103e4e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTriple.html#aebd4724fb6326ba59c0b3f45b103e4e0">row</a></td></tr>
 <tr class="separator:aebd4724fb6326ba59c0b3f45b103e4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0254fdff97175a12bfb9f9f4da38a528"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0254fdff97175a12bfb9f9f4da38a528"></a>
-idx_t&#160;</td><td class="memItemRight" valign="bottom"><b>col</b></td></tr>
+<tr class="memitem:a0254fdff97175a12bfb9f9f4da38a528"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTriple.html#a0254fdff97175a12bfb9f9f4da38a528">col</a></td></tr>
 <tr class="separator:a0254fdff97175a12bfb9f9f4da38a528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43863e96edd7cc59431daa832a7525e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a43863e96edd7cc59431daa832a7525e8"></a>
-scalar_t&#160;</td><td class="memItemRight" valign="bottom"><b>val</b></td></tr>
+<tr class="memitem:a43863e96edd7cc59431daa832a7525e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTriple.html#a43863e96edd7cc59431daa832a7525e8">val</a></td></tr>
 <tr class="separator:a43863e96edd7cc59431daa832a7525e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="dtypes_8h_source.html#l00055">55</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a7a5222cee17f3d79acb1f16947c0249c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Triple::Triple </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00057">57</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54d71f6a0d56cfa455323a4def001045"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Triple::Triple </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a>&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00058">58</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a0254fdff97175a12bfb9f9f4da38a528"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> Triple::col</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00060">60</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aebd4724fb6326ba59c0b3f45b103e4e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> Triple::row</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00059">59</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43863e96edd7cc59431daa832a7525e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> Triple::val</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00061">61</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="dtypes_8h_source.html">dtypes.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -147,7 +260,7 @@ scalar_t&#160;</td><td class="memItemRight" valign="bottom"><b>val</b></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classTriple.html">Triple</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classMatrixElements.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -115,50 +117,434 @@ $(document).ready(function(){initNavTree('classMatrixElements.html','');});
 <div class="title">MatrixElements Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="MatrixElements_8h_source.html">MatrixElements.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1097defe1c6e5c374d370d7801698ba6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1097defe1c6e5c374d370d7801698ba6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MatrixElements</b> (std::string const &amp;species, std::string const &amp;dbname)</td></tr>
+<tr class="memitem:a1097defe1c6e5c374d370d7801698ba6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a1097defe1c6e5c374d370d7801698ba6">MatrixElements</a> (std::string const &amp;species, std::string const &amp;dbname)</td></tr>
 <tr class="separator:a1097defe1c6e5c374d370d7801698ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e2b7ec28ea3bae379b53e13b6a881a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21e2b7ec28ea3bae379b53e13b6a881a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>MatrixElements</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, std::string const &amp;species, std::string const &amp;dbname)</td></tr>
+<tr class="memitem:a21e2b7ec28ea3bae379b53e13b6a881a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a21e2b7ec28ea3bae379b53e13b6a881a">MatrixElements</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, std::string const &amp;species, std::string const &amp;dbname)</td></tr>
 <tr class="separator:a21e2b7ec28ea3bae379b53e13b6a881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab600ec3c325b80275d86db16071fa64c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab600ec3c325b80275d86db16071fa64c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>precalculateElectricMomentum</b> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int q)</td></tr>
+<tr class="memitem:ab600ec3c325b80275d86db16071fa64c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#ab600ec3c325b80275d86db16071fa64c">precalculateElectricMomentum</a> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int q)</td></tr>
 <tr class="separator:ab600ec3c325b80275d86db16071fa64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df39bb7f9a7efebcb7d501c76e9fb2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5df39bb7f9a7efebcb7d501c76e9fb2e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>precalculateMagneticMomentum</b> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int q)</td></tr>
+<tr class="memitem:a5df39bb7f9a7efebcb7d501c76e9fb2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a5df39bb7f9a7efebcb7d501c76e9fb2e">precalculateMagneticMomentum</a> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int q)</td></tr>
 <tr class="separator:a5df39bb7f9a7efebcb7d501c76e9fb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0bef697857d35a467859a4dcb88550c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0bef697857d35a467859a4dcb88550c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>precalculateDiamagnetism</b> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k, int q)</td></tr>
+<tr class="memitem:aa0bef697857d35a467859a4dcb88550c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k, int q)</td></tr>
 <tr class="separator:aa0bef697857d35a467859a4dcb88550c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266e5119717ebc9475fc88ebc3ea0218"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a266e5119717ebc9475fc88ebc3ea0218"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>precalculateMultipole</b> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k)</td></tr>
+<tr class="memitem:a266e5119717ebc9475fc88ebc3ea0218"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a266e5119717ebc9475fc88ebc3ea0218">precalculateMultipole</a> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k)</td></tr>
 <tr class="separator:a266e5119717ebc9475fc88ebc3ea0218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804aaf8a42bc24359f9748616ed7994c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a804aaf8a42bc24359f9748616ed7994c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>precalculateRadial</b> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k)</td></tr>
+<tr class="memitem:a804aaf8a42bc24359f9748616ed7994c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a804aaf8a42bc24359f9748616ed7994c">precalculateRadial</a> (std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt; basis_one, int k)</td></tr>
 <tr class="separator:a804aaf8a42bc24359f9748616ed7994c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32ab751820e21b4924fc1f08d8465ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad32ab751820e21b4924fc1f08d8465ad"></a>
-real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getElectricMomentum</b> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col)</td></tr>
+<tr class="memitem:ad32ab751820e21b4924fc1f08d8465ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad">getElectricMomentum</a> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col)</td></tr>
 <tr class="separator:ad32ab751820e21b4924fc1f08d8465ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52fd8ebda0d00bf7a383b1ae28edf04c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52fd8ebda0d00bf7a383b1ae28edf04c"></a>
-real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getMagneticMomentum</b> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col)</td></tr>
+<tr class="memitem:a52fd8ebda0d00bf7a383b1ae28edf04c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c">getMagneticMomentum</a> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col)</td></tr>
 <tr class="separator:a52fd8ebda0d00bf7a383b1ae28edf04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c21248f81cf217b82e986b91cd37800"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c21248f81cf217b82e986b91cd37800"></a>
-real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getDiamagnetism</b> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
+<tr class="memitem:a0c21248f81cf217b82e986b91cd37800"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
 <tr class="separator:a0c21248f81cf217b82e986b91cd37800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84d60d8bd6285b9a851909f0a7fe578b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84d60d8bd6285b9a851909f0a7fe578b"></a>
-real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getMultipole</b> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
+<tr class="memitem:a84d60d8bd6285b9a851909f0a7fe578b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b">getMultipole</a> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
 <tr class="separator:a84d60d8bd6285b9a851909f0a7fe578b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6662ca16679a3edff58c5e2b915fbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aff6662ca16679a3edff58c5e2b915fbf"></a>
-real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getRadial</b> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
+<tr class="memitem:aff6662ca16679a3edff58c5e2b915fbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMatrixElements.html#aff6662ca16679a3edff58c5e2b915fbf">getRadial</a> (<a class="el" href="classStateOne.html">StateOne</a> const &amp;state_row, <a class="el" href="classStateOne.html">StateOne</a> const &amp;state_col, int kappa)</td></tr>
 <tr class="separator:aff6662ca16679a3edff58c5e2b915fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="MatrixElements_8h_source.html#l00035">35</a> of file <a class="el" href="MatrixElements_8h_source.html">MatrixElements.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a1097defe1c6e5c374d370d7801698ba6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MatrixElements::MatrixElements </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>species</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>dbname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00058">58</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21e2b7ec28ea3bae379b53e13b6a881a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MatrixElements::MatrixElements </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>species</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>dbname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00065">65</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0c21248f81cf217b82e986b91cd37800"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> MatrixElements::getDiamagnetism </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kappa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00111">111</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>References <a class="el" href="State_8h_source.html#l00081">StateOne::j</a>, <a class="el" href="State_8h_source.html#l00080">StateOne::l</a>, <a class="el" href="State_8h_source.html#l00081">StateOne::m</a>, and <a class="el" href="State_8h_source.html#l00080">StateOne::n</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad32ab751820e21b4924fc1f08d8465ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> MatrixElements::getElectricMomentum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_col</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00097">97</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>References <a class="el" href="MatrixElements_8cpp_source.html#l00119">getMultipole()</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52fd8ebda0d00bf7a383b1ae28edf04c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> MatrixElements::getMagneticMomentum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_col</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00101">101</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>References <a class="el" href="State_8h_source.html#l00081">StateOne::j</a>, <a class="el" href="State_8h_source.html#l00080">StateOne::l</a>, <a class="el" href="State_8h_source.html#l00081">StateOne::m</a>, <a class="el" href="State_8h_source.html#l00080">StateOne::n</a>, and <a class="el" href="State_8h_source.html#l00081">StateOne::s</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84d60d8bd6285b9a851909f0a7fe578b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> MatrixElements::getMultipole </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kappa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00119">119</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>References <a class="el" href="State_8h_source.html#l00081">StateOne::j</a>, <a class="el" href="State_8h_source.html#l00080">StateOne::l</a>, <a class="el" href="State_8h_source.html#l00081">StateOne::m</a>, and <a class="el" href="State_8h_source.html#l00080">StateOne::n</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="MatrixElements_8cpp_source.html#l00097">getElectricMomentum()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aff6662ca16679a3edff58c5e2b915fbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> MatrixElements::getRadial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classStateOne.html">StateOne</a> const &amp;&#160;</td>
+          <td class="paramname"><em>state_col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>kappa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00127">127</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>References <a class="el" href="State_8h_source.html#l00081">StateOne::j</a>, <a class="el" href="State_8h_source.html#l00080">StateOne::l</a>, and <a class="el" href="State_8h_source.html#l00080">StateOne::n</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0bef697857d35a467859a4dcb88550c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatrixElements::precalculateDiamagnetism </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>basis_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00093">93</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab600ec3c325b80275d86db16071fa64c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatrixElements::precalculateElectricMomentum </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>basis_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00085">85</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5df39bb7f9a7efebcb7d501c76e9fb2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatrixElements::precalculateMagneticMomentum </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>basis_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00089">89</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a266e5119717ebc9475fc88ebc3ea0218"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatrixElements::precalculateMultipole </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>basis_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00075">75</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a804aaf8a42bc24359f9748616ed7994c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MatrixElements::precalculateRadial </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="classBasisnamesOne.html">BasisnamesOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>basis_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="MatrixElements_8cpp_source.html#l00080">80</a> of file <a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="MatrixElements_8h_source.html">MatrixElements.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="MatrixElements_8cpp_source.html">MatrixElements.cpp</a></li>
 </ul>
@@ -168,7 +554,7 @@ real_t&#160;</td><td class="memItemRight" valign="bottom"><b>getRadial</b> (<a c
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classMatrixElements.html">MatrixElements</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

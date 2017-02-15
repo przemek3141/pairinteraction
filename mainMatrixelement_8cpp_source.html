@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="title">mainMatrixelement.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="mainMatrixelement_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2016 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -127,10 +129,10 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * limitations under the License.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;MatrixElements.h&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;QuantumDefect.h&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;State.h&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;Basisnames.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MatrixElements_8h.html">MatrixElements.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="QuantumDefect_8h.html">QuantumDefect.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="State_8h.html">State.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Basisnames_8h.html">Basisnames.h</a>&quot;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
@@ -142,7 +144,7 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// ### MAIN LOOP ##############################################################</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// ############################################################################</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv) {</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="mainMatrixelement_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">   32</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="mainMatrixelement_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> **argv) {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::cout &lt;&lt; std::unitbuf;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">size_t</span> precision = std::numeric_limits&lt;real_t&gt;::digits10 + 1;</div>
@@ -181,17 +183,17 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="classStateOne.html">StateOne</a> state_row;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    std::stringstream(vm[<span class="stringliteral">&quot;row&quot;</span>].as&lt;std::string&gt;())</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        &gt;&gt; state_row.n</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        &gt;&gt; state_row.<a class="code" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        &gt;&gt; state_row.l</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        &gt;&gt; state_row.j</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        &gt;&gt; state_row.m;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="classStateOne.html">StateOne</a> state_col;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    std::stringstream(vm[<span class="stringliteral">&quot;col&quot;</span>].as&lt;std::string&gt;())</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        &gt;&gt; state_col.n</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        &gt;&gt; state_col.l</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        &gt;&gt; state_col.j</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        &gt;&gt; state_col.m;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        &gt;&gt; state_col.<a class="code" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        &gt;&gt; state_col.<a class="code" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        &gt;&gt; state_col.<a class="code" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        &gt;&gt; state_col.<a class="code" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">int</span> power = vm[<span class="stringliteral">&quot;power&quot;</span>].as&lt;<span class="keywordtype">int</span>&gt;();</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
@@ -201,11 +203,11 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    std::cout &lt;&lt; power &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    std::vector&lt;StateOne&gt; states({{state_row, state_col}});</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">auto</span> basis = std::make_shared&lt;BasisnamesOne&gt;(BasisnamesOne::fromStates(states));</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">auto</span> basis = std::make_shared&lt;BasisnamesOne&gt;(<a class="code" href="classBasisnamesOne.html#a9222a148bf46279094dcf493a8246be5">BasisnamesOne::fromStates</a>(states));</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="classMatrixElements.html">MatrixElements</a> matrixelement(element, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    matrixelement.precalculateRadial(basis, power);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    real_t val = matrixelement.getRadial(state_row, state_col, power);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrixelement.getRadial(state_row, state_col, power);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;RES&quot;</span> &lt;&lt; std::setprecision(precision) &lt;&lt; val &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> 0;</div>
@@ -252,14 +254,25 @@ $(document).ready(function(){initNavTree('mainMatrixelement_8cpp_source.html',''
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">    return 0;*/</span></div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
 <div class="ttc" id="classMatrixElements_html"><div class="ttname"><a href="classMatrixElements.html">MatrixElements</a></div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8h_source.html#l00035">MatrixElements.h:35</a></div></div>
+<div class="ttc" id="mainMatrixelement_8cpp_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="mainMatrixelement_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="mainMatrixelement_8cpp_source.html#l00032">mainMatrixelement.cpp:32</a></div></div>
+<div class="ttc" id="classStateOne_html_a9d953e8457dd35af0aec8637444622a1"><div class="ttname"><a href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">StateOne::j</a></div><div class="ttdeci">float j</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00081">State.h:81</a></div></div>
+<div class="ttc" id="classStateOne_html_a632b2036a5041f0ea0b8f29dd17d9e03"><div class="ttname"><a href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">StateOne::l</a></div><div class="ttdeci">int l</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00080">State.h:80</a></div></div>
+<div class="ttc" id="QuantumDefect_8h_html"><div class="ttname"><a href="QuantumDefect_8h.html">QuantumDefect.h</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a0d00e2b3dfadee81331bbb39068570c4"><div class="ttname"><a href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a></div><div class="ttdeci">double real_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00027">dtypes.h:27</a></div></div>
+<div class="ttc" id="MatrixElements_8h_html"><div class="ttname"><a href="MatrixElements_8h.html">MatrixElements.h</a></div></div>
+<div class="ttc" id="classBasisnamesOne_html_a9222a148bf46279094dcf493a8246be5"><div class="ttname"><a href="classBasisnamesOne.html#a9222a148bf46279094dcf493a8246be5">BasisnamesOne::fromStates</a></div><div class="ttdeci">static BasisnamesOne fromStates(std::vector&lt; StateOne &gt; names)</div><div class="ttdef"><b>Definition:</b> <a href="Basisnames_8cpp_source.html#l00021">Basisnames.cpp:21</a></div></div>
+<div class="ttc" id="classStateOne_html_acf57fe4900bc23746b2c77b17d27485a"><div class="ttname"><a href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">StateOne::n</a></div><div class="ttdeci">int n</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00080">State.h:80</a></div></div>
+<div class="ttc" id="Basisnames_8h_html"><div class="ttname"><a href="Basisnames_8h.html">Basisnames.h</a></div></div>
+<div class="ttc" id="State_8h_html"><div class="ttname"><a href="State_8h.html">State.h</a></div></div>
 <div class="ttc" id="classStateOne_html"><div class="ttname"><a href="classStateOne.html">StateOne</a></div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00036">State.h:36</a></div></div>
+<div class="ttc" id="classStateOne_html_a0c9eba082d828c27dbedbaf744f7dac0"><div class="ttname"><a href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">StateOne::m</a></div><div class="ttdeci">float m</div><div class="ttdef"><b>Definition:</b> <a href="State_8h_source.html#l00081">State.h:81</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><b>mainMatrixelement.cpp</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="mainMatrixelement_8cpp.html">mainMatrixelement.cpp</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

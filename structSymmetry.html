@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('structSymmetry.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,32 +118,131 @@ $(document).ready(function(){initNavTree('structSymmetry.html','');});
 <div class="title">Symmetry Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="dtypes_8h_source.html">dtypes.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a912a4b798d9c8e0a2b10cbeff3d1859d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a912a4b798d9c8e0a2b10cbeff3d1859d"></a>
-parity_t&#160;</td><td class="memItemRight" valign="bottom"><b>inversion</b></td></tr>
+<tr class="memitem:a912a4b798d9c8e0a2b10cbeff3d1859d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSymmetry.html#a912a4b798d9c8e0a2b10cbeff3d1859d">inversion</a></td></tr>
 <tr class="separator:a912a4b798d9c8e0a2b10cbeff3d1859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a539f82bb5c22b4c99a49c379cc805fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a539f82bb5c22b4c99a49c379cc805fb2"></a>
-parity_t&#160;</td><td class="memItemRight" valign="bottom"><b>reflection</b></td></tr>
+<tr class="memitem:a539f82bb5c22b4c99a49c379cc805fb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2">reflection</a></td></tr>
 <tr class="separator:a539f82bb5c22b4c99a49c379cc805fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad968a2af211d87122bd132b6bb5051ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad968a2af211d87122bd132b6bb5051ba"></a>
-parity_t&#160;</td><td class="memItemRight" valign="bottom"><b>permutation</b></td></tr>
+<tr class="memitem:ad968a2af211d87122bd132b6bb5051ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSymmetry.html#ad968a2af211d87122bd132b6bb5051ba">permutation</a></td></tr>
 <tr class="separator:ad968a2af211d87122bd132b6bb5051ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b0bb693f79162c9909c50b30626404"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91b0bb693f79162c9909c50b30626404"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>rotation</b></td></tr>
+<tr class="memitem:a91b0bb693f79162c9909c50b30626404"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSymmetry.html#a91b0bb693f79162c9909c50b30626404">rotation</a></td></tr>
 <tr class="separator:a91b0bb693f79162c9909c50b30626404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ae1df963d37a7d73626a72396d98a77eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1df963d37a7d73626a72396d98a77eb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;</b> (const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;s1, const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;s2)</td></tr>
+<tr class="memitem:ae1df963d37a7d73626a72396d98a77eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structSymmetry.html#ae1df963d37a7d73626a72396d98a77eb">operator&lt;</a> (const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;s1, const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;s2)</td></tr>
 <tr class="separator:ae1df963d37a7d73626a72396d98a77eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="dtypes_8h_source.html#l00070">70</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="ae1df963d37a7d73626a72396d98a77eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structSymmetry.html">Symmetry</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00077">77</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a912a4b798d9c8e0a2b10cbeff3d1859d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> Symmetry::inversion</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00071">71</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00465">combine()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad968a2af211d87122bd132b6bb5051ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> Symmetry::permutation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00073">73</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00465">combine()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a539f82bb5c22b4c99a49c379cc805fb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290">parity_t</a> Symmetry::reflection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00072">72</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00465">combine()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91b0bb693f79162c9909c50b30626404"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Symmetry::rotation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="dtypes_8h_source.html#l00074">74</a> of file <a class="el" href="dtypes_8h_source.html">dtypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00465">combine()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="dtypes_8h_source.html">dtypes.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -150,7 +251,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;</b> (con
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structSymmetry.html">Symmetry</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

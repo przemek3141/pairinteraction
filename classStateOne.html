@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classStateOne.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,6 +119,8 @@ $(document).ready(function(){initNavTree('classStateOne.html','');});
 <div class="title">StateOne Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="State_8h_source.html">State.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for StateOne:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -131,67 +135,557 @@ $(document).ready(function(){initNavTree('classStateOne.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a68a9b113b90f3f2c5ee2af8d35dba679"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a68a9b113b90f3f2c5ee2af8d35dba679"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>StateOne</b> (idx_t idx, int n, int l, float s, float j, float m)</td></tr>
+<tr class="memitem:a0f346f6da69e65c51b5dd70d6a353cf6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a0f346f6da69e65c51b5dd70d6a353cf6">StateOne</a> ()</td></tr>
+<tr class="separator:a0f346f6da69e65c51b5dd70d6a353cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68a9b113b90f3f2c5ee2af8d35dba679"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a68a9b113b90f3f2c5ee2af8d35dba679">StateOne</a> (<a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> <a class="el" href="classState.html#a1f03783ecfad8fd519c181da40f1f283">idx</a>, int <a class="el" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a>, int <a class="el" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a>, float <a class="el" href="classStateOne.html#aa77cece5e8a2f8bff76b56c88b5d555f">s</a>, float <a class="el" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a>, float <a class="el" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a>)</td></tr>
 <tr class="separator:a68a9b113b90f3f2c5ee2af8d35dba679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad34211791044d8f2c77da225463fbef1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad34211791044d8f2c77da225463fbef1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>StateOne</b> (idx_t idx, int n, int l, float j, float m)</td></tr>
+<tr class="memitem:ad34211791044d8f2c77da225463fbef1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#ad34211791044d8f2c77da225463fbef1">StateOne</a> (<a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> <a class="el" href="classState.html#a1f03783ecfad8fd519c181da40f1f283">idx</a>, int <a class="el" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a>, int <a class="el" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a>, float <a class="el" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a>, float <a class="el" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a>)</td></tr>
 <tr class="separator:ad34211791044d8f2c77da225463fbef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea858566e5e71e63484b55e60afe6b1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea858566e5e71e63484b55e60afe6b1e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>StateOne</b> (int n, int l, float j, float m)</td></tr>
+<tr class="memitem:aea858566e5e71e63484b55e60afe6b1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#aea858566e5e71e63484b55e60afe6b1e">StateOne</a> (int <a class="el" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a>, int <a class="el" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a>, float <a class="el" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a>, float <a class="el" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a>)</td></tr>
 <tr class="separator:aea858566e5e71e63484b55e60afe6b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae40cfc9b4e7495c7b29ae26d7f01a946"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae40cfc9b4e7495c7b29ae26d7f01a946"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>StateOne</b> (int n, int l, float s, float j, float m)</td></tr>
+<tr class="memitem:ae40cfc9b4e7495c7b29ae26d7f01a946"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#ae40cfc9b4e7495c7b29ae26d7f01a946">StateOne</a> (int <a class="el" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a>, int <a class="el" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a>, float <a class="el" href="classStateOne.html#aa77cece5e8a2f8bff76b56c88b5d555f">s</a>, float <a class="el" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a>, float <a class="el" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a>)</td></tr>
 <tr class="separator:ae40cfc9b4e7495c7b29ae26d7f01a946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classState"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classState')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classState.html">State</a></td></tr>
-<tr class="memitem:ab39ed7952f20e9b8908813352a157e41 inherit pub_methods_classState"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab39ed7952f20e9b8908813352a157e41"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>State</b> (idx_t idx)</td></tr>
+<tr class="memitem:ab39ed7952f20e9b8908813352a157e41 inherit pub_methods_classState"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#ab39ed7952f20e9b8908813352a157e41">State</a> (<a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> <a class="el" href="classState.html#a1f03783ecfad8fd519c181da40f1f283">idx</a>)</td></tr>
 <tr class="separator:ab39ed7952f20e9b8908813352a157e41 inherit pub_methods_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:acf57fe4900bc23746b2c77b17d27485a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf57fe4900bc23746b2c77b17d27485a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>n</b></td></tr>
+<tr class="memitem:acf57fe4900bc23746b2c77b17d27485a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#acf57fe4900bc23746b2c77b17d27485a">n</a></td></tr>
 <tr class="separator:acf57fe4900bc23746b2c77b17d27485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632b2036a5041f0ea0b8f29dd17d9e03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a632b2036a5041f0ea0b8f29dd17d9e03"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>l</b></td></tr>
+<tr class="memitem:a632b2036a5041f0ea0b8f29dd17d9e03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03">l</a></td></tr>
 <tr class="separator:a632b2036a5041f0ea0b8f29dd17d9e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77cece5e8a2f8bff76b56c88b5d555f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa77cece5e8a2f8bff76b56c88b5d555f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>s</b></td></tr>
+<tr class="memitem:aa77cece5e8a2f8bff76b56c88b5d555f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#aa77cece5e8a2f8bff76b56c88b5d555f">s</a></td></tr>
 <tr class="separator:aa77cece5e8a2f8bff76b56c88b5d555f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d953e8457dd35af0aec8637444622a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d953e8457dd35af0aec8637444622a1"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
+<tr class="memitem:a9d953e8457dd35af0aec8637444622a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a9d953e8457dd35af0aec8637444622a1">j</a></td></tr>
 <tr class="separator:a9d953e8457dd35af0aec8637444622a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9eba082d828c27dbedbaf744f7dac0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c9eba082d828c27dbedbaf744f7dac0"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>m</b></td></tr>
+<tr class="memitem:a0c9eba082d828c27dbedbaf744f7dac0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a0c9eba082d828c27dbedbaf744f7dac0">m</a></td></tr>
 <tr class="separator:a0c9eba082d828c27dbedbaf744f7dac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classState"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classState')"><img src="closed.png" alt="-"/>&#160;Data Fields inherited from <a class="el" href="classState.html">State</a></td></tr>
-<tr class="memitem:a1f03783ecfad8fd519c181da40f1f283 inherit pub_attribs_classState"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f03783ecfad8fd519c181da40f1f283"></a>
-idx_t&#160;</td><td class="memItemRight" valign="bottom"><b>idx</b></td></tr>
+<tr class="memitem:a1f03783ecfad8fd519c181da40f1f283 inherit pub_attribs_classState"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classState.html#a1f03783ecfad8fd519c181da40f1f283">idx</a></td></tr>
 <tr class="separator:a1f03783ecfad8fd519c181da40f1f283 inherit pub_attribs_classState"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ae62083584a93c249d0c3b4a6f046fee1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae62083584a93c249d0c3b4a6f046fee1"></a>
-std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (std::ostream &amp;out, const <a class="el" href="classStateOne.html">StateOne</a> &amp;state)</td></tr>
+<tr class="memitem:ae62083584a93c249d0c3b4a6f046fee1"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#ae62083584a93c249d0c3b4a6f046fee1">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="classStateOne.html">StateOne</a> &amp;state)</td></tr>
 <tr class="separator:ae62083584a93c249d0c3b4a6f046fee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa41daf64be58c512ed7e6a2933467d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa41daf64be58c512ed7e6a2933467d4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
+<tr class="memitem:afa41daf64be58c512ed7e6a2933467d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#afa41daf64be58c512ed7e6a2933467d4">operator==</a> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
 <tr class="separator:afa41daf64be58c512ed7e6a2933467d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bc0f0b3bd1f667891607607be4cc7af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8bc0f0b3bd1f667891607607be4cc7af"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
+<tr class="memitem:a8bc0f0b3bd1f667891607607be4cc7af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a8bc0f0b3bd1f667891607607be4cc7af">operator!=</a> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
 <tr class="separator:a8bc0f0b3bd1f667891607607be4cc7af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a387a4de1f0fe6fb05c9f42ae618caf0e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a387a4de1f0fe6fb05c9f42ae618caf0e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;</b> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
+<tr class="memitem:a387a4de1f0fe6fb05c9f42ae618caf0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a387a4de1f0fe6fb05c9f42ae618caf0e">operator&lt;</a> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
 <tr class="separator:a387a4de1f0fe6fb05c9f42ae618caf0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50850177b2efe6dda23d6fcc4a31966e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50850177b2efe6dda23d6fcc4a31966e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&gt;</b> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
+<tr class="memitem:a50850177b2efe6dda23d6fcc4a31966e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStateOne.html#a50850177b2efe6dda23d6fcc4a31966e">operator&gt;</a> (const <a class="el" href="classStateOne.html">StateOne</a> &amp;s1, const <a class="el" href="classStateOne.html">StateOne</a> &amp;s2)</td></tr>
 <tr class="separator:a50850177b2efe6dda23d6fcc4a31966e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="State_8h_source.html#l00036">36</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a0f346f6da69e65c51b5dd70d6a353cf6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StateOne::StateOne </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00038">38</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68a9b113b90f3f2c5ee2af8d35dba679"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StateOne::StateOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00039">39</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad34211791044d8f2c77da225463fbef1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StateOne::StateOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a>&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00042">42</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea858566e5e71e63484b55e60afe6b1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StateOne::StateOne </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00045">45</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae40cfc9b4e7495c7b29ae26d7f01a946"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StateOne::StateOne </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00049">49</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a8bc0f0b3bd1f667891607607be4cc7af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00065">65</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a387a4de1f0fe6fb05c9f42ae618caf0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00070">70</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae62083584a93c249d0c3b4a6f046fee1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00050">50</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afa41daf64be58c512ed7e6a2933467d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00060">60</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50850177b2efe6dda23d6fcc4a31966e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classStateOne.html">StateOne</a> &amp;&#160;</td>
+          <td class="paramname"><em>s2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00075">75</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a9d953e8457dd35af0aec8637444622a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float StateOne::j</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00081">81</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Basisnames_8cpp_source.html#l00027">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00054">BasisnamesOne::fromSecond()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00111">MatrixElements::getDiamagnetism()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00101">MatrixElements::getMagneticMomentum()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00119">MatrixElements::getMultipole()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00127">MatrixElements::getRadial()</a>, <a class="el" href="mainMatrixelement_8cpp_source.html#l00032">main()</a>, <a class="el" href="State_8h_source.html#l00137">std::hash&lt; StateOne &gt;::operator()()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00025">selectionRulesMomentum()</a>, and <a class="el" href="MatrixElements_8cpp_source.html#l00040">selectionRulesMultipole()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a632b2036a5041f0ea0b8f29dd17d9e03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int StateOne::l</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00080">80</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Basisnames_8cpp_source.html#l00027">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00054">BasisnamesOne::fromSecond()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00111">MatrixElements::getDiamagnetism()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00101">MatrixElements::getMagneticMomentum()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00119">MatrixElements::getMultipole()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00127">MatrixElements::getRadial()</a>, <a class="el" href="mainMatrixelement_8cpp_source.html#l00032">main()</a>, <a class="el" href="State_8h_source.html#l00137">std::hash&lt; StateOne &gt;::operator()()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00025">selectionRulesMomentum()</a>, and <a class="el" href="MatrixElements_8cpp_source.html#l00040">selectionRulesMultipole()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c9eba082d828c27dbedbaf744f7dac0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float StateOne::m</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00081">81</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Basisnames_8cpp_source.html#l00027">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00054">BasisnamesOne::fromSecond()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00111">MatrixElements::getDiamagnetism()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00101">MatrixElements::getMagneticMomentum()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00119">MatrixElements::getMultipole()</a>, <a class="el" href="mainMatrixelement_8cpp_source.html#l00032">main()</a>, <a class="el" href="State_8h_source.html#l00137">std::hash&lt; StateOne &gt;::operator()()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00025">selectionRulesMomentum()</a>, and <a class="el" href="MatrixElements_8cpp_source.html#l00040">selectionRulesMultipole()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf57fe4900bc23746b2c77b17d27485a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int StateOne::n</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00080">80</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Basisnames_8cpp_source.html#l00027">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00054">BasisnamesOne::fromSecond()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00111">MatrixElements::getDiamagnetism()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00101">MatrixElements::getMagneticMomentum()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00119">MatrixElements::getMultipole()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00127">MatrixElements::getRadial()</a>, <a class="el" href="mainMatrixelement_8cpp_source.html#l00032">main()</a>, <a class="el" href="State_8h_source.html#l00137">std::hash&lt; StateOne &gt;::operator()()</a>, and <a class="el" href="State_8h_source.html#l00089">StateTwo::StateTwo()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa77cece5e8a2f8bff76b56c88b5d555f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float StateOne::s</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="State_8h_source.html#l00081">81</a> of file <a class="el" href="State_8h_source.html">State.h</a>.</p>
+
+<p>Referenced by <a class="el" href="MatrixElements_8cpp_source.html#l00101">MatrixElements::getMagneticMomentum()</a>, and <a class="el" href="State_8h_source.html#l00137">std::hash&lt; StateOne &gt;::operator()()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="State_8h_source.html">State.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -200,7 +694,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&gt;</b> (con
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classStateOne.html">StateOne</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

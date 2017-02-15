@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8h_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8h_source.html','');});
 <div class="title">HamiltonianOne.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="HamiltonianOne_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2016 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -130,12 +132,12 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8h_source.html','');});
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef HAMILTONIAN_ONE_H</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define HAMILTONIAN_ONE_H</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;dtypes.h&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;ConfParser.h&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;MatrixElements.h&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;SQLite.h&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;Basisnames.h&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;Hamiltonian.h&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="dtypes_8h.html">dtypes.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ConfParser_8h.html">ConfParser.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MatrixElements_8h.html">MatrixElements.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SQLite_8h.html">SQLite.h</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Basisnames_8h.html">Basisnames.h</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Hamiltonian_8h.html">Hamiltonian.h</a>&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -147,19 +149,19 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8h_source.html','');});
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="classHamiltonianOne.html">HamiltonianOne</a> : <span class="keyword">public</span> <a class="code" href="classHamiltonian.html">Hamiltonian</a>&lt;BasisnamesOne&gt;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classHamiltonianOne.html">HamiltonianOne</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;BasisnamesOne&gt; basis_one);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a>&amp; getConf() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36">HamiltonianOne</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;BasisnamesOne&gt; basis_one);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a>&amp; <a class="code" href="classHamiltonianOne.html#a037381854386261cbffc34771959497a">getConf</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> changeToSpherical(real_t val_x, real_t val_y, real_t val_z, real_t&amp; val_p, real_t&amp; val_m, real_t&amp; val_0);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> changeToSpherical(real_t val_x, real_t val_y, real_t val_z, std::complex&lt;real_t&gt;&amp; val_p, std::complex&lt;real_t&gt;&amp; val_m, std::complex&lt;real_t&gt;&amp; val_0);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> configure(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> build();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(<a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_x, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_y, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_z, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_p, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_m, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_0);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(<a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_x, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_y, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_z, std::complex&lt;real_t&gt;&amp; val_p, std::complex&lt;real_t&gt;&amp; val_m, std::complex&lt;real_t&gt;&amp; val_0);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">configure</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">build</a>();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classConfiguration.html">Configuration</a> basicconf;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    real_t deltaE;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    real_t min_E_x,min_E_y,min_E_z,max_E_x,max_E_y,max_E_z,min_B_x,min_B_y,min_B_z,max_B_x,max_B_y,max_B_z;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> deltaE;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> min_E_x,min_E_y,min_E_z,max_E_x,max_E_y,max_E_z,min_B_x,min_B_y,min_B_z,max_B_x,max_B_y,max_B_z;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">size_t</span> nSteps;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">bool</span> diamagnetism;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    std::string species;</div>
@@ -169,14 +171,26 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8h_source.html','');});
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif // HAMILTONIAN_ONE_H</span></div>
 <div class="ttc" id="classHamiltonianOne_html"><div class="ttname"><a href="classHamiltonianOne.html">HamiltonianOne</a></div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8h_source.html#l00035">HamiltonianOne.h:35</a></div></div>
 <div class="ttc" id="classHamiltonian_html"><div class="ttname"><a href="classHamiltonian.html">Hamiltonian</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00025">Hamiltonian.h:25</a></div></div>
+<div class="ttc" id="dtypes_8h_html"><div class="ttname"><a href="dtypes_8h.html">dtypes.h</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a0d00e2b3dfadee81331bbb39068570c4"><div class="ttname"><a href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a></div><div class="ttdeci">double real_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00027">dtypes.h:27</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a037381854386261cbffc34771959497a"><div class="ttname"><a href="classHamiltonianOne.html#a037381854386261cbffc34771959497a">HamiltonianOne::getConf</a></div><div class="ttdeci">const Configuration &amp; getConf() const </div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00025">HamiltonianOne.cpp:25</a></div></div>
+<div class="ttc" id="MatrixElements_8h_html"><div class="ttname"><a href="MatrixElements_8h.html">MatrixElements.h</a></div></div>
+<div class="ttc" id="ConfParser_8h_html"><div class="ttname"><a href="ConfParser_8h.html">ConfParser.h</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_ad3ba2d70879a60c9f065b5a2545dfe36"><div class="ttname"><a href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36">HamiltonianOne::HamiltonianOne</a></div><div class="ttdeci">HamiltonianOne(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; BasisnamesOne &gt; basis_one)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00019">HamiltonianOne.cpp:19</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a9cb71dcb34ab9f0779c0bd66b758185e"><div class="ttname"><a href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">HamiltonianOne::build</a></div><div class="ttdeci">void build()</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne.cpp:80</a></div></div>
+<div class="ttc" id="Hamiltonian_8h_html"><div class="ttname"><a href="Hamiltonian_8h.html">Hamiltonian.h</a></div></div>
 <div class="ttc" id="classConfiguration_html"><div class="ttname"><a href="classConfiguration.html">Configuration</a></div><div class="ttdef"><b>Definition:</b> <a href="ConfParser_8h_source.html#l00025">ConfParser.h:25</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a73b7a95dfe99587470c9dbb95dd64402"><div class="ttname"><a href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">HamiltonianOne::changeToSpherical</a></div><div class="ttdeci">void changeToSpherical(real_t val_x, real_t val_y, real_t val_z, real_t &amp;val_p, real_t &amp;val_m, real_t &amp;val_0)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00029">HamiltonianOne.cpp:29</a></div></div>
+<div class="ttc" id="Basisnames_8h_html"><div class="ttname"><a href="Basisnames_8h.html">Basisnames.h</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a1a90a6e472f532c6dd2f68247e27d16e"><div class="ttname"><a href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">HamiltonianOne::configure</a></div><div class="ttdeci">void configure(const Configuration &amp;config)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00045">HamiltonianOne.cpp:45</a></div></div>
+<div class="ttc" id="SQLite_8h_html"><div class="ttname"><a href="SQLite_8h.html">SQLite.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><b>HamiltonianOne.h</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="HamiltonianOne_8h.html">HamiltonianOne.h</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

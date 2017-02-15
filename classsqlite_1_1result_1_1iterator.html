@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classsqlite_1_1result_1_1iterator.html
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -115,26 +117,146 @@ $(document).ready(function(){initNavTree('classsqlite_1_1result_1_1iterator.html
 <div class="title">sqlite::result::iterator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="SQLite_8h_source.html">SQLite.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a70c4b78b13f4a8e61f04872176b2e815"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70c4b78b13f4a8e61f04872176b2e815"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> (const <a class="el" href="classsqlite_1_1result.html">result</a> *res, int pos, int nColumn)</td></tr>
+<tr class="memitem:a70c4b78b13f4a8e61f04872176b2e815"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1iterator.html#a70c4b78b13f4a8e61f04872176b2e815">iterator</a> (const <a class="el" href="classsqlite_1_1result.html">result</a> *res, int pos, int nColumn)</td></tr>
 <tr class="separator:a70c4b78b13f4a8e61f04872176b2e815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec5675b1e31655bec3a1443cae290ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afec5675b1e31655bec3a1443cae290ea"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
+<tr class="memitem:afec5675b1e31655bec3a1443cae290ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1iterator.html#afec5675b1e31655bec3a1443cae290ea">operator!=</a> (const <a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a> &amp;other) const </td></tr>
 <tr class="separator:afec5675b1e31655bec3a1443cae290ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6358138d91def386374162628490b30d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6358138d91def386374162628490b30d"></a>
-<a class="el" href="classsqlite_1_1result_1_1row.html">row</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> () const </td></tr>
+<tr class="memitem:a6358138d91def386374162628490b30d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1iterator.html#a6358138d91def386374162628490b30d">operator*</a> () const </td></tr>
 <tr class="separator:a6358138d91def386374162628490b30d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa345c17789198a91a6ac9945de8353fc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa345c17789198a91a6ac9945de8353fc"></a>
-<a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator++</b> ()</td></tr>
+<tr class="memitem:aa345c17789198a91a6ac9945de8353fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1iterator.html#aa345c17789198a91a6ac9945de8353fc">operator++</a> ()</td></tr>
 <tr class="separator:aa345c17789198a91a6ac9945de8353fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="SQLite_8h_source.html#l00079">79</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a70c4b78b13f4a8e61f04872176b2e815"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sqlite::result::iterator::iterator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classsqlite_1_1result.html">result</a> *&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nColumn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00081">81</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="afec5675b1e31655bec3a1443cae290ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool sqlite::result::iterator::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00085">85</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6358138d91def386374162628490b30d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsqlite_1_1result_1_1row.html">row</a> sqlite::result::iterator::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00090">90</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+
+<p>References <a class="el" href="SQLite_8h_source.html#l00155">sqlite::result::getRow()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa345c17789198a91a6ac9945de8353fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a>&amp; sqlite::result::iterator::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00095">95</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="SQLite_8h_source.html">SQLite.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -142,8 +264,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>sqlite</b></li><li class="navelem"><a class="el" href="classsqlite_1_1result.html">result</a></li><li class="navelem"><a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="namespacesqlite.html">sqlite</a></li><li class="navelem"><a class="el" href="classsqlite_1_1result.html">result</a></li><li class="navelem"><a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

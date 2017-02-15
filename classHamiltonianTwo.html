@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classHamiltonianTwo.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -115,6 +117,8 @@ $(document).ready(function(){initNavTree('classHamiltonianTwo.html','');});
 <div class="title">HamiltonianTwo Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="HamiltonianTwo_8h_source.html">HamiltonianTwo.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for HamiltonianTwo:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -129,61 +133,152 @@ $(document).ready(function(){initNavTree('classHamiltonianTwo.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8d51d632bd7862cf1e566f6faf9ccc8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8d51d632bd7862cf1e566f6faf9ccc8c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HamiltonianTwo</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one)</td></tr>
+<tr class="memitem:a8d51d632bd7862cf1e566f6faf9ccc8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c">HamiltonianTwo</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one)</td></tr>
 <tr class="separator:a8d51d632bd7862cf1e566f6faf9ccc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3a2599cb21e5b766e7c9ce0f2fe431"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f3a2599cb21e5b766e7c9ce0f2fe431"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>HamiltonianTwo</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one1, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one2)</td></tr>
+<tr class="memitem:a7f3a2599cb21e5b766e7c9ce0f2fe431"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonianTwo.html#a7f3a2599cb21e5b766e7c9ce0f2fe431">HamiltonianTwo</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one1, std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt; hamiltonian_one2)</td></tr>
 <tr class="separator:a7f3a2599cb21e5b766e7c9ce0f2fe431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ca0a318f25170b69e571a07064a5afb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ca0a318f25170b69e571a07064a5afb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>calculate</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;conf_tot)</td></tr>
+<tr class="memitem:a6ca0a318f25170b69e571a07064a5afb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb">calculate</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;conf_tot)</td></tr>
 <tr class="separator:a6ca0a318f25170b69e571a07064a5afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classHamiltonian"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classHamiltonian')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classHamiltonian.html">Hamiltonian&lt; BasisnamesTwo &gt;</a></td></tr>
-<tr class="memitem:ae06d5d6278a88f91726baca40685b945 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae06d5d6278a88f91726baca40685b945"></a>
-std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (size_t idx)</td></tr>
+<tr class="memitem:a83ca78010fe499270b3ce6e06f68ed02 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02">Hamiltonian</a> ()</td></tr>
+<tr class="separator:a83ca78010fe499270b3ce6e06f68ed02 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06d5d6278a88f91726baca40685b945 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#ae06d5d6278a88f91726baca40685b945">get</a> (size_t idx)</td></tr>
 <tr class="separator:ae06d5d6278a88f91726baca40685b945 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27c3dbd2c031304a0bf3e60fde9192e2 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27c3dbd2c031304a0bf3e60fde9192e2"></a>
-std::shared_ptr&lt; const <br class="typebreak"/>
-<a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (size_t idx) const</td></tr>
+<tr class="memitem:a27c3dbd2c031304a0bf3e60fde9192e2 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <br class="typebreak"/>
+<a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a27c3dbd2c031304a0bf3e60fde9192e2">get</a> (size_t idx) const</td></tr>
 <tr class="separator:a27c3dbd2c031304a0bf3e60fde9192e2 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04e9f029464d572e01e19bbad712521 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac04e9f029464d572e01e19bbad712521"></a>
-std::shared_ptr&lt; const <br class="typebreak"/>
-<a class="el" href="classConfiguration.html">Configuration</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getParams</b> (size_t idx) const</td></tr>
+<tr class="memitem:ac04e9f029464d572e01e19bbad712521 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <br class="typebreak"/>
+<a class="el" href="classConfiguration.html">Configuration</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#ac04e9f029464d572e01e19bbad712521">getParams</a> (size_t idx) const</td></tr>
 <tr class="separator:ac04e9f029464d572e01e19bbad712521 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe649fef92f54c234e1dccfe6efd054 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7fe649fef92f54c234e1dccfe6efd054"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="memitem:a7fe649fef92f54c234e1dccfe6efd054 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a7fe649fef92f54c234e1dccfe6efd054">size</a> () const</td></tr>
 <tr class="separator:a7fe649fef92f54c234e1dccfe6efd054 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87b2635fbec405c55f5afbbda134509 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af87b2635fbec405c55f5afbbda134509"></a>
-std::shared_ptr&lt; const <br class="typebreak"/>
-<a class="el" href="classBasisnamesTwo.html">BasisnamesTwo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>names</b> () const</td></tr>
+<tr class="memitem:af87b2635fbec405c55f5afbbda134509 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <br class="typebreak"/>
+<a class="el" href="classBasisnamesTwo.html">BasisnamesTwo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#af87b2635fbec405c55f5afbbda134509">names</a> () const</td></tr>
 <tr class="separator:af87b2635fbec405c55f5afbbda134509 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c3cddde595e0f735ae75a2a1bb5dc0 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89c3cddde595e0f735ae75a2a1bb5dc0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>removeUnnecessaryStates</b> (std::vector&lt; bool &gt; &amp;necessary)</td></tr>
+<tr class="memitem:a89c3cddde595e0f735ae75a2a1bb5dc0 inherit pub_methods_classHamiltonian"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0">removeUnnecessaryStates</a> (std::vector&lt; bool &gt; &amp;necessary)</td></tr>
 <tr class="separator:a89c3cddde595e0f735ae75a2a1bb5dc0 inherit pub_methods_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classHamiltonian"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classHamiltonian')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classHamiltonian.html">Hamiltonian&lt; BasisnamesTwo &gt;</a></td></tr>
-<tr class="memitem:a90386ed827db9b79a8df1d2a9d3dd3b5 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90386ed827db9b79a8df1d2a9d3dd3b5"></a>
-std::vector&lt; std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>matrix_diag</b></td></tr>
+<tr class="memitem:a90386ed827db9b79a8df1d2a9d3dd3b5 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a></td></tr>
 <tr class="separator:a90386ed827db9b79a8df1d2a9d3dd3b5 inherit pro_attribs_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abafd89e4b6fa89d0e05eaf7175b767b3 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abafd89e4b6fa89d0e05eaf7175b767b3"></a>
-std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>matrix_path</b></td></tr>
+<tr class="memitem:abafd89e4b6fa89d0e05eaf7175b767b3 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a></td></tr>
 <tr class="separator:abafd89e4b6fa89d0e05eaf7175b767b3 inherit pro_attribs_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bfd94d6fb13a6dadb14685532e66303 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bfd94d6fb13a6dadb14685532e66303"></a>
-std::vector&lt; std::shared_ptr<br class="typebreak"/>
-&lt; <a class="el" href="classConfiguration.html">Configuration</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>params</b></td></tr>
+<tr class="memitem:a1bfd94d6fb13a6dadb14685532e66303 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classConfiguration.html">Configuration</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">params</a></td></tr>
 <tr class="separator:a1bfd94d6fb13a6dadb14685532e66303 inherit pro_attribs_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbbb38ce9d7c245825db767a54c64113 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbbb38ce9d7c245825db767a54c64113"></a>
-std::shared_ptr&lt; <a class="el" href="classBasisnamesTwo.html">BasisnamesTwo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>basis</b></td></tr>
+<tr class="memitem:adbbb38ce9d7c245825db767a54c64113 inherit pro_attribs_classHamiltonian"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classBasisnamesTwo.html">BasisnamesTwo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a></td></tr>
 <tr class="separator:adbbb38ce9d7c245825db767a54c64113 inherit pro_attribs_classHamiltonian"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="HamiltonianTwo_8h_source.html#l00037">37</a> of file <a class="el" href="HamiltonianTwo_8h_source.html">HamiltonianTwo.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a8d51d632bd7862cf1e566f6faf9ccc8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HamiltonianTwo::HamiltonianTwo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path_cache</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>hamiltonian_one</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HamiltonianTwo_8cpp_source.html#l00019">19</a> of file <a class="el" href="HamiltonianTwo_8cpp_source.html">HamiltonianTwo.cpp</a>.</p>
+
+<p>References <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">calculate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f3a2599cb21e5b766e7c9ce0f2fe431"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HamiltonianTwo::HamiltonianTwo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boost::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path_cache</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>hamiltonian_one1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classHamiltonianOne.html">HamiltonianOne</a> &gt;&#160;</td>
+          <td class="paramname"><em>hamiltonian_one2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HamiltonianTwo_8cpp_source.html#l00027">27</a> of file <a class="el" href="HamiltonianTwo_8cpp_source.html">HamiltonianTwo.cpp</a>.</p>
+
+<p>References <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">calculate()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6ca0a318f25170b69e571a07064a5afb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HamiltonianTwo::calculate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>conf_tot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">35</a> of file <a class="el" href="HamiltonianTwo_8cpp_source.html">HamiltonianTwo.cpp</a>.</p>
+
+<p>References <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00039">Hamiltonianmatrix::basis()</a>, <a class="el" href="Hamiltonian_8h_source.html#l00054">Hamiltonian&lt; BasisnamesTwo &gt;::basis</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00083">Hamiltonianmatrix::changeBasis()</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00465">combine()</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00227">Hamiltonianmatrix::diagonalize()</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00666">energycutoff()</a>, <a class="el" href="dtypes_8h_source.html#l00066">EVEN</a>, <a class="el" href="State_8h_source.html#l00113">StateTwo::first()</a>, <a class="el" href="SQLite_8h_source.html#l00145">sqlite::result::first()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00027">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00054">BasisnamesOne::fromSecond()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00119">MatrixElements::getMultipole()</a>, <a class="el" href="dtypes_8h_source.html#l00071">Symmetry::inversion</a>, <a class="el" href="State_8h_source.html#l00131">StateTwo::j</a>, <a class="el" href="State_8h_source.html#l00130">StateTwo::l</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00435">Hamiltonianmatrix::load()</a>, <a class="el" href="ConfParser_8cpp_source.html#l00073">Configuration::load_from_json()</a>, <a class="el" href="State_8h_source.html#l00131">StateTwo::m</a>, <a class="el" href="Hamiltonian_8h_source.html#l00052">Hamiltonian&lt; BasisnamesTwo &gt;::matrix_path</a>, <a class="el" href="dtypes_8h_source.html#l00065">NA</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00048">Hamiltonianmatrix::num_basisvectors()</a>, <a class="el" href="dtypes_8h_source.html#l00067">ODD</a>, <a class="el" href="dtypes_8h_source.html#l00073">Symmetry::permutation</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00075">MatrixElements::precalculateMultipole()</a>, <a class="el" href="dtypes_8h_source.html#l00072">Symmetry::reflection</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00128">Hamiltonianmatrix::removeUnnecessaryBasisvectors()</a>, <a class="el" href="dtypes_8h_source.html#l00074">Symmetry::rotation</a>, <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00421">Hamiltonianmatrix::save()</a>, <a class="el" href="State_8h_source.html#l00116">StateTwo::second()</a>, <a class="el" href="MatrixElements_8cpp_source.html#l00040">selectionRulesMultipole()</a>, and <a class="el" href="SQLite_8h_source.html#l00130">sqlite::result::size()</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianTwo_8cpp_source.html#l00019">HamiltonianTwo()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="HamiltonianTwo_8h_source.html">HamiltonianTwo.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="HamiltonianTwo_8cpp_source.html">HamiltonianTwo.cpp</a></li>
 </ul>
@@ -193,7 +288,7 @@ std::shared_ptr&lt; <a class="el" href="classBasisnamesTwo.html">BasisnamesTwo</
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classHamiltonianTwo.html">HamiltonianTwo</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

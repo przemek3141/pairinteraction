@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classConfiguration.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,6 +118,8 @@ $(document).ready(function(){initNavTree('classConfiguration.html','');});
 <div class="title">Configuration Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="ConfParser_8h_source.html">ConfParser.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -128,53 +132,319 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a17fff65a69b1b968f4862b6fbb4137bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17fff65a69b1b968f4862b6fbb4137bc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>load_from_json</b> (std::string filename)</td></tr>
+<tr class="memitem:a17fff65a69b1b968f4862b6fbb4137bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc">load_from_json</a> (std::string filename)</td></tr>
 <tr class="separator:a17fff65a69b1b968f4862b6fbb4137bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a09c5d7ae6e1651985c0a81fed0ad62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a09c5d7ae6e1651985c0a81fed0ad62"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>save_to_json</b> (std::string filename)</td></tr>
+<tr class="memitem:a4a09c5d7ae6e1651985c0a81fed0ad62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a4a09c5d7ae6e1651985c0a81fed0ad62">save_to_json</a> (std::string filename)</td></tr>
 <tr class="separator:a4a09c5d7ae6e1651985c0a81fed0ad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130840eca97ab99a0fb147a21974731d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a130840eca97ab99a0fb147a21974731d"></a>
-<a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const std::string &amp;key)</td></tr>
+<tr class="memitem:a130840eca97ab99a0fb147a21974731d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a130840eca97ab99a0fb147a21974731d">operator[]</a> (const std::string &amp;key)</td></tr>
 <tr class="separator:a130840eca97ab99a0fb147a21974731d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7937ff6b45e8e1e69b8139390b488471"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7937ff6b45e8e1e69b8139390b488471"></a>
-const <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const std::string &amp;key) const </td></tr>
+<tr class="memitem:a7937ff6b45e8e1e69b8139390b488471"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a7937ff6b45e8e1e69b8139390b488471">operator[]</a> (const std::string &amp;key) const </td></tr>
 <tr class="separator:a7937ff6b45e8e1e69b8139390b488471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9063191c53c0eb400ea261da0bb357e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9063191c53c0eb400ea261da0bb357e0"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const </td></tr>
+<tr class="memitem:a9063191c53c0eb400ea261da0bb357e0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a9063191c53c0eb400ea261da0bb357e0">size</a> () const </td></tr>
 <tr class="separator:a9063191c53c0eb400ea261da0bb357e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a35a80d2e0bbe3345efde00b9f1ad07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a35a80d2e0bbe3345efde00b9f1ad07"></a>
-<a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (const std::string &amp;key)</td></tr>
+<tr class="memitem:a5a35a80d2e0bbe3345efde00b9f1ad07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a5a35a80d2e0bbe3345efde00b9f1ad07">find</a> (const std::string &amp;key)</td></tr>
 <tr class="separator:a5a35a80d2e0bbe3345efde00b9f1ad07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1708613aa24d27b3c294369473511758"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1708613aa24d27b3c294369473511758"></a>
-<a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (const std::string &amp;key) const </td></tr>
+<tr class="memitem:a1708613aa24d27b3c294369473511758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a1708613aa24d27b3c294369473511758">find</a> (const std::string &amp;key) const </td></tr>
 <tr class="separator:a1708613aa24d27b3c294369473511758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15d7b104b4b76c7b41e49478640221a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af15d7b104b4b76c7b41e49478640221a"></a>
-<a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
+<tr class="memitem:af15d7b104b4b76c7b41e49478640221a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#af15d7b104b4b76c7b41e49478640221a">begin</a> ()</td></tr>
 <tr class="separator:af15d7b104b4b76c7b41e49478640221a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83625345d39379eb22c031351c92c329"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83625345d39379eb22c031351c92c329"></a>
-<a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="memitem:a83625345d39379eb22c031351c92c329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a83625345d39379eb22c031351c92c329">end</a> ()</td></tr>
 <tr class="separator:a83625345d39379eb22c031351c92c329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfb3d2e509cd1bcfdba66d7d544726da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acfb3d2e509cd1bcfdba66d7d544726da"></a>
-<a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> () const </td></tr>
+<tr class="memitem:acfb3d2e509cd1bcfdba66d7d544726da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#acfb3d2e509cd1bcfdba66d7d544726da">begin</a> () const </td></tr>
 <tr class="separator:acfb3d2e509cd1bcfdba66d7d544726da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad660a695fdcdfd64d0c9a1d008089407"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad660a695fdcdfd64d0c9a1d008089407"></a>
-<a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> () const </td></tr>
+<tr class="memitem:ad660a695fdcdfd64d0c9a1d008089407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#ad660a695fdcdfd64d0c9a1d008089407">end</a> () const </td></tr>
 <tr class="separator:ad660a695fdcdfd64d0c9a1d008089407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95d8082c4f35d3b128a730e7497f66b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae95d8082c4f35d3b128a730e7497f66b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;rhs) const </td></tr>
+<tr class="memitem:ae95d8082c4f35d3b128a730e7497f66b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#ae95d8082c4f35d3b128a730e7497f66b">operator==</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;rhs) const </td></tr>
 <tr class="separator:ae95d8082c4f35d3b128a730e7497f66b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adad8479936998e9a7ec47bee2b0524e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adad8479936998e9a7ec47bee2b0524e0"></a>
-<a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator+=</b> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;rhs)</td></tr>
+<tr class="memitem:adad8479936998e9a7ec47bee2b0524e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#adad8479936998e9a7ec47bee2b0524e0">operator+=</a> (const <a class="el" href="classConfiguration.html">Configuration</a> &amp;rhs)</td></tr>
 <tr class="separator:adad8479936998e9a7ec47bee2b0524e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a691b3e3c4a92594be2733b0710f8dfeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a691b3e3c4a92594be2733b0710f8dfeb"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (const std::string &amp;key) const </td></tr>
+<tr class="memitem:a691b3e3c4a92594be2733b0710f8dfeb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a691b3e3c4a92594be2733b0710f8dfeb">count</a> (const std::string &amp;key) const </td></tr>
 <tr class="separator:a691b3e3c4a92594be2733b0710f8dfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779947337bf652f0e773cb29f37f14ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classConfiguration.html#a779947337bf652f0e773cb29f37f14ba">Configuration</a> ()</td></tr>
+<tr class="separator:a779947337bf652f0e773cb29f37f14ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>Definition at line <a class="el" href="ConfParser_8h_source.html#l00025">25</a> of file <a class="el" href="ConfParser_8h_source.html">ConfParser.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a779947337bf652f0e773cb29f37f14ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Configuration::Configuration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00147">147</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af15d7b104b4b76c7b41e49478640221a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a> Configuration::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00115">115</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfb3d2e509cd1bcfdba66d7d544726da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a> Configuration::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00121">121</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a691b3e3c4a92594be2733b0710f8dfeb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Configuration::count </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00144">144</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="main_8cpp_source.html#l00035">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83625345d39379eb22c031351c92c329"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a> Configuration::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00118">118</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="ConfParser_8cpp_source.html#l00127">operator==()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad660a695fdcdfd64d0c9a1d008089407"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a> Configuration::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00124">124</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5a35a80d2e0bbe3345efde00b9f1ad07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1iterator.html">Configuration::iterator</a> Configuration::find </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00108">108</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="ConfParser_8cpp_source.html#l00127">operator==()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1708613aa24d27b3c294369473511758"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1const__iterator.html">Configuration::const_iterator</a> Configuration::find </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00112">112</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17fff65a69b1b968f4862b6fbb4137bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Configuration::load_from_json </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00073">73</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>, <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="main_8cpp_source.html#l00035">main()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adad8479936998e9a7ec47bee2b0524e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration.html">Configuration</a> &amp; Configuration::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00138">138</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae95d8082c4f35d3b128a730e7497f66b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Configuration::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classConfiguration.html">Configuration</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00127">127</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>References <a class="el" href="ConfParser_8cpp_source.html#l00118">end()</a>, <a class="el" href="ConfParser_8cpp_source.html#l00108">find()</a>, and <a class="el" href="ConfParser_8cpp_source.html#l00105">size()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a130840eca97ab99a0fb147a21974731d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp; Configuration::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00099">99</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7937ff6b45e8e1e69b8139390b488471"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classConfiguration_1_1value.html">Configuration::value</a> &amp; Configuration::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00102">102</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a09c5d7ae6e1651985c0a81fed0ad62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Configuration::save_to_json </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00086">86</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9063191c53c0eb400ea261da0bb357e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Configuration::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="ConfParser_8cpp_source.html#l00105">105</a> of file <a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="ConfParser_8cpp_source.html#l00127">operator==()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="ConfParser_8h_source.html">ConfParser.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="ConfParser_8cpp_source.html">ConfParser.cpp</a></li>
 </ul>
@@ -184,7 +454,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (const st
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classConfiguration.html">Configuration</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

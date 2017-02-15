@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -77,6 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -99,7 +101,7 @@ $(document).ready(function(){initNavTree('classQuantumDefect.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,59 +118,362 @@ $(document).ready(function(){initNavTree('classQuantumDefect.html','');});
 <div class="title">QuantumDefect Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Quantum defect storage.  
+ <a href="classQuantumDefect.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d0386ca03dd44ecd0cd494a140a3858"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d0386ca03dd44ecd0cd494a140a3858"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>QuantumDefect</b> (std::string species, int n, int l, real_t j)</td></tr>
+<tr class="memitem:a6d0386ca03dd44ecd0cd494a140a3858"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858">QuantumDefect</a> (std::string <a class="el" href="classQuantumDefect.html#a6759cac42cda4c935f6d3253047b4815">species</a>, int <a class="el" href="classQuantumDefect.html#a37e09d7e28751618b98208bd5ff8766e">n</a>, int <a class="el" href="classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa">l</a>, <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> <a class="el" href="classQuantumDefect.html#a9a51dee2acc4a9b59c0e2bbec1c5bae0">j</a>)</td></tr>
+<tr class="memdesc:a6d0386ca03dd44ecd0cd494a140a3858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a6d0386ca03dd44ecd0cd494a140a3858">More...</a><br/></td></tr>
 <tr class="separator:a6d0386ca03dd44ecd0cd494a140a3858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a6759cac42cda4c935f6d3253047b4815"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6759cac42cda4c935f6d3253047b4815"></a>
-const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>species</b></td></tr>
+<tr class="memitem:a6759cac42cda4c935f6d3253047b4815"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a6759cac42cda4c935f6d3253047b4815">species</a></td></tr>
+<tr class="memdesc:a6759cac42cda4c935f6d3253047b4815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic species.  <a href="#a6759cac42cda4c935f6d3253047b4815">More...</a><br/></td></tr>
 <tr class="separator:a6759cac42cda4c935f6d3253047b4815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37e09d7e28751618b98208bd5ff8766e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37e09d7e28751618b98208bd5ff8766e"></a>
-const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>n</b></td></tr>
+<tr class="memitem:a37e09d7e28751618b98208bd5ff8766e"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a37e09d7e28751618b98208bd5ff8766e">n</a></td></tr>
+<tr class="memdesc:a37e09d7e28751618b98208bd5ff8766e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Principal quantum number.  <a href="#a37e09d7e28751618b98208bd5ff8766e">More...</a><br/></td></tr>
 <tr class="separator:a37e09d7e28751618b98208bd5ff8766e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a390a6c8cb3db876d3c0ee6fd8ebfff76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a390a6c8cb3db876d3c0ee6fd8ebfff76"></a>
-const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>l</b></td></tr>
-<tr class="separator:a390a6c8cb3db876d3c0ee6fd8ebfff76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a51dee2acc4a9b59c0e2bbec1c5bae0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a51dee2acc4a9b59c0e2bbec1c5bae0"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>j</b></td></tr>
+<tr class="memitem:af78c8dea80e09f11ddd64f0bca6b74fa"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa">l</a></td></tr>
+<tr class="memdesc:af78c8dea80e09f11ddd64f0bca6b74fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angular quantum number.  <a href="#af78c8dea80e09f11ddd64f0bca6b74fa">More...</a><br/></td></tr>
+<tr class="separator:af78c8dea80e09f11ddd64f0bca6b74fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a51dee2acc4a9b59c0e2bbec1c5bae0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a9a51dee2acc4a9b59c0e2bbec1c5bae0">j</a></td></tr>
+<tr class="memdesc:a9a51dee2acc4a9b59c0e2bbec1c5bae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magnetic quantum number.  <a href="#a9a51dee2acc4a9b59c0e2bbec1c5bae0">More...</a><br/></td></tr>
 <tr class="separator:a9a51dee2acc4a9b59c0e2bbec1c5bae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f5e4b43431162ca4dfc7d1149dc6dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6f5e4b43431162ca4dfc7d1149dc6dc"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>ac</b></td></tr>
+<tr class="memitem:ad6f5e4b43431162ca4dfc7d1149dc6dc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#ad6f5e4b43431162ca4dfc7d1149dc6dc">ac</a></td></tr>
+<tr class="memdesc:ad6f5e4b43431162ca4dfc7d1149dc6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polarizability.  <a href="#ad6f5e4b43431162ca4dfc7d1149dc6dc">More...</a><br/></td></tr>
 <tr class="separator:ad6f5e4b43431162ca4dfc7d1149dc6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b5fbc7d1f32217408ba82543cd14db2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b5fbc7d1f32217408ba82543cd14db2"></a>
-const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>Z</b></td></tr>
+<tr class="memitem:a2b5fbc7d1f32217408ba82543cd14db2"><td class="memItemLeft" align="right" valign="top">const int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a2b5fbc7d1f32217408ba82543cd14db2">Z</a></td></tr>
+<tr class="memdesc:a2b5fbc7d1f32217408ba82543cd14db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Core charge.  <a href="#a2b5fbc7d1f32217408ba82543cd14db2">More...</a><br/></td></tr>
 <tr class="separator:a2b5fbc7d1f32217408ba82543cd14db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae010fa4d43124176841b9455a3bc630c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae010fa4d43124176841b9455a3bc630c"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>a1</b></td></tr>
+<tr class="memitem:ae010fa4d43124176841b9455a3bc630c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#ae010fa4d43124176841b9455a3bc630c">a1</a></td></tr>
+<tr class="memdesc:ae010fa4d43124176841b9455a3bc630c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter of effective Coulomb potential.  <a href="#ae010fa4d43124176841b9455a3bc630c">More...</a><br/></td></tr>
 <tr class="separator:ae010fa4d43124176841b9455a3bc630c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7621c5920a4935ea1712099cddff771"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7621c5920a4935ea1712099cddff771"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>a2</b></td></tr>
-<tr class="separator:aa7621c5920a4935ea1712099cddff771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec0a7eec6e0e355c461aea00335dd69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afec0a7eec6e0e355c461aea00335dd69"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>a3</b></td></tr>
-<tr class="separator:afec0a7eec6e0e355c461aea00335dd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac20807858580ce9a148b8837d375cf71"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac20807858580ce9a148b8837d375cf71"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>a4</b></td></tr>
-<tr class="separator:ac20807858580ce9a148b8837d375cf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a912ca57b9a32d64614397bb790cc25af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a912ca57b9a32d64614397bb790cc25af"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>rc</b></td></tr>
+<tr class="memitem:ae1f20ad27365446e4543260ecfe46c6e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#ae1f20ad27365446e4543260ecfe46c6e">a2</a></td></tr>
+<tr class="memdesc:ae1f20ad27365446e4543260ecfe46c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter of effective Coulomb potential.  <a href="#ae1f20ad27365446e4543260ecfe46c6e">More...</a><br/></td></tr>
+<tr class="separator:ae1f20ad27365446e4543260ecfe46c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4314c18ff3fe112e12d54a80c679afc7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a4314c18ff3fe112e12d54a80c679afc7">a3</a></td></tr>
+<tr class="memdesc:a4314c18ff3fe112e12d54a80c679afc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter of effective Coulomb potential.  <a href="#a4314c18ff3fe112e12d54a80c679afc7">More...</a><br/></td></tr>
+<tr class="separator:a4314c18ff3fe112e12d54a80c679afc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae7283570fbc063e87b08441a11e51e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#acae7283570fbc063e87b08441a11e51e">a4</a></td></tr>
+<tr class="memdesc:acae7283570fbc063e87b08441a11e51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter of effective Coulomb potential.  <a href="#acae7283570fbc063e87b08441a11e51e">More...</a><br/></td></tr>
+<tr class="separator:acae7283570fbc063e87b08441a11e51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a912ca57b9a32d64614397bb790cc25af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a912ca57b9a32d64614397bb790cc25af">rc</a></td></tr>
+<tr class="memdesc:a912ca57b9a32d64614397bb790cc25af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effective core size.  <a href="#a912ca57b9a32d64614397bb790cc25af">More...</a><br/></td></tr>
 <tr class="separator:a912ca57b9a32d64614397bb790cc25af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d36b16c1460dced9dd5b16920c8dabd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d36b16c1460dced9dd5b16920c8dabd"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>nstar</b></td></tr>
+<tr class="memitem:a4d36b16c1460dced9dd5b16920c8dabd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a4d36b16c1460dced9dd5b16920c8dabd">nstar</a></td></tr>
+<tr class="memdesc:a4d36b16c1460dced9dd5b16920c8dabd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effective principal quantum number.  <a href="#a4d36b16c1460dced9dd5b16920c8dabd">More...</a><br/></td></tr>
 <tr class="separator:a4d36b16c1460dced9dd5b16920c8dabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a704b4064823ba0660ea330d433867471"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a704b4064823ba0660ea330d433867471"></a>
-const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>energy</b></td></tr>
+<tr class="memitem:a704b4064823ba0660ea330d433867471"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQuantumDefect.html#a704b4064823ba0660ea330d433867471">energy</a></td></tr>
+<tr class="memdesc:a704b4064823ba0660ea330d433867471"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classState.html">State</a> energy.  <a href="#a704b4064823ba0660ea330d433867471">More...</a><br/></td></tr>
 <tr class="separator:a704b4064823ba0660ea330d433867471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00025">25</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<div class="textblock"><p>Quantum defect storage. </p>
+<p>The quantum defect queries a database for Rydberg-Ritz coefficients and model potential parameters. The Rydberg-Ritz coefficients are not exposed to the outside but included in the energy data member.</p>
+<p>The slight deviation from the hydrogen atom for Rydberg atoms are captured in the so-called quantum defect. The hydrogen energy is given by \( E = \mathrm{Ry}/n^2 \). For Rydberg atoms this is slightly modified to \( E^* = \mathrm{Ry}/n^{*2} \) where \( n^* = n - \delta_{nlj} \). This correction can be expanded in a series </p>
+<p class="formulaDsp">
+\[ \delta_{nlj} = \delta_0 + \frac{\delta_2}{(n-\delta_0)^2} + \frac{\delta_4}{(n-\delta_0)^4} + \frac{\delta_6}{(n-\delta_0)^6} + \cdots \; \]
+</p>
+<p> The coefficients of the series \( \delta_i \) (Rydberg-Ritz coefficients) are loaded from the database.</p>
+<p>The object also loads the parameters for the model potentials which are used in the <a class="el" href="classNumerov.html" title="Numerov&#39;s method. ">Numerov</a> object. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00049">49</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a6d0386ca03dd44ecd0cd494a140a3858"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QuantumDefect::QuantumDefect </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>species</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>Save the input and query the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">species</td><td>atomic species of the atom </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>principal quantum number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">l</td><td>angular quantum number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>magnetic quantum number </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8cpp_source.html#l00037">37</a> of file <a class="el" href="QuantumDefect_8cpp_source.html">QuantumDefect.cpp</a>.</p>
+
+<p>References <a class="el" href="SQLite_8h_source.html#l00145">sqlite::result::first()</a>, <a class="el" href="QuantumDefect_8h_source.html#l00076">n</a>, <a class="el" href="SQLite_8h_source.html#l00202">sqlite::handle::query()</a>, and <a class="el" href="SQLite_8h_source.html#l00130">sqlite::result::size()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="ae010fa4d43124176841b9455a3bc630c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::a1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameter of effective Coulomb potential. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00091">91</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1f20ad27365446e4543260ecfe46c6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::a2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameter of effective Coulomb potential. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00094">94</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4314c18ff3fe112e12d54a80c679afc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::a3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameter of effective Coulomb potential. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00097">97</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acae7283570fbc063e87b08441a11e51e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::a4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameter of effective Coulomb potential. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00100">100</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6f5e4b43431162ca4dfc7d1149dc6dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::ac</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Polarizability. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00085">85</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a704b4064823ba0660ea330d433867471"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::energy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classState.html">State</a> energy. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00109">109</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="QuantumDefect_8cpp_source.html#l00126">energy_level()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00044">model_potential::g()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a51dee2acc4a9b59c0e2bbec1c5bae0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::j</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Magnetic quantum number. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00082">82</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af78c8dea80e09f11ddd64f0bca6b74fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int&amp; QuantumDefect::l</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Angular quantum number. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00079">79</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00044">model_potential::g()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00079">Numerov::integrate()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00164">Whittaker::integrate()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00052">Numerov::Numerov()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37e09d7e28751618b98208bd5ff8766e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int&amp; QuantumDefect::n</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Principal quantum number. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00076">76</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00079">Numerov::integrate()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00164">Whittaker::integrate()</a>, <a class="el" href="Wavefunction_8cpp_source.html#l00052">Numerov::Numerov()</a>, <a class="el" href="QuantumDefect_8cpp_source.html#l00037">QuantumDefect()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00143">Whittaker::Whittaker()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4d36b16c1460dced9dd5b16920c8dabd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::nstar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Effective principal quantum number. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00106">106</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="Wavefunction_8cpp_source.html#l00164">Whittaker::integrate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a912ca57b9a32d64614397bb790cc25af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; QuantumDefect::rc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Effective core size. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00103">103</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6759cac42cda4c935f6d3253047b4815"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; QuantumDefect::species</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Atomic species. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00073">73</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b5fbc7d1f32217408ba82543cd14db2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int&amp; QuantumDefect::Z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Core charge. </p>
+
+<p>Definition at line <a class="el" href="QuantumDefect_8h_source.html#l00088">88</a> of file <a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a>.</p>
+
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, and <a class="el" href="Wavefunction_8cpp_source.html#l00030">model_potential::V()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="QuantumDefect_8h_source.html">QuantumDefect.h</a></li>
 <li>/home/travis/build/pairinteraction/pairinteraction/calc/<a class="el" href="QuantumDefect_8cpp_source.html">QuantumDefect.cpp</a></li>
 </ul>
@@ -178,7 +483,7 @@ const real_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>energy<
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classQuantumDefect.html">QuantumDefect</a></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:05 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

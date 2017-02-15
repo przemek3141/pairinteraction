@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -75,6 +76,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -97,7 +99,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +113,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="title">HamiltonianOne.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<a href="HamiltonianOne_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (c) 2016 Sebastian Weber, Henri Menke. All rights reserved.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
@@ -127,19 +129,19 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> * limitations under the License.</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;HamiltonianOne.h&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="HamiltonianOne_8h.html">HamiltonianOne.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;HamiltonianOne::HamiltonianOne(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;BasisnamesOne&gt; basis_one) : <a class="code" href="classHamiltonian.html">Hamiltonian</a>&lt;<a class="code" href="classBasisnamesOne.html">BasisnamesOne</a>&gt;(), path_cache(path_cache) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    basis = basis_one;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    configure(config);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    build();</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36">   19</a></span>&#160;<a class="code" href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36">HamiltonianOne::HamiltonianOne</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config, boost::filesystem::path&amp; path_cache, std::shared_ptr&lt;BasisnamesOne&gt; basis_one) : <a class="code" href="classHamiltonian.html">Hamiltonian</a>&lt;<a class="code" href="classBasisnamesOne.html">BasisnamesOne</a>&gt;(), path_cache(path_cache) {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a> = basis_one;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">configure</a>(config);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">build</a>();</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a>&amp; HamiltonianOne::getConf()<span class="keyword"> const </span>{ <span class="comment">// TODO in Configurable Klasse auslagern, von der geerbt werrden soll</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#a037381854386261cbffc34771959497a">   25</a></span>&#160;<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a>&amp; <a class="code" href="classHamiltonianOne.html#a037381854386261cbffc34771959497a">HamiltonianOne::getConf</a>()<span class="keyword"> const </span>{ <span class="comment">// TODO in Configurable Klasse auslagern, von der geerbt werrden soll</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> basicconf;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> HamiltonianOne::changeToSpherical(real_t val_x, real_t val_y, real_t val_z, real_t&amp; val_p, real_t&amp; val_m, real_t&amp; val_0) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">HamiltonianOne::changeToSpherical</a>(<a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_x, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_y, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_z, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_p, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_m, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&amp; val_0) {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span>(val_y != 0) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;ERR&quot;</span> &lt;&lt; <span class="stringliteral">&quot;For fields with non-zero y-coordinates, a complex data type is needed.&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        abort();</div>
@@ -149,14 +151,14 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    val_0 = val_z;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> HamiltonianOne::changeToSpherical(real_t val_x, real_t val_y, real_t val_z, std::complex&lt;real_t&gt;&amp; val_p, std::complex&lt;real_t&gt;&amp; val_m, std::complex&lt;real_t&gt;&amp; val_0) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#aa38978406c2a5cbd03ef35c477f702ac">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">HamiltonianOne::changeToSpherical</a>(<a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_x, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_y, <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val_z, std::complex&lt;real_t&gt;&amp; val_p, std::complex&lt;real_t&gt;&amp; val_m, std::complex&lt;real_t&gt;&amp; val_0) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    val_p = std::complex&lt;real_t&gt;(-val_x/std::sqrt(2),-val_y/std::sqrt(2));</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    val_m = std::complex&lt;real_t&gt;(val_x/std::sqrt(2),-val_y/std::sqrt(2));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    val_0 = std::complex&lt;real_t&gt;(val_z,0);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> HamiltonianOne::configure(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config) {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    basicconf = basis-&gt;getConf();</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">   45</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">HamiltonianOne::configure</a>(<span class="keyword">const</span> <a class="code" href="classConfiguration.html">Configuration</a> &amp;config) {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    basicconf = <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;getConf();</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    basicconf[<span class="stringliteral">&quot;deltaESingle&quot;</span>] = config[<span class="stringliteral">&quot;deltaESingle&quot;</span>];</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    basicconf[<span class="stringliteral">&quot;diamagnetism&quot;</span>] = config[<span class="stringliteral">&quot;diamagnetism&quot;</span>];</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
@@ -190,7 +192,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> HamiltonianOne::build() {</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">   80</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">HamiltonianOne::build</a>() {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    boost::filesystem::path path_cache_mat;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="structutils_1_1is__complex.html">utils::is_complex&lt;scalar_t&gt;::value</a>) {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        path_cache_mat = path_cache / <span class="stringliteral">&quot;cache_matrix_complex&quot;</span>;</div>
@@ -201,7 +203,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        boost::filesystem::create_directory(path_cache_mat);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    real_t tol = 1e-32;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> tol = 1e-32;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">    ////////////////////////////////////////////////////////</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">    ////// Build single atom basis and Hamiltonian /////////</span></div>
@@ -210,28 +212,28 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">// === Calculate one-atom Hamiltonian ===</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">// --- Count entries of one-atom Hamiltonian ---</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">size_t</span> size_basis = basis-&gt;size();</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">size_t</span> size_energy = basis-&gt;size();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">size_t</span> size_basis = <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">size_t</span> size_energy = <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="comment">// --- Construct one-atom  Hamiltonian and basis ---</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, construct diagonal Hamiltonian&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="classHamiltonianmatrix.html">Hamiltonianmatrix</a> hamiltonian_energy(size_basis, size_energy);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    real_t energy_initial = 0;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: basis-&gt;initial()) {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        energy_initial += energy_level(species,state.n,state.l,state.j);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> energy_initial = 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state: <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;initial()) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        energy_initial += <a class="code" href="QuantumDefect_8cpp.html#a25fe436e4f3bb40dfc306d927b3cdcc0">energy_level</a>(species,state.n,state.l,state.j);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    energy_initial /= basis-&gt;initial().size(); <span class="comment">// TODO save it to the json file</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    energy_initial /= <a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;initial().size(); <span class="comment">// TODO save it to the json file</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    std::vector&lt;bool&gt; is_necessary(basis-&gt;size(),<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    idx_t idx = 0;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state : *basis) {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        real_t val = energy_level(species,state.n,state.l,state.j)-energy_initial;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    std::vector&lt;bool&gt; is_necessary(<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>-&gt;size(),<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a> idx = 0;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;state : *<a class="code" href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">basis</a>) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = <a class="code" href="QuantumDefect_8cpp.html#a25fe436e4f3bb40dfc306d927b3cdcc0">energy_level</a>(species,state.n,state.l,state.j)-energy_initial;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (std::abs(val) &lt; deltaE+1e-11 || deltaE &lt; 0) { <span class="comment">// TODO</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            is_necessary[state.idx] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            hamiltonian_energy.addEntries(idx,idx,val);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            hamiltonian_energy.addBasis(idx,idx,1);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            hamiltonian_energy.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(idx,idx,val);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            hamiltonian_energy.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(idx,idx,1);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            ++idx;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
@@ -239,7 +241,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    basis-&gt;removeUnnecessaryStates(is_necessary);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    hamiltonian_energy.compress(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    hamiltonian_energy.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, basis size with restrictions: &quot;</span> &lt;&lt; basis-&gt;size() &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;BAS&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; basis-&gt;size() &lt;&lt; std::endl;</div>
@@ -268,11 +270,11 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment">    ////////////////////////////////////////////////////////</span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">// --- Obtain existence of fields ---</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    scalar_t min_E_0, min_E_p, min_E_m, min_B_0, min_B_p, min_B_m, max_E_0, max_E_p, max_E_m, max_B_0, max_B_p, max_B_m;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    changeToSpherical(min_E_x, min_E_y, min_E_z, min_E_p, min_E_m, min_E_0);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    changeToSpherical(max_E_x, max_E_y, max_E_z, max_E_p, max_E_m, max_E_0);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    changeToSpherical(min_B_x, min_B_y, min_B_z, min_B_p, min_B_m, min_B_0);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    changeToSpherical(max_B_x, max_B_y, max_B_z, max_B_p, max_B_m, max_B_0);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> min_E_0, min_E_p, min_E_m, min_B_0, min_B_p, min_B_m, max_E_0, max_E_p, max_E_m, max_B_0, max_B_p, max_B_m;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(min_E_x, min_E_y, min_E_z, min_E_p, min_E_m, min_E_0);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(max_E_x, max_E_y, max_E_z, max_E_p, max_E_m, max_E_0);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(min_B_x, min_B_y, min_B_z, min_B_p, min_B_m, min_B_0);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">changeToSpherical</a>(max_B_x, max_B_y, max_B_z, max_B_p, max_B_m, max_B_0);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordtype">bool</span> exist_E_0 = (std::abs(min_E_0) != 0 || std::abs(max_E_0) != 0);</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordtype">bool</span> exist_E_1 = (std::abs(min_E_p) != 0 || std::abs(max_E_p) != 0);</div>
@@ -284,20 +286,20 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="classMatrixElements.html">MatrixElements</a> matrix_elements(basicconf, species, (path_cache / <span class="stringliteral">&quot;cache_elements.db&quot;</span>).<span class="keywordtype">string</span>());</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">if</span> (exist_E_0) matrix_elements.precalculateElectricMomentum(basis, 0);</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">if</span> (exist_E_1) matrix_elements.precalculateElectricMomentum(basis, 1);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span> (exist_E_1) matrix_elements.precalculateElectricMomentum(basis, -1);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">if</span> (exist_E_0) matrix_elements.<a class="code" href="classMatrixElements.html#ab600ec3c325b80275d86db16071fa64c">precalculateElectricMomentum</a>(basis, 0);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">if</span> (exist_E_1) matrix_elements.<a class="code" href="classMatrixElements.html#ab600ec3c325b80275d86db16071fa64c">precalculateElectricMomentum</a>(basis, 1);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span> (exist_E_1) matrix_elements.<a class="code" href="classMatrixElements.html#ab600ec3c325b80275d86db16071fa64c">precalculateElectricMomentum</a>(basis, -1);</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span> (exist_B_0) matrix_elements.precalculateMagneticMomentum(basis, 0);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span> (exist_B_1) matrix_elements.precalculateMagneticMomentum(basis, 1);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">if</span> (exist_B_1) matrix_elements.precalculateMagneticMomentum(basis, -1);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span> (exist_B_0) matrix_elements.<a class="code" href="classMatrixElements.html#a5df39bb7f9a7efebcb7d501c76e9fb2e">precalculateMagneticMomentum</a>(basis, 0);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span> (exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#a5df39bb7f9a7efebcb7d501c76e9fb2e">precalculateMagneticMomentum</a>(basis, 1);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordflow">if</span> (exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#a5df39bb7f9a7efebcb7d501c76e9fb2e">precalculateMagneticMomentum</a>(basis, -1);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1)) matrix_elements.precalculateDiamagnetism(basis, 0, 0);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1)) matrix_elements.precalculateDiamagnetism(basis, 2, 0);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_0 &amp;&amp; exist_B_1) matrix_elements.precalculateDiamagnetism(basis, 2, 1);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_0 &amp;&amp; exist_B_1) matrix_elements.precalculateDiamagnetism(basis, 2, -1);</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_1) matrix_elements.precalculateDiamagnetism(basis, 2, 2);</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_1) matrix_elements.precalculateDiamagnetism(basis, 2, -2);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1)) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 0, 0);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1)) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 2, 0);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_0 &amp;&amp; exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 2, 1);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_0 &amp;&amp; exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 2, -1);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 2, 2);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">if</span> (diamagnetism &amp;&amp; exist_B_1) matrix_elements.<a class="code" href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">precalculateDiamagnetism</a>(basis, 2, -2);</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="comment">// --- Count entries of atom-field Hamiltonian ---</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, count number of entries within the field Hamiltonian&quot;</span> &lt;&lt; std::endl;</div>
@@ -324,33 +326,33 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            }</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (exist_E_0 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, 0) ) {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (exist_E_0 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, 0) ) {</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                size_electricMomentum_0++;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, 1) ) {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, 1) ) {</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                size_electricMomentum_p++;</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, -1) ) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, -1) ) {</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                size_electricMomentum_m++;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            }</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">if</span> (exist_B_0 &amp;&amp;  selectionRulesMomentum(state_row, state_col, 0) ) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">if</span> (exist_B_0 &amp;&amp;  <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, 0) ) {</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                size_magneticMomentum_0++;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; selectionRulesMomentum(state_row, state_col, 1) ) {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, 1) ) {</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                size_magneticMomentum_p++;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; selectionRulesMomentum(state_row, state_col, -1) ) {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, -1) ) {</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                size_magneticMomentum_m++;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            }</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 0, 0)) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 0, 0)) {</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                size_diamagnetism_00++;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 0)) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 0)) {</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                size_diamagnetism_20++;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 1)) {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 1)) {</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                size_diamagnetism_2p++;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, -1)) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, -1)) {</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                size_diamagnetism_2m++;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 2)) {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 2)) {</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                size_diamagnetism_2pp++;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, -2)) {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, -2)) {</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                size_diamagnetism_2mm++;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            }</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        }</div>
@@ -381,85 +383,85 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            }</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <span class="keywordflow">if</span> (state_row.idx == state_col.idx) {</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                hamiltonian_electricMomentum_0.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                hamiltonian_electricMomentum_p.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                hamiltonian_electricMomentum_m.addBasis(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                hamiltonian_electricMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                hamiltonian_electricMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                hamiltonian_electricMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                hamiltonian_magneticMomentum_0.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                hamiltonian_magneticMomentum_p.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                hamiltonian_magneticMomentum_m.addBasis(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                hamiltonian_magneticMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                hamiltonian_magneticMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                hamiltonian_magneticMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                hamiltonian_diamagnetism_00.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                hamiltonian_diamagnetism_20.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                hamiltonian_diamagnetism_2p.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                hamiltonian_diamagnetism_2m.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                hamiltonian_diamagnetism_2pp.addBasis(state_row.idx,state_col.idx,1);</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                hamiltonian_diamagnetism_2mm.addBasis(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                hamiltonian_diamagnetism_00.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                hamiltonian_diamagnetism_20.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                hamiltonian_diamagnetism_2p.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                hamiltonian_diamagnetism_2m.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                hamiltonian_diamagnetism_2pp.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                hamiltonian_diamagnetism_2mm.<a class="code" href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">addBasis</a>(state_row.idx,state_col.idx,1);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            }</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keywordflow">if</span> (exist_E_0 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, 0) ) {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                real_t val = matrix_elements.getElectricMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keywordflow">if</span> (exist_E_0 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, 0) ) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad">getElectricMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                    hamiltonian_electricMomentum_0.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                    hamiltonian_electricMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                }</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, 1) ) {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                real_t val = matrix_elements.getElectricMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, 1) ) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad">getElectricMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    hamiltonian_electricMomentum_p.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    hamiltonian_electricMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                }</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; selectionRulesMultipole(state_row, state_col, 1, -1) ) {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                real_t val = matrix_elements.getElectricMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_E_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 1, -1) ) {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad">getElectricMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    hamiltonian_electricMomentum_m.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    hamiltonian_electricMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                }</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            }</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">if</span> (exist_B_0 &amp;&amp; selectionRulesMomentum(state_row, state_col, 0) ) {</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                real_t val = matrix_elements.getMagneticMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">if</span> (exist_B_0 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, 0) ) {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c">getMagneticMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                    hamiltonian_magneticMomentum_0.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                    hamiltonian_magneticMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; selectionRulesMomentum(state_row, state_col, 1) ) {</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                real_t val = matrix_elements.getMagneticMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, 1) ) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c">getMagneticMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                    hamiltonian_magneticMomentum_p.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                    hamiltonian_magneticMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                }</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; selectionRulesMomentum(state_row, state_col, -1) ) {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                real_t val = matrix_elements.getMagneticMomentum(state_row, state_col);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (exist_B_1 &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a>(state_row, state_col, -1) ) {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c">getMagneticMomentum</a>(state_row, state_col);</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                    hamiltonian_magneticMomentum_m.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                    hamiltonian_magneticMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                }</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            }</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 0, 0)) {</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 0);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 0, 0)) {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 0);</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                    hamiltonian_diamagnetism_00.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                    hamiltonian_diamagnetism_00.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                }</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 0)) {</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 2);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 || exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 0)) {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 2);</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                    hamiltonian_diamagnetism_20.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                    hamiltonian_diamagnetism_20.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                }</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 1)) {</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 2);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 1)) {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 2);</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    hamiltonian_diamagnetism_2p.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    hamiltonian_diamagnetism_2p.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                }</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, -1)) {</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 2);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_0 &amp;&amp; exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, -1)) {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 2);</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    hamiltonian_diamagnetism_2m.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    hamiltonian_diamagnetism_2m.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                }</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, 2)) {</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 2);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, 2)) {</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 2);</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                    hamiltonian_diamagnetism_2pp.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                    hamiltonian_diamagnetism_2pp.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                }</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; selectionRulesMultipole(state_row, state_col, 2, -2)) {</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                real_t val = matrix_elements.getDiamagnetism(state_row, state_col, 2);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (diamagnetism &amp;&amp; (exist_B_1) &amp;&amp; <a class="code" href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a>(state_row, state_col, 2, -2)) {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> val = matrix_elements.<a class="code" href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">getDiamagnetism</a>(state_row, state_col, 2);</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                <span class="keywordflow">if</span> (std::abs(val) &gt; tol) {</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                    hamiltonian_diamagnetism_2mm.addEntries(state_row.idx,state_col.idx,val);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                    hamiltonian_diamagnetism_2mm.<a class="code" href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">addEntries</a>(state_row.idx,state_col.idx,val);</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                }</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            }</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        }</div>
@@ -467,20 +469,20 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, compress field Hamiltonian&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    hamiltonian_electricMomentum_0.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    hamiltonian_electricMomentum_p.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    hamiltonian_electricMomentum_m.compress(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    hamiltonian_electricMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    hamiltonian_electricMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    hamiltonian_electricMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    hamiltonian_magneticMomentum_0.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    hamiltonian_magneticMomentum_p.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    hamiltonian_magneticMomentum_m.compress(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    hamiltonian_magneticMomentum_0.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    hamiltonian_magneticMomentum_p.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    hamiltonian_magneticMomentum_m.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    hamiltonian_diamagnetism_00.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    hamiltonian_diamagnetism_20.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    hamiltonian_diamagnetism_2p.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    hamiltonian_diamagnetism_2m.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    hamiltonian_diamagnetism_2pp.compress(basis-&gt;dim(), basis-&gt;dim());</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    hamiltonian_diamagnetism_2mm.compress(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    hamiltonian_diamagnetism_00.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    hamiltonian_diamagnetism_20.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    hamiltonian_diamagnetism_2p.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    hamiltonian_diamagnetism_2m.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    hamiltonian_diamagnetism_2pp.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    hamiltonian_diamagnetism_2mm.<a class="code" href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">compress</a>(basis-&gt;dim(), basis-&gt;dim());</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="comment">    ////////////////////////////////////////////////////////</span></div>
@@ -504,9 +506,9 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="comment">// === Initialize variables ===</span></div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordtype">bool</span> flag_perhapsmissingtable = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    matrix_path.resize(nSteps);</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    matrix_diag.resize(nSteps); <span class="comment">// TODO maybe remove</span></div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    params.resize(nSteps); <span class="comment">// TODO maybe remove</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <a class="code" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a>.resize(nSteps);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>.resize(nSteps); <span class="comment">// TODO maybe remove</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <a class="code" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">params</a>.resize(nSteps); <span class="comment">// TODO maybe remove</span></div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;<span class="comment">    ////////////////////////////////////////////////////////</span></div>
@@ -523,21 +525,21 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <span class="comment">// === Get parameters for the current position inside the loop ===</span></div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="comment">// Get fields</span></div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        real_t normalized_position = (nSteps &gt; 1) ? step/(nSteps-1.) : 0;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> normalized_position = (nSteps &gt; 1) ? step/(nSteps-1.) : 0;</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        real_t Ex = min_E_x+normalized_position*(max_E_x-min_E_x);</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        real_t Ey = min_E_y+normalized_position*(max_E_y-min_E_y);</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        real_t Ez = min_E_z+normalized_position*(max_E_z-min_E_z);</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        real_t Bx = min_B_x+normalized_position*(max_B_x-min_B_x);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        real_t By = min_B_y+normalized_position*(max_B_y-min_B_y);</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        real_t Bz = min_B_z+normalized_position*(max_B_z-min_B_z);</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Ex = min_E_x+normalized_position*(max_E_x-min_E_x);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Ey = min_E_y+normalized_position*(max_E_y-min_E_y);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Ez = min_E_z+normalized_position*(max_E_z-min_E_z);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Bx = min_B_x+normalized_position*(max_B_x-min_B_x);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> By = min_B_y+normalized_position*(max_B_y-min_B_y);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <a class="code" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> Bz = min_B_z+normalized_position*(max_B_z-min_B_z);</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        scalar_t E_0 = min_E_0+normalized_position*(max_E_0-min_E_0);</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        scalar_t E_p = min_E_p+normalized_position*(max_E_p-min_E_p);</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        scalar_t E_m = min_E_m+normalized_position*(max_E_m-min_E_m);</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        scalar_t B_0 = min_B_0+normalized_position*(max_B_0-min_B_0);</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        scalar_t B_p = min_B_p+normalized_position*(max_B_p-min_B_p);</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        scalar_t B_m = min_B_m+normalized_position*(max_B_m-min_B_m);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> E_0 = min_E_0+normalized_position*(max_E_0-min_E_0);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> E_p = min_E_p+normalized_position*(max_E_p-min_E_p);</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> E_m = min_E_m+normalized_position*(max_E_m-min_E_m);</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> B_0 = min_B_0+normalized_position*(max_B_0-min_B_0);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> B_p = min_B_p+normalized_position*(max_B_p-min_B_p);</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <a class="code" href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a> B_m = min_B_m+normalized_position*(max_B_m-min_B_m);</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="comment">// Get configuration and save fields</span></div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <a class="code" href="classConfiguration.html">Configuration</a> conf = basicconf;</div>
@@ -582,8 +584,8 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;<span class="preprocessor">#pragma omp critical(database)</span></div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;<span class="preprocessor"></span>        {</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;            <a class="code" href="classsqlite_1_1result.html">sqlite::result</a> result = db.query(query);</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            <span class="keywordflow">if</span> (result.size() == 1) {</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                uuid = result.first();</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            <span class="keywordflow">if</span> (result.<a class="code" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a>() == 1) {</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                uuid = result.<a class="code" href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">first</a>();</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;            }</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        }</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
@@ -626,7 +628,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <span class="keywordflow">if</span> (boost::filesystem::exists(path_mat)) {</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;            <span class="keywordflow">if</span> (boost::filesystem::exists(path_json)) {</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                <a class="code" href="classConfiguration.html">Configuration</a> params_loaded;</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                params_loaded.load_from_json(path_json.string());</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                params_loaded.<a class="code" href="classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc">load_from_json</a>(path_json.string());</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                <span class="keywordflow">if</span> (conf == params_loaded) {</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                    is_existing = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                }</div>
@@ -643,7 +645,7 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;        <span class="comment">// calculate Hamiltonian if &quot;is_existing&quot; is false</span></div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        std::shared_ptr&lt;Hamiltonianmatrix&gt; mat;</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <span class="keywordflow">if</span> (!is_existing || !totalmatrix.load(path_mat.string())) {</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <span class="keywordflow">if</span> (!is_existing || !totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e">load</a>(path_mat.string())) {</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;            <span class="comment">// --- Build matrix ---</span></div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;            totalmatrix = hamiltonian_energy</div>
@@ -662,12 +664,12 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;            <span class="comment">// Stdout: Hamiltonian assembled</span></div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;<span class="preprocessor"></span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.num_basisvectors() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;<span class="preprocessor"></span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">num_basisvectors</a>() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;                      &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, &quot;</span> &lt;&lt;  step+1 &lt;&lt; <span class="stringliteral">&quot;. Hamiltonian assembled&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;            <span class="comment">// --- Diagonalize matrix and save diagonalized matrix ---</span></div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;            totalmatrix.diagonalize();</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;            totalmatrix.save(path_mat.string());</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;            totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee">diagonalize</a>();</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;            totalmatrix.<a class="code" href="classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051">save</a>(path_mat.string());</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;            <span class="comment">// Stdout: Hamiltonian diagonalized</span></div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
@@ -676,15 +678,15 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;            <span class="comment">// Stdout: Hamiltonian loaded</span></div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;<span class="preprocessor">#pragma omp critical(textoutput)</span></div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor"></span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.num_basisvectors() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor"></span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;DIM&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; totalmatrix.<a class="code" href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">num_basisvectors</a>() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;                      &lt;&lt; <span class="stringliteral">&quot;&gt;&gt;OUT&quot;</span> &lt;&lt; std::setw(7) &lt;&lt; step+1 &lt;&lt; std::setw(7) &lt;&lt; step &lt;&lt; std::setw(7) &lt;&lt; 1 &lt;&lt; std::setw(7) &lt;&lt; 0 &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; path.string() &lt;&lt; std::endl</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                      &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, &quot;</span> &lt;&lt;  step+1 &lt;&lt; <span class="stringliteral">&quot;. Hamiltonian loaded&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        }</div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <span class="comment">// === Store path to configuration and diagonalized matrix ===</span></div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        matrix_path[step] = path.string();</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        matrix_diag[step] = std::make_shared&lt;Hamiltonianmatrix&gt;(totalmatrix); <span class="comment">// TODO maybe remove</span></div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        params[step] = std::make_shared&lt;Configuration&gt;(conf); <span class="comment">// TODO maybe remove</span></div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <a class="code" href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">matrix_path</a>[step] = path.string();</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <a class="code" href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">matrix_diag</a>[step] = std::make_shared&lt;Hamiltonianmatrix&gt;(totalmatrix); <span class="comment">// TODO maybe remove</span></div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        <a class="code" href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">params</a>[step] = std::make_shared&lt;Configuration&gt;(conf); <span class="comment">// TODO maybe remove</span></div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    }</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;One-atom Hamiltonian, all Hamiltonians processed&quot;</span> &lt;&lt; std::endl;</div>
@@ -694,17 +696,49 @@ $(document).ready(function(){initNavTree('HamiltonianOne_8cpp_source.html','');}
 <div class="ttc" id="classHamiltonian_html"><div class="ttname"><a href="classHamiltonian.html">Hamiltonian</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00025">Hamiltonian.h:25</a></div></div>
 <div class="ttc" id="structutils_1_1is__complex_html"><div class="ttname"><a href="structutils_1_1is__complex.html">utils::is_complex</a></div><div class="ttdef"><b>Definition:</b> <a href="utils_8h_source.html#l00026">utils.h:26</a></div></div>
 <div class="ttc" id="classsqlite_1_1result_html"><div class="ttname"><a href="classsqlite_1_1result.html">sqlite::result</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00047">SQLite.h:47</a></div></div>
+<div class="ttc" id="classHamiltonian_html_abafd89e4b6fa89d0e05eaf7175b767b3"><div class="ttname"><a href="classHamiltonian.html#abafd89e4b6fa89d0e05eaf7175b767b3">Hamiltonian&lt; BasisnamesOne &gt;::matrix_path</a></div><div class="ttdeci">std::vector&lt; std::string &gt; matrix_path</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00052">Hamiltonian.h:52</a></div></div>
+<div class="ttc" id="classMatrixElements_html_aa0bef697857d35a467859a4dcb88550c"><div class="ttname"><a href="classMatrixElements.html#aa0bef697857d35a467859a4dcb88550c">MatrixElements::precalculateDiamagnetism</a></div><div class="ttdeci">void precalculateDiamagnetism(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one, int k, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00093">MatrixElements.cpp:93</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a0d00e2b3dfadee81331bbb39068570c4"><div class="ttname"><a href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a></div><div class="ttdeci">double real_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00027">dtypes.h:27</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a037381854386261cbffc34771959497a"><div class="ttname"><a href="classHamiltonianOne.html#a037381854386261cbffc34771959497a">HamiltonianOne::getConf</a></div><div class="ttdeci">const Configuration &amp; getConf() const </div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00025">HamiltonianOne.cpp:25</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a1bfd94d6fb13a6dadb14685532e66303"><div class="ttname"><a href="classHamiltonian.html#a1bfd94d6fb13a6dadb14685532e66303">Hamiltonian&lt; BasisnamesOne &gt;::params</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Configuration &gt; &gt; params</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00053">Hamiltonian.h:53</a></div></div>
+<div class="ttc" id="classMatrixElements_html_a5df39bb7f9a7efebcb7d501c76e9fb2e"><div class="ttname"><a href="classMatrixElements.html#a5df39bb7f9a7efebcb7d501c76e9fb2e">MatrixElements::precalculateMagneticMomentum</a></div><div class="ttdeci">void precalculateMagneticMomentum(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00089">MatrixElements.cpp:89</a></div></div>
+<div class="ttc" id="classMatrixElements_html_ad32ab751820e21b4924fc1f08d8465ad"><div class="ttname"><a href="classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad">MatrixElements::getElectricMomentum</a></div><div class="ttdeci">real_t getElectricMomentum(StateOne const &amp;state_row, StateOne const &amp;state_col)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00097">MatrixElements.cpp:97</a></div></div>
+<div class="ttc" id="classHamiltonian_html_adbbb38ce9d7c245825db767a54c64113"><div class="ttname"><a href="classHamiltonian.html#adbbb38ce9d7c245825db767a54c64113">Hamiltonian&lt; BasisnamesOne &gt;::basis</a></div><div class="ttdeci">std::shared_ptr&lt; BasisnamesOne &gt; basis</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00054">Hamiltonian.h:54</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_ad3ba2d70879a60c9f065b5a2545dfe36"><div class="ttname"><a href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36">HamiltonianOne::HamiltonianOne</a></div><div class="ttdeci">HamiltonianOne(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; BasisnamesOne &gt; basis_one)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00019">HamiltonianOne.cpp:19</a></div></div>
+<div class="ttc" id="classMatrixElements_html_a0c21248f81cf217b82e986b91cd37800"><div class="ttname"><a href="classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800">MatrixElements::getDiamagnetism</a></div><div class="ttdeci">real_t getDiamagnetism(StateOne const &amp;state_row, StateOne const &amp;state_col, int kappa)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00111">MatrixElements.cpp:111</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a9cb71dcb34ab9f0779c0bd66b758185e"><div class="ttname"><a href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e">HamiltonianOne::build</a></div><div class="ttdeci">void build()</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne.cpp:80</a></div></div>
+<div class="ttc" id="classHamiltonian_html_a90386ed827db9b79a8df1d2a9d3dd3b5"><div class="ttname"><a href="classHamiltonian.html#a90386ed827db9b79a8df1d2a9d3dd3b5">Hamiltonian&lt; BasisnamesOne &gt;::matrix_diag</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; Hamiltonianmatrix &gt; &gt; matrix_diag</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonian_8h_source.html#l00051">Hamiltonian.h:51</a></div></div>
 <div class="ttc" id="classHamiltonianmatrix_html"><div class="ttname"><a href="classHamiltonianmatrix.html">Hamiltonianmatrix</a></div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8h_source.html#l00036">Hamiltonianmatrix.h:36</a></div></div>
 <div class="ttc" id="classsqlite_1_1handle_html"><div class="ttname"><a href="classsqlite_1_1handle.html">sqlite::handle</a></div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00175">SQLite.h:175</a></div></div>
+<div class="ttc" id="dtypes_8h_html_aafd8e56e4cca55995e04e11b3ebc88ba"><div class="ttname"><a href="dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba">scalar_t</a></div><div class="ttdeci">real_t scalar_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00041">dtypes.h:41</a></div></div>
+<div class="ttc" id="dtypes_8h_html_a06bc59d72376a01057e18da78887bdc1"><div class="ttname"><a href="dtypes_8h.html#a06bc59d72376a01057e18da78887bdc1">idx_t</a></div><div class="ttdeci">uint32_t idx_t</div><div class="ttdef"><b>Definition:</b> <a href="dtypes_8h_source.html#l00029">dtypes.h:29</a></div></div>
 <div class="ttc" id="classConfiguration_html"><div class="ttname"><a href="classConfiguration.html">Configuration</a></div><div class="ttdef"><b>Definition:</b> <a href="ConfParser_8h_source.html#l00025">ConfParser.h:25</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a4dded9728c945c20fcd7abbc8bd5cfe6"><div class="ttname"><a href="classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6">Hamiltonianmatrix::compress</a></div><div class="ttdeci">void compress(size_t nBasis, size_t nCoordinates)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00064">Hamiltonianmatrix.cpp:64</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a73b7a95dfe99587470c9dbb95dd64402"><div class="ttname"><a href="classHamiltonianOne.html#a73b7a95dfe99587470c9dbb95dd64402">HamiltonianOne::changeToSpherical</a></div><div class="ttdeci">void changeToSpherical(real_t val_x, real_t val_y, real_t val_z, real_t &amp;val_p, real_t &amp;val_m, real_t &amp;val_0)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00029">HamiltonianOne.cpp:29</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a6af1c71facf2f4987c543cc177175c0e"><div class="ttname"><a href="classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e">Hamiltonianmatrix::load</a></div><div class="ttdeci">bool load(std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00435">Hamiltonianmatrix.cpp:435</a></div></div>
+<div class="ttc" id="classHamiltonianOne_html_a1a90a6e472f532c6dd2f68247e27d16e"><div class="ttname"><a href="classHamiltonianOne.html#a1a90a6e472f532c6dd2f68247e27d16e">HamiltonianOne::configure</a></div><div class="ttdeci">void configure(const Configuration &amp;config)</div><div class="ttdef"><b>Definition:</b> <a href="HamiltonianOne_8cpp_source.html#l00045">HamiltonianOne.cpp:45</a></div></div>
+<div class="ttc" id="HamiltonianOne_8h_html"><div class="ttname"><a href="HamiltonianOne_8h.html">HamiltonianOne.h</a></div></div>
+<div class="ttc" id="MatrixElements_8cpp_html_a0426020af6225ce85898528250c929b8"><div class="ttname"><a href="MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8">selectionRulesMultipole</a></div><div class="ttdeci">bool selectionRulesMultipole(StateOne const &amp;state1, StateOne const &amp;state2, int kappa, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00040">MatrixElements.cpp:40</a></div></div>
+<div class="ttc" id="classMatrixElements_html_a52fd8ebda0d00bf7a383b1ae28edf04c"><div class="ttname"><a href="classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c">MatrixElements::getMagneticMomentum</a></div><div class="ttdeci">real_t getMagneticMomentum(StateOne const &amp;state_row, StateOne const &amp;state_col)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00101">MatrixElements.cpp:101</a></div></div>
 <div class="ttc" id="classBasisnamesOne_html"><div class="ttname"><a href="classBasisnamesOne.html">BasisnamesOne</a></div><div class="ttdef"><b>Definition:</b> <a href="Basisnames_8h_source.html#l00084">Basisnames.h:84</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a45f3d187ac775e9b6c6a7756810f91ab"><div class="ttname"><a href="classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab">Hamiltonianmatrix::addBasis</a></div><div class="ttdeci">void addBasis(idx_t row, idx_t col, scalar_t val)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00056">Hamiltonianmatrix.cpp:56</a></div></div>
+<div class="ttc" id="QuantumDefect_8cpp_html_a25fe436e4f3bb40dfc306d927b3cdcc0"><div class="ttname"><a href="QuantumDefect_8cpp.html#a25fe436e4f3bb40dfc306d927b3cdcc0">energy_level</a></div><div class="ttdeci">real_t energy_level(std::string species, int n, int l, real_t j)</div><div class="ttdoc">Returns only the energy of a state. </div><div class="ttdef"><b>Definition:</b> <a href="QuantumDefect_8cpp_source.html#l00126">QuantumDefect.cpp:126</a></div></div>
+<div class="ttc" id="MatrixElements_8cpp_html_af52815f624512751601fb56a7316f061"><div class="ttname"><a href="MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061">selectionRulesMomentum</a></div><div class="ttdeci">bool selectionRulesMomentum(StateOne const &amp;state1, StateOne const &amp;state2, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00025">MatrixElements.cpp:25</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a1db6d20a1d88ef89f1acdad819af34ee"><div class="ttname"><a href="classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee">Hamiltonianmatrix::diagonalize</a></div><div class="ttdeci">void diagonalize()</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00227">Hamiltonianmatrix.cpp:227</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a1f2520c68069458abac563f6c40bca85"><div class="ttname"><a href="classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85">Hamiltonianmatrix::num_basisvectors</a></div><div class="ttdeci">size_t num_basisvectors() const </div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00048">Hamiltonianmatrix.cpp:48</a></div></div>
+<div class="ttc" id="classMatrixElements_html_ab600ec3c325b80275d86db16071fa64c"><div class="ttname"><a href="classMatrixElements.html#ab600ec3c325b80275d86db16071fa64c">MatrixElements::precalculateElectricMomentum</a></div><div class="ttdeci">void precalculateElectricMomentum(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one, int q)</div><div class="ttdef"><b>Definition:</b> <a href="MatrixElements_8cpp_source.html#l00085">MatrixElements.cpp:85</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_a7f424947bfe863cdd30d3290b4b708a5"><div class="ttname"><a href="classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5">Hamiltonianmatrix::addEntries</a></div><div class="ttdeci">void addEntries(idx_t row, idx_t col, scalar_t val)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00060">Hamiltonianmatrix.cpp:60</a></div></div>
+<div class="ttc" id="classHamiltonianmatrix_html_aa3c3a422c8c3e87c47700c9f32e02051"><div class="ttname"><a href="classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051">Hamiltonianmatrix::save</a></div><div class="ttdeci">void save(std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="Hamiltonianmatrix_8cpp_source.html#l00421">Hamiltonianmatrix.cpp:421</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_aa8bbef223f2525c4a803ee81cf7e2976"><div class="ttname"><a href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">sqlite::result::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00130">SQLite.h:130</a></div></div>
+<div class="ttc" id="classConfiguration_html_a17fff65a69b1b968f4862b6fbb4137bc"><div class="ttname"><a href="classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc">Configuration::load_from_json</a></div><div class="ttdeci">void load_from_json(std::string filename)</div><div class="ttdef"><b>Definition:</b> <a href="ConfParser_8cpp_source.html#l00073">ConfParser.cpp:73</a></div></div>
+<div class="ttc" id="classsqlite_1_1result_html_a1a941d0671be57ed3f7bebf7d3da240f"><div class="ttname"><a href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">sqlite::result::first</a></div><div class="ttdeci">result::row first() const </div><div class="ttdef"><b>Definition:</b> <a href="SQLite_8h_source.html#l00145">SQLite.h:145</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><b>HamiltonianOne.cpp</b></li>
-    <li class="footer">Generated on Wed Feb 15 2017 14:22:18 for pairinteraction by
+    <li class="navelem"><a class="el" href="dir_b23ce9843a0cf83641620a63d26b700d.html">calc</a></li><li class="navelem"><a class="el" href="HamiltonianOne_8cpp.html">HamiltonianOne.cpp</a></li>
+    <li class="footer">Generated on Wed Feb 15 2017 16:50:04 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
