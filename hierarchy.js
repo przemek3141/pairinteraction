@@ -51,5 +51,11 @@ var hierarchy =
       [ "utils::is_complex< std::complex< T > >", "structutils_1_1is__complex_3_01std_1_1complex_3_01T_01_4_01_4.html", null ]
     ] ],
     [ "Configuration::value", "classConfiguration_1_1value.html", null ],
-    [ "Whittaker", "classWhittaker.html", null ]
+    [ "Whittaker", "classWhittaker.html", null ],
+    [ "int", "classint.html", null ],
+    [ "shared_ptr< BasisnamesOne >", "classstd_1_1shared__ptr_3_01BasisnamesOne_01_4.html", null ],
+    [ "shared_ptr< BasisnamesTwo >", "classstd_1_1shared__ptr_3_01BasisnamesTwo_01_4.html", null ],
+    [ "size_t", "classsize__t.html", null ],
+    [ "vector< StateOne >", "classstd_1_1vector_3_01StateOne_01_4.html", null ],
+    [ "vector< StateTwo >", "classstd_1_1vector_3_01StateTwo_01_4.html", null ]
 ];

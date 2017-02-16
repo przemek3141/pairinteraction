@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['v',['V',['../namespacemodel__potential.html#af8cc798f9f046bb6ebdc488c8419a1da',1,'model_potential']]],
-  ['value',['value',['../classConfiguration_1_1value.html#a3e116723bd717a0f6a77f8adbd641f8e',1,'Configuration::value::value()'],['../classConfiguration_1_1value.html#af846bdcabdcf0af71efa6b81e87781a9',1,'Configuration::value::value(std::stringstream const &amp;val)'],['../classConfiguration_1_1value.html#a456d4ba98f8bfea360974a9d03f869f6',1,'Configuration::value::value(const Configuration::value &amp;obj)']]]
+  ['what',['what',['../structno__defect.html#af89e28ca8c4218cad586c77bc7ed125a',1,'no_defect::what()'],['../structsqlite_1_1sqlite__error.html#a1de81811ba75517c426ef74908766f2e',1,'sqlite::sqlite_error::what()']]],
+  ['whittaker',['Whittaker',['../classWhittaker.html#a805ef00cef1f03cc2b1dbfbfd4f487d2',1,'Whittaker']]],
+  ['whittakerw',['WhittakerW',['../namespacewhittaker__functions.html#a4c1d19b7072f7f6a96f41e90a02e9aa3',1,'whittaker_functions']]]
 ];

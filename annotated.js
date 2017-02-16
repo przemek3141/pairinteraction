@@ -1,10 +1,8 @@
 var annotated =
 [
-    [ "model_potential", "namespacemodel__potential.html", null ],
     [ "sqlite", "namespacesqlite.html", "namespacesqlite" ],
     [ "std", "namespacestd.html", "namespacestd" ],
     [ "utils", "namespaceutils.html", "namespaceutils" ],
-    [ "whittaker_functions", "namespacewhittaker__functions.html", null ],
     [ "Basisnames", "classBasisnames.html", "classBasisnames" ],
     [ "BasisnamesOne", "classBasisnamesOne.html", "classBasisnamesOne" ],
     [ "BasisnamesTwo", "classBasisnamesTwo.html", "classBasisnamesTwo" ],

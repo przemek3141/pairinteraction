@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['s',['s',['../classStateOne.html#aa77cece5e8a2f8bff76b56c88b5d555f',1,'StateOne::s()'],['../classStateTwo.html#ab07b09529d5b22c977931d89c19e0745',1,'StateTwo::s()'],['../classStateTwo.html#a840612d85094859f06672e0915be8e81',1,'StateTwo::s({{0.5, 0.5}})'],['../classStateTwo.html#ab9560423a16ed9c917c49b1c822d051b',1,'StateTwo::s({{a.s, b.s}})'],['../classStateTwo.html#ab9560423a16ed9c917c49b1c822d051b',1,'StateTwo::s({{a.s, b.s}})']]],
+  ['s',['s',['../classStateOne.html#aa77cece5e8a2f8bff76b56c88b5d555f',1,'StateOne::s()'],['../classStateTwo.html#ab07b09529d5b22c977931d89c19e0745',1,'StateTwo::s()']]],
   ['save',['save',['../classBasisnamesOne.html#a1706b725b9c6611ea294ebdfab5657e5',1,'BasisnamesOne::save()'],['../classBasisnamesTwo.html#acb4bea52f26d047cf3f54652017553fe',1,'BasisnamesTwo::save()'],['../classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051',1,'Hamiltonianmatrix::save()'],['../classSerializer.html#a79a572d0a14988acd13217beb7d5547b',1,'Serializer::save()']]],
   ['save_5fto_5fjson',['save_to_json',['../classConfiguration.html#a4a09c5d7ae6e1651985c0a81fed0ad62',1,'Configuration']]],
   ['scalar_5ft',['scalar_t',['../dtypes_8h.html#aafd8e56e4cca55995e04e11b3ebc88ba',1,'dtypes.h']]],
