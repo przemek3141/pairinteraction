@@ -1,12 +1,18 @@
 var searchData=
 [
-  ['hamiltonian',['Hamiltonian',['../classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02',1,'Hamiltonian']]],
-  ['hamiltonianmatrix',['Hamiltonianmatrix',['../classHamiltonianmatrix.html#abee2f1bfc2b5239e366a59d1f96ba03e',1,'Hamiltonianmatrix::Hamiltonianmatrix()'],['../classHamiltonianmatrix.html#a1006c59b363af0f598fdd298cc3e1cbb',1,'Hamiltonianmatrix::Hamiltonianmatrix(eigen_sparse_t entries, eigen_sparse_t basis)'],['../classHamiltonianmatrix.html#ad7b8f364e55e714ba6f75f0bb4116acc',1,'Hamiltonianmatrix::Hamiltonianmatrix(size_t szBasis, size_t szEntries)']]],
-  ['hamiltonianone',['HamiltonianOne',['../classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36',1,'HamiltonianOne']]],
-  ['hamiltoniantwo',['HamiltonianTwo',['../classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c',1,'HamiltonianTwo::HamiltonianTwo(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one)'],['../classHamiltonianTwo.html#a7f3a2599cb21e5b766e7c9ce0f2fe431',1,'HamiltonianTwo::HamiltonianTwo(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one1, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one2)']]],
-  ['handle',['handle',['../classsqlite_1_1handle.html#aefadf1b752701ed40382e60ab9bb4626',1,'sqlite::handle::handle(const std::string filename)'],['../classsqlite_1_1handle.html#a530f54653aaf0d39570ba9f94ee33451',1,'sqlite::handle::handle(const std::string filename, int flags)']]],
-  ['hashbasis',['hashBasis',['../classHamiltonianmatrix.html#a1e43ece7300d46f751f02c3260a14bfb',1,'Hamiltonianmatrix']]],
-  ['hashentries',['hashEntries',['../classHamiltonianmatrix.html#aebafe9543f93f3956fff32192efd86ce',1,'Hamiltonianmatrix']]],
-  ['header',['header',['../classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e',1,'sqlite::result']]],
-  ['hypergeometricu',['HypergeometricU',['../namespacewhittaker__functions.html#a655eb5812fd2aa3a9d5491d564e87913',1,'whittaker_functions']]]
+  ['g',['g',['../namespacemodel__potential.html#aa0daccbf04e5a365334d30c17d1e37b6',1,'model_potential']]],
+  ['get',['get',['../classBasisnames.html#a762cc88f32d319495ebd6c29116cbcc3',1,'Basisnames::get(size_t idx)'],['../classBasisnames.html#a002d56c1f8a570001fc13eed9db1f0b9',1,'Basisnames::get(size_t idx) const '],['../classHamiltonian.html#ae06d5d6278a88f91726baca40685b945',1,'Hamiltonian::get(size_t idx)'],['../classHamiltonian.html#a27c3dbd2c031304a0bf3e60fde9192e2',1,'Hamiltonian::get(size_t idx) const ']]],
+  ['get1dposition',['get1DPosition',['../classpairinteraction_1_1app_1_1MainWindow.html#a60d1a37d4e2390b835d5d93578cdfa56',1,'pairinteraction::app::MainWindow']]],
+  ['getblock',['getBlock',['../classHamiltonianmatrix.html#a5958f8545a449aaac4355b60b5587a91',1,'Hamiltonianmatrix']]],
+  ['getconf',['getConf',['../classBasisnames.html#acd50fe55d6617f9c87b620258a4bc6fb',1,'Basisnames::getConf()'],['../classHamiltonianOne.html#a037381854386261cbffc34771959497a',1,'HamiltonianOne::getConf()']]],
+  ['getconstbfield',['getConstBField',['../classpairinteraction_1_1app_1_1MainWindow.html#ac9a756cac7c8831b9708b5e859b4df68',1,'pairinteraction::app::MainWindow']]],
+  ['getconstdistance',['getConstDistance',['../classpairinteraction_1_1app_1_1MainWindow.html#ad952123ce541b2fe480485d50b151513',1,'pairinteraction::app::MainWindow']]],
+  ['getconstefield',['getConstEField',['../classpairinteraction_1_1app_1_1MainWindow.html#a410ae29f1987003cb060e02b9f977423',1,'pairinteraction::app::MainWindow']]],
+  ['getdiamagnetism',['getDiamagnetism',['../classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800',1,'MatrixElements']]],
+  ['getelectricmomentum',['getElectricMomentum',['../classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad',1,'MatrixElements']]],
+  ['getmagneticmomentum',['getMagneticMomentum',['../classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c',1,'MatrixElements']]],
+  ['getmultipole',['getMultipole',['../classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b',1,'MatrixElements']]],
+  ['getparams',['getParams',['../classHamiltonian.html#ac04e9f029464d572e01e19bbad712521',1,'Hamiltonian']]],
+  ['getradial',['getRadial',['../classMatrixElements.html#aff6662ca16679a3edff58c5e2b915fbf',1,'MatrixElements']]],
+  ['getrow',['getRow',['../classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b',1,'sqlite::result']]]
 ];

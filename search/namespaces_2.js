@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['utils',['utils',['../namespaceutils.html',1,'']]]
+  ['sqlite',['sqlite',['../namespacesqlite.html',1,'']]],
+  ['std',['std',['../namespacestd.html',1,'']]]
 ];

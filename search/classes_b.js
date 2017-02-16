@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['triple',['Triple',['../classTriple.html',1,'']]]
+  ['quantity',['Quantity',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html',1,'pairinteraction::unitmanagement']]],
+  ['quantumdefect',['QuantumDefect',['../classQuantumDefect.html',1,'']]]
 ];

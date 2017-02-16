@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['end',['end',['../classBasisnames.html#a2fa705677e1d5c79d95237259dd9f81d',1,'Basisnames::end()'],['../classConfiguration.html#a83625345d39379eb22c031351c92c329',1,'Configuration::end()'],['../classConfiguration.html#ad660a695fdcdfd64d0c9a1d008089407',1,'Configuration::end() const '],['../classsqlite_1_1result.html#a769f4ada7437d19b4df4e8e040a2212a',1,'sqlite::result::end()']]],
-  ['energy_5flevel',['energy_level',['../QuantumDefect_8cpp.html#a25fe436e4f3bb40dfc306d927b3cdcc0',1,'energy_level(std::string species, int n, int l, real_t j):&#160;QuantumDefect.cpp'],['../QuantumDefect_8h.html#a25fe436e4f3bb40dfc306d927b3cdcc0',1,'energy_level(std::string species, int n, int l, real_t j):&#160;QuantumDefect.cpp']]],
-  ['energycutoff',['energycutoff',['../Hamiltonianmatrix_8cpp.html#a9c1aa9b1f2d67867c66a9636b96fac7e',1,'Hamiltonianmatrix.cpp']]],
-  ['entries',['entries',['../classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75',1,'Hamiltonianmatrix::entries()'],['../classHamiltonianmatrix.html#ad2c3ccd714490ddb3682b7835ee4fa7c',1,'Hamiltonianmatrix::entries() const ']]],
-  ['entry',['entry',['../classConfiguration_1_1iterator_1_1entry.html#abed5d3ab75af01659fe236bafde1c2ea',1,'Configuration::iterator::entry::entry()'],['../classConfiguration_1_1const__iterator_1_1entry.html#a3d2a211cec6442bad69c15bdbd7a6d4a',1,'Configuration::const_iterator::entry::entry()']]],
-  ['exec',['exec',['../classsqlite_1_1handle.html#aecd304431641dc41b48e3076c80e5d0a',1,'sqlite::handle::exec(const std::string sql)'],['../classsqlite_1_1handle.html#a32f06251d5564b04163c53e378ee6002',1,'sqlite::handle::exec(std::stringstream const &amp;ss)']]]
+  ['deserialize',['deserialize',['../classHamiltonianmatrix.html#a73399becb46693b0da91cf69a62e3b8d',1,'Hamiltonianmatrix::deserialize()'],['../classSerializable.html#a46f5c66ac661e82ed7a0d9997f5db054',1,'Serializable::deserialize()']]],
+  ['detectmanualrangex',['detectManualRangeX',['../classpairinteraction_1_1app_1_1MainWindow.html#a2d572211f66ba0b63f871ef755dfdf74',1,'pairinteraction::app::MainWindow']]],
+  ['detectmanualrangey',['detectManualRangeY',['../classpairinteraction_1_1app_1_1MainWindow.html#aa4ea4bae7bdfe387b83419887bc28c34',1,'pairinteraction::app::MainWindow']]],
+  ['diagonalize',['diagonalize',['../classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee',1,'Hamiltonianmatrix']]],
+  ['dim',['dim',['../classBasisnames.html#ae53a1d25ae9faab16abd711bfa9a7a9e',1,'Basisnames']]],
+  ['dodeserialization',['doDeserialization',['../classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db',1,'Hamiltonianmatrix']]],
+  ['doserialization',['doSerialization',['../classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb',1,'Hamiltonianmatrix']]]
 ];

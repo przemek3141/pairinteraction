@@ -34,7 +34,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="logo48x48.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="logo72x72.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">pairinteraction
    </div>
@@ -122,10 +122,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a655eb5812fd2aa3a9d5491d564e87913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the confluent hypergeometric function.  <a href="#a655eb5812fd2aa3a9d5491d564e87913">More...</a><br /></td></tr>
 <tr class="separator:a655eb5812fd2aa3a9d5491d564e87913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c1d19b7072f7f6a96f41e90a02e9aa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewhittaker__functions.html#a4c1d19b7072f7f6a96f41e90a02e9aa3">WhittakerW</a> (<a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> k, <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> m, <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> z)</td></tr>
-<tr class="memdesc:a4c1d19b7072f7f6a96f41e90a02e9aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the <a class="el" href="classWhittaker.html">Whittaker</a> function.  <a href="#a4c1d19b7072f7f6a96f41e90a02e9aa3">More...</a><br /></td></tr>
+<tr class="memdesc:a4c1d19b7072f7f6a96f41e90a02e9aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the Whittaker function.  <a href="#a4c1d19b7072f7f6a96f41e90a02e9aa3">More...</a><br /></td></tr>
 <tr class="separator:a4c1d19b7072f7f6a96f41e90a02e9aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd07cc289c638d73927be6760a2aba53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacewhittaker__functions.html#abd07cc289c638d73927be6760a2aba53">RadialWFWhittaker</a> (<a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> r, <a class="el" href="dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4">real_t</a> nu, <a class="el" href="classint.html">int</a> l)</td></tr>
-<tr class="memdesc:abd07cc289c638d73927be6760a2aba53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial wavefunctions from <a class="el" href="classWhittaker.html">Whittaker</a>'s function.  <a href="#abd07cc289c638d73927be6760a2aba53">More...</a><br /></td></tr>
+<tr class="memdesc:abd07cc289c638d73927be6760a2aba53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial wavefunctions from Whittaker's function.  <a href="#abd07cc289c638d73927be6760a2aba53">More...</a><br /></td></tr>
 <tr class="separator:abd07cc289c638d73927be6760a2aba53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -175,6 +175,16 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="Wavefunction_8cpp_source.html#l00128">WhittakerW()</a>.</p>
 
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacewhittaker__functions_a655eb5812fd2aa3a9d5491d564e87913_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="abd07cc289c638d73927be6760a2aba53"></a>
@@ -207,8 +217,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Radial wavefunctions from <a class="el" href="classWhittaker.html">Whittaker</a>'s function. </p>
-<p>The radial wavefunction of the Schrödinger equation with the Coulomb potential can be expressed in terms of the <a class="el" href="classWhittaker.html">Whittaker</a> function. </p><p class="formulaDsp">
+<p>Radial wavefunctions from Whittaker's function. </p>
+<p>The radial wavefunction of the Schrödinger equation with the Coulomb potential can be expressed in terms of the Whittaker function. </p><p class="formulaDsp">
 \[ R_{\nu,l}(r) = (\nu^2 \Gamma(\nu+l+1) \Gamma(\nu-l))^{-1/2} W_{\nu, l+1/2}\left(\frac{2r}{\nu}\right) \]
 </p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -226,6 +236,26 @@ Functions</h2></td></tr>
 <p>References <a class="el" href="Wavefunction_8cpp_source.html#l00128">WhittakerW()</a>.</p>
 
 <p>Referenced by <a class="el" href="Wavefunction_8cpp_source.html#l00164">Whittaker::integrate()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacewhittaker__functions_abd07cc289c638d73927be6760a2aba53_cgraph.svg" width="544" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacewhittaker__functions_abd07cc289c638d73927be6760a2aba53_icgraph.svg" width="607" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -259,14 +289,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute the <a class="el" href="classWhittaker.html">Whittaker</a> function. </p>
-<p>The <a class="el" href="classWhittaker.html">Whittaker</a> function is defined in terms of the confluent hypergeometric function. </p><p class="formulaDsp">
+<p>Compute the Whittaker function. </p>
+<p>The Whittaker function is defined in terms of the confluent hypergeometric function. </p><p class="formulaDsp">
 \[ W_{k,m}(z) = \mathrm{e}^{-z/2} z^{m+1/2} U\left(m-k+\frac{1}{2}, 1+2m, z\right) \]
 </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>parameter k from <a class="el" href="classWhittaker.html">Whittaker</a>'s equation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>parameter m from <a class="el" href="classWhittaker.html">Whittaker</a>'s equation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">k</td><td>parameter k from Whittaker's equation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">m</td><td>parameter m from Whittaker's equation </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">z</td><td>radial position </td></tr>
   </table>
   </dd>
@@ -279,6 +309,26 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="Wavefunction_8cpp_source.html#l00134">RadialWFWhittaker()</a>.</p>
 
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacewhittaker__functions_a4c1d19b7072f7f6a96f41e90a02e9aa3_cgraph.svg" width="350" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacewhittaker__functions_a4c1d19b7072f7f6a96f41e90a02e9aa3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -287,7 +337,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacewhittaker__functions.html">whittaker_functions</a></li>
-    <li class="footer">Generated on Thu Feb 16 2017 09:33:39 for pairinteraction by
+    <li class="footer">Generated on Thu Feb 16 2017 10:40:42 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

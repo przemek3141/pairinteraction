@@ -1,15 +1,13 @@
 var searchData=
 [
-  ['radialwfwhittaker',['RadialWFWhittaker',['../namespacewhittaker__functions.html#abd07cc289c638d73927be6760a2aba53',1,'whittaker_functions']]],
-  ['rc',['rc',['../classQuantumDefect.html#a912ca57b9a32d64614397bb790cc25af',1,'QuantumDefect']]],
-  ['real_5ft',['real_t',['../dtypes_8h.html#a0d00e2b3dfadee81331bbb39068570c4',1,'dtypes.h']]],
-  ['reflection',['reflection',['../structSymmetry.html#a539f82bb5c22b4c99a49c379cc805fb2',1,'Symmetry']]],
-  ['removeunnecessarybasisvectors',['removeUnnecessaryBasisvectors',['../classHamiltonianmatrix.html#a2ff416efff07de6e3df93948c2688989',1,'Hamiltonianmatrix::removeUnnecessaryBasisvectors(const std::vector&lt; bool &gt; &amp;isNecessaryCoordinate)'],['../classHamiltonianmatrix.html#ab82c07450962283aa9cb281c0f7b9c8f',1,'Hamiltonianmatrix::removeUnnecessaryBasisvectors()']]],
-  ['removeunnecessarystates',['removeUnnecessaryStates',['../classBasisnamesOne.html#a63eb015ddea280c4ee2a6edb1f3b0e1c',1,'BasisnamesOne::removeUnnecessaryStates()'],['../classBasisnamesTwo.html#a4d7316f1f6fd3941c32a802c42669fa6',1,'BasisnamesTwo::removeUnnecessaryStates()'],['../classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0',1,'Hamiltonian::removeUnnecessaryStates()'],['../classHamiltonianmatrix.html#abf0990a1537466714acfdcf0cfed00cd',1,'Hamiltonianmatrix::removeUnnecessaryStates()']]],
-  ['removeunnecessarystateskeepidx',['removeUnnecessaryStatesKeepIdx',['../classBasisnamesTwo.html#a7bb922f010327135b26261ed8c424cf0',1,'BasisnamesTwo']]],
-  ['result',['result',['../classsqlite_1_1result.html#a94884b7054b23203905c518b5f0eddc8',1,'sqlite::result::result()'],['../classsqlite_1_1result.html#a16028fbf9491f07ba1c69e18b53462c4',1,'sqlite::result::result(result &amp;&amp;r)']]],
-  ['result',['result',['../classsqlite_1_1result.html',1,'sqlite']]],
-  ['rotation',['rotation',['../structSymmetry.html#a91b0bb693f79162c9909c50b30626404',1,'Symmetry']]],
-  ['row',['row',['../classTriple.html#aebd4724fb6326ba59c0b3f45b103e4e0',1,'Triple::row()'],['../classsqlite_1_1result_1_1row.html#a2f8d5be1a616ced7783f9b49c6217878',1,'sqlite::result::row::row()']]],
-  ['row',['row',['../classsqlite_1_1result_1_1row.html',1,'sqlite::result']]]
+  ['q',['Q',['../namespacepairinteraction_1_1unitmanagement.html#ab10b7ca8528c183b9610989ed8faf162',1,'pairinteraction::unitmanagement']]],
+  ['qd',['qd',['../structFixture.html#ad8f3f6c654397dedefd37e4d1707c04c',1,'Fixture']]],
+  ['qpoints',['qpoints',['../classpairinteraction_1_1pyqtgraphadditions_1_1PointsItem.html#a3d9b966ae780712a16dc38dd1a752943',1,'pairinteraction::pyqtgraphadditions::PointsItem']]],
+  ['quantity',['Quantity',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html',1,'pairinteraction::unitmanagement']]],
+  ['quantizationgroup',['quantizationgroup',['../classpairinteraction_1_1app_1_1MainWindow.html#ad6b6bc66026b9fdccaa2efd88033a7f4',1,'pairinteraction::app::MainWindow']]],
+  ['quantum_5fdefect_5ftest_2ecpp',['quantum_defect_test.cpp',['../quantum__defect__test_8cpp.html',1,'']]],
+  ['quantumdefect',['QuantumDefect',['../classQuantumDefect.html',1,'QuantumDefect'],['../classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858',1,'QuantumDefect::QuantumDefect()']]],
+  ['quantumdefect_2ecpp',['QuantumDefect.cpp',['../QuantumDefect_8cpp.html',1,'']]],
+  ['quantumdefect_2eh',['QuantumDefect.h',['../QuantumDefect_8h.html',1,'']]],
+  ['query',['query',['../classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732',1,'sqlite::handle::query(const std::string sql)'],['../classsqlite_1_1handle.html#a68073d60aa1d2fd1025369c9ec1853da',1,'sqlite::handle::query(std::stringstream const &amp;ss)']]]
 ];

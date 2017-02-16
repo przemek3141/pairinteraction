@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['result',['result',['../classsqlite_1_1result.html',1,'sqlite']]],
-  ['row',['row',['../classsqlite_1_1result_1_1row.html',1,'sqlite::result']]]
+  ['no_5fdefect',['no_defect',['../structno__defect.html',1,'']]],
+  ['numerov',['Numerov',['../classNumerov.html',1,'']]]
 ];

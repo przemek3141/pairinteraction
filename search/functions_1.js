@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['basis',['basis',['../classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78',1,'Hamiltonianmatrix::basis()'],['../classHamiltonianmatrix.html#ad91dd49a6c9b2b6504f7d4af67e26c2e',1,'Hamiltonianmatrix::basis() const ']]],
-  ['basisnames',['Basisnames',['../classBasisnames.html#a62b40d7714928937115872dc63a5d17c',1,'Basisnames']]],
-  ['basisnamestwo',['BasisnamesTwo',['../classBasisnamesTwo.html#a66f692f7637f94458fcb3af2d734d5c5',1,'BasisnamesTwo::BasisnamesTwo(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one1, std::shared_ptr&lt; const BasisnamesOne &gt; basis_one2)'],['../classBasisnamesTwo.html#a1c0a91606aeabe6f9dfbc728a6b6cb63',1,'BasisnamesTwo::BasisnamesTwo(std::shared_ptr&lt; const BasisnamesOne &gt; basis_one1)']]],
-  ['begin',['begin',['../classBasisnames.html#a76ab560743ced7e7fa3f71702c2696aa',1,'Basisnames::begin()'],['../classConfiguration.html#af15d7b104b4b76c7b41e49478640221a',1,'Configuration::begin()'],['../classConfiguration.html#acfb3d2e509cd1bcfdba66d7d544726da',1,'Configuration::begin() const '],['../classsqlite_1_1result.html#ab745a58d4ffe96ebd438e3e58965085a',1,'sqlite::result::begin()']]],
-  ['boost_5fauto_5ftest_5fcase',['BOOST_AUTO_TEST_CASE',['../quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e',1,'BOOST_AUTO_TEST_CASE(qd_test):&#160;quantum_defect_test.cpp'],['../sqlite__test_8cpp.html#a20fecf620cb330b84abd5166034e113a',1,'BOOST_AUTO_TEST_CASE(sqlite_query_test):&#160;sqlite_test.cpp']]],
-  ['boost_5ffixture_5ftest_5fcase',['BOOST_FIXTURE_TEST_CASE',['../wavefunction__test_8cpp.html#afee9b93327d60c46c735d72999f6d3e4',1,'BOOST_FIXTURE_TEST_CASE(model_potentials, Fixture):&#160;wavefunction_test.cpp'],['../wavefunction__test_8cpp.html#a8c01b14b42a958dbe2d4504d4fba0cab',1,'BOOST_FIXTURE_TEST_CASE(numerovs_method, Fixture):&#160;wavefunction_test.cpp'],['../wavefunction__test_8cpp.html#a7efbab1df5e4e652e33f058e1b057eaa',1,'BOOST_FIXTURE_TEST_CASE(coulomb_functions, Fixture):&#160;wavefunction_test.cpp'],['../wavefunction__test_8cpp.html#a26b2e15167b07631d4370f3158d2d36e',1,'BOOST_FIXTURE_TEST_CASE(method_comparison, Fixture):&#160;wavefunction_test.cpp']]],
-  ['build',['build',['../classBasisnamesTwo.html#a525d38c5fe6e6c297794298a90eb0099',1,'BasisnamesTwo::build()'],['../classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e',1,'HamiltonianOne::build()']]]
+  ['abortcalculation',['abortCalculation',['../classpairinteraction_1_1app_1_1MainWindow.html#aba6275846fa0b0509cb2f5baaa019a35',1,'pairinteraction::app::MainWindow']]],
+  ['abs',['abs',['../classHamiltonianmatrix.html#ac4bbf2c965757f9548effde4037627e0',1,'Hamiltonianmatrix']]],
+  ['addbasis',['addBasis',['../classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab',1,'Hamiltonianmatrix']]],
+  ['addentries',['addEntries',['../classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5',1,'Hamiltonianmatrix']]],
+  ['adjustpairlimits',['adjustPairlimits',['../classpairinteraction_1_1app_1_1MainWindow.html#a99a5c370b41caacc095f90b1e584b0ff',1,'pairinteraction::app::MainWindow']]],
+  ['applycutoff',['applyCutoff',['../classHamiltonianmatrix.html#affc7879dc67c33fe450f7011b7872f4c',1,'Hamiltonianmatrix']]],
+  ['autosetsymmetrization',['autosetSymmetrization',['../classpairinteraction_1_1app_1_1MainWindow.html#a9ebc0532802e5cbe7570e7ef198b63c0',1,'pairinteraction::app::MainWindow']]],
+  ['axis',['axis',['../classNumerov.html#afeb212d558662bc21c2121fd5b1c04f7',1,'Numerov::axis()'],['../classWhittaker.html#ae1d8620c4f857c9a5745a03ce86acfc4',1,'Whittaker::axis()']]]
 ];

@@ -1,5 +1,6 @@
 var annotated =
 [
+    [ "pairinteraction", "namespacepairinteraction.html", "namespacepairinteraction" ],
     [ "sqlite", "namespacesqlite.html", "namespacesqlite" ],
     [ "std", "namespacestd.html", "namespacestd" ],
     [ "utils", "namespaceutils.html", "namespaceutils" ],
@@ -14,6 +15,8 @@ var annotated =
     [ "HamiltonianOne", "classHamiltonianOne.html", "classHamiltonianOne" ],
     [ "HamiltonianTwo", "classHamiltonianTwo.html", "classHamiltonianTwo" ],
     [ "MatrixElements", "classMatrixElements.html", "classMatrixElements" ],
+    [ "metaclass", "classmetaclass.html", null ],
+    [ "MutableMapping", "classMutableMapping.html", null ],
     [ "no_defect", "structno__defect.html", "structno__defect" ],
     [ "Numerov", "classNumerov.html", "classNumerov" ],
     [ "QuantumDefect", "classQuantumDefect.html", "classQuantumDefect" ],

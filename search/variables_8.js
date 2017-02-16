@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['l',['l',['../classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa',1,'QuantumDefect::l()'],['../classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03',1,'StateOne::l()'],['../classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357',1,'StateTwo::l()']]]
+  ['j',['j',['../classQuantumDefect.html#a9a51dee2acc4a9b59c0e2bbec1c5bae0',1,'QuantumDefect::j()'],['../classStateOne.html#a9d953e8457dd35af0aec8637444622a1',1,'StateOne::j()'],['../classStateTwo.html#ae5effe7b3e21a8824a972a83a858d7b4',1,'StateTwo::j()']]]
 ];
