@@ -12,8 +12,8 @@
 <area shape="rect" id="node15" href="$Hamiltonianmatrix_8cpp.html#a944e9d56e12146abbdaad531a3192dc1" title="combine" alt="" coords="595,341,672,368"/>
 <area shape="rect" id="node19" href="$classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="808,494,956,535"/>
 <area shape="rect" id="node20" href="$classConfiguration_1_1value.html#af65807c23551a7d40ea97accd7fa26e3" title="Configuration::value::str" alt="" coords="546,779,721,805"/>
-<area shape="rect" id="node21" href="$classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" title="sqlite::result::size" alt="" coords="567,829,700,856"/>
-<area shape="rect" id="node22" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="sqlite::result::first" alt="" coords="567,880,699,907"/>
+<area shape="rect" id="node21" href="$classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" title="Number of rows. " alt="" coords="567,829,700,856"/>
+<area shape="rect" id="node22" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="First row. " alt="" coords="567,880,699,907"/>
 <area shape="rect" id="node24" href="$classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc" title="Configuration::load\l_from_json" alt="" coords="562,931,705,973"/>
 <area shape="rect" id="node25" href="$classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e" title="Hamiltonianmatrix::load" alt="" coords="546,997,721,1024"/>
 <area shape="rect" id="node29" href="$classHamiltonianmatrix.html#a2ff416efff07de6e3df93948c2688989" title="Hamiltonianmatrix::\lremoveUnnecessaryBasisvectors" alt="" coords="516,443,751,485"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node16" href="$classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab" title="Hamiltonianmatrix::\laddBasis" alt="" coords="808,298,956,339"/>
 <area shape="rect" id="node17" href="$classHamiltonianmatrix.html#a7f424947bfe863cdd30d3290b4b708a5" title="Hamiltonianmatrix::\laddEntries" alt="" coords="808,363,956,405"/>
 <area shape="rect" id="node18" href="$classHamiltonianmatrix.html#a4dded9728c945c20fcd7abbc8bd5cfe6" title="Hamiltonianmatrix::\lcompress" alt="" coords="808,429,956,470"/>
-<area shape="rect" id="node23" href="$classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" title="sqlite::result::getRow" alt="" coords="805,880,959,907"/>
+<area shape="rect" id="node23" href="$classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" title="Get a specific row. " alt="" coords="805,880,959,907"/>
 <area shape="rect" id="node26" href="$classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db" title="Hamiltonianmatrix::\ldoDeserialization" alt="" coords="808,986,956,1027"/>
 <area shape="rect" id="node27" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="1029,937,1145,964"/>
 <area shape="rect" id="node28" href="$classHamiltonianmatrix.html#a0b5c17b37823a4cfd03f0f9bffcc2b7f" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="1013,989,1161,1030"/>

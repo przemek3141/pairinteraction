@@ -233,7 +233,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="sqlite::result::size">
+<g id="a_node21"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="Number of rows. ">
 <polygon fill="none" stroke="black" points="421,-220 421,-239 521,-239 521,-220 421,-220"/>
 <text text-anchor="middle" x="471" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::size</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="sqlite::result::first">
+<g id="a_node22"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="First row. ">
 <polygon fill="none" stroke="black" points="421.5,-182 421.5,-201 520.5,-201 520.5,-182 421.5,-182"/>
 <text text-anchor="middle" x="471" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::first</text>
 </a>
@@ -454,7 +454,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="sqlite::result::getRow">
+<g id="a_node23"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="Get a specific row. ">
 <polygon fill="none" stroke="black" points="600,-182 600,-201 715,-201 715,-182 600,-182"/>
 <text text-anchor="middle" x="657.5" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::getRow</text>
 </a>

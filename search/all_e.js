@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n',['n',['../classQuantumDefect.html#a37e09d7e28751618b98208bd5ff8766e',1,'QuantumDefect::n()'],['../classStateOne.html#acf57fe4900bc23746b2c77b17d27485a',1,'StateOne::n()'],['../classStateTwo.html#a66cbf553eb0eab3f7ee23353cdfe2b6f',1,'StateTwo::n()']]],
+  ['n',['n',['../classQuantumDefect.html#ac52932df9a6809cc933cf16bb9d22651',1,'QuantumDefect::n()'],['../classStateOne.html#acf57fe4900bc23746b2c77b17d27485a',1,'StateOne::n()'],['../classStateTwo.html#a66cbf553eb0eab3f7ee23353cdfe2b6f',1,'StateTwo::n()']]],
   ['na',['NA',['../dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290ac75245149c3f64d74430b8996b1e0558',1,'dtypes.h']]],
   ['names',['names',['../classHamiltonian.html#af87b2635fbec405c55f5afbbda134509',1,'Hamiltonian']]],
   ['names_5f',['names_',['../classBasisnames.html#a69ce77679f92b55d99e9f8924b0a753a',1,'Basisnames']]],

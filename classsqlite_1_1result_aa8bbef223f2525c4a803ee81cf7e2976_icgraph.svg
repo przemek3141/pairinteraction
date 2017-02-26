@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 533;
 var viewHeight = 142;
-var sectionId = 'dynsection-6';
+var sectionId = 'dynsection-5';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -100,7 +100,7 @@ var sectionId = 'dynsection-6';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858" target="_top" xlink:title="Constructor. ">
+<g id="a_node7"><a xlink:href="classQuantumDefect.html#ac0c33ddc83faeddf64c43aef1e1a0103" target="_top" xlink:title="Constructor. ">
 <polygon fill="none" stroke="black" points="136,-0.5 136,-19.5 312,-19.5 312,-0.5 136,-0.5"/>
 <text text-anchor="middle" x="224" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QuantumDefect::QuantumDefect</text>
 </a>

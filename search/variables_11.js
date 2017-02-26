@@ -5,7 +5,7 @@ var searchData=
   ['samebasis_5fstate',['samebasis_state',['../classpairinteraction_1_1app_1_1MainWindow.html#a0df40ac1415dffe0c7e5ab1a8643260d',1,'pairinteraction::app::MainWindow']]],
   ['senderbutton',['senderbutton',['../classpairinteraction_1_1app_1_1MainWindow.html#a23ecc006d03aab41b4c159bd99c1f104',1,'pairinteraction::app::MainWindow']]],
   ['size',['size',['../classpairinteraction_1_1pyqtgraphadditions_1_1PointsItem.html#ab1b5a85d4bd5e12eb93bf577da648496',1,'pairinteraction::pyqtgraphadditions::PointsItem']]],
-  ['species',['species',['../classQuantumDefect.html#a6759cac42cda4c935f6d3253047b4815',1,'QuantumDefect']]],
+  ['species',['species',['../classQuantumDefect.html#a974b8fa081568ccdfcc9a66fc02335cc',1,'QuantumDefect']]],
   ['starttime',['starttime',['../classpairinteraction_1_1app_1_1MainWindow.html#aa203c438bbd4ef975f3a0c2dd28f6026',1,'pairinteraction::app::MainWindow']]],
   ['stateidx_5ffield',['stateidx_field',['../classpairinteraction_1_1app_1_1MainWindow.html#a034a1f95549168bb91adbd2f54c49f0e',1,'pairinteraction::app::MainWindow']]],
   ['stdout',['stdout',['../classpairinteraction_1_1worker_1_1Worker.html#abec7b836f9e21794e544806549d7169f',1,'pairinteraction::worker::Worker']]],

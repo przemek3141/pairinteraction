@@ -9,7 +9,7 @@ var searchData=
   ['removeunnecessarystateskeepidx',['removeUnnecessaryStatesKeepIdx',['../classBasisnamesTwo.html#a7bb922f010327135b26261ed8c424cf0',1,'BasisnamesTwo']]],
   ['resetpconf',['resetPConf',['../classpairinteraction_1_1app_1_1MainWindow.html#a185fecc2006e1f68bd102dad334899bd',1,'pairinteraction::app::MainWindow']]],
   ['resetsconf',['resetSConf',['../classpairinteraction_1_1app_1_1MainWindow.html#acb3266a8e997021379ed920e3f628eb4',1,'pairinteraction::app::MainWindow']]],
-  ['result',['result',['../classsqlite_1_1result.html#a94884b7054b23203905c518b5f0eddc8',1,'sqlite::result::result()'],['../classsqlite_1_1result.html#a16028fbf9491f07ba1c69e18b53462c4',1,'sqlite::result::result(result &amp;&amp;r)']]],
-  ['row',['row',['../classsqlite_1_1result_1_1row.html#a2f8d5be1a616ced7783f9b49c6217878',1,'sqlite::result::row']]],
+  ['result',['result',['../classsqlite_1_1result.html#a3c057452ac683df5be514d0459d38aa7',1,'sqlite::result']]],
+  ['row',['row',['../classsqlite_1_1result_1_1row.html#a4ff392c44f44b614845dc02d82f81e9d',1,'sqlite::result::row']]],
   ['run',['run',['../classpairinteraction_1_1worker_1_1Worker.html#af828ae8b851cef660f665d27e4a145e6',1,'pairinteraction::worker::Worker']]]
 ];

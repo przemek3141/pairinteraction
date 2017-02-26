@@ -1,6 +1,6 @@
 <map id="BOOST_AUTO_TEST_CASE" name="BOOST_AUTO_TEST_CASE">
-<area shape="rect" id="node2" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="sqlite::result::first" alt="" coords="253,5,385,32"/>
-<area shape="rect" id="node4" href="$classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732" title="sqlite::handle::query" alt="" coords="244,56,395,83"/>
-<area shape="rect" id="node5" href="$classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" title="sqlite::result::size" alt="" coords="253,107,386,133"/>
-<area shape="rect" id="node3" href="$classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" title="sqlite::result::getRow" alt="" coords="443,5,596,32"/>
+<area shape="rect" id="node2" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="First row. " alt="" coords="253,5,385,32"/>
+<area shape="rect" id="node4" href="$classsqlite_1_1handle.html#a1ea565af239326cba33b35705a660514" title="Place an SQLite query. " alt="" coords="244,56,395,83"/>
+<area shape="rect" id="node5" href="$classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" title="Number of rows. " alt="" coords="253,107,386,133"/>
+<area shape="rect" id="node3" href="$classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" title="Get a specific row. " alt="" coords="443,5,596,32"/>
 </map>

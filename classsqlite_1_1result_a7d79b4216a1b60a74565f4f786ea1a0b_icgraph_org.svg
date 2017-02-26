@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="sqlite::result::first">
+<g id="a_node2"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="First row. ">
 <polygon fill="none" stroke="black" points="159.5,-88 159.5,-107 258.5,-107 258.5,-88 159.5,-88"/>
 <text text-anchor="middle" x="209" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::first</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e" target="_top" xlink:title="sqlite::result::header">
+<g id="a_node9"><a xlink:href="classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e" target="_top" xlink:title="Header row. ">
 <polygon fill="none" stroke="black" points="151.5,-50 151.5,-69 266.5,-69 266.5,-50 151.5,-50"/>
 <text text-anchor="middle" x="209" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::header</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classsqlite_1_1result_1_1iterator.html#a6358138d91def386374162628490b30d" target="_top" xlink:title="sqlite::result::iterator\l::operator*">
+<g id="a_node10"><a xlink:href="classsqlite_1_1result_1_1iterator.html#a6358138d91def386374162628490b30d" target="_top" xlink:title="Dereference operator. ">
 <polygon fill="none" stroke="black" points="151,-0.5 151,-30.5 267,-30.5 267,-0.5 151,-0.5"/>
 <text text-anchor="start" x="159" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::iterator</text>
 <text text-anchor="middle" x="209" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::operator*</text>
@@ -94,7 +94,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858" target="_top" xlink:title="Constructor. ">
+<g id="a_node8"><a xlink:href="classQuantumDefect.html#ac0c33ddc83faeddf64c43aef1e1a0103" target="_top" xlink:title="Constructor. ">
 <polygon fill="none" stroke="black" points="303,-31 303,-50 479,-50 479,-31 303,-31"/>
 <text text-anchor="middle" x="391" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00">QuantumDefect::QuantumDefect</text>
 </a>

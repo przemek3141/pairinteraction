@@ -87,7 +87,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="QuantumDefect_8cpp.html#a25fe436e4f3bb40dfc306d927b3cdcc0" target="_top" xlink:title="Returns only the energy of a state. ">
+<g id="a_node3"><a xlink:href="QuantumDefect_8cpp.html#aa2280d8f482cac65fc83857609a56054" target="_top" xlink:title="Returns only the energy of a state. ">
 <polygon fill="none" stroke="black" points="446,-970 446,-989 523,-989 523,-970 446,-970"/>
 <text text-anchor="middle" x="484.5" y="-977" font-family="Helvetica,sans-Serif" font-size="10.00">energy_level</text>
 </a>
@@ -278,7 +278,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="sqlite::result::size">
+<g id="a_node18"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="Number of rows. ">
 <polygon fill="none" stroke="black" points="434.5,-337 434.5,-356 534.5,-356 534.5,-337 434.5,-337"/>
 <text text-anchor="middle" x="484.5" y="-344" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::size</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="sqlite::result::first">
+<g id="a_node19"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="First row. ">
 <polygon fill="none" stroke="black" points="435,-299 435,-318 534,-318 534,-299 435,-299"/>
 <text text-anchor="middle" x="484.5" y="-306" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::first</text>
 </a>
@@ -385,7 +385,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="sqlite::result::getRow">
+<g id="a_node20"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="Get a specific row. ">
 <polygon fill="none" stroke="black" points="632,-299 632,-318 747,-318 747,-299 632,-299"/>
 <text text-anchor="middle" x="689.5" y="-306" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::getRow</text>
 </a>

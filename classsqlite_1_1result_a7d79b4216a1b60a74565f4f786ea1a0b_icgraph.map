@@ -1,11 +1,11 @@
 <map id="sqlite::result::getRow" name="sqlite::result::getRow">
-<area shape="rect" id="node2" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="sqlite::result::first" alt="" coords="218,81,350,108"/>
-<area shape="rect" id="node9" href="$classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e" title="sqlite::result::header" alt="" coords="207,132,361,159"/>
-<area shape="rect" id="node10" href="$classsqlite_1_1result_1_1iterator.html#a6358138d91def386374162628490b30d" title="sqlite::result::iterator\l::operator*" alt="" coords="207,183,361,225"/>
+<area shape="rect" id="node2" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="First row. " alt="" coords="218,81,350,108"/>
+<area shape="rect" id="node9" href="$classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e" title="Header row. " alt="" coords="207,132,361,159"/>
+<area shape="rect" id="node10" href="$classsqlite_1_1result_1_1iterator.html#a6358138d91def386374162628490b30d" title="Dereference operator. " alt="" coords="207,183,361,225"/>
 <area shape="rect" id="node3" href="$quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e" title="BOOST_AUTO_TEST_CASE" alt="" coords="431,5,622,32"/>
 <area shape="rect" id="node4" href="$classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" title="HamiltonianOne::build" alt="" coords="445,56,608,83"/>
 <area shape="rect" id="node6" href="$classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb" title="HamiltonianTwo::calculate" alt="" coords="433,107,620,133"/>
-<area shape="rect" id="node8" href="$classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858" title="Constructor. " alt="" coords="409,157,644,184"/>
+<area shape="rect" id="node8" href="$classQuantumDefect.html#ac0c33ddc83faeddf64c43aef1e1a0103" title="Constructor. " alt="" coords="409,157,644,184"/>
 <area shape="rect" id="node5" href="$classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" title="HamiltonianOne::HamiltonianOne" alt="" coords="692,56,928,83"/>
 <area shape="rect" id="node7" href="$classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c" title="HamiltonianTwo::HamiltonianTwo" alt="" coords="696,107,924,133"/>
 </map>

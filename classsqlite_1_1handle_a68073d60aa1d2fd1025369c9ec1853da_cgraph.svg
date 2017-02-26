@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732" target="_top" xlink:title="sqlite::handle::query">
+<g id="a_node2"><a xlink:href="classsqlite_1_1handle.html#a1ea565af239326cba33b35705a660514" target="_top" xlink:title="Place an SQLite query. ">
 <polygon fill="none" stroke="black" points="149,-0.5 149,-19.5 262,-19.5 262,-0.5 149,-0.5"/>
 <text text-anchor="middle" x="205.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::handle::query</text>
 </a>

@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="sqlite::result::first">
+<g id="a_node2"><a xlink:href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" target="_top" xlink:title="First row. ">
 <polygon fill="none" stroke="black" points="219,-76.5 219,-95.5 318,-95.5 318,-76.5 219,-76.5"/>
 <text text-anchor="middle" x="268.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::first</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classsqlite_1_1handle.html#ae61250faffadb67aabc5498878204732" target="_top" xlink:title="sqlite::handle::query">
+<g id="a_node4"><a xlink:href="classsqlite_1_1handle.html#a1ea565af239326cba33b35705a660514" target="_top" xlink:title="Place an SQLite query. ">
 <polygon fill="none" stroke="black" points="212,-38.5 212,-57.5 325,-57.5 325,-38.5 212,-38.5"/>
 <text text-anchor="middle" x="268.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::handle::query</text>
 </a>
@@ -41,7 +41,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="sqlite::result::size">
+<g id="a_node5"><a xlink:href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" target="_top" xlink:title="Number of rows. ">
 <polygon fill="none" stroke="black" points="218.5,-0.5 218.5,-19.5 318.5,-19.5 318.5,-0.5 218.5,-0.5"/>
 <text text-anchor="middle" x="268.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::size</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="sqlite::result::getRow">
+<g id="a_node3"><a xlink:href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" target="_top" xlink:title="Get a specific row. ">
 <polygon fill="none" stroke="black" points="361,-76.5 361,-95.5 476,-95.5 476,-76.5 361,-76.5"/>
 <text text-anchor="middle" x="418.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::result::getRow</text>
 </a>

@@ -54,7 +54,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classQuantumDefect.html#a6d0386ca03dd44ecd0cd494a140a3858" target="_top" xlink:title="Constructor. ">
+<g id="a_node7"><a xlink:href="classQuantumDefect.html#ac0c33ddc83faeddf64c43aef1e1a0103" target="_top" xlink:title="Constructor. ">
 <polygon fill="none" stroke="black" points="135,-0.5 135,-19.5 311,-19.5 311,-0.5 135,-0.5"/>
 <text text-anchor="middle" x="223" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QuantumDefect::QuantumDefect</text>
 </a>

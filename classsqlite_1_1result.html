@@ -113,55 +113,57 @@ $(document).ready(function(){initNavTree('classsqlite_1_1result.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">sqlite::result Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Result table.  
+ <a href="classsqlite_1_1result.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SQLite_8h_source.html">SQLite.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1iterator.html">iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table iterator.  <a href="classsqlite_1_1result_1_1iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result_1_1row.html">row</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row of the table.  <a href="classsqlite_1_1result_1_1row.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a94884b7054b23203905c518b5f0eddc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a94884b7054b23203905c518b5f0eddc8">result</a> ()</td></tr>
-<tr class="separator:a94884b7054b23203905c518b5f0eddc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16028fbf9491f07ba1c69e18b53462c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a16028fbf9491f07ba1c69e18b53462c4">result</a> (<a class="el" href="classsqlite_1_1result.html">result</a> &amp;&amp;r)</td></tr>
-<tr class="separator:a16028fbf9491f07ba1c69e18b53462c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7313e7a3baa1ff86d10f02c1e1f0f6e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a7313e7a3baa1ff86d10f02c1e1f0f6e2">swap</a> (<a class="el" href="classsqlite_1_1result.html">result</a> &amp;&amp;r)</td></tr>
-<tr class="separator:a7313e7a3baa1ff86d10f02c1e1f0f6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74209534ede9cee177bc41388b97151e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a74209534ede9cee177bc41388b97151e">~result</a> ()</td></tr>
-<tr class="separator:a74209534ede9cee177bc41388b97151e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c057452ac683df5be514d0459d38aa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a3c057452ac683df5be514d0459d38aa7">result</a> (char **azResult, <a class="el" href="classint.html">int</a> nRow, <a class="el" href="classint.html">int</a> nColumn)</td></tr>
+<tr class="memdesc:a3c057452ac683df5be514d0459d38aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a3c057452ac683df5be514d0459d38aa7">More...</a><br /></td></tr>
+<tr class="separator:a3c057452ac683df5be514d0459d38aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8bbef223f2525c4a803ee81cf7e2976"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsize__t.html">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976">size</a> () const </td></tr>
+<tr class="memdesc:aa8bbef223f2525c4a803ee81cf7e2976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of rows.  <a href="#aa8bbef223f2525c4a803ee81cf7e2976">More...</a><br /></td></tr>
 <tr class="separator:aa8bbef223f2525c4a803ee81cf7e2976"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab745a58d4ffe96ebd438e3e58965085a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1iterator.html">result::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#ab745a58d4ffe96ebd438e3e58965085a">begin</a> () const </td></tr>
+<tr class="memdesc:ab745a58d4ffe96ebd438e3e58965085a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator pointing to the first row.  <a href="#ab745a58d4ffe96ebd438e3e58965085a">More...</a><br /></td></tr>
 <tr class="separator:ab745a58d4ffe96ebd438e3e58965085a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a769f4ada7437d19b4df4e8e040a2212a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1iterator.html">result::iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a769f4ada7437d19b4df4e8e040a2212a">end</a> () const </td></tr>
+<tr class="memdesc:a769f4ada7437d19b4df4e8e040a2212a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator pointing to the last row.  <a href="#a769f4ada7437d19b4df4e8e040a2212a">More...</a><br /></td></tr>
 <tr class="separator:a769f4ada7437d19b4df4e8e040a2212a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a941d0671be57ed3f7bebf7d3da240f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">result::row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f">first</a> () const </td></tr>
+<tr class="memdesc:a1a941d0671be57ed3f7bebf7d3da240f"><td class="mdescLeft">&#160;</td><td class="mdescRight">First row.  <a href="#a1a941d0671be57ed3f7bebf7d3da240f">More...</a><br /></td></tr>
 <tr class="separator:a1a941d0671be57ed3f7bebf7d3da240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a5a673ad5ae2d896656845f34b5a8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">result::row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e">header</a> () const </td></tr>
+<tr class="memdesc:af4a5a673ad5ae2d896656845f34b5a8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Header row.  <a href="#af4a5a673ad5ae2d896656845f34b5a8e">More...</a><br /></td></tr>
 <tr class="separator:af4a5a673ad5ae2d896656845f34b5a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d79b4216a1b60a74565f4f786ea1a0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsqlite_1_1result_1_1row.html">result::row</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b">getRow</a> (<a class="el" href="classint.html">int</a> pos) const </td></tr>
+<tr class="memdesc:a7d79b4216a1b60a74565f4f786ea1a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specific row.  <a href="#a7d79b4216a1b60a74565f4f786ea1a0b">More...</a><br /></td></tr>
 <tr class="separator:a7d79b4216a1b60a74565f4f786ea1a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ad5131fca8411651b7eaed9ca2b4a6fef"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1result.html#ad5131fca8411651b7eaed9ca2b4a6fef">handle</a></td></tr>
-<tr class="separator:ad5131fca8411651b7eaed9ca2b4a6fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00047">47</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<div class="textblock"><p>Result table. </p>
+<p>This object wraps the result table. It is iterable and can be used in range-based for loops. </p>
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00074">74</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a94884b7054b23203905c518b5f0eddc8"></a>
+<a class="anchor" id="a3c057452ac683df5be514d0459d38aa7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -171,8 +173,25 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">sqlite::result::result </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>azResult</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>nRow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>nColumn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -182,70 +201,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00107">107</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Constructor. </p>
+<p>Construct the result table of a query. </p>
 
-</div>
-</div>
-<a class="anchor" id="a16028fbf9491f07ba1c69e18b53462c4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sqlite::result::result </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classsqlite_1_1result.html">result</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00111">111</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
-
-<p>References <a class="el" href="SQLite_8h_source.html#l00118">swap()</a>.</p>
-
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_a16028fbf9491f07ba1c69e18b53462c4_cgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a74209534ede9cee177bc41388b97151e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sqlite::result::~result </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00125">125</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00189">189</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
 </div>
 </div>
@@ -271,15 +230,18 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00135">135</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Iterator pointing to the first row. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator pointing to the first row </dd></dl>
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00208">208</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
 <p>Referenced by <a class="el" href="sqlite__test_8cpp_source.html#l00024">BOOST_AUTO_TEST_CASE()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_ab745a58d4ffe96ebd438e3e58965085a_icgraph.svg" width="392" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -308,7 +270,10 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00140">140</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Iterator pointing to the last row. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator pointing to the last row </dd></dl>
+
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00217">217</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
 </div>
 </div>
@@ -333,27 +298,30 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00145">145</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>First row. </p>
+<dl class="section return"><dt>Returns</dt><dd>First row </dd></dl>
 
-<p>References <a class="el" href="SQLite_8h_source.html#l00155">getRow()</a>.</p>
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00226">226</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
-<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>, <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="QuantumDefect_8cpp_source.html#l00037">QuantumDefect::QuantumDefect()</a>.</p>
+<p>References <a class="el" href="SQLite_8h_source.html#l00246">getRow()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="HamiltonianOne_8cpp_source.html#l00082">HamiltonianOne::build()</a>, <a class="el" href="HamiltonianTwo_8cpp_source.html#l00036">HamiltonianTwo::calculate()</a>, and <a class="el" href="QuantumDefect_8cpp_source.html#l00037">QuantumDefect::QuantumDefect()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_a1a941d0671be57ed3f7bebf7d3da240f_cgraph.svg" width="344" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_a1a941d0671be57ed3f7bebf7d3da240f_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -383,15 +351,30 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00155">155</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Get a specific row. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>position of the row </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Specified row </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="structsqlite_1_1sqlite__error.html" title="SQLite error. ">sqlite_error</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Referenced by <a class="el" href="SQLite_8h_source.html#l00145">first()</a>, <a class="el" href="SQLite_8h_source.html#l00150">header()</a>, and <a class="el" href="SQLite_8h_source.html#l00090">sqlite::result::iterator::operator*()</a>.</p>
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00246">246</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="SQLite_8h_source.html#l00226">first()</a>, <a class="el" href="SQLite_8h_source.html#l00235">header()</a>, and <a class="el" href="SQLite_8h_source.html#l00163">sqlite::result::iterator::operator*()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_a7d79b4216a1b60a74565f4f786ea1a0b_icgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -420,15 +403,18 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00150">150</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Header row. </p>
+<dl class="section return"><dt>Returns</dt><dd>Header row </dd></dl>
 
-<p>References <a class="el" href="SQLite_8h_source.html#l00155">getRow()</a>.</p>
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00235">235</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="SQLite_8h_source.html#l00246">getRow()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_af4a5a673ad5ae2d896656845f34b5a8e_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -457,80 +443,22 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00130">130</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
+<p>Number of rows. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of rows </dd></dl>
 
-<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="HamiltonianOne_8cpp_source.html#l00080">HamiltonianOne::build()</a>, <a class="el" href="HamiltonianTwo_8cpp_source.html#l00035">HamiltonianTwo::calculate()</a>, and <a class="el" href="QuantumDefect_8cpp_source.html#l00037">QuantumDefect::QuantumDefect()</a>.</p>
+<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00199">199</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p>Referenced by <a class="el" href="quantum__defect__test_8cpp_source.html#l00022">BOOST_AUTO_TEST_CASE()</a>, <a class="el" href="HamiltonianOne_8cpp_source.html#l00082">HamiltonianOne::build()</a>, <a class="el" href="HamiltonianTwo_8cpp_source.html#l00036">HamiltonianTwo::calculate()</a>, and <a class="el" href="QuantumDefect_8cpp_source.html#l00037">QuantumDefect::QuantumDefect()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_aa8bbef223f2525c4a803ee81cf7e2976_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a7313e7a3baa1ff86d10f02c1e1f0f6e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sqlite::result::swap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classsqlite_1_1result.html">result</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00118">118</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
-
-<p>Referenced by <a class="el" href="SQLite_8h_source.html#l00111">result()</a>.</p>
-
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1result_a7313e7a3baa1ff86d10f02c1e1f0f6e2_icgraph.svg" width="343" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="ad5131fca8411651b7eaed9ca2b4a6fef"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="classsqlite_1_1handle.html">handle</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="SQLite_8h_source.html#l00048">48</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 
 </div>
 </div>
@@ -543,7 +471,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacesqlite.html">sqlite</a></li><li class="navelem"><a class="el" href="classsqlite_1_1result.html">result</a></li>
-    <li class="footer">Generated on Fri Feb 17 2017 12:26:18 for pairinteraction by
+    <li class="footer">Generated on Sun Feb 26 2017 22:54:32 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

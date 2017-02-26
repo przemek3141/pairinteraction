@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l',['l',['../classQuantumDefect.html#af78c8dea80e09f11ddd64f0bca6b74fa',1,'QuantumDefect::l()'],['../classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03',1,'StateOne::l()'],['../classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357',1,'StateTwo::l()']]],
+  ['l',['l',['../classQuantumDefect.html#a4541590e18e50b41e0717bf0711f3afd',1,'QuantumDefect::l()'],['../classStateOne.html#a632b2036a5041f0ea0b8f29dd17d9e03',1,'StateOne::l()'],['../classStateTwo.html#a299c17289eaa1d22cad8c8d3befde357',1,'StateTwo::l()']]],
   ['labelmat',['labelmat',['../classpairinteraction_1_1app_1_1MainWindow.html#aee827a1ab0fe963062d0f35cf1284551',1,'pairinteraction::app::MainWindow']]],
   ['labelprob',['labelprob',['../classpairinteraction_1_1app_1_1MainWindow.html#a9b737dc0d29c689bdfbb0a6d37f72c7c',1,'pairinteraction::app::MainWindow']]],
   ['labelprob_5fenergy',['labelprob_energy',['../classpairinteraction_1_1app_1_1MainWindow.html#a58d094527c25fbdbd46ac02da2f3931e',1,'pairinteraction::app::MainWindow']]],
