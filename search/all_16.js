@@ -11,6 +11,6 @@ var searchData=
   ['validatequantumnumbers',['validateQuantumnumbers',['../classpairinteraction_1_1app_1_1MainWindow.html#a5e7dc64b730afa8ae2b857a16833dd89',1,'pairinteraction::app::MainWindow']]],
   ['value',['value',['../classConfiguration_1_1iterator_1_1entry.html#aefbbe41289f95ed5f333ddaddad524e8',1,'Configuration::iterator::entry::value()'],['../classConfiguration_1_1const__iterator_1_1entry.html#accea77cd5b6256bf5ef47b6dc9084940',1,'Configuration::const_iterator::entry::value()'],['../classConfiguration_1_1value.html#a3e116723bd717a0f6a77f8adbd641f8e',1,'Configuration::value::value()'],['../classConfiguration_1_1value.html#af846bdcabdcf0af71efa6b81e87781a9',1,'Configuration::value::value(std::stringstream const &amp;val)'],['../classConfiguration_1_1value.html#a456d4ba98f8bfea360974a9d03f869f6',1,'Configuration::value::value(const Configuration::value &amp;obj)']]],
   ['value',['value',['../classConfiguration_1_1value.html',1,'Configuration']]],
-  ['version_5fcache',['version_cache',['../namespacepairinteraction_1_1app.html#a106ca0d90bdb7726779c0291bba2dbdc',1,'pairinteraction::app']]],
-  ['version_5fsettings',['version_settings',['../namespacepairinteraction_1_1app.html#adf578df5d12fa21155a9c1f8c9c0a291',1,'pairinteraction::app']]]
+  ['versionlabel',['versionLabel',['../classpairinteraction_1_1app_1_1AboutDialog.html#a40d3ee2f9aad8c61ad2b5c134e5aa6d1',1,'pairinteraction::app::AboutDialog']]],
+  ['vlayout',['vLayout',['../classpairinteraction_1_1app_1_1AboutDialog.html#a468f3fac04611a3c85f05b50829a3948',1,'pairinteraction::app::AboutDialog']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['result',['result',['../classsqlite_1_1result.html',1,'sqlite']]],
-  ['row',['row',['../classsqlite_1_1result_1_1row.html',1,'sqlite::result']]]
+  ['quantity',['Quantity',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html',1,'pairinteraction::unitmanagement']]],
+  ['quantumdefect',['QuantumDefect',['../classQuantumDefect.html',1,'']]]
 ];

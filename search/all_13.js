@@ -26,12 +26,13 @@ var searchData=
   ['shape',['shape',['../classpairinteraction_1_1pyqtgraphadditions_1_1MultiLine.html#a7cbbf392094668e6d47fb79a07482f08',1,'pairinteraction::pyqtgraphadditions::MultiLine']]],
   ['showcriticalmessage',['showCriticalMessage',['../classpairinteraction_1_1app_1_1MainWindow.html#a309fe184a739158519f8eaf041d04042',1,'pairinteraction::app::MainWindow']]],
   ['size',['size',['../classpairinteraction_1_1pyqtgraphadditions_1_1PointsItem.html#ab1b5a85d4bd5e12eb93bf577da648496',1,'pairinteraction.pyqtgraphadditions.PointsItem.size()'],['../classBasisnames.html#a8927623e3c265516de1b85c3eaf57aea',1,'Basisnames::size()'],['../classConfiguration.html#a9063191c53c0eb400ea261da0bb357e0',1,'Configuration::size()'],['../classHamiltonian.html#a7fe649fef92f54c234e1dccfe6efd054',1,'Hamiltonian::size()'],['../classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976',1,'sqlite::result::size()']]],
+  ['spawnaboutdialog',['spawnAboutDialog',['../classpairinteraction_1_1app_1_1MainWindow.html#af6c8714ebda64e726aa03f1da6fc2e11',1,'pairinteraction::app::MainWindow']]],
   ['species',['species',['../classQuantumDefect.html#a974b8fa081568ccdfcc9a66fc02335cc',1,'QuantumDefect']]],
   ['splitcomplex',['splitComplex',['../classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb',1,'Hamiltonianmatrix::splitComplex(std::vector&lt; storage_real_t &gt; &amp;real, std::vector&lt; storage_real_t &gt; &amp;imag, std::vector&lt; T &gt; &amp;complex)'],['../classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb',1,'Hamiltonianmatrix::splitComplex(std::vector&lt; storage_real_t &gt; &amp;real, std::vector&lt; storage_real_t &gt; &amp;imag, std::vector&lt; T &gt; &amp;complex)']]],
   ['sqlite',['sqlite',['../namespacesqlite.html',1,'']]],
   ['sqlite_2eh',['SQLite.h',['../SQLite_8h.html',1,'']]],
-  ['sqlite_5ferror',['sqlite_error',['../structsqlite_1_1sqlite__error.html#acfd6dcd9080883372f836111622fd6c9',1,'sqlite::sqlite_error']]],
   ['sqlite_5ferror',['sqlite_error',['../structsqlite_1_1sqlite__error.html',1,'sqlite']]],
+  ['sqlite_5ferror',['sqlite_error',['../structsqlite_1_1sqlite__error.html#acfd6dcd9080883372f836111622fd6c9',1,'sqlite::sqlite_error']]],
   ['sqlite_5ftest_2ecpp',['sqlite_test.cpp',['../sqlite__test_8cpp.html',1,'']]],
   ['startcalc',['startCalc',['../classpairinteraction_1_1app_1_1MainWindow.html#a768fd3a31e3fca1498903c5f50267221',1,'pairinteraction::app::MainWindow']]],
   ['starttime',['starttime',['../classpairinteraction_1_1app_1_1MainWindow.html#aa203c438bbd4ef975f3a0c2dd28f6026',1,'pairinteraction::app::MainWindow']]],
@@ -53,7 +54,7 @@ var searchData=
   ['str',['str',['../classConfiguration_1_1value.html#af65807c23551a7d40ea97accd7fa26e3',1,'Configuration::value::str() const '],['../classConfiguration_1_1value.html#a99991401210883c0d8ff612b4d157060',1,'Configuration::value::str(std::string s)']]],
   ['symgroup',['symgroup',['../classpairinteraction_1_1app_1_1MainWindow.html#a3571be8368aaf16b4671f62bec63defa',1,'pairinteraction::app::MainWindow']]],
   ['symmetry',['Symmetry',['../structSymmetry.html',1,'']]],
-  ['systemdict',['SystemDict',['../classpairinteraction_1_1app_1_1SystemDict.html',1,'pairinteraction::app']]],
   ['systemdict',['systemdict',['../classpairinteraction_1_1app_1_1MainWindow.html#af2fa5142436aba45caa5abd1c4d2fb3f',1,'pairinteraction::app::MainWindow']]],
+  ['systemdict',['SystemDict',['../classpairinteraction_1_1app_1_1SystemDict.html',1,'pairinteraction::app']]],
   ['systemfile',['systemfile',['../classpairinteraction_1_1app_1_1MainWindow.html#a0577d7e5e93edf944ab8d5cc14c9504f',1,'pairinteraction::app::MainWindow']]]
 ];

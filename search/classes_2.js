@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['doubledeltavalidator',['DoubledeltaValidator',['../classpairinteraction_1_1guiadditions_1_1DoubledeltaValidator.html',1,'pairinteraction::guiadditions']]],
-  ['doublenonevalidator',['DoublenoneValidator',['../classpairinteraction_1_1guiadditions_1_1DoublenoneValidator.html',1,'pairinteraction::guiadditions']]],
-  ['doublepositivevalidator',['DoublepositiveValidator',['../classpairinteraction_1_1guiadditions_1_1DoublepositiveValidator.html',1,'pairinteraction::guiadditions']]],
-  ['doublevalidator',['DoubleValidator',['../classpairinteraction_1_1guiadditions_1_1DoubleValidator.html',1,'pairinteraction::guiadditions']]]
+  ['configuration',['Configuration',['../classConfiguration.html',1,'']]],
+  ['const_5fiterator',['const_iterator',['../classConfiguration_1_1const__iterator.html',1,'Configuration']]],
+  ['constiter',['ConstIter',['../classConstIter.html',1,'']]]
 ];

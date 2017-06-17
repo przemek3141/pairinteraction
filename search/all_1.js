@@ -5,6 +5,8 @@ var searchData=
   ['a3',['a3',['../classQuantumDefect.html#a4314c18ff3fe112e12d54a80c679afc7',1,'QuantumDefect']]],
   ['a4',['a4',['../classQuantumDefect.html#acae7283570fbc063e87b08441a11e51e',1,'QuantumDefect']]],
   ['abortcalculation',['abortCalculation',['../classpairinteraction_1_1app_1_1MainWindow.html#aba6275846fa0b0509cb2f5baaa019a35',1,'pairinteraction::app::MainWindow']]],
+  ['aboutdialog',['AboutDialog',['../classpairinteraction_1_1app_1_1MainWindow.html#a69d27378964645f404c9049e84632873',1,'pairinteraction::app::MainWindow']]],
+  ['aboutdialog',['AboutDialog',['../classpairinteraction_1_1app_1_1AboutDialog.html',1,'pairinteraction::app']]],
   ['abs',['abs',['../classHamiltonianmatrix.html#ac4bbf2c965757f9548effde4037627e0',1,'Hamiltonianmatrix']]],
   ['ac',['ac',['../classQuantumDefect.html#ad6f5e4b43431162ca4dfc7d1149dc6dc',1,'QuantumDefect']]],
   ['addbasis',['addBasis',['../classHamiltonianmatrix.html#a45f3d187ac775e9b6c6a7756810f91ab',1,'Hamiltonianmatrix']]],

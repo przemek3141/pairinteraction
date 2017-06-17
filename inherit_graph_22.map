@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpairinteraction_1_1loader_1_1BinaryLoader.html" title="pairinteraction.loader.Binary\lLoader" alt="" coords="5,5,207,47"/>
-<area shape="rect" id="node2" href="$classpairinteraction_1_1loader_1_1Eigensystem.html" title="pairinteraction.loader.Eigensystem" alt="" coords="255,13,497,39"/>
+<area shape="rect" id="node2" href="$classpairinteraction_1_1guiadditions_1_1DoubledeltaValidator.html" title="pairinteraction.guiadditions.\lDoubledeltaValidator" alt="" coords="187,5,385,47"/>
+<area shape="rect" id="node3" href="$classpairinteraction_1_1guiadditions_1_1DoublenoneValidator.html" title="pairinteraction.guiadditions.\lDoublenoneValidator" alt="" coords="187,71,385,112"/>
+<area shape="rect" id="node4" href="$classpairinteraction_1_1guiadditions_1_1DoublepositiveValidator.html" title="pairinteraction.guiadditions.\lDoublepositiveValidator" alt="" coords="187,136,385,177"/>
+<area shape="rect" id="node5" href="$classpairinteraction_1_1guiadditions_1_1DoubleValidator.html" title="pairinteraction.guiadditions.\lDoubleValidator" alt="" coords="187,201,385,243"/>
 </map>

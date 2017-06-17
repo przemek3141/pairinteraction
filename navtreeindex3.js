@@ -1,5 +1,10 @@
 var NAVTREEINDEX3 =
 {
+"structsqlite_1_1sqlite__error.html#a1de81811ba75517c426ef74908766f2e":[1,0,1,2,1],
+"structsqlite_1_1sqlite__error.html#acfd6dcd9080883372f836111622fd6c9":[1,0,1,2,0],
+"structstd_1_1hash_3_01StateOne_01_4.html":[1,0,2,0],
+"structstd_1_1hash_3_01StateOne_01_4.html#a2bd4ca531e9227abb44b8a6e8c315052":[1,0,2,0,0],
+"structstd_1_1hash_3_01StateTwo_01_4.html":[1,0,2,1],
 "structstd_1_1hash_3_01StateTwo_01_4.html#a809d61a99bda198d161395ea3f9ee294":[1,0,2,1,0],
 "structutils_1_1is__complex.html":[1,0,3,0],
 "structutils_1_1is__complex_3_01std_1_1complex_3_01T_01_4_01_4.html":[1,0,3,1],

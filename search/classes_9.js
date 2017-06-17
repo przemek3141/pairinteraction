@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['no_5fdefect',['no_defect',['../structno__defect.html',1,'']]],
-  ['numerov',['Numerov',['../classNumerov.html',1,'']]]
+  ['mainwindow',['MainWindow',['../classpairinteraction_1_1app_1_1MainWindow.html',1,'pairinteraction::app']]],
+  ['matrixelements',['MatrixElements',['../classMatrixElements.html',1,'']]],
+  ['metaclass',['metaclass',['../classmetaclass.html',1,'']]],
+  ['multiline',['MultiLine',['../classpairinteraction_1_1pyqtgraphadditions_1_1MultiLine.html',1,'pairinteraction::pyqtgraphadditions']]],
+  ['mutablemapping',['MutableMapping',['../classMutableMapping.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['quantity',['Quantity',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html',1,'pairinteraction::unitmanagement']]],
-  ['quantumdefect',['QuantumDefect',['../classQuantumDefect.html',1,'']]]
+  ['plotdict',['PlotDict',['../classpairinteraction_1_1app_1_1PlotDict.html',1,'pairinteraction::app']]],
+  ['pointsitem',['PointsItem',['../classpairinteraction_1_1pyqtgraphadditions_1_1PointsItem.html',1,'pairinteraction::pyqtgraphadditions']]]
 ];

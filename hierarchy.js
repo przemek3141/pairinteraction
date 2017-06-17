@@ -43,6 +43,9 @@ var hierarchy =
       [ "pairinteraction.guiadditions.GuiDict", "classpairinteraction_1_1guiadditions_1_1GuiDict.html", null ]
     ] ],
     [ "Numerov", "classNumerov.html", null ],
+    [ "QDialog", null, [
+      [ "pairinteraction.app.AboutDialog", "classpairinteraction_1_1app_1_1AboutDialog.html", null ]
+    ] ],
     [ "QDoubleValidator", null, [
       [ "pairinteraction.guiadditions.DoubledeltaValidator", "classpairinteraction_1_1guiadditions_1_1DoubledeltaValidator.html", null ],
       [ "pairinteraction.guiadditions.DoublenoneValidator", "classpairinteraction_1_1guiadditions_1_1DoublenoneValidator.html", null ],
