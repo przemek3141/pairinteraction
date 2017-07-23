@@ -14,22 +14,22 @@
 <area shape="rect" id="node13" href="$classMatrixElements.html#ad32ab751820e21b4924fc1f08d8465ad" title="MatrixElements::getElectric\lMomentum" alt="" coords="553,617,749,658"/>
 <area shape="rect" id="node15" href="$classMatrixElements.html#a52fd8ebda0d00bf7a383b1ae28edf04c" title="MatrixElements::getMagnetic\lMomentum" alt="" coords="547,682,755,723"/>
 <area shape="rect" id="node16" href="$classMatrixElements.html#a0c21248f81cf217b82e986b91cd37800" title="MatrixElements::getDiamagnetism" alt="" coords="529,748,773,775"/>
-<area shape="rect" id="node17" href="$classConfiguration_1_1value.html#af65807c23551a7d40ea97accd7fa26e3" title="Configuration::value::str" alt="" coords="564,799,739,825"/>
-<area shape="rect" id="node18" href="$classsqlite_1_1result.html#aa8bbef223f2525c4a803ee81cf7e2976" title="Number of rows. " alt="" coords="585,849,718,876"/>
-<area shape="rect" id="node19" href="$classsqlite_1_1result.html#a1a941d0671be57ed3f7bebf7d3da240f" title="First row. " alt="" coords="585,900,717,927"/>
-<area shape="rect" id="node21" href="$classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc" title="Configuration::load\l_from_json" alt="" coords="580,951,723,993"/>
-<area shape="rect" id="node22" href="$classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e" title="Hamiltonianmatrix::load" alt="" coords="564,1017,739,1044"/>
-<area shape="rect" id="node26" href="$classHamiltonianmatrix.html#a1f2520c68069458abac563f6c40bca85" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="851,1058,999,1099"/>
-<area shape="rect" id="node27" href="$classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee" title="Hamiltonianmatrix::\ldiagonalize" alt="" coords="577,1122,725,1163"/>
-<area shape="rect" id="node30" href="$classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051" title="Hamiltonianmatrix::save" alt="" coords="562,1224,741,1251"/>
+<area shape="rect" id="node17" href="$classConfiguration_1_1value.html#a1726761bb7cd6072bd58d787514dcc75" title="Configuration::value::str" alt="" coords="564,799,739,825"/>
+<area shape="rect" id="node18" href="$classsqlite_1_1result.html#a1f89bc29502b52a3c090ffc500889ad3" title="Number of rows. " alt="" coords="585,849,718,876"/>
+<area shape="rect" id="node19" href="$classsqlite_1_1result.html#a2c757d89d9b5ef3fc0571c5a146b3995" title="First row. " alt="" coords="585,900,717,927"/>
+<area shape="rect" id="node20" href="$classConfiguration.html#a17fff65a69b1b968f4862b6fbb4137bc" title="Configuration::load\l_from_json" alt="" coords="580,951,723,993"/>
+<area shape="rect" id="node21" href="$classHamiltonianmatrix.html#a6af1c71facf2f4987c543cc177175c0e" title="Hamiltonianmatrix::load" alt="" coords="564,1017,739,1044"/>
+<area shape="rect" id="node25" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="851,1058,999,1099"/>
+<area shape="rect" id="node26" href="$classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee" title="Hamiltonianmatrix::\ldiagonalize" alt="" coords="577,1122,725,1163"/>
+<area shape="rect" id="node29" href="$classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051" title="Hamiltonianmatrix::save" alt="" coords="562,1224,741,1251"/>
 <area shape="rect" id="node14" href="$classMatrixElements.html#a84d60d8bd6285b9a851909f0a7fe578b" title="MatrixElements::getMultipole" alt="" coords="821,624,1028,651"/>
-<area shape="rect" id="node20" href="$classsqlite_1_1result.html#a7d79b4216a1b60a74565f4f786ea1a0b" title="Get a specific row. " alt="" coords="848,900,1001,927"/>
-<area shape="rect" id="node23" href="$classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db" title="Hamiltonianmatrix::\ldoDeserialization" alt="" coords="851,993,999,1034"/>
-<area shape="rect" id="node24" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="1092,971,1208,997"/>
-<area shape="rect" id="node25" href="$classHamiltonianmatrix.html#a0b5c17b37823a4cfd03f0f9bffcc2b7f" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="1076,1022,1224,1063"/>
-<area shape="rect" id="node28" href="$classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78" title="Hamiltonianmatrix::\lbasis" alt="" coords="851,1123,999,1165"/>
-<area shape="rect" id="node29" href="$classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75" title="Hamiltonianmatrix::\lentries" alt="" coords="851,1189,999,1230"/>
-<area shape="rect" id="node31" href="$classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb" title="Hamiltonianmatrix::\ldoSerialization" alt="" coords="851,1254,999,1295"/>
-<area shape="rect" id="node32" href="$classSerializer.html#a79a572d0a14988acd13217beb7d5547b" title="Serializer::save" alt="" coords="1091,1232,1209,1259"/>
+<area shape="rect" id="node22" href="$classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db" title="Hamiltonianmatrix::\ldoDeserialization" alt="" coords="851,993,999,1034"/>
+<area shape="rect" id="node23" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="1092,971,1208,997"/>
+<area shape="rect" id="node24" href="$classHamiltonianmatrix.html#a0b5c17b37823a4cfd03f0f9bffcc2b7f" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="1076,1022,1224,1063"/>
+<area shape="rect" id="node27" href="$classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78" title="Hamiltonianmatrix::\lbasis" alt="" coords="851,1123,999,1165"/>
+<area shape="rect" id="node28" href="$classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75" title="Hamiltonianmatrix::\lentries" alt="" coords="851,1189,999,1230"/>
+<area shape="rect" id="node30" href="$classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb" title="Hamiltonianmatrix::\ldoSerialization" alt="" coords="851,1254,999,1295"/>
+<area shape="rect" id="node31" href="$classSerializer.html#a79a572d0a14988acd13217beb7d5547b" title="Serializer::save" alt="" coords="1091,1232,1209,1259"/>
 <area shape="rect" id="node33" href="$classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="1076,1283,1224,1325"/>
+<area shape="rect" id="node32" href="$classSerializable.html#ad0b89a7563e6a98df7eb6a8a46c51735" title="Serializable::serialize" alt="" coords="1272,1232,1427,1259"/>
 </map>

@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 815.00 188.33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184.333)">
 <title>Serializer::save</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node15 -->
+<g id="node1" class="node"><title>Node15</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-140 0,-159 89,-159 89,-140 0,-140"/>
 <text text-anchor="middle" x="44.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">Serializer::save</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classpairinteraction_1_1utils_1_1Wignerd.html#aeb728a8095eb7aa4ae815760fa900d0c" target="_top" xlink:title="pairinteraction.utils.Wignerd.\l__del__">
+<!-- Node16 -->
+<g id="node2" class="node"><title>Node16</title>
+<g id="a_node2"><a xlink:href="classpairinteraction_1_1utils_1_1Wignerd.html#a12414421985d3b950555908ffe112da0" target="_top" xlink:title="pairinteraction.utils.Wignerd.\l__del__">
 <polygon fill="none" stroke="black" points="442,-144.5 442,-174.5 594,-174.5 594,-144.5 442,-144.5"/>
 <text text-anchor="start" x="450" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">pairinteraction.utils.Wignerd.</text>
 <text text-anchor="middle" x="518" y="-151.5" font-family="Helvetica,sans-Serif" font-size="10.00">__del__</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node15&#45;&gt;Node16 -->
+<g id="edge1" class="edge"><title>Node15&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M99.032,-158.942C169.44,-170.149 297.009,-186.28 406,-177.5 417.676,-176.559 429.976,-175.071 441.966,-173.343"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="99.4987,-155.472 89.0677,-157.328 98.3792,-162.382 99.4987,-155.472"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node17 -->
+<g id="node3" class="node"><title>Node17</title>
 <g id="a_node3"><a xlink:href="classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb" target="_top" xlink:title="Hamiltonianmatrix::\ldoSerialization">
 <polygon fill="none" stroke="black" points="125,-88.5 125,-118.5 236,-118.5 236,-88.5 125,-88.5"/>
 <text text-anchor="start" x="133" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node15&#45;&gt;Node17 -->
+<g id="edge2" class="edge"><title>Node15&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M83.0251,-136.618C99.383,-131.003 118.668,-124.382 135.68,-118.543"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="81.5867,-133.411 73.2649,-139.969 83.8595,-140.032 81.5867,-133.411"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node18 -->
+<g id="node4" class="node"><title>Node18</title>
 <g id="a_node4"><a xlink:href="classHamiltonianmatrix.html#a1e43ece7300d46f751f02c3260a14bfb" target="_top" xlink:title="Hamiltonianmatrix::\lhashBasis">
 <polygon fill="none" stroke="black" points="283.5,-137.5 283.5,-167.5 394.5,-167.5 394.5,-137.5 283.5,-137.5"/>
 <text text-anchor="start" x="291.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge3" class="edge"><title>Node17&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M239.35,-121.613C255.988,-126.822 273.949,-132.446 289.927,-137.448"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="240.321,-118.249 229.732,-118.601 238.23,-124.93 240.321,-118.249"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node19 -->
+<g id="node5" class="node"><title>Node19</title>
 <g id="a_node5"><a xlink:href="classHamiltonianmatrix.html#aebafe9543f93f3956fff32192efd86ce" target="_top" xlink:title="Hamiltonianmatrix::\lhashEntries">
 <polygon fill="none" stroke="black" points="283.5,-88.5 283.5,-118.5 394.5,-118.5 394.5,-88.5 283.5,-88.5"/>
 <text text-anchor="start" x="291.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::</text>
@@ -64,26 +64,26 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node3&#45;&gt;Node5</title>
+<!-- Node17&#45;&gt;Node19 -->
+<g id="edge4" class="edge"><title>Node17&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M246.404,-103.5C258.668,-103.5 271.383,-103.5 283.295,-103.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="246.236,-100 236.236,-103.5 246.236,-107 246.236,-100"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node20 -->
+<g id="node6" class="node"><title>Node20</title>
 <g id="a_node6"><a xlink:href="classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051" target="_top" xlink:title="Hamiltonianmatrix::save">
 <polygon fill="none" stroke="black" points="272,-50 272,-69 406,-69 406,-50 272,-50"/>
 <text text-anchor="middle" x="339" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::save</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node3&#45;&gt;Node6</title>
+<!-- Node17&#45;&gt;Node20 -->
+<g id="edge5" class="edge"><title>Node17&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M244.721,-85.7255C264.962,-80.0346 286.598,-73.9516 303.932,-69.0783"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="243.6,-82.4048 234.921,-88.4808 245.495,-89.1435 243.6,-82.4048"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node25 -->
+<g id="node11" class="node"><title>Node25</title>
 <g id="a_node11"><a xlink:href="classHamiltonianmatrix.html#a39e7ea919bcbfa99ef1838b5300756f0" target="_top" xlink:title="Hamiltonianmatrix::\lserialize">
 <polygon fill="none" stroke="black" points="283.5,-0.5 283.5,-30.5 394.5,-30.5 394.5,-0.5 283.5,-0.5"/>
 <text text-anchor="start" x="291.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::</text>
@@ -91,65 +91,65 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node3&#45;&gt;Node11</title>
+<!-- Node17&#45;&gt;Node25 -->
+<g id="edge11" class="edge"><title>Node17&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M208.421,-82.1275C225.857,-68.964 249.442,-52.3909 272,-40.5 278.829,-36.9005 286.293,-33.5586 293.668,-30.5654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="206.199,-79.4212 200.387,-88.2802 210.455,-84.9787 206.199,-79.4212"/>
 </g>
-<!-- Node6&#45;&gt;Node2 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node2</title>
+<!-- Node20&#45;&gt;Node16 -->
+<g id="edge6" class="edge"><title>Node20&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M391.383,-72.3553C396.415,-74.1867 401.367,-76.2313 406,-78.5 442.423,-96.3354 479.421,-126.202 500.168,-144.257"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="392.268,-68.9603 381.674,-69.0933 390.039,-75.5958 392.268,-68.9603"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node21 -->
+<g id="node7" class="node"><title>Node21</title>
 <g id="a_node7"><a xlink:href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" target="_top" xlink:title="HamiltonianOne::build">
 <polygon fill="none" stroke="black" points="457,-69 457,-88 579,-88 579,-69 457,-69"/>
 <text text-anchor="middle" x="518" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::build</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node20&#45;&gt;Node21 -->
+<g id="edge7" class="edge"><title>Node20&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M416.39,-67.7C429.893,-69.1495 443.779,-70.6401 456.759,-72.0334"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="416.476,-64.1893 406.16,-66.6019 415.729,-71.1493 416.476,-64.1893"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node23 -->
+<g id="node9" class="node"><title>Node23</title>
 <g id="a_node9"><a xlink:href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb" target="_top" xlink:title="HamiltonianTwo::calculate">
 <polygon fill="none" stroke="black" points="448,-31 448,-50 588,-50 588,-31 448,-31"/>
 <text text-anchor="middle" x="518" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::calculate</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node9</title>
+<!-- Node20&#45;&gt;Node23 -->
+<g id="edge9" class="edge"><title>Node20&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M416.19,-51.3214C426.748,-50.188 437.545,-49.029 447.964,-47.9107"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="415.729,-47.8507 406.16,-52.3981 416.476,-54.8107 415.729,-47.8507"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node22 -->
+<g id="node8" class="node"><title>Node22</title>
 <g id="a_node8"><a xlink:href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" target="_top" xlink:title="HamiltonianOne::HamiltonianOne">
 <polygon fill="none" stroke="black" points="630,-69 630,-88 807,-88 807,-69 630,-69"/>
 <text text-anchor="middle" x="718.5" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::HamiltonianOne</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
+<!-- Node21&#45;&gt;Node22 -->
+<g id="edge8" class="edge"><title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M589.4,-78.5C602.469,-78.5 616.269,-78.5 629.78,-78.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="589.095,-75.0001 579.095,-78.5 589.095,-82.0001 589.095,-75.0001"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node24 -->
+<g id="node10" class="node"><title>Node24</title>
 <g id="a_node10"><a xlink:href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c" target="_top" xlink:title="HamiltonianTwo::HamiltonianTwo">
 <polygon fill="none" stroke="black" points="633,-31 633,-50 804,-50 804,-31 633,-31"/>
 <text text-anchor="middle" x="718.5" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::HamiltonianTwo</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node23&#45;&gt;Node24 -->
+<g id="edge10" class="edge"><title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M598.432,-40.5C609.761,-40.5 621.45,-40.5 632.873,-40.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="598.147,-37.0001 588.147,-40.5 598.147,-44.0001 598.147,-37.0001"/>
 </g>

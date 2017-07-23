@@ -1,4 +1,5 @@
 <map id="Hamiltonianmatrix::doSerialization" name="Hamiltonianmatrix::doSerialization">
 <area shape="rect" id="node2" href="$classSerializer.html#a79a572d0a14988acd13217beb7d5547b" title="Serializer::save" alt="" coords="216,5,335,32"/>
-<area shape="rect" id="node3" href="$classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="201,57,349,98"/>
+<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="201,57,349,98"/>
+<area shape="rect" id="node3" href="$classSerializable.html#ad0b89a7563e6a98df7eb6a8a46c51735" title="Serializable::serialize" alt="" coords="397,5,552,32"/>
 </map>

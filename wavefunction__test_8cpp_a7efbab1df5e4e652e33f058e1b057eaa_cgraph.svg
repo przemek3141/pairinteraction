@@ -54,39 +54,39 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>BOOST_FIXTURE_TEST_CASE</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node11 -->
+<g id="node1" class="node"><title>Node11</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-25 0,-44 154,-44 154,-25 0,-25"/>
 <text text-anchor="middle" x="77" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">BOOST_FIXTURE_TEST_CASE</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classWhittaker.html#ae1d8620c4f857c9a5745a03ce86acfc4" target="_top" xlink:title="x values ">
+<!-- Node12 -->
+<g id="node2" class="node"><title>Node12</title>
+<g id="a_node2"><a xlink:href="classWhittaker.html#afbcc4ba4ddf29690835b4002abb9d174" target="_top" xlink:title="x values ">
 <polygon fill="none" stroke="black" points="202.5,-44 202.5,-63 288.5,-63 288.5,-44 202.5,-44"/>
 <text text-anchor="middle" x="245.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">Whittaker::axis</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge1" class="edge"><title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M154.428,-43.2215C167.123,-44.6702 180.031,-46.1432 191.96,-47.5045"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="191.83,-51.0122 202.162,-48.6686 192.623,-44.0573 191.83,-51.0122"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node13 -->
+<g id="node3" class="node"><title>Node13</title>
 <g id="a_node3"><a xlink:href="classWhittaker.html#a3969b968abcecf81fb9999732bb80b16" target="_top" xlink:title="Evaluate the radial wavefunction. ">
 <polygon fill="none" stroke="black" points="190,-6 190,-25 301,-25 301,-6 190,-6"/>
 <text text-anchor="middle" x="245.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Whittaker::integrate</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node11&#45;&gt;Node13 -->
+<g id="edge2" class="edge"><title>Node11&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M154.428,-25.7785C162.936,-24.8075 171.541,-23.8257 179.882,-22.8738"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="180.364,-26.3417 189.902,-21.7304 179.57,-19.3868 180.364,-26.3417"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node14 -->
+<g id="node4" class="node"><title>Node14</title>
 <g id="a_node4"><a xlink:href="namespacewhittaker__functions.html#abd07cc289c638d73927be6760a2aba53" target="_top" xlink:title="Radial wavefunctions from Whittaker&#39;s function. ">
 <polygon fill="none" stroke="black" points="337,-0.5 337,-30.5 447,-30.5 447,-0.5 337,-0.5"/>
 <text text-anchor="start" x="345" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">whittaker_functions</text>
@@ -94,13 +94,13 @@ var sectionId = 'dynsection-3';
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge3" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M301.129,-15.5C309.425,-15.5 318.051,-15.5 326.532,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="326.773,-19.0001 336.773,-15.5 326.773,-12.0001 326.773,-19.0001"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node15 -->
+<g id="node5" class="node"><title>Node15</title>
 <g id="a_node5"><a xlink:href="namespacewhittaker__functions.html#a4c1d19b7072f7f6a96f41e90a02e9aa3" target="_top" xlink:title="Compute the Whittaker function. ">
 <polygon fill="none" stroke="black" points="483,-0.5 483,-30.5 592,-30.5 592,-0.5 483,-0.5"/>
 <text text-anchor="start" x="491" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">whittaker_functions</text>
@@ -108,13 +108,13 @@ var sectionId = 'dynsection-3';
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node14&#45;&gt;Node15 -->
+<g id="edge4" class="edge"><title>Node14&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M447.251,-15.5C455.489,-15.5 464.055,-15.5 472.478,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="472.648,-19.0001 482.648,-15.5 472.648,-12.0001 472.648,-19.0001"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node16 -->
+<g id="node6" class="node"><title>Node16</title>
 <g id="a_node6"><a xlink:href="namespacewhittaker__functions.html#a655eb5812fd2aa3a9d5491d564e87913" target="_top" xlink:title="Compute the confluent hypergeometric function. ">
 <polygon fill="none" stroke="black" points="628,-0.5 628,-30.5 737,-30.5 737,-0.5 628,-0.5"/>
 <text text-anchor="start" x="636" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">whittaker_functions</text>
@@ -122,8 +122,8 @@ var sectionId = 'dynsection-3';
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node15&#45;&gt;Node16 -->
+<g id="edge5" class="edge"><title>Node15&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M592.155,-15.5C600.381,-15.5 608.944,-15.5 617.368,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="617.545,-19.0001 627.545,-15.5 617.544,-12.0001 617.545,-19.0001"/>
 </g>

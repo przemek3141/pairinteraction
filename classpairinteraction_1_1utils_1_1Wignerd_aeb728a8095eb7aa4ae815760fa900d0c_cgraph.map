@@ -1,9 +1,0 @@
-<map id="pairinteraction.utils.Wignerd.__del__" name="pairinteraction.utils.Wignerd.__del__">
-<area shape="rect" id="node2" href="$classpairinteraction_1_1utils_1_1Wignerd.html#a0ae559fac01bd6c34a076c693ccfca0a" title="pairinteraction.utils.Wignerd.save" alt="" coords="256,5,489,32"/>
-<area shape="rect" id="node3" href="$classSerializer.html#a79a572d0a14988acd13217beb7d5547b" title="Serializer::save" alt="" coords="748,56,867,83"/>
-<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051" title="Hamiltonianmatrix::save" alt="" coords="283,107,462,133"/>
-<area shape="rect" id="node7" href="$classBasisnamesOne.html#a1706b725b9c6611ea294ebdfab5657e5" title="BasisnamesOne::save" alt="" coords="291,157,455,184"/>
-<area shape="rect" id="node8" href="$classBasisnamesTwo.html#acb4bea52f26d047cf3f54652017553fe" title="BasisnamesTwo::save" alt="" coords="293,208,453,235"/>
-<area shape="rect" id="node5" href="$classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb" title="Hamiltonianmatrix::\ldoSerialization" alt="" coords="537,107,685,149"/>
-<area shape="rect" id="node6" href="$classHamiltonianmatrix.html#a90ac21dba5d19a54fa78f86f1e428eeb" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="733,107,881,149"/>
-</map>

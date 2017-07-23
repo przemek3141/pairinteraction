@@ -1,51 +1,6 @@
-var NAVTREE =
-[
-  [ "pairinteraction", "index.html", [
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
-      ] ]
-    ] ],
-    [ "Data Structures", null, [
-      [ "Data Structures", "annotated.html", "annotated" ],
-      [ "Data Structure Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
-  ] ]
-];
-
-var NAVTREEINDEX =
-[
-"Basisnames_8cpp.html",
-"classNumerov.html#a506d0c2ccd0b4c918da6e4e09eef2fea",
-"classpairinteraction_1_1guiadditions_1_1GuiDict.html",
-"structsqlite_1_1sqlite__error.html#a1de81811ba75517c426ef74908766f2e"
-];
-
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
 var navTreeSubIndices = new Array();
+var arrowDown = '&#9660;';
+var arrowRight = '&#9658;';
 
 function getData(varName)
 {
@@ -118,17 +73,17 @@ function cachedLink()
 
 function getScript(scriptName,func,show)
 {
-  var head = document.getElementsByTagName("head")[0]; 
+  var head = document.getElementsByTagName("head")[0];
   var script = document.createElement('script');
   script.id = scriptName;
   script.type = 'text/javascript';
-  script.onload = func; 
-  script.src = scriptName+'.js'; 
-  if ($.browser.msie && $.browser.version<=8) { 
+  script.onload = func;
+  script.src = scriptName+'.js';
+  if ($.browser.msie && $.browser.version<=8) {
     // script.onload does not work with older versions of IE
     script.onreadystatechange = function() {
-      if (script.readyState=='complete' || script.readyState=='loaded') { 
-        func(); if (show) showRoot(); 
+      if (script.readyState=='complete' || script.readyState=='loaded') {
+        func(); if (show) showRoot();
       }
     }
   }
@@ -141,18 +96,17 @@ function createIndent(o,domNode,node,level)
   var n = node;
   while (n.parentNode) { level++; n=n.parentNode; }
   if (node.childrenData) {
-    var imgNode = document.createElement("img");
+    var imgNode = document.createElement("span");
+    imgNode.className = 'arrow';
     imgNode.style.paddingLeft=(16*level).toString()+'px';
-    imgNode.width  = 16;
-    imgNode.height = 22;
-    imgNode.border = 0;
+    imgNode.innerHTML=arrowRight;
     node.plus_img = imgNode;
     node.expandToggle = document.createElement("a");
     node.expandToggle.href = "javascript:void(0)";
     node.expandToggle.onclick = function() {
       if (node.expanded) {
         $(node.getChildrenUL()).slideUp("fast");
-        node.plus_img.src = node.relpath+"ftv2pnode.png";
+        node.plus_img.innerHTML=arrowRight;
         node.expanded = false;
       } else {
         expandNode(o, node, false, false);
@@ -160,15 +114,13 @@ function createIndent(o,domNode,node,level)
     }
     node.expandToggle.appendChild(imgNode);
     domNode.appendChild(node.expandToggle);
-    imgNode.src = node.relpath+"ftv2pnode.png";
   } else {
     var span = document.createElement("span");
-    span.style.display = 'inline-block';
+    span.className = 'arrow';
     span.style.width   = 16*(level+1)+'px';
-    span.style.height  = '22px';
     span.innerHTML = '&#160;';
     domNode.appendChild(span);
-  } 
+  }
 }
 
 var animationInProgress = false;
@@ -242,7 +194,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       var aname = '#'+link.split('#')[1];
       var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
-      a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
+      a.href = srcPage!=targetPage ? url : "javascript:void(0)";
       a.onclick = function(){
         storeLink(link);
         if (!$(a).parent().parent().hasClass('selected'))
@@ -260,7 +212,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
       a.onclick = function() { storeLink(link); }
     }
   } else {
-    if (childrenData != null) 
+    if (childrenData != null)
     {
       a.className = "nolink";
       a.href = "javascript:void(0)";
@@ -309,17 +261,13 @@ function expandNode(o, node, imm, showRoot)
     } else {
       if (!node.childrenVisited) {
         getNode(o, node);
-      } if (imm || ($.browser.msie && $.browser.version>8)) { 
+      } if (imm || ($.browser.msie && $.browser.version>8)) {
         // somehow slideDown jumps to the start of tree for IE9 :-(
         $(node.getChildrenUL()).show();
       } else {
         $(node.getChildrenUL()).slideDown("fast");
       }
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.innerHTML = arrowDown;
       node.expanded = true;
     }
   }
@@ -388,11 +336,7 @@ function showNode(o, node, index, hash)
         getNode(o, node);
       }
       $(node.getChildrenUL()).css({'display':'block'});
-      if (node.isLast) {
-        node.plus_img.src = node.relpath+"ftv2mlastnode.png";
-      } else {
-        node.plus_img.src = node.relpath+"ftv2mnode.png";
-      }
+      node.plus_img.innerHTML = arrowDown;
       node.expanded = true;
       var n = node.children[o.breadcrumbs[index]];
       if (index+1<o.breadcrumbs.length) {
@@ -529,10 +473,9 @@ function initNavTree(toroot,relpath)
   o.node.relpath = relpath;
   o.node.expanded = false;
   o.node.isLast = true;
-  o.node.plus_img = document.createElement("img");
-  o.node.plus_img.src = relpath+"ftv2pnode.png";
-  o.node.plus_img.width = 16;
-  o.node.plus_img.height = 22;
+  o.node.plus_img = document.createElement("span");
+  o.node.plus_img.className = 'arrow';
+  o.node.plus_img.innerHTML = arrowRight;
 
   if (localStorageSupported()) {
     var navSync = $('#nav-sync');

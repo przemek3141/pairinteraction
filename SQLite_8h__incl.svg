@@ -54,91 +54,91 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>/travis/calc/SQLite.h</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="240,-56.5 240,-75.5 351,-75.5 351,-56.5 240,-56.5"/>
 <text text-anchor="middle" x="295.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/travis/calc/SQLite.h</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 63,-19.5 63,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="31.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">functional</text>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M251.236,-56.4202C208.126,-47.9942 140.481,-34.5885 73.2722,-20.3456"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="73.8715,-16.8948 63.3623,-18.2386 72.4157,-23.7418 73.8715,-16.8948"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="81,-0.5 81,-19.5 140,-19.5 140,-0.5 81,-0.5"/>
 <text text-anchor="middle" x="110.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">iostream</text>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M266.186,-56.4435C234.658,-47.2406 184.369,-32.5617 149.514,-22.3879"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.257,-18.9587 139.677,-19.5164 148.295,-25.6783 150.257,-18.9587"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="158,-0.5 158,-19.5 215,-19.5 215,-0.5 158,-0.5"/>
 <text text-anchor="middle" x="186.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">memory</text>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M277.987,-56.324C260.428,-47.6247 233.169,-34.1202 212.969,-24.113"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="214.484,-20.9575 203.969,-19.6545 211.376,-27.23 214.484,-20.9575"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="233.5,-0.5 233.5,-19.5 289.5,-19.5 289.5,-0.5 233.5,-0.5"/>
 <text text-anchor="middle" x="261.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">sstream</text>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node0&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node0&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M289.886,-56.083C285.133,-48.5341 278.182,-37.4948 272.348,-28.2298"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.3,-26.3486 267.01,-19.7511 269.376,-30.0783 275.3,-26.3486"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node5 -->
+<g id="node6" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="307.5,-0.5 307.5,-19.5 351.5,-19.5 351.5,-0.5 307.5,-0.5"/>
 <text text-anchor="middle" x="329.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">string</text>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
+<!-- Node0&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node0&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M301.114,-56.083C305.867,-48.5341 312.818,-37.4948 318.652,-28.2298"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="321.624,-30.0783 323.99,-19.7511 315.7,-26.3486 321.624,-30.0783"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node6 -->
+<g id="node7" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="370,-0.5 370,-19.5 417,-19.5 417,-0.5 370,-0.5"/>
 <text text-anchor="middle" x="393.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">vector</text>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
+<!-- Node0&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node0&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M311.245,-56.324C326.819,-47.7428 350.877,-34.486 368.959,-24.5224"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="370.724,-27.546 377.794,-19.6545 367.346,-21.4152 370.724,-27.546"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node7 -->
+<g id="node8" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="435,-0.5 435,-19.5 492,-19.5 492,-0.5 435,-0.5"/>
 <text text-anchor="middle" x="463.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite3.h</text>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node0&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node0&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M322.12,-56.4435C350.506,-47.3196 395.637,-32.8133 427.253,-22.6509"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="428.555,-25.9087 437.004,-19.5164 426.413,-19.2445 428.555,-25.9087"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node8 -->
+<g id="node9" class="node"><title>Node8</title>
 <g id="a_node9"><a xlink:href="Iter_8h.html" target="_top" xlink:title="Iter.h">
 <polygon fill="none" stroke="black" points="510,-0.5 510,-19.5 551,-19.5 551,-0.5 510,-0.5"/>
 <text text-anchor="middle" x="530.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Iter.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node0&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node0&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M339.966,-56.4349C379.738,-48.517 439.798,-35.9305 500.263,-20.1678"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="501.19,-23.5433 509.968,-17.611 499.406,-16.7743 501.19,-23.5433"/>
 </g>

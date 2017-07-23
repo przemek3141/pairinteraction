@@ -7,13 +7,13 @@ var searchData=
   ['colormap_5fbuffer_5fminidx_5fpotential',['colormap_buffer_minIdx_potential',['../classpairinteraction_1_1app_1_1MainWindow.html#a16760c3dc39c8388b95dcd48a4d7780a',1,'pairinteraction::app::MainWindow']]],
   ['complex_5fnot_5freal',['complex_not_real',['../classpairinteraction_1_1loader_1_1BinaryLoader.html#ac3acc32752c96582ca32a220c770533c',1,'pairinteraction.loader.BinaryLoader.complex_not_real()'],['../Hamiltonianmatrix_8h.html#a378cd565c61f5a4338dc50e3803dc442',1,'complex_not_real():&#160;Hamiltonianmatrix.h']]],
   ['conf',['conf',['../classBasisnames.html#a2182aaaed65b5d286959091d3a36a8fe',1,'Basisnames']]],
-  ['converter_5fau',['converter_au',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html#a392bb900aba708063acd4823045d37c3',1,'pairinteraction::unitmanagement::Quantity']]],
+  ['converter_5fau',['converter_au',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html#a4153ecea3a852f659bfa4e3cbd058ecc',1,'pairinteraction::unitmanagement::Quantity']]],
   ['converter_5fbfield',['converter_bfield',['../classpairinteraction_1_1app_1_1MainWindow.html#a7f617c41f2b29f2c26aa752457a502c0',1,'pairinteraction::app::MainWindow']]],
   ['converter_5fefield',['converter_efield',['../classpairinteraction_1_1app_1_1MainWindow.html#af4821fc7680d145f0c56c6a0105d25de',1,'pairinteraction::app::MainWindow']]],
   ['converter_5flength',['converter_length',['../classpairinteraction_1_1app_1_1MainWindow.html#a13a9d95ed5fee644e82e643b291389de',1,'pairinteraction::app::MainWindow']]],
-  ['converter_5fuu',['converter_uu',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html#a529438f21c19cd1fd46ec0f8f9ee0ca3',1,'pairinteraction::unitmanagement::Quantity']]],
+  ['converter_5fuu',['converter_uu',['../classpairinteraction_1_1unitmanagement_1_1Quantity.html#a30630ba39163294cbbd1cb5622a33c6c',1,'pairinteraction::unitmanagement::Quantity']]],
   ['converter_5fx',['converter_x',['../classpairinteraction_1_1app_1_1MainWindow.html#a1e8c172c9582f259c48e7ee427df8294',1,'pairinteraction::app::MainWindow']]],
   ['converter_5fy',['converter_y',['../classpairinteraction_1_1app_1_1MainWindow.html#a6dae7182bb28e6d8df16c83ef7b57b68',1,'pairinteraction::app::MainWindow']]],
-  ['criticalsignal',['criticalsignal',['../classpairinteraction_1_1worker_1_1Worker.html#ae9d663f6389327368f3ea4d940112e34',1,'pairinteraction::worker::Worker']]],
+  ['criticalsignal',['criticalsignal',['../classpairinteraction_1_1worker_1_1Worker.html#a85ab654077f1480a80b00ebbf93e5f33',1,'pairinteraction::worker::Worker']]],
   ['csr_5fnot_5fcsc',['csr_not_csc',['../classpairinteraction_1_1loader_1_1BinaryLoader.html#ac409c4e584691fc4bea209d9f0fdaed7',1,'pairinteraction.loader.BinaryLoader.csr_not_csc()'],['../Hamiltonianmatrix_8h.html#a0d52a15f64d6d04d7d801aac8125f282',1,'csr_not_csc():&#160;Hamiltonianmatrix.h']]]
 ];

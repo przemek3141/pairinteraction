@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classHamiltonianmatrix.html#ac4bbf2c965757f9548effde4037627e0" target="_top" xlink:title="Hamiltonianmatrix::abs">
+<g id="a_node2"><a xlink:href="classHamiltonianmatrix.html#a71572821efcfb5e5724a340de5a7d31c" target="_top" xlink:title="Hamiltonianmatrix::abs">
 <polygon fill="none" stroke="black" points="147,-99 147,-118 275,-118 275,-99 147,-99"/>
 <text text-anchor="middle" x="211" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::abs</text>
 </a>
@@ -29,7 +29,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classHamiltonianmatrix.html#ad1eba87443ffeebe01064838b998f726" target="_top" xlink:title="Hamiltonianmatrix::\lchangeBasis">
+<g id="a_node3"><a xlink:href="classHamiltonianmatrix.html#aa230830f7fb4d6376eb1ab50449f8efa" target="_top" xlink:title="Hamiltonianmatrix::\lchangeBasis">
 <polygon fill="none" stroke="black" points="155.5,-49.5 155.5,-79.5 266.5,-79.5 266.5,-49.5 155.5,-49.5"/>
 <text text-anchor="start" x="163.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hamiltonianmatrix::</text>
 <text text-anchor="middle" x="211" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">changeBasis</text>

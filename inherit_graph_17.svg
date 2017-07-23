@@ -8,34 +8,34 @@
  viewBox="0.00 0.00 209.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>Graphical Class Hierarchy</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node53 -->
+<g id="node1" class="node"><title>Node53</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-19.5 0,-38.5 63,-38.5 63,-19.5 0,-19.5"/>
 <text text-anchor="middle" x="31.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">exception</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node0 -->
+<g id="node2" class="node"><title>Node0</title>
 <g id="a_node2"><a xlink:href="structno__defect.html" target="_top" xlink:title="no_defect">
 <polygon fill="none" stroke="black" points="118,-38.5 118,-57.5 182,-57.5 182,-38.5 118,-38.5"/>
 <text text-anchor="middle" x="150" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">no_defect</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node53&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node53&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M73.3851,-35.668C87.9668,-38.0461 104.146,-40.6848 117.785,-42.9091"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="73.542,-32.1474 63.109,-33.992 72.4152,-39.0561 73.542,-32.1474"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node55 -->
+<g id="node3" class="node"><title>Node55</title>
 <g id="a_node3"><a xlink:href="structsqlite_1_1sqlite__error.html" target="_top" xlink:title="SQLite error. ">
 <polygon fill="none" stroke="black" points="99,-0.5 99,-19.5 201,-19.5 201,-0.5 99,-0.5"/>
 <text text-anchor="middle" x="150" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::sqlite_error</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node53&#45;&gt;Node55 -->
+<g id="edge2" class="edge"><title>Node53&#45;&gt;Node55</title>
 <path fill="none" stroke="midnightblue" d="M73.2255,-22.3581C81.4752,-21.0126 90.242,-19.5828 98.7747,-18.1913"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="72.4152,-18.9439 63.109,-24.008 73.542,-25.8526 72.4152,-18.9439"/>
 </g>

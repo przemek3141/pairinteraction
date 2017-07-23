@@ -8,22 +8,22 @@
  viewBox="0.00 0.00 316.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>BasisnamesTwo::save</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node16 -->
+<g id="node1" class="node"><title>Node16</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-6 0,-25 120,-25 120,-6 0,-6"/>
 <text text-anchor="middle" x="60" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">BasisnamesTwo::save</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classpairinteraction_1_1utils_1_1Wignerd.html#aeb728a8095eb7aa4ae815760fa900d0c" target="_top" xlink:title="pairinteraction.utils.Wignerd.\l__del__">
+<!-- Node17 -->
+<g id="node2" class="node"><title>Node17</title>
+<g id="a_node2"><a xlink:href="classpairinteraction_1_1utils_1_1Wignerd.html#a12414421985d3b950555908ffe112da0" target="_top" xlink:title="pairinteraction.utils.Wignerd.\l__del__">
 <polygon fill="none" stroke="black" points="156,-0.5 156,-30.5 308,-30.5 308,-0.5 156,-0.5"/>
 <text text-anchor="start" x="164" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">pairinteraction.utils.Wignerd.</text>
 <text text-anchor="middle" x="232" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">__del__</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node16&#45;&gt;Node17 -->
+<g id="edge1" class="edge"><title>Node16&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M130.485,-15.5C138.808,-15.5 147.336,-15.5 155.736,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="130.458,-12.0001 120.458,-15.5 130.458,-19.0001 130.458,-12.0001"/>
 </g>

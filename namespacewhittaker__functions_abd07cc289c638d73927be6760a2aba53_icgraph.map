@@ -1,4 +1,5 @@
 <map id="whittaker_functions::RadialWFWhittaker" name="whittaker_functions::RadialWFWhittaker">
-<area shape="rect" id="node2" href="$classWhittaker.html#a3969b968abcecf81fb9999732bb80b16" title="Evaluate the radial wavefunction. " alt="" coords="200,13,348,39"/>
-<area shape="rect" id="node3" href="$wavefunction__test_8cpp.html#a7efbab1df5e4e652e33f058e1b057eaa" title="BOOST_FIXTURE_TEST_CASE" alt="" coords="396,13,601,39"/>
+<area shape="rect" id="node2" href="$classWhittaker.html#a3969b968abcecf81fb9999732bb80b16" title="Evaluate the radial wavefunction. " alt="" coords="212,5,360,32"/>
+<area shape="rect" id="node4" href="$classNumerov.html#aac0e95cf7c77162c82d8e51e16bb423c" title="Power kernel for matrix elements. " alt="" coords="200,56,372,83"/>
+<area shape="rect" id="node3" href="$wavefunction__test_8cpp.html#a7efbab1df5e4e652e33f058e1b057eaa" title="BOOST_FIXTURE_TEST_CASE" alt="" coords="420,5,625,32"/>
 </map>

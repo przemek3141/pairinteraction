@@ -8,39 +8,39 @@
  viewBox="0.00 0.00 447.00 47.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 43)">
 <title>BOOST_FIXTURE_TEST_CASE</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 154,-19.5 154,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="77" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BOOST_FIXTURE_TEST_CASE</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="namespacemodel__potential.html#aa0daccbf04e5a365334d30c17d1e37b6" target="_top" xlink:title="Helper function for Numerov&#39;s method.s. ">
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
+<g id="a_node2"><a xlink:href="namespacemodel__potential.html#acc0a7d11646559328f440de6299d5701" target="_top" xlink:title="Helper function for Numerov&#39;s method.s. ">
 <polygon fill="none" stroke="black" points="190,-19.5 190,-38.5 296,-38.5 296,-19.5 190,-19.5"/>
 <text text-anchor="middle" x="243" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">model_potential::g</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M154.239,-18.8325C162.802,-19.8246 171.45,-20.8265 179.805,-21.7945"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="179.491,-25.2815 189.828,-22.9556 180.297,-18.328 179.491,-25.2815"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="namespacemodel__potential.html#af8cc798f9f046bb6ebdc488c8419a1da" target="_top" xlink:title="Calculate the model potentials. ">
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
+<g id="a_node3"><a xlink:href="namespacemodel__potential.html#a774f5a7b7d27c1e1256bbd34c358dd89" target="_top" xlink:title="Calculate the model potentials. ">
 <polygon fill="none" stroke="black" points="332,-0.5 332,-19.5 439,-19.5 439,-0.5 332,-0.5"/>
 <text text-anchor="middle" x="385.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">model_potential::V</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M154.158,-10C205.8,-10 273.235,-10 321.778,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="321.838,-13.5001 331.838,-10 321.838,-6.5001 321.838,-13.5001"/>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M296.317,-21.9251C304.526,-20.815 313.085,-19.6575 321.504,-18.519"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="322.23,-21.9528 331.671,-17.1442 321.292,-15.0159 322.23,-21.9528"/>
 </g>

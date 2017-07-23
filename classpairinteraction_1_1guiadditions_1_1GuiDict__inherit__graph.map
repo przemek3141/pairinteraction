@@ -1,4 +1,6 @@
 <map id="pairinteraction.guiadditions.GuiDict" name="pairinteraction.guiadditions.GuiDict">
+<area shape="rect" id="node6" href="$classpairinteraction_1_1app_1_1PlotDict.html" title="pairinteraction.app.PlotDict" alt="" coords="34,169,229,196"/>
+<area shape="rect" id="node7" href="$classpairinteraction_1_1app_1_1SystemDict.html" title="pairinteraction.app.SystemDict" alt="" coords="253,169,473,196"/>
 <area shape="rect" id="node3" href="$classMutableMapping.html" title="MutableMapping" alt="" coords="119,5,245,32"/>
 <area shape="rect" id="node4" href="$classmetaclass.html" title="metaclass" alt="" coords="270,5,358,32"/>
 </map>

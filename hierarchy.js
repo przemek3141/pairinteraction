@@ -37,7 +37,10 @@ var hierarchy =
     [ "sqlite::result::iterator", "classsqlite_1_1result_1_1iterator.html", null ],
     [ "MatrixElements", "classMatrixElements.html", null ],
     [ "metaclass", "classmetaclass.html", [
-      [ "pairinteraction.guiadditions.GuiDict", "classpairinteraction_1_1guiadditions_1_1GuiDict.html", null ]
+      [ "pairinteraction.guiadditions.GuiDict", "classpairinteraction_1_1guiadditions_1_1GuiDict.html", [
+        [ "pairinteraction.app.PlotDict", "classpairinteraction_1_1app_1_1PlotDict.html", null ],
+        [ "pairinteraction.app.SystemDict", "classpairinteraction_1_1app_1_1SystemDict.html", null ]
+      ] ]
     ] ],
     [ "MutableMapping", "classMutableMapping.html", [
       [ "pairinteraction.guiadditions.GuiDict", "classpairinteraction_1_1guiadditions_1_1GuiDict.html", null ]
@@ -90,10 +93,6 @@ var hierarchy =
     ] ],
     [ "collections", null, [
       [ "pairinteraction.guiadditions.GuiDict", "classpairinteraction_1_1guiadditions_1_1GuiDict.html", null ]
-    ] ],
-    [ "GuiDict", null, [
-      [ "pairinteraction.app.PlotDict", "classpairinteraction_1_1app_1_1PlotDict.html", null ],
-      [ "pairinteraction.app.SystemDict", "classpairinteraction_1_1app_1_1SystemDict.html", null ]
     ] ],
     [ "int", "classint.html", null ],
     [ "shared_ptr< BasisnamesOne >", "classstd_1_1shared__ptr_3_01BasisnamesOne_01_4.html", null ],

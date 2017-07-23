@@ -7,7 +7,7 @@ var classConfiguration_1_1value =
     [ "operator=", "classConfiguration_1_1value.html#a029f55daeaac4de3ad39c1cc095e0952", null ],
     [ "operator=", "classConfiguration_1_1value.html#a06ed4f6912bcbd72866c5fa651230682", null ],
     [ "operator>>", "classConfiguration_1_1value.html#aa0a75e0d90d5601d8f7dc510239436ec", null ],
-    [ "operator>>", "classConfiguration_1_1value.html#acb63ccc034e2efd131ab2b88a191cbc9", null ],
-    [ "str", "classConfiguration_1_1value.html#af65807c23551a7d40ea97accd7fa26e3", null ],
+    [ "operator>>", "classConfiguration_1_1value.html#ac04a4a29ca6b0a128c32c6df6f8c0e4f", null ],
+    [ "str", "classConfiguration_1_1value.html#a1726761bb7cd6072bd58d787514dcc75", null ],
     [ "str", "classConfiguration_1_1value.html#a99991401210883c0d8ff612b4d157060", null ]
 ];

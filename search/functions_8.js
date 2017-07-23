@@ -7,6 +7,6 @@ var searchData=
   ['handle',['handle',['../classsqlite_1_1handle.html#a5a4bc238d5ddae183a3ce96cb855a159',1,'sqlite::handle::handle(std::string const &amp;filename)'],['../classsqlite_1_1handle.html#ac4e80376a92fda07b35e2561fa17e062',1,'sqlite::handle::handle(std::string const &amp;filename, int flags)']]],
   ['hashbasis',['hashBasis',['../classHamiltonianmatrix.html#a1e43ece7300d46f751f02c3260a14bfb',1,'Hamiltonianmatrix']]],
   ['hashentries',['hashEntries',['../classHamiltonianmatrix.html#aebafe9543f93f3956fff32192efd86ce',1,'Hamiltonianmatrix']]],
-  ['header',['header',['../classsqlite_1_1result.html#af4a5a673ad5ae2d896656845f34b5a8e',1,'sqlite::result']]],
+  ['header',['header',['../classsqlite_1_1result.html#ab587ef8be04f1eadb6015946110de4bc',1,'sqlite::result']]],
   ['hypergeometricu',['HypergeometricU',['../namespacewhittaker__functions.html#a655eb5812fd2aa3a9d5491d564e87913',1,'whittaker_functions']]]
 ];
