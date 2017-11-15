@@ -1,0 +1,6 @@
+pireal module
+=============
+
+.. automodule:: pireal
+    :members:
+    :show-inheritance:

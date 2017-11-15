@@ -1,0 +1,6 @@
+picomplex module
+================
+
+.. automodule:: picomplex
+    :members:
+    :show-inheritance:

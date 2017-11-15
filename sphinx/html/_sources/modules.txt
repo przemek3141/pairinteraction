@@ -1,0 +1,8 @@
+libpairinteraction
+==================
+
+.. toctree::
+   :maxdepth: 4
+
+   picomplex
+   pireal

@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['type',['type',['../structtraits_1_1pointer__remove__const_3_01T_01_5_4.html#a6877e2118e0c7db84c78d16005bd4ebc',1,'traits::pointer_remove_const&lt; T *&gt;::type()'],['../structtraits_1_1pointer__remove__const_3_01T_01const_01_5_4.html#a0beb8c81bde190e5b0e28f5c1cd59437',1,'traits::pointer_remove_const&lt; T const *&gt;::type()'],['../structtraits_1_1pointer__remove__const_3_01T_01const_01_5const_01_4.html#a1b64d798c0077ac91e409e78503d1f34',1,'traits::pointer_remove_const&lt; T const *const &gt;::type()'],['../structtraits_1_1pointer__add__const_3_01T_01_5_4.html#ac4dc1233265d43bff06f446095dbead0',1,'traits::pointer_add_const&lt; T *&gt;::type()'],['../structtraits_1_1pointer__add__const_3_01T_01const_01_5_4.html#a9ee65bc4881db9724c74788b364d867e',1,'traits::pointer_add_const&lt; T const *&gt;::type()'],['../structtraits_1_1pointer__add__const_3_01T_01const_01_5const_01_4.html#a592779f3a1de465c34d43c38d1a7c930',1,'traits::pointer_add_const&lt; T const *const &gt;::type()']]],
+  ['type_5ft',['type_t',['../Serializable_8h.html#a9b837079f7a31b56ecc83fbc5a00dd20',1,'Serializable.h']]]
+];
