@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>1. Obtaining pairinteraction &#8212; pairinteraction db79bed documentation</title>
+    <title>1. Obtaining pairinteraction &#8212; pairinteraction 0.7-alpha-1-ge9dcbd5 documentation</title>
     
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     'db79bed',
+        VERSION:     '0.7-alpha-1-ge9dcbd5',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -26,7 +26,7 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="top" title="pairinteraction db79bed documentation" href="index.html" />
+    <link rel="top" title="pairinteraction 0.7-alpha-1-ge9dcbd5 documentation" href="index.html" />
     <link rel="next" title="2. Tutorials" href="tutorials.html" />
     <link rel="prev" title="Welcome to the libpairinteraction documentation!" href="index.html" /> 
   </head>
@@ -46,7 +46,7 @@
         <li class="right" >
           <a href="index.html" title="Welcome to the libpairinteraction documentation!"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">pairinteraction db79bed documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">pairinteraction 0.7-alpha-1-ge9dcbd5 documentation</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -69,10 +69,75 @@ architectures:</p>
 <li>Windows <code class="docutils literal"><span class="pre">exe</span></code>: Compiled with Visual Studio 2015</li>
 </ul>
 </div>
+<div class="section" id="installation-of-the-pairinteraction-python-library">
+<h2>1.2. Installation of the pairinteraction Python library<a class="headerlink" href="#installation-of-the-pairinteraction-python-library" title="Permalink to this headline">¶</a></h2>
+<p>The pairinteraction program comes with a Python 3 library wich can be
+installed under the most popular operating systems. Note that we
+recommend using a Python 3.6 distribution. Older Python distributions
+might not work together with the pairinteraction library.</p>
+<div class="section" id="installation-for-gnu-linux">
+<h3>1.2.1. Installation for GNU/Linux<a class="headerlink" href="#installation-for-gnu-linux" title="Permalink to this headline">¶</a></h3>
+<p>By installing a <a class="reference external" href="https://github.com/pairinteraction/pairinteraction/releases">pairinteraction software package for GNU/Linux</a>, the
+pairinteraction Python 3 library gets installed as well. Everything
+should work out-of-the-box.</p>
+</div>
+<div class="section" id="installation-for-windows">
+<h3>1.2.2. Installation for Windows<a class="headerlink" href="#installation-for-windows" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>If not already done, download the <a class="reference external" href="https://github.com/pairinteraction/pairinteraction/releases">Windows installer of the the
+pairinteraction software</a> and execute it. For the following, we
+assume that the software is installed to the location <code class="docutils literal"><span class="pre">C:\Program</span>
+<span class="pre">Files\pairinteraction</span></code>.</li>
+</ol>
+<ol class="arabic" start="2">
+<li><p class="first">We recommend using the Python 3.6 distribution <a class="reference external" href="https://conda.io/miniconda.html">Miniconda</a> or
+<a class="reference external" href="https://www.anaconda.com/distribution/">Anaconda</a>. Then, the pairinteraction Python 3 library and its
+dependencies are installed by executing the following commands in
+the Anaconda command prompt:</p>
+<div class="highlight-bat"><div class="highlight"><pre><span></span><span class="p">&gt;</span> conda install numpy scipy pyzmq matplotlib conda-build
+<span class="p">&gt;</span> conda develop <span class="s2">&quot;C:\Program Files\pairinteraction&quot;</span>
+</pre></div>
+</div>
+<p>Alternatively, without Miniconda or Anaconda, you can install the
+dependencies <code class="docutils literal"><span class="pre">numpy</span></code>, <code class="docutils literal"><span class="pre">scipy</span></code>, and <code class="docutils literal"><span class="pre">pyzmq</span></code> manually and copy
+or link the folder <code class="docutils literal"><span class="pre">C:\Program</span>
+<span class="pre">Files\pairinteraction\libpairinteraction</span></code> to the Python package
+search path.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="installation-for-os-x">
+<h3>1.2.3. Installation for OS X<a class="headerlink" href="#installation-for-os-x" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>If not already done, download the <a class="reference external" href="https://github.com/pairinteraction/pairinteraction/releases">OS X installer of the the
+pairinteraction software</a> and execute it. For the following, we
+assume that the software is installed to the location
+<code class="docutils literal"><span class="pre">/Applications/pairinteraction.app</span></code>.</li>
+</ol>
+<ol class="arabic" start="2">
+<li><p class="first">We recommend to use the Python 3.6 distribution <a class="reference external" href="https://conda.io/miniconda.html">Miniconda</a> or
+<a class="reference external" href="https://www.anaconda.com/distribution/">Anaconda</a>. Then, the pairinteraction Python 3 library and its
+dependencies are installed by executing the following commands in
+the terminal:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ conda install numpy scipy pyzmq matplotlib conda-build
+$ conda develop /Applications/pairinteraction.app/Contents/Resources
+$ ln -s <span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span>/lib/libpython3.6m.dylib /Applications/pairinteraction.app/Contents/Resources/libpairinteraction/libraries/libpython3.6m.dylib
+</pre></div>
+</div>
+<p>Alternatively, without Miniconda or Anaconda, you can install the
+dependencies <code class="docutils literal"><span class="pre">numpy</span></code>, <code class="docutils literal"><span class="pre">scipy</span></code>, and <code class="docutils literal"><span class="pre">pyzmq</span></code> manually and copy
+or link the folder
+<code class="docutils literal"><span class="pre">/Applications/pairinteraction.app/Contents/Resources/libpairinteraction</span></code>
+to the Python package search path. In addition, you have to link
+the Python dylib to <code class="docutils literal"><span class="pre">libpairinteraction/libraries/Python</span></code>.</p>
+</li>
+</ol>
+</div>
+</div>
 <div class="section" id="building-from-source">
-<h2>1.2. Building from Source<a class="headerlink" href="#building-from-source" title="Permalink to this headline">¶</a></h2>
+<h2>1.3. Building from Source<a class="headerlink" href="#building-from-source" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="requirements">
-<h3>1.2.1. Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<h3>1.3.1. Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
 <p>The following tools libraries, including header files, are required
 for compiling the source code.</p>
 <dl class="docutils">
@@ -82,7 +147,7 @@ for compiling the source code.</p>
 <dd>The build system is based on CMake.</dd>
 </dl>
 <div class="section" id="c-backend-and-python-interface">
-<h4>1.2.1.1. C++ Backend and Python Interface<a class="headerlink" href="#c-backend-and-python-interface" title="Permalink to this headline">¶</a></h4>
+<h4>1.3.1.1. C++ Backend and Python Interface<a class="headerlink" href="#c-backend-and-python-interface" title="Permalink to this headline">¶</a></h4>
 <dl class="docutils">
 <dt>C++ Compiler</dt>
 <dd>C++11 capable C++ compiler (e.g., GCC 4.8.1 or later).</dd>
@@ -109,14 +174,14 @@ support for large, multi-dimensional arrays and matrices.</dd>
 </dl>
 </div>
 <div class="section" id="graphical-user-interface">
-<h4>1.2.1.2. Graphical User Interface<a class="headerlink" href="#graphical-user-interface" title="Permalink to this headline">¶</a></h4>
+<h4>1.3.1.2. Graphical User Interface<a class="headerlink" href="#graphical-user-interface" title="Permalink to this headline">¶</a></h4>
 <dl class="docutils">
 <dt>PyQt5</dt>
 <dd>Python bindings of the cross-platform GUI toolkit Qt.</dd>
 </dl>
 </div>
 <div class="section" id="documentation">
-<h4>1.2.1.3. Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h4>
+<h4>1.3.1.3. Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h4>
 <dl class="docutils">
 <dt>Doxygen</dt>
 <dd>Doxygen is used as a documentation generator for C++.</dd>
@@ -126,7 +191,7 @@ support for large, multi-dimensional arrays and matrices.</dd>
 </div>
 </div>
 <div class="section" id="build-options">
-<h3>1.2.2. Build options<a class="headerlink" href="#build-options" title="Permalink to this headline">¶</a></h3>
+<h3>1.3.2. Build options<a class="headerlink" href="#build-options" title="Permalink to this headline">¶</a></h3>
 <p>The build system uses CMake and has some configuration switches.  These are</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -178,9 +243,9 @@ support for large, multi-dimensional arrays and matrices.</dd>
 <p>This way we can only build the C++ backend.</p>
 </div>
 <div class="section" id="ubuntu-16-04">
-<h3>1.2.3. Ubuntu 16.04<a class="headerlink" href="#ubuntu-16-04" title="Permalink to this headline">¶</a></h3>
+<h3>1.3.3. Ubuntu 16.04<a class="headerlink" href="#ubuntu-16-04" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="dependencies">
-<h4>1.2.3.1. Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h4>
+<h4>1.3.3.1. Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h4>
 <p>The build system relies on CMake.  To build the Python GUI we need the
 PyQT5 toolkit.  The library Eigen3 is header only and thus cross
 platform.  Thus you have to install the following packages</p>
@@ -198,7 +263,7 @@ additionally need</p>
 </div>
 </div>
 <div class="section" id="build-instructions">
-<h4>1.2.3.2. Build Instructions<a class="headerlink" href="#build-instructions" title="Permalink to this headline">¶</a></h4>
+<h4>1.3.3.2. Build Instructions<a class="headerlink" href="#build-instructions" title="Permalink to this headline">¶</a></h4>
 <p>To build for GNU/Linux checkout the latest version of pairinteraction
 using <cite>git</cite></p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ git clone --recursive https://github.com/pairinteraction/pairinteraction.git
@@ -228,9 +293,9 @@ Afterwards you can start the program from the build directory</p>
 </div>
 </div>
 <div class="section" id="opensuse-leap">
-<h3>1.2.4. openSUSE Leap<a class="headerlink" href="#opensuse-leap" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id1">
-<h4>1.2.4.1. Dependencies<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<h3>1.3.4. openSUSE Leap<a class="headerlink" href="#opensuse-leap" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>1.3.4.1. Dependencies<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
 <p>The build system relies on CMake.  To build the Python GUI we need the
 PyQT5 toolkit.  The library Eigen3 is header only and thus cross
 platform.  Thus you have to install the following packages</p>
@@ -252,8 +317,8 @@ which we also need</p>
 </pre></div>
 </div>
 </div>
-<div class="section" id="id2">
-<h4>1.2.4.2. Build Instructions<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id4">
+<h4>1.3.4.2. Build Instructions<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
 <p>To build for GNU/Linux checkout the latest version of pairinteraction
 using <code class="docutils literal"><span class="pre">git</span></code></p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ git clone --recursive https://github.com/pairinteraction/pairinteraction.git
@@ -283,16 +348,16 @@ Afterwards you can start the program from the build directory</p>
 </div>
 </div>
 <div class="section" id="mac-os-x">
-<h3>1.2.5. Mac OS X<a class="headerlink" href="#mac-os-x" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="id3">
-<h4>1.2.5.1. Dependencies<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<h3>1.3.5. Mac OS X<a class="headerlink" href="#mac-os-x" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h4>1.3.5.1. Dependencies<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 </div>
-<div class="section" id="id4">
-<h4>1.2.5.2. Build Instructions<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id6">
+<h4>1.3.5.2. Build Instructions<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
 </div>
 </div>
 <div class="section" id="code-documentation">
-<h3>1.2.6. Code documentation<a class="headerlink" href="#code-documentation" title="Permalink to this headline">¶</a></h3>
+<h3>1.3.6. Code documentation<a class="headerlink" href="#code-documentation" title="Permalink to this headline">¶</a></h3>
 <p>To generate the code documentation Doxygen and Sphinx are needed (in
 addition to all other build dependencies).  On Ubuntu or Debian it can
 be obtained using</p>
@@ -331,7 +396,7 @@ building the eponymous targets <code class="docutils literal"><span class="pre">
 Open the file <code class="docutils literal"><span class="pre">index.html</span></code> in your browser to see the result.</p>
 </div>
 <div class="section" id="make-compiling-testing-and-installing">
-<h3>1.2.7. <code class="docutils literal"><span class="pre">make</span></code>: Compiling, testing and installing<a class="headerlink" href="#make-compiling-testing-and-installing" title="Permalink to this headline">¶</a></h3>
+<h3>1.3.7. <code class="docutils literal"><span class="pre">make</span></code>: Compiling, testing and installing<a class="headerlink" href="#make-compiling-testing-and-installing" title="Permalink to this headline">¶</a></h3>
 <p>The command <code class="docutils literal"><span class="pre">make</span></code> is mainly used to compile the source code, but it
 can do a number of other things. The generic syntax of the <code class="docutils literal"><span class="pre">make</span></code>
 command is:</p>
@@ -377,35 +442,44 @@ processors can speed up the compilation process significantly.</p>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/logo48x48.png" alt="Logo"/>
+            </a></p>
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">1. Obtaining pairinteraction</a><ul>
 <li><a class="reference internal" href="#binary-installer">1.1. Binary Installer</a></li>
-<li><a class="reference internal" href="#building-from-source">1.2. Building from Source</a><ul>
-<li><a class="reference internal" href="#requirements">1.2.1. Requirements</a><ul>
-<li><a class="reference internal" href="#c-backend-and-python-interface">1.2.1.1. C++ Backend and Python Interface</a></li>
-<li><a class="reference internal" href="#graphical-user-interface">1.2.1.2. Graphical User Interface</a></li>
-<li><a class="reference internal" href="#documentation">1.2.1.3. Documentation</a></li>
+<li><a class="reference internal" href="#installation-of-the-pairinteraction-python-library">1.2. Installation of the pairinteraction Python library</a><ul>
+<li><a class="reference internal" href="#installation-for-gnu-linux">1.2.1. Installation for GNU/Linux</a></li>
+<li><a class="reference internal" href="#installation-for-windows">1.2.2. Installation for Windows</a></li>
+<li><a class="reference internal" href="#installation-for-os-x">1.2.3. Installation for OS X</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#build-options">1.2.2. Build options</a></li>
-<li><a class="reference internal" href="#ubuntu-16-04">1.2.3. Ubuntu 16.04</a><ul>
-<li><a class="reference internal" href="#dependencies">1.2.3.1. Dependencies</a></li>
-<li><a class="reference internal" href="#build-instructions">1.2.3.2. Build Instructions</a></li>
+<li><a class="reference internal" href="#building-from-source">1.3. Building from Source</a><ul>
+<li><a class="reference internal" href="#requirements">1.3.1. Requirements</a><ul>
+<li><a class="reference internal" href="#c-backend-and-python-interface">1.3.1.1. C++ Backend and Python Interface</a></li>
+<li><a class="reference internal" href="#graphical-user-interface">1.3.1.2. Graphical User Interface</a></li>
+<li><a class="reference internal" href="#documentation">1.3.1.3. Documentation</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#opensuse-leap">1.2.4. openSUSE Leap</a><ul>
-<li><a class="reference internal" href="#id1">1.2.4.1. Dependencies</a></li>
-<li><a class="reference internal" href="#id2">1.2.4.2. Build Instructions</a></li>
+<li><a class="reference internal" href="#build-options">1.3.2. Build options</a></li>
+<li><a class="reference internal" href="#ubuntu-16-04">1.3.3. Ubuntu 16.04</a><ul>
+<li><a class="reference internal" href="#dependencies">1.3.3.1. Dependencies</a></li>
+<li><a class="reference internal" href="#build-instructions">1.3.3.2. Build Instructions</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#mac-os-x">1.2.5. Mac OS X</a><ul>
-<li><a class="reference internal" href="#id3">1.2.5.1. Dependencies</a></li>
-<li><a class="reference internal" href="#id4">1.2.5.2. Build Instructions</a></li>
+<li><a class="reference internal" href="#opensuse-leap">1.3.4. openSUSE Leap</a><ul>
+<li><a class="reference internal" href="#id3">1.3.4.1. Dependencies</a></li>
+<li><a class="reference internal" href="#id4">1.3.4.2. Build Instructions</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#code-documentation">1.2.6. Code documentation</a></li>
-<li><a class="reference internal" href="#make-compiling-testing-and-installing">1.2.7. <code class="docutils literal"><span class="pre">make</span></code>: Compiling, testing and installing</a></li>
+<li><a class="reference internal" href="#mac-os-x">1.3.5. Mac OS X</a><ul>
+<li><a class="reference internal" href="#id5">1.3.5.1. Dependencies</a></li>
+<li><a class="reference internal" href="#id6">1.3.5.2. Build Instructions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#code-documentation">1.3.6. Code documentation</a></li>
+<li><a class="reference internal" href="#make-compiling-testing-and-installing">1.3.7. <code class="docutils literal"><span class="pre">make</span></code>: Compiling, testing and installing</a></li>
 </ul>
 </li>
 </ul>
@@ -454,7 +528,7 @@ processors can speed up the compilation process significantly.</p>
         <li class="right" >
           <a href="index.html" title="Welcome to the libpairinteraction documentation!"
              >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">pairinteraction db79bed documentation</a> &#187;</li> 
+        <li class="nav-item nav-item-0"><a href="index.html">pairinteraction 0.7-alpha-1-ge9dcbd5 documentation</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
