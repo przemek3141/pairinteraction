@@ -11,15 +11,24 @@ and K. Mølmer, “Quantum information with Rydberg atoms,” `Rev. Mod.
 Phys. 82, 2313 (2010) <https://dx.doi.org/10.1103/RevModPhys.82.2313>`__
 (`Fig.
 13 <https://journals.aps.org/rmp/article/10.1103/RevModPhys.82.2313/figures/13/medium>`__).
-Here we show how to reproduce this result using pairinteraction.
+Here we show how to reproduce this result using pairinteraction. The
+final Python script is available on
+`GitHub <https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples/comparison_to_saffman_fig13.py>`__.
 
-We start by loading the required modules for the computation. We will
-make use of pairinteraction's parallel capacities which is why we load
-the ``multiprocessing`` module.
+Ahead of our Python code, we call an IPython magic function to make the
+output of plotting commands displayed inline within the notebook.
 
 .. code:: python
 
     %matplotlib inline
+
+Our code starts with loading the required modules for the computation.
+We will make use of pairinteraction's parallel capacities which is why
+we load the ``multiprocessing`` module. We use the module ``pireal`` as
+the Hamiltonian matrix of our system will be purely real-valued (if one
+considers electric or magnetic fields with a non-zero :math:`y`-value,
+the Hamiltonian is complex due to the chosen definition of the spherical
+basis and one has to use ``picomplex``).
 
 .. code:: python
 
@@ -27,6 +36,9 @@ the ``multiprocessing`` module.
     import numpy as np
     import matplotlib.pyplot as plt
     from multiprocessing import Pool
+    import sys
+    if sys.platform == "darwin": sys.path.append("/Applications/pairinteraction.app/Contents/Resources")
+    elif sys.platform == "win32": sys.path.append("C:\Program Files\pairinteraction")
     from libpairinteraction import pireal as pi
 
 We begin by defining some constants of our calculation: the spatial
@@ -40,7 +52,8 @@ comments.
     bfields = np.linspace(0, 20, 200) # Gauss
 
 Now, we use pairinteraction's ``StateOne`` class to define the
-single-atom state :math:`43d_{5/2}` of a Rubudium atom.
+single-atom state :math:`\left|43d_{5/2},m_j=1/2\right\rangle` of a
+Rubudium atom.
 
 .. code:: python
 
@@ -77,9 +90,10 @@ the magnitude given by the argument.
         system_one.setBfield([0, 0, bfield])
         return system_one
 
-To investigate the :math:`43d_{5/2} + 43d_{5/2}` pair state, we easily
-combine the same single-atom state twice into a pair state using
-``StateTwo``.
+To investigate the
+:math:`\left|43d_{5/2},m_j=1/2;43d_{5/2},m_j=1/2\right\rangle` pair
+state, we easily combine the same single-atom state twice into a pair
+state using ``StateTwo``.
 
 .. code:: python
 
@@ -137,24 +151,25 @@ with ``matplotlib``.
 
 .. code:: python
 
-    plt.xlabel(r"$B$ (Gauss)")
-    plt.ylabel(r"Blockade (MHz)")
-    plt.xlim(-1,20)
-    plt.ylim(0,0.4)
+    if __name__ ==  '__main__':
+        plt.xlabel(r"$B$ (Gauss)")
+        plt.ylabel(r"Blockade (MHz)")
+        plt.xlim(-0.4,20.4)
+        plt.ylim(0,0.4)
     
-    angle = 0 # rad
-    with Pool() as pool:
-        energies1 = pool.map(getEnergies, bfields)
+        angle = 0 # rad
+        with Pool() as pool:
+            energies1 = pool.map(getEnergies, bfields)
     
-    angle = np.pi/2 # rad
-    with Pool() as pool:
-        energies2 = pool.map(getEnergies, bfields)
+        angle = np.pi/2 # rad
+        with Pool() as pool:
+            energies2 = pool.map(getEnergies, bfields)
     
-    plt.plot(bfields, energies1, '-', label=r"$\theta = 0$")
-    plt.plot(bfields, energies2, '-', label=r"$\theta = \pi/2$")
-    plt.legend(loc=2, bbox_to_anchor=(1.02, 1), borderaxespad=0);
+        plt.plot(bfields, energies1, 'b-', label=r"$\theta = 0$")
+        plt.plot(bfields, energies2, 'g-', label=r"$\theta = \pi/2$")
+        plt.legend(loc=2, bbox_to_anchor=(1.02, 1), borderaxespad=0);
 
 
 
-.. image:: comparison_to_saffman_fig13_files/comparison_to_saffman_fig13_20_0.png
+.. image:: comparison_to_saffman_fig13_files/comparison_to_saffman_fig13_21_0.png
 
