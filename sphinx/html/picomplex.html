@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>picomplex module &mdash; pairinteraction 0.7-alpha-10-gade1179 documentation</title>
+  <title>picomplex module &mdash; pairinteraction 0.7-alpha-11-gecada35 documentation</title>
   
 
   
@@ -33,7 +33,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pairinteraction 0.7-alpha-10-gade1179 documentation" href="index.html"/>
+    <link rel="top" title="pairinteraction 0.7-alpha-11-gecada35 documentation" href="index.html"/>
         <link rel="up" title="libpairinteraction" href="modules.html"/>
         <link rel="next" title="pireal module" href="pireal.html"/>
         <link rel="prev" title="libpairinteraction" href="modules.html"/> 
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.7-alpha-10-gade1179
+                0.7-alpha-11-gecada35
               </div>
             
           
@@ -145,9 +145,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="picomplex-module">
-<h1>picomplex module<a class="headerlink" href="#picomplex-module" title="Permalink to this headline">¶</a></h1>
-<span class="target" id="module-picomplex"></span><p>C++ backend for complex matrices</p>
+  <div class="section" id="module-picomplex">
+<span id="picomplex-module"></span><h1>picomplex module<a class="headerlink" href="#module-picomplex" title="Permalink to this headline">¶</a></h1>
+<p>C++ backend for complex matrices</p>
 <dl class="function">
 <dt id="picomplex.HypergeometricU">
 <code class="descclassname">picomplex.</code><code class="descname">HypergeometricU</code><span class="sig-paren">(</span><em>a</em>, <em>b</em>, <em>z</em><span class="sig-paren">)</span> &rarr; double<a class="reference internal" href="_modules/picomplex.html#HypergeometricU"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.HypergeometricU" title="Permalink to this definition">¶</a></dt>
@@ -166,9 +166,16 @@
 
 <dl class="class">
 <dt id="picomplex.Numerov">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Numerov</code><span class="sig-paren">(</span><em>qd: picomplex.QuantumDefect</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#Numerov"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Numerov" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Numerov</code><span class="sig-paren">(</span><em>self</em>, <em>qd</em><span class="sig-paren">)</span> &rarr; Numerov<a class="reference internal" href="_modules/picomplex.html#Numerov"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Numerov" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Numerov class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>qd: QuantumDefect const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="method">
 <dt id="picomplex.Numerov.integrate">
 <code class="descname">integrate</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_dense_double_t<a class="reference internal" href="_modules/picomplex.html#Numerov.integrate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Numerov.integrate" title="Permalink to this definition">¶</a></dt>
@@ -212,9 +219,21 @@
 
 <dl class="class">
 <dt id="picomplex.QuantumDefect">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">QuantumDefect</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#QuantumDefect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.QuantumDefect" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">QuantumDefect</code><span class="sig-paren">(</span><em>self</em>, <em>species</em>, <em>n</em>, <em>l</em>, <em>j</em><span class="sig-paren">)</span> &rarr; QuantumDefect<a class="reference internal" href="_modules/picomplex.html#QuantumDefect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.QuantumDefect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ QuantumDefect class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>species: std::string const &amp;</strong></p>
+<p><strong>n: int</strong></p>
+<p><strong>l: int</strong></p>
+<p><strong>j: double</strong></p>
+<p class="last"><strong>database: std::string const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.QuantumDefect.Z">
 <code class="descname">Z</code><a class="headerlink" href="#picomplex.QuantumDefect.Z" title="Permalink to this definition">¶</a></dt>
@@ -417,9 +436,16 @@
 
 <dl class="class">
 <dt id="picomplex.State">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">State</code><a class="reference internal" href="_modules/picomplex.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.State" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">State</code><span class="sig-paren">(</span><em>self</em>, <em>idx</em><span class="sig-paren">)</span> &rarr; State<a class="reference internal" href="_modules/picomplex.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.State" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ State class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>idx: idx_t</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.State.idx">
 <code class="descname">idx</code><a class="headerlink" href="#picomplex.State.idx" title="Permalink to this definition">¶</a></dt>
@@ -438,9 +464,21 @@
 
 <dl class="class">
 <dt id="picomplex.StateOne">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">StateOne</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#StateOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.StateOne" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">StateOne</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; StateOne<a class="reference internal" href="_modules/picomplex.html#StateOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.StateOne" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#picomplex.State" title="picomplex.State"><code class="xref py py-class docutils literal"><span class="pre">picomplex.State</span></code></a></p>
-<p>Proxy of C++ StateOne class.</p>
+<p>__init__(self, element, n, l, j, m) -&gt; StateOne</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>n: int</strong></p>
+<p><strong>l: int</strong></p>
+<p><strong>j: float</strong></p>
+<p class="last"><strong>m: float</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.StateOne.element">
 <code class="descname">element</code><a class="headerlink" href="#picomplex.StateOne.element" title="Permalink to this definition">¶</a></dt>
@@ -542,9 +580,20 @@
 
 <dl class="class">
 <dt id="picomplex.StateTwo">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">StateTwo</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#StateTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.StateTwo" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">StateTwo</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; StateTwo<a class="reference internal" href="_modules/picomplex.html#StateTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.StateTwo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#picomplex.State" title="picomplex.State"><code class="xref py py-class docutils literal"><span class="pre">picomplex.State</span></code></a></p>
-<p>Proxy of C++ StateTwo class.</p>
+<p>__init__(self, element, n, l, j, m) -&gt; StateTwo</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>idx: idx_t</strong></p>
+<p><strong>a: StateOne const &amp;</strong></p>
+<p class="last"><strong>b: StateOne const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.StateTwo.element">
 <code class="descname">element</code><a class="headerlink" href="#picomplex.StateTwo.element" title="Permalink to this definition">¶</a></dt>
@@ -737,9 +786,8 @@
 
 <dl class="class">
 <dt id="picomplex.Symmetry">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Symmetry</code><a class="reference internal" href="_modules/picomplex.html#Symmetry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Symmetry" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Symmetry</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; Symmetry<a class="reference internal" href="_modules/picomplex.html#Symmetry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Symmetry" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Symmetry class.</p>
 <dl class="attribute">
 <dt id="picomplex.Symmetry.inversion">
 <code class="descname">inversion</code><a class="headerlink" href="#picomplex.Symmetry.inversion" title="Permalink to this definition">¶</a></dt>
@@ -800,9 +848,16 @@
 
 <dl class="class">
 <dt id="picomplex.SystemOne">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">SystemOne</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#SystemOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.SystemOne" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">SystemOne</code><span class="sig-paren">(</span><em>self</em>, <em>element</em>, <em>cachedir</em><span class="sig-paren">)</span> &rarr; SystemOne<a class="reference internal" href="_modules/picomplex.html#SystemOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.SystemOne" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">picomplex._SystemStateOne</span></code></p>
-<p>Proxy of C++ SystemOne class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>other: SystemOne const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.SystemOne.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#picomplex.SystemOne.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -949,9 +1004,16 @@
 
 <dl class="class">
 <dt id="picomplex.SystemTwo">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">SystemTwo</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#SystemTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.SystemTwo" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">SystemTwo</code><span class="sig-paren">(</span><em>self</em>, <em>b1</em>, <em>b2</em>, <em>cachedir</em><span class="sig-paren">)</span> &rarr; SystemTwo<a class="reference internal" href="_modules/picomplex.html#SystemTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.SystemTwo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">picomplex._SystemStateTwo</span></code></p>
-<p>Proxy of C++ SystemTwo class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>other: SystemTwo const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.SystemTwo.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#picomplex.SystemTwo.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -1142,9 +1204,20 @@
 
 <dl class="class">
 <dt id="picomplex.Triple">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Triple</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#Triple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Triple" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Triple</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; Triple<a class="reference internal" href="_modules/picomplex.html#Triple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Triple" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Triple class.</p>
+<p>__init__(self, row, col, val) -&gt; Triple</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>row: idx_t</strong></p>
+<p><strong>col: idx_t</strong></p>
+<p class="last"><strong>val: scalar_t</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="picomplex.Triple.col">
 <code class="descname">col</code><a class="headerlink" href="#picomplex.Triple.col" title="Permalink to this definition">¶</a></dt>
@@ -1206,9 +1279,16 @@
 
 <dl class="class">
 <dt id="picomplex.Whittaker">
-<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Whittaker</code><span class="sig-paren">(</span><em>qd: picomplex.QuantumDefect</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/picomplex.html#Whittaker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Whittaker" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">picomplex.</code><code class="descname">Whittaker</code><span class="sig-paren">(</span><em>self</em>, <em>qd</em><span class="sig-paren">)</span> &rarr; Whittaker<a class="reference internal" href="_modules/picomplex.html#Whittaker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Whittaker" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Whittaker class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>qd: QuantumDefect const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="method">
 <dt id="picomplex.Whittaker.integrate">
 <code class="descname">integrate</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_dense_double_t<a class="reference internal" href="_modules/picomplex.html#Whittaker.integrate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#picomplex.Whittaker.integrate" title="Permalink to this definition">¶</a></dt>
@@ -1389,7 +1469,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.7-alpha-10-gade1179',
+            VERSION:'0.7-alpha-11-gecada35',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

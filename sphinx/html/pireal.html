@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pireal module &mdash; pairinteraction 0.7-alpha-10-gade1179 documentation</title>
+  <title>pireal module &mdash; pairinteraction 0.7-alpha-11-gecada35 documentation</title>
   
 
   
@@ -33,7 +33,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pairinteraction 0.7-alpha-10-gade1179 documentation" href="index.html"/>
+    <link rel="top" title="pairinteraction 0.7-alpha-11-gecada35 documentation" href="index.html"/>
         <link rel="up" title="libpairinteraction" href="modules.html"/>
         <link rel="prev" title="picomplex module" href="picomplex.html"/> 
 
@@ -66,7 +66,7 @@
             
             
               <div class="version">
-                0.7-alpha-10-gade1179
+                0.7-alpha-11-gecada35
               </div>
             
           
@@ -144,9 +144,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="pireal-module">
-<h1>pireal module<a class="headerlink" href="#pireal-module" title="Permalink to this headline">¶</a></h1>
-<span class="target" id="module-pireal"></span><p>C++ backend for real matrices</p>
+  <div class="section" id="module-pireal">
+<span id="pireal-module"></span><h1>pireal module<a class="headerlink" href="#module-pireal" title="Permalink to this headline">¶</a></h1>
+<p>C++ backend for real matrices</p>
 <dl class="function">
 <dt id="pireal.HypergeometricU">
 <code class="descclassname">pireal.</code><code class="descname">HypergeometricU</code><span class="sig-paren">(</span><em>a</em>, <em>b</em>, <em>z</em><span class="sig-paren">)</span> &rarr; double<a class="reference internal" href="_modules/pireal.html#HypergeometricU"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.HypergeometricU" title="Permalink to this definition">¶</a></dt>
@@ -165,9 +165,16 @@
 
 <dl class="class">
 <dt id="pireal.Numerov">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Numerov</code><span class="sig-paren">(</span><em>qd: pireal.QuantumDefect</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#Numerov"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Numerov" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Numerov</code><span class="sig-paren">(</span><em>self</em>, <em>qd</em><span class="sig-paren">)</span> &rarr; Numerov<a class="reference internal" href="_modules/pireal.html#Numerov"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Numerov" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Numerov class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>qd: QuantumDefect const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="method">
 <dt id="pireal.Numerov.integrate">
 <code class="descname">integrate</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_dense_double_t<a class="reference internal" href="_modules/pireal.html#Numerov.integrate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Numerov.integrate" title="Permalink to this definition">¶</a></dt>
@@ -211,9 +218,21 @@
 
 <dl class="class">
 <dt id="pireal.QuantumDefect">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">QuantumDefect</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#QuantumDefect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.QuantumDefect" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">QuantumDefect</code><span class="sig-paren">(</span><em>self</em>, <em>species</em>, <em>n</em>, <em>l</em>, <em>j</em><span class="sig-paren">)</span> &rarr; QuantumDefect<a class="reference internal" href="_modules/pireal.html#QuantumDefect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.QuantumDefect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ QuantumDefect class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>species: std::string const &amp;</strong></p>
+<p><strong>n: int</strong></p>
+<p><strong>l: int</strong></p>
+<p><strong>j: double</strong></p>
+<p class="last"><strong>database: std::string const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.QuantumDefect.Z">
 <code class="descname">Z</code><a class="headerlink" href="#pireal.QuantumDefect.Z" title="Permalink to this definition">¶</a></dt>
@@ -416,9 +435,16 @@
 
 <dl class="class">
 <dt id="pireal.State">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">State</code><a class="reference internal" href="_modules/pireal.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.State" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">State</code><span class="sig-paren">(</span><em>self</em>, <em>idx</em><span class="sig-paren">)</span> &rarr; State<a class="reference internal" href="_modules/pireal.html#State"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.State" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ State class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>idx: idx_t</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.State.idx">
 <code class="descname">idx</code><a class="headerlink" href="#pireal.State.idx" title="Permalink to this definition">¶</a></dt>
@@ -437,9 +463,21 @@
 
 <dl class="class">
 <dt id="pireal.StateOne">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">StateOne</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#StateOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.StateOne" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">StateOne</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; StateOne<a class="reference internal" href="_modules/pireal.html#StateOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.StateOne" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#pireal.State" title="pireal.State"><code class="xref py py-class docutils literal"><span class="pre">pireal.State</span></code></a></p>
-<p>Proxy of C++ StateOne class.</p>
+<p>__init__(self, element, n, l, j, m) -&gt; StateOne</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>n: int</strong></p>
+<p><strong>l: int</strong></p>
+<p><strong>j: float</strong></p>
+<p class="last"><strong>m: float</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.StateOne.element">
 <code class="descname">element</code><a class="headerlink" href="#pireal.StateOne.element" title="Permalink to this definition">¶</a></dt>
@@ -541,9 +579,20 @@
 
 <dl class="class">
 <dt id="pireal.StateTwo">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">StateTwo</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#StateTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.StateTwo" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">StateTwo</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; StateTwo<a class="reference internal" href="_modules/pireal.html#StateTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.StateTwo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#pireal.State" title="pireal.State"><code class="xref py py-class docutils literal"><span class="pre">pireal.State</span></code></a></p>
-<p>Proxy of C++ StateTwo class.</p>
+<p>__init__(self, element, n, l, j, m) -&gt; StateTwo</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>idx: idx_t</strong></p>
+<p><strong>a: StateOne const &amp;</strong></p>
+<p class="last"><strong>b: StateOne const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.StateTwo.element">
 <code class="descname">element</code><a class="headerlink" href="#pireal.StateTwo.element" title="Permalink to this definition">¶</a></dt>
@@ -736,9 +785,8 @@
 
 <dl class="class">
 <dt id="pireal.Symmetry">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Symmetry</code><a class="reference internal" href="_modules/pireal.html#Symmetry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Symmetry" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Symmetry</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; Symmetry<a class="reference internal" href="_modules/pireal.html#Symmetry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Symmetry" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Symmetry class.</p>
 <dl class="attribute">
 <dt id="pireal.Symmetry.inversion">
 <code class="descname">inversion</code><a class="headerlink" href="#pireal.Symmetry.inversion" title="Permalink to this definition">¶</a></dt>
@@ -799,9 +847,16 @@
 
 <dl class="class">
 <dt id="pireal.SystemOne">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">SystemOne</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#SystemOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemOne" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">SystemOne</code><span class="sig-paren">(</span><em>self</em>, <em>element</em>, <em>cachedir</em><span class="sig-paren">)</span> &rarr; SystemOne<a class="reference internal" href="_modules/pireal.html#SystemOne"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemOne" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">pireal._SystemStateOne</span></code></p>
-<p>Proxy of C++ SystemOne class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>other: SystemOne const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.SystemOne.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#pireal.SystemOne.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -948,9 +1003,16 @@
 
 <dl class="class">
 <dt id="pireal.SystemTwo">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">SystemTwo</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#SystemTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemTwo" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">SystemTwo</code><span class="sig-paren">(</span><em>self</em>, <em>b1</em>, <em>b2</em>, <em>cachedir</em><span class="sig-paren">)</span> &rarr; SystemTwo<a class="reference internal" href="_modules/pireal.html#SystemTwo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemTwo" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">pireal._SystemStateTwo</span></code></p>
-<p>Proxy of C++ SystemTwo class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>other: SystemTwo const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.SystemTwo.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#pireal.SystemTwo.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -1141,9 +1203,20 @@
 
 <dl class="class">
 <dt id="pireal.Triple">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Triple</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#Triple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Triple" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Triple</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; Triple<a class="reference internal" href="_modules/pireal.html#Triple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Triple" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Triple class.</p>
+<p>__init__(self, row, col, val) -&gt; Triple</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>row: idx_t</strong></p>
+<p><strong>col: idx_t</strong></p>
+<p class="last"><strong>val: scalar_t</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
 <dl class="attribute">
 <dt id="pireal.Triple.col">
 <code class="descname">col</code><a class="headerlink" href="#pireal.Triple.col" title="Permalink to this definition">¶</a></dt>
@@ -1205,9 +1278,16 @@
 
 <dl class="class">
 <dt id="pireal.Whittaker">
-<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Whittaker</code><span class="sig-paren">(</span><em>qd: pireal.QuantumDefect</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#Whittaker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Whittaker" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descclassname">pireal.</code><code class="descname">Whittaker</code><span class="sig-paren">(</span><em>self</em>, <em>qd</em><span class="sig-paren">)</span> &rarr; Whittaker<a class="reference internal" href="_modules/pireal.html#Whittaker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Whittaker" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
-<p>Proxy of C++ Whittaker class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>qd: QuantumDefect const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
 <dl class="method">
 <dt id="pireal.Whittaker.integrate">
 <code class="descname">integrate</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_dense_double_t<a class="reference internal" href="_modules/pireal.html#Whittaker.integrate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.Whittaker.integrate" title="Permalink to this definition">¶</a></dt>
@@ -1386,7 +1466,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.7-alpha-10-gade1179',
+            VERSION:'0.7-alpha-11-gecada35',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
