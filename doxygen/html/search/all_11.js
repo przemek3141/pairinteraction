@@ -16,6 +16,7 @@ var searchData=
   ['removeunnecessarystates',['removeUnnecessaryStates',['../classBasisnamesOne.html#a63eb015ddea280c4ee2a6edb1f3b0e1c',1,'BasisnamesOne::removeUnnecessaryStates()'],['../classBasisnamesTwo.html#a4d7316f1f6fd3941c32a802c42669fa6',1,'BasisnamesTwo::removeUnnecessaryStates()'],['../classHamiltonian.html#a89c3cddde595e0f735ae75a2a1bb5dc0',1,'Hamiltonian::removeUnnecessaryStates()'],['../classHamiltonianmatrix.html#abf0990a1537466714acfdcf0cfed00cd',1,'Hamiltonianmatrix::removeUnnecessaryStates()']]],
   ['removeunnecessarystateskeepidx',['removeUnnecessaryStatesKeepIdx',['../classBasisnamesTwo.html#a7bb922f010327135b26261ed8c424cf0',1,'BasisnamesTwo']]],
   ['reset',['reset',['../classsqlite_1_1statement.html#a4feb0002bd8daa77fffef99c0f838f1c',1,'sqlite::statement']]],
+  ['restore',['restore',['../classCache.html#a32e00d0c66be5d022857e1ccb20f53a7',1,'Cache']]],
   ['restrictenergy',['restrictEnergy',['../classSystemBase.html#a366cc59f7742fbc5da7ba4c7e2b2448f',1,'SystemBase']]],
   ['restrictj',['restrictJ',['../classSystemBase.html#a88a66677df418886e4a258842a26e024',1,'SystemBase::restrictJ(float j_min, float j_max)'],['../classSystemBase.html#a86e2d30c311fd2c1a07c3c5d8d265611',1,'SystemBase::restrictJ(std::set&lt; float &gt; j)']]],
   ['restrictl',['restrictL',['../classSystemBase.html#a80bbd21a02f3a2362fc46fecaabfdb50',1,'SystemBase::restrictL(int l_min, int l_max)'],['../classSystemBase.html#ada14d438571b27214cc35f2eb85a43d0',1,'SystemBase::restrictL(std::set&lt; int &gt; l)']]],

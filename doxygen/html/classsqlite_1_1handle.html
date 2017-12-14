@@ -107,9 +107,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a599b10cf6c60b8c55e09f4f3135de43d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1handle.html#a599b10cf6c60b8c55e09f4f3135de43d">handle</a> (std::string const &amp;filename, <a class="el" href="classint.html">int</a> flags=SQLITE_OPEN_READWRITE|SQLITE_OPEN_CREATE)</td></tr>
 <tr class="memdesc:a599b10cf6c60b8c55e09f4f3135de43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a599b10cf6c60b8c55e09f4f3135de43d">More...</a><br /></td></tr>
 <tr class="separator:a599b10cf6c60b8c55e09f4f3135de43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd081ef20a2742d30b278e0850f2cd17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsqlite_1_1handle.html#abd081ef20a2742d30b278e0850f2cd17">__attribute__</a> ((deprecated)) void exec(std</td></tr>
-<tr class="memdesc:abd081ef20a2742d30b278e0850f2cd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute SQLite statements.  <a href="#abd081ef20a2742d30b278e0850f2cd17">More...</a><br /></td></tr>
-<tr class="separator:abd081ef20a2742d30b278e0850f2cd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>SQLite Database handle. </p>
@@ -182,54 +179,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abd081ef20a2742d30b278e0850f2cd17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd081ef20a2742d30b278e0850f2cd17">&#9670;&nbsp;</a></span>__attribute__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sqlite::handle::__attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(deprecated)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Execute SQLite statements. </p>
-<p>The SQL statements are passed to this function as a string and are executed in-place.</p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>This is deprecated and should not be used anymore. The usage of prepared statements in encouraged instead. Calls to this function are equivalent to and can hence be replaced by </dd></dl>
-<div class="fragment"><div class="line"><a class="code" href="classsqlite_1_1statement.html">sqlite::statement</a> stmt(db);</div><div class="line">stmt.exec(sql);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">sql</td><td>SQL statements </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="SQLite_8h_source.html#l00423">423</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
-
-<p class="reference">References <a class="el" href="SQLite_8h_source.html#l00058">sqlite::error::error()</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsqlite_1_1handle_abd081ef20a2742d30b278e0850f2cd17_cgraph.svg" width="392" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
 <a id="a1fcc46fa412428b8f6d36e556e96d32b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1fcc46fa412428b8f6d36e556e96d32b">&#9670;&nbsp;</a></span>operator sqlite3 *()</h2>
 
@@ -270,7 +219,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacesqlite.html">sqlite</a></li><li class="navelem"><a class="el" href="classsqlite_1_1handle.html">handle</a></li>
-    <li class="footer">Generated on Wed Dec 6 2017 09:21:24 for pairinteraction by
+    <li class="footer">Generated on Thu Dec 14 2017 10:22:27 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -3,4 +3,5 @@ picomplex module
 
 .. automodule:: picomplex
     :members:
+    :inherited-members:
     :show-inheritance:

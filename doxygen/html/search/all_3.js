@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['cache',['Cache',['../classCache.html',1,'']]],
+  ['cache_2eh',['Cache.h',['../Cache_8h.html',1,'']]],
+  ['cache_5ftest_2ecpp',['cache_test.cpp',['../cache__test_8cpp.html',1,'']]],
   ['cachedir',['cachedir',['../classSystemBase.html#a93a7ddc2b001969d8d33786a5b18a368',1,'SystemBase']]],
   ['calculate',['calculate',['../classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb',1,'HamiltonianTwo']]],
   ['canonicalize',['canonicalize',['../classSystemBase.html#aa67e9f975bba2004a9414a7631365cb1',1,'SystemBase']]],
@@ -11,6 +14,7 @@ var searchData=
   ['checkisenergyvalid',['checkIsEnergyValid',['../classSystemBase.html#a5fa7511cb2459a67370d4e33242092c7',1,'SystemBase']]],
   ['checkisquantumnumbervalid',['checkIsQuantumnumberValid',['../classSystemBase.html#a29bc7aa45a17b2546e7e4e24bc6f31b8',1,'SystemBase::checkIsQuantumnumberValid(V q, std::set&lt; V &gt; range_q)'],['../classSystemBase.html#a2ec557c5fc66d04157bab62c23fb596b',1,'SystemBase::checkIsQuantumnumberValid(std::array&lt; V, 2 &gt; q, std::set&lt; V &gt; range_q)']]],
   ['checkisquantumstatevalid',['checkIsQuantumstateValid',['../classSystemBase.html#afb87b94cd2b8567dd528e29d80530b08',1,'SystemBase']]],
+  ['clear',['clear',['../classCache.html#a9da111abb508a5b5c5636f03079984d4',1,'Cache']]],
   ['coefficients',['coefficients',['../classSystemBase.html#adeadd01ff6cc4e489ab7d3d4f5670485',1,'SystemBase']]],
   ['coefficients_5funperturbed_5fcache',['coefficients_unperturbed_cache',['../classSystemBase.html#a5a702b6dbda6b47c4588c3114a5a2c3a',1,'SystemBase']]],
   ['col',['col',['../classTriple.html#a0254fdff97175a12bfb9f9f4da38a528',1,'Triple']]],

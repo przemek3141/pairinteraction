@@ -5,7 +5,6 @@ var searchData=
   ['delta_5fl',['delta_l',['../classBasisnames.html#aa77fd3fd3499f728f469bffc549e6f7c',1,'Basisnames']]],
   ['delta_5fm',['delta_m',['../classBasisnames.html#ac5270d3b958e4a5c660a4e0feb45d933',1,'Basisnames']]],
   ['delta_5fn',['delta_n',['../classBasisnames.html#aad4bc6d737c7f8f18d7b6f3221eeba8f',1,'Basisnames']]],
-  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
   ['derotate',['derotate',['../classSystemBase.html#ae77c3b9a510ad632cd0b585f61dea8fb',1,'SystemBase::derotate(std::array&lt; double, 3 &gt; to_z_axis, std::array&lt; double, 3 &gt; to_y_axis)'],['../classSystemBase.html#a731db65343200d4c320e769c49424328',1,'SystemBase::derotate(double alpha, double beta, double gamma)']]],
   ['deserialize',['deserialize',['../classHamiltonianmatrix.html#a73399becb46693b0da91cf69a62e3b8d',1,'Hamiltonianmatrix::deserialize()'],['../classSerializable.html#a46f5c66ac661e82ed7a0d9997f5db054',1,'Serializable::deserialize()']]],
   ['diagonalize',['diagonalize',['../classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee',1,'Hamiltonianmatrix::diagonalize()'],['../classSystemBase.html#ae4fcbfd3d133482f310939849cd41764',1,'SystemBase::diagonalize()']]],

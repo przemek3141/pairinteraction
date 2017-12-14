@@ -54,66 +54,66 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>sqlite::statement::prepare</title>
-<!-- Node30 -->
-<g id="node1" class="node"><title>Node30</title>
+<!-- Node32 -->
+<g id="node1" class="node"><title>Node32</title>
 <polygon fill="#bfbfbf" stroke="black" points="5.68434e-14,-102 5.68434e-14,-132 104,-132 104,-102 5.68434e-14,-102"/>
 <text text-anchor="start" x="8" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00">sqlite::statement::</text>
 <text text-anchor="middle" x="52" y="-109" font-family="Helvetica,sans-Serif" font-size="10.00">prepare</text>
 </g>
-<!-- Node31 -->
-<g id="node2" class="node"><title>Node31</title>
+<!-- Node33 -->
+<g id="node2" class="node"><title>Node33</title>
 <g id="a_node2"><a xlink:href="quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e" target="_top" xlink:title="BOOST_AUTO_TEST_CASE">
 <polygon fill="none" stroke="black" points="156.5,-202.5 156.5,-221.5 299.5,-221.5 299.5,-202.5 156.5,-202.5"/>
 <text text-anchor="middle" x="228" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">BOOST_AUTO_TEST_CASE</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
-<g id="edge1" class="edge"><title>Node30&#45;&gt;Node31</title>
+<!-- Node32&#45;&gt;Node33 -->
+<g id="edge1" class="edge"><title>Node32&#45;&gt;Node33</title>
 <path fill="none" stroke="midnightblue" d="M72.7134,-139.546C89.041,-156.789 113.748,-179.78 140,-193 147.733,-196.894 156.245,-199.994 164.827,-202.46"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="75.1803,-137.059 65.8257,-132.085 70.0366,-141.807 75.1803,-137.059"/>
 </g>
-<!-- Node32 -->
-<g id="node3" class="node"><title>Node32</title>
+<!-- Node34 -->
+<g id="node3" class="node"><title>Node34</title>
 <g id="a_node3"><a xlink:href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" target="_top" xlink:title="HamiltonianOne::build">
 <polygon fill="none" stroke="black" points="167,-164.5 167,-183.5 289,-183.5 289,-164.5 167,-164.5"/>
 <text text-anchor="middle" x="228" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::build</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node32 -->
-<g id="edge2" class="edge"><title>Node30&#45;&gt;Node32</title>
+<!-- Node32&#45;&gt;Node34 -->
+<g id="edge2" class="edge"><title>Node32&#45;&gt;Node34</title>
 <path fill="none" stroke="midnightblue" d="M92.6876,-136.298C107.316,-142.884 124.18,-149.873 140,-155 151.177,-158.623 163.386,-161.769 175.028,-164.402"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="93.98,-133.04 83.4314,-132.052 91.0612,-139.403 93.98,-133.04"/>
 </g>
-<!-- Node34 -->
-<g id="node5" class="node"><title>Node34</title>
+<!-- Node36 -->
+<g id="node5" class="node"><title>Node36</title>
 <g id="a_node5"><a xlink:href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb" target="_top" xlink:title="HamiltonianTwo::calculate">
 <polygon fill="none" stroke="black" points="158,-126.5 158,-145.5 298,-145.5 298,-126.5 158,-126.5"/>
 <text text-anchor="middle" x="228" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::calculate</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node34 -->
-<g id="edge4" class="edge"><title>Node30&#45;&gt;Node34</title>
+<!-- Node32&#45;&gt;Node36 -->
+<g id="edge4" class="edge"><title>Node32&#45;&gt;Node36</title>
 <path fill="none" stroke="midnightblue" d="M114.295,-123.693C128.34,-125.227 143.368,-126.868 157.723,-128.435"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="114.585,-120.204 104.265,-122.598 113.826,-127.163 114.585,-120.204"/>
 </g>
-<!-- Node36 -->
-<g id="node7" class="node"><title>Node36</title>
+<!-- Node38 -->
+<g id="node7" class="node"><title>Node38</title>
 <g id="a_node7"><a xlink:href="classMatrixElements.html#a5352b0d0dc75bb41105e40e02c271130" target="_top" xlink:title="MatrixElements::getRadial">
 <polygon fill="none" stroke="black" points="157.5,-88.5 157.5,-107.5 298.5,-107.5 298.5,-88.5 157.5,-88.5"/>
 <text text-anchor="middle" x="228" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::getRadial</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node36 -->
-<g id="edge6" class="edge"><title>Node30&#45;&gt;Node36</title>
+<!-- Node32&#45;&gt;Node38 -->
+<g id="edge6" class="edge"><title>Node32&#45;&gt;Node38</title>
 <path fill="none" stroke="midnightblue" d="M114.233,-110.314C128.192,-108.789 143.123,-107.159 157.402,-105.6"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="113.826,-106.837 104.265,-111.402 114.586,-113.796 113.826,-106.837"/>
 </g>
-<!-- Node37 -->
-<g id="node8" class="node"><title>Node37</title>
+<!-- Node39 -->
+<g id="node8" class="node"><title>Node39</title>
 <g id="a_node8"><a xlink:href="classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" target="_top" xlink:title="MatrixElements::precalculate\lDiamagnetism">
 <polygon fill="none" stroke="black" points="150.5,-39 150.5,-69 305.5,-69 305.5,-39 150.5,-39"/>
 <text text-anchor="start" x="158.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::precalculate</text>
@@ -121,47 +121,47 @@ var sectionId = 'dynsection-3';
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node37 -->
-<g id="edge7" class="edge"><title>Node30&#45;&gt;Node37</title>
+<!-- Node32&#45;&gt;Node39 -->
+<g id="edge7" class="edge"><title>Node32&#45;&gt;Node39</title>
 <path fill="none" stroke="midnightblue" d="M93.9553,-97.7846C108.347,-91.3882 124.736,-84.4995 140,-79 149.758,-75.4842 160.267,-72.1196 170.492,-69.0619"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="92.5004,-94.6012 84.8181,-101.897 95.3736,-100.984 92.5004,-94.6012"/>
 </g>
-<!-- Node38 -->
-<g id="node9" class="node"><title>Node38</title>
+<!-- Node40 -->
+<g id="node9" class="node"><title>Node40</title>
 <g id="a_node9"><a xlink:href="classQuantumDefect.html#ae35ddcbfdf6d217950469549c60743d2" target="_top" xlink:title="QuantumDefect::QuantumDefect">
 <polygon fill="none" stroke="black" points="140,-0.5 140,-19.5 316,-19.5 316,-0.5 140,-0.5"/>
 <text text-anchor="middle" x="228" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">QuantumDefect::QuantumDefect</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node38 -->
-<g id="edge8" class="edge"><title>Node30&#45;&gt;Node38</title>
+<!-- Node32&#45;&gt;Node40 -->
+<g id="edge8" class="edge"><title>Node32&#45;&gt;Node40</title>
 <path fill="none" stroke="midnightblue" d="M69.9938,-93.8192C85.8755,-73.8605 111.385,-45.8439 140,-30 147.864,-25.6458 156.63,-22.2379 165.486,-19.5712"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="67.1528,-91.7715 63.7959,-101.821 72.6867,-96.0582 67.1528,-91.7715"/>
 </g>
-<!-- Node33 -->
-<g id="node4" class="node"><title>Node33</title>
+<!-- Node35 -->
+<g id="node4" class="node"><title>Node35</title>
 <g id="a_node4"><a xlink:href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" target="_top" xlink:title="HamiltonianOne::HamiltonianOne">
 <polygon fill="none" stroke="black" points="352,-164.5 352,-183.5 529,-183.5 529,-164.5 352,-164.5"/>
 <text text-anchor="middle" x="440.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::HamiltonianOne</text>
 </a>
 </g>
 </g>
-<!-- Node32&#45;&gt;Node33 -->
-<g id="edge3" class="edge"><title>Node32&#45;&gt;Node33</title>
+<!-- Node34&#45;&gt;Node35 -->
+<g id="edge3" class="edge"><title>Node34&#45;&gt;Node35</title>
 <path fill="none" stroke="midnightblue" d="M299.337,-174C316.185,-174 334.378,-174 351.9,-174"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="299.039,-170.5 289.039,-174 299.039,-177.5 299.039,-170.5"/>
 </g>
-<!-- Node35 -->
-<g id="node6" class="node"><title>Node35</title>
+<!-- Node37 -->
+<g id="node6" class="node"><title>Node37</title>
 <g id="a_node6"><a xlink:href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c" target="_top" xlink:title="HamiltonianTwo::HamiltonianTwo">
 <polygon fill="none" stroke="black" points="355,-126.5 355,-145.5 526,-145.5 526,-126.5 355,-126.5"/>
 <text text-anchor="middle" x="440.5" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::HamiltonianTwo</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
-<g id="edge5" class="edge"><title>Node34&#45;&gt;Node35</title>
+<!-- Node36&#45;&gt;Node37 -->
+<g id="edge5" class="edge"><title>Node36&#45;&gt;Node37</title>
 <path fill="none" stroke="midnightblue" d="M308.549,-136C323.671,-136 339.546,-136 354.821,-136"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="308.217,-132.5 298.217,-136 308.217,-139.5 308.217,-132.5"/>
 </g>

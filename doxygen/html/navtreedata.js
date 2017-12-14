@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "pairinteraction", "index.html", [
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -42,9 +41,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Basisnames_8cpp.html",
-"classHamiltonianmatrix.html#aac6e7f5a1aa8df2859d780d1ee103598",
-"classTriple.html#a54d71f6a0d56cfa455323a4def001045",
-"structtraits_1_1pointer__remove__const_3_01T_01const_01_5const_01_4.html"
+"classHamiltonianmatrix.html#a73399becb46693b0da91cf69a62e3b8d",
+"classSystemTwo.html#a974782b4c311894fc98fcd0ed3450b8b",
+"structtraits_1_1pointer__add__const_3_01T_01_5_4.html#ac4dc1233265d43bff06f446095dbead0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 <map id="sqlite::statement::exec" name="sqlite::statement::exec">
 <area shape="rect" id="node2" href="$sqlite__test_8cpp.html#a20fecf620cb330b84abd5166034e113a" title="BOOST_AUTO_TEST_CASE" alt="" coords="243,5,433,32"/>
 <area shape="rect" id="node3" href="$classEmbeddedDatabase.html#a43481ab98fd97cb66f3a56d614c79b47" title="EmbeddedDatabase::Embedded\lDatabase" alt="" coords="223,57,453,98"/>
-<area shape="rect" id="node4" href="$classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" title="MatrixElements::precalculate\lDiamagnetism" alt="" coords="235,122,441,163"/>
+<area shape="rect" id="node4" href="$classMatrixElements.html#a5352b0d0dc75bb41105e40e02c271130" title="MatrixElements::getRadial" alt="" coords="244,123,432,149"/>
+<area shape="rect" id="node5" href="$classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" title="MatrixElements::precalculate\lDiamagnetism" alt="" coords="235,174,441,215"/>
 </map>

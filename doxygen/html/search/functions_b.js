@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['main',['main',['../main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main.cpp']]],
-  ['mainmatrixelement',['mainMatrixElement',['../Interface_8cpp.html#ad35205fca127f7b40c9a87547b82d56c',1,'mainMatrixElement(std::string const &amp;element, std::string const &amp;row, std::string const &amp;col, int power):&#160;Interface.cpp'],['../Interface_8h.html#ad35205fca127f7b40c9a87547b82d56c',1,'mainMatrixElement(std::string const &amp;element, std::string const &amp;row, std::string const &amp;col, int power):&#160;Interface.cpp']]],
-  ['matrixelements',['MatrixElements',['../classMatrixElements.html#a1097defe1c6e5c374d370d7801698ba6',1,'MatrixElements::MatrixElements(std::string const &amp;species, std::string const &amp;dbname)'],['../classMatrixElements.html#a21e2b7ec28ea3bae379b53e13b6a881a',1,'MatrixElements::MatrixElements(const Configuration &amp;config, std::string const &amp;species, std::string const &amp;dbname)']]],
-  ['mergecomplex',['mergeComplex',['../classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225',1,'Hamiltonianmatrix::mergeComplex(std::vector&lt; storage_double &gt; &amp;real, std::vector&lt; storage_double &gt; &amp;imag, std::vector&lt; T &gt; &amp;complex)'],['../classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225',1,'Hamiltonianmatrix::mergeComplex(std::vector&lt; storage_double &gt; &amp;real, std::vector&lt; storage_double &gt; &amp;imag, std::vector&lt; T &gt; &amp;complex)']]]
+  ['names',['names',['../classHamiltonian.html#a43e021493ca5e7903df40fcfea381a6a',1,'Hamiltonian']]],
+  ['no_5fdefect',['no_defect',['../structno__defect.html#adbcc30c39714aa2b654e54237507cb1b',1,'no_defect']]],
+  ['num',['num',['../classzmq_1_1error.html#a1cb62859efcf2cb155c286d8c6be46cc',1,'zmq::error']]],
+  ['num_5fbasisvectors',['num_basisvectors',['../classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669',1,'Hamiltonianmatrix']]],
+  ['num_5fcoordinates',['num_coordinates',['../classHamiltonianmatrix.html#a9cd965385a65becbfb993fc79dc428f7',1,'Hamiltonianmatrix']]],
+  ['numerov',['Numerov',['../classNumerov.html#abadc362f1d57523047c1ffe4759b8230',1,'Numerov']]]
 ];

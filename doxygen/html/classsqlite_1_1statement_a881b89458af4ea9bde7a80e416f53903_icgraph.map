@@ -1,5 +1,6 @@
 <map id="sqlite::statement::get" name="sqlite::statement::get">
 <area shape="rect" id="node2" href="$quantum__defect__test_8cpp.html#aa6d045e9def139cd75c41b225e83676e" title="BOOST_AUTO_TEST_CASE" alt="" coords="235,5,426,32"/>
-<area shape="rect" id="node3" href="$classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" title="MatrixElements::precalculate\lDiamagnetism" alt="" coords="227,57,434,98"/>
-<area shape="rect" id="node4" href="$classQuantumDefect.html#ae35ddcbfdf6d217950469549c60743d2" title="QuantumDefect::QuantumDefect" alt="" coords="213,123,448,149"/>
+<area shape="rect" id="node3" href="$classMatrixElements.html#a5352b0d0dc75bb41105e40e02c271130" title="MatrixElements::getRadial" alt="" coords="237,56,425,83"/>
+<area shape="rect" id="node4" href="$classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" title="MatrixElements::precalculate\lDiamagnetism" alt="" coords="227,107,434,149"/>
+<area shape="rect" id="node5" href="$classQuantumDefect.html#ae35ddcbfdf6d217950469549c60743d2" title="QuantumDefect::QuantumDefect" alt="" coords="213,173,448,200"/>
 </map>

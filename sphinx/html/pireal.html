@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pireal module &mdash; pairinteraction 0.7-alpha-11-gecada35 documentation</title>
+  <title>pireal module &mdash; pairinteraction 0.7-alpha-27-g299cedc documentation</title>
   
 
   
@@ -33,9 +33,10 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pairinteraction 0.7-alpha-11-gecada35 documentation" href="index.html"/>
-        <link rel="up" title="libpairinteraction" href="modules.html"/>
-        <link rel="prev" title="picomplex module" href="picomplex.html"/> 
+    <link rel="top" title="pairinteraction 0.7-alpha-27-g299cedc documentation" href="index.html"/>
+        <link rel="up" title="Modules" href="modules.html"/>
+        <link rel="next" title="picomplex module" href="picomplex.html"/>
+        <link rel="prev" title="Modules" href="modules.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -66,7 +67,7 @@
             
             
               <div class="version">
-                0.7-alpha-11-gecada35
+                0.7-alpha-27-g299cedc
               </div>
             
           
@@ -87,17 +88,19 @@
           
             
             
-                <p class="caption"><span class="caption-text">Contents:</span></p>
+                <p class="caption"><span class="caption-text">Contents</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">1. Obtaining pairinteraction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">2. Tutorials</a></li>
 </ul>
+<p class="caption"><span class="caption-text">Indices and Tables</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="modules.html">libpairinteraction</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="picomplex.html">picomplex module</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pireal module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="picomplex.html">picomplex module</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
 </ul>
 
             
@@ -128,7 +131,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-          <li><a href="modules.html">libpairinteraction</a> &raquo;</li>
+          <li><a href="modules.html">Modules</a> &raquo;</li>
       
     <li>pireal module</li>
       <li class="wy-breadcrumbs-aside">
@@ -520,6 +523,20 @@
 </dd></dl>
 
 <dl class="attribute">
+<dt id="pireal.StateOne.idx">
+<code class="descname">idx</code><a class="headerlink" href="#pireal.StateOne.idx" title="Permalink to this definition">¶</a></dt>
+<dd><p>State_idx_get(self) -&gt; idx_t</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: State *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
 <dt id="pireal.StateOne.j">
 <code class="descname">j</code><a class="headerlink" href="#pireal.StateOne.j" title="Permalink to this definition">¶</a></dt>
 <dd><p>StateOne_j_get(self) -&gt; float</p>
@@ -668,6 +685,20 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: StateTwo const *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="pireal.StateTwo.idx">
+<code class="descname">idx</code><a class="headerlink" href="#pireal.StateTwo.idx" title="Permalink to this definition">¶</a></dt>
+<dd><p>State_idx_get(self) -&gt; idx_t</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: State *</strong></td>
 </tr>
 </tbody>
 </table>
@@ -857,6 +888,87 @@
 </tr>
 </tbody>
 </table>
+<dl class="method">
+<dt id="pireal.SystemOne.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>self</em>, <em>system</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.add" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>system: SystemBase&lt; StateOne &gt; &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.addHamiltonianentry">
+<code class="descname">addHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.addHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateOne const &amp;</strong></p>
+<p><strong>state_col: StateOne const &amp;</strong></p>
+<p class="last"><strong>value: scalar_t</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.buildBasis">
+<code class="descname">buildBasis</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.buildBasis" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.buildHamiltonian">
+<code class="descname">buildHamiltonian</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.buildHamiltonian" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.buildInteraction">
+<code class="descname">buildInteraction</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.buildInteraction" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.canonicalize">
+<code class="descname">canonicalize</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.canonicalize" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemOne.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#pireal.SystemOne.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -871,11 +983,94 @@
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="pireal.SystemOne.derotate">
+<code class="descname">derotate</code><span class="sig-paren">(</span><em>self</em>, <em>to_z_axis</em>, <em>to_y_axis</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.derotate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemOne.diagonal">
 <code class="descname">diagonal</code><a class="headerlink" href="#pireal.SystemOne.diagonal" title="Permalink to this definition">¶</a></dt>
 <dd><p>getDiagonal(self) -&gt; eigen_vector_double_t</p>
 <table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.diagonalize">
+<code class="descname">diagonalize</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.diagonalize" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.forgetStatemixing">
+<code class="descname">forgetStatemixing</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.forgetStatemixing" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getCoefficients">
+<code class="descname">getCoefficients</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_sparse_t &amp;<a class="headerlink" href="#pireal.SystemOne.getCoefficients" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getConnections">
+<code class="descname">getConnections</code><span class="sig-paren">(</span><em>self</em>, <em>system_to</em>, <em>threshold</em><span class="sig-paren">)</span> &rarr; ArrayVectorSizeTTwo<a class="headerlink" href="#pireal.SystemOne.getConnections" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>system_to: SystemBase&lt; StateOne &gt; &amp;</strong></p>
+<p class="last"><strong>threshold: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getDiagonal">
+<code class="descname">getDiagonal</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_vector_double_t<a class="headerlink" href="#pireal.SystemOne.getDiagonal" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
@@ -898,6 +1093,129 @@
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="pireal.SystemOne.getHamiltonianentry">
+<code class="descname">getHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em><span class="sig-paren">)</span> &rarr; scalar_t<a class="headerlink" href="#pireal.SystemOne.getHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateOne const &amp;</strong></p>
+<p class="last"><strong>state_col: StateOne const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getHamiltonianmatrix">
+<code class="descname">getHamiltonianmatrix</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_sparse_t &amp;<a class="headerlink" href="#pireal.SystemOne.getHamiltonianmatrix" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getMainStates">
+<code class="descname">getMainStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; VectorStateOne<a class="headerlink" href="#pireal.SystemOne.getMainStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getNumStates">
+<code class="descname">getNumStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemOne.getNumStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getNumVectors">
+<code class="descname">getNumVectors</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemOne.getNumVectors" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getOverlap">
+<code class="descname">getOverlap</code><span class="sig-paren">(</span><em>self</em>, <em>generalizedstate</em><span class="sig-paren">)</span> &rarr; eigen_vector_double_t<a class="headerlink" href="#pireal.SystemOne.getOverlap" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>generalizedstate: StateOne const &amp;</strong></p>
+<p><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getStateindex">
+<code class="descname">getStateindex</code><span class="sig-paren">(</span><em>self</em>, <em>state</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemOne.getStateindex" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>state: StateOne const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getStates">
+<code class="descname">getStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; VectorStateOne<a class="headerlink" href="#pireal.SystemOne.getStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.getVectorindex">
+<code class="descname">getVectorindex</code><span class="sig-paren">(</span><em>self</em>, <em>state</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemOne.getVectorindex" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>state: StateOne const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemOne.hamiltonianmatrix">
 <code class="descname">hamiltonianmatrix</code><a class="headerlink" href="#pireal.SystemOne.hamiltonianmatrix" title="Permalink to this definition">¶</a></dt>
@@ -907,6 +1225,102 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateOne &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.restrictEnergy">
+<code class="descname">restrictEnergy</code><span class="sig-paren">(</span><em>self</em>, <em>e_min</em>, <em>e_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.restrictEnergy" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>e_min: double</strong></p>
+<p class="last"><strong>e_max: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.restrictJ">
+<code class="descname">restrictJ</code><span class="sig-paren">(</span><em>self</em>, <em>j_min</em>, <em>j_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.restrictJ" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>j: std::set&lt; float,std::less&lt; float &gt;,std::allocator&lt; float &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.restrictL">
+<code class="descname">restrictL</code><span class="sig-paren">(</span><em>self</em>, <em>l_min</em>, <em>l_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.restrictL" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>l: std::set&lt; int,std::less&lt; int &gt;,std::allocator&lt; int &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.restrictM">
+<code class="descname">restrictM</code><span class="sig-paren">(</span><em>self</em>, <em>m_min</em>, <em>m_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.restrictM" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>m: std::set&lt; float,std::less&lt; float &gt;,std::allocator&lt; float &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.restrictN">
+<code class="descname">restrictN</code><span class="sig-paren">(</span><em>self</em>, <em>n_min</em>, <em>n_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.restrictN" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>n: std::set&lt; int,std::less&lt; int &gt;,std::allocator&lt; int &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.rotate">
+<code class="descname">rotate</code><span class="sig-paren">(</span><em>self</em>, <em>to_z_axis</em>, <em>to_y_axis</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.rotate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemOne.setArtificialstates">
+<code class="descname">setArtificialstates</code><span class="sig-paren">(</span><em>self</em>, <em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.setArtificialstates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s: std::vector&lt; StateOne,std::allocator&lt; StateOne &gt; &gt; const &amp;</strong></td>
 </tr>
 </tbody>
 </table>
@@ -985,6 +1399,22 @@
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="pireal.SystemOne.setHamiltonianentry">
+<code class="descname">setHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemOne.setHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateOne const &amp;</strong></p>
+<p><strong>state_col: StateOne const &amp;</strong></p>
+<p class="last"><strong>value: scalar_t</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemOne.states">
 <code class="descname">states</code><a class="headerlink" href="#pireal.SystemOne.states" title="Permalink to this definition">¶</a></dt>
@@ -1013,6 +1443,87 @@
 </tr>
 </tbody>
 </table>
+<dl class="method">
+<dt id="pireal.SystemTwo.add">
+<code class="descname">add</code><span class="sig-paren">(</span><em>self</em>, <em>system</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.add" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>system: SystemBase&lt; StateTwo &gt; &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.addHamiltonianentry">
+<code class="descname">addHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.addHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateTwo const &amp;</strong></p>
+<p><strong>state_col: StateTwo const &amp;</strong></p>
+<p class="last"><strong>value: scalar_t</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.buildBasis">
+<code class="descname">buildBasis</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.buildBasis" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.buildHamiltonian">
+<code class="descname">buildHamiltonian</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.buildHamiltonian" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.buildInteraction">
+<code class="descname">buildInteraction</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.buildInteraction" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.canonicalize">
+<code class="descname">canonicalize</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.canonicalize" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemTwo.coefficients">
 <code class="descname">coefficients</code><a class="headerlink" href="#pireal.SystemTwo.coefficients" title="Permalink to this definition">¶</a></dt>
@@ -1022,6 +1533,22 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.derotate">
+<code class="descname">derotate</code><span class="sig-paren">(</span><em>self</em>, <em>to_z_axis</em>, <em>to_y_axis</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.derotate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1042,6 +1569,73 @@
 </dd></dl>
 
 <dl class="method">
+<dt id="pireal.SystemTwo.diagonalize">
+<code class="descname">diagonalize</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.diagonalize" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.forgetStatemixing">
+<code class="descname">forgetStatemixing</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.forgetStatemixing" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getCoefficients">
+<code class="descname">getCoefficients</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_sparse_t &amp;<a class="headerlink" href="#pireal.SystemTwo.getCoefficients" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getConnections">
+<code class="descname">getConnections</code><span class="sig-paren">(</span><em>self</em>, <em>system_to</em>, <em>threshold</em><span class="sig-paren">)</span> &rarr; ArrayVectorSizeTTwo<a class="headerlink" href="#pireal.SystemTwo.getConnections" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>system_to: SystemBase&lt; StateTwo &gt; &amp;</strong></p>
+<p class="last"><strong>threshold: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getDiagonal">
+<code class="descname">getDiagonal</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_vector_double_t<a class="headerlink" href="#pireal.SystemTwo.getDiagonal" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
 <dt id="pireal.SystemTwo.getElement">
 <code class="descname">getElement</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; ArrayStringTwo<a class="reference internal" href="_modules/pireal.html#SystemTwo.getElement"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemTwo.getElement" title="Permalink to this definition">¶</a></dt>
 <dd><table class="docutils field-list" frame="void" rules="none">
@@ -1049,6 +1643,116 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemTwo *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getHamiltonianentry">
+<code class="descname">getHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em><span class="sig-paren">)</span> &rarr; scalar_t<a class="headerlink" href="#pireal.SystemTwo.getHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateTwo const &amp;</strong></p>
+<p class="last"><strong>state_col: StateTwo const &amp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getHamiltonianmatrix">
+<code class="descname">getHamiltonianmatrix</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; eigen_sparse_t &amp;<a class="headerlink" href="#pireal.SystemTwo.getHamiltonianmatrix" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getMainStates">
+<code class="descname">getMainStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; VectorStateTwo<a class="headerlink" href="#pireal.SystemTwo.getMainStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getNumStates">
+<code class="descname">getNumStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemTwo.getNumStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getNumVectors">
+<code class="descname">getNumVectors</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemTwo.getNumVectors" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getOverlap">
+<code class="descname">getOverlap</code><span class="sig-paren">(</span><em>self</em>, <em>generalizedstate</em><span class="sig-paren">)</span> &rarr; eigen_vector_double_t<a class="headerlink" href="#pireal.SystemTwo.getOverlap" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>generalizedstate: StateTwo const &amp;</strong></p>
+<p><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getStateindex">
+<code class="descname">getStateindex</code><span class="sig-paren">(</span><em>self</em>, <em>state</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemTwo.getStateindex" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>state: StateTwo const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.getStates">
+<code class="descname">getStates</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span> &rarr; VectorStateTwo<a class="headerlink" href="#pireal.SystemTwo.getStates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>self: SystemBase&lt; StateTwo &gt; *</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1080,6 +1784,19 @@
 </table>
 </dd></dl>
 
+<dl class="method">
+<dt id="pireal.SystemTwo.getVectorindex">
+<code class="descname">getVectorindex</code><span class="sig-paren">(</span><em>self</em>, <em>state</em><span class="sig-paren">)</span> &rarr; size_t<a class="headerlink" href="#pireal.SystemTwo.getVectorindex" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>state: StateTwo const &amp;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 <dl class="attribute">
 <dt id="pireal.SystemTwo.hamiltonianmatrix">
 <code class="descname">hamiltonianmatrix</code><a class="headerlink" href="#pireal.SystemTwo.hamiltonianmatrix" title="Permalink to this definition">¶</a></dt>
@@ -1095,6 +1812,89 @@
 </dd></dl>
 
 <dl class="method">
+<dt id="pireal.SystemTwo.restrictEnergy">
+<code class="descname">restrictEnergy</code><span class="sig-paren">(</span><em>self</em>, <em>e_min</em>, <em>e_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.restrictEnergy" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>e_min: double</strong></p>
+<p class="last"><strong>e_max: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.restrictJ">
+<code class="descname">restrictJ</code><span class="sig-paren">(</span><em>self</em>, <em>j_min</em>, <em>j_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.restrictJ" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>j: std::set&lt; float,std::less&lt; float &gt;,std::allocator&lt; float &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.restrictL">
+<code class="descname">restrictL</code><span class="sig-paren">(</span><em>self</em>, <em>l_min</em>, <em>l_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.restrictL" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>l: std::set&lt; int,std::less&lt; int &gt;,std::allocator&lt; int &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.restrictM">
+<code class="descname">restrictM</code><span class="sig-paren">(</span><em>self</em>, <em>m_min</em>, <em>m_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.restrictM" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>m: std::set&lt; float,std::less&lt; float &gt;,std::allocator&lt; float &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.restrictN">
+<code class="descname">restrictN</code><span class="sig-paren">(</span><em>self</em>, <em>n_min</em>, <em>n_max</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.restrictN" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>n: std::set&lt; int,std::less&lt; int &gt;,std::allocator&lt; int &gt; &gt;</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.rotate">
+<code class="descname">rotate</code><span class="sig-paren">(</span><em>self</em>, <em>to_z_axis</em>, <em>to_y_axis</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.rotate" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>alpha: double</strong></p>
+<p><strong>beta: double</strong></p>
+<p class="last"><strong>gamma: double</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
 <dt id="pireal.SystemTwo.setAngle">
 <code class="descname">setAngle</code><span class="sig-paren">(</span><em>self</em>, <em>a</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/pireal.html#SystemTwo.setAngle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pireal.SystemTwo.setAngle" title="Permalink to this definition">¶</a></dt>
 <dd><table class="docutils field-list" frame="void" rules="none">
@@ -1102,6 +1902,19 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>a: double</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.setArtificialstates">
+<code class="descname">setArtificialstates</code><span class="sig-paren">(</span><em>self</em>, <em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.setArtificialstates" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>s: std::vector&lt; StateTwo,std::allocator&lt; StateTwo &gt; &gt; const &amp;</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1167,6 +1980,22 @@
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>d: double</strong></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="pireal.SystemTwo.setHamiltonianentry">
+<code class="descname">setHamiltonianentry</code><span class="sig-paren">(</span><em>self</em>, <em>state_row</em>, <em>state_col</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#pireal.SystemTwo.setHamiltonianentry" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>state_row: StateTwo const &amp;</strong></p>
+<p><strong>state_col: StateTwo const &amp;</strong></p>
+<p class="last"><strong>value: scalar_t</strong></p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1434,8 +2263,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="picomplex.html" class="btn btn-neutral float-right" title="picomplex module" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="picomplex.html" class="btn btn-neutral" title="picomplex module" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+        <a href="modules.html" class="btn btn-neutral" title="Modules" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -1466,7 +2297,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.7-alpha-11-gecada35',
+            VERSION:'0.7-alpha-27-g299cedc',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

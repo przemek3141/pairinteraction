@@ -124,7 +124,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node8 -->
 <g id="node7" class="node"><title>Node8</title>
-<g id="a_node7"><a xlink:href="classstates__set_3_01StateTwo_01_4.html" target="_top" xlink:title="states_set\&lt; StateTwo \&gt;">
+<g id="a_node7"><a xlink:href="structstates__set.html" target="_top" xlink:title="states_set\&lt; StateTwo \&gt;">
 <polygon fill="none" stroke="black" points="4,-168.511 4,-187.511 136,-187.511 136,-168.511 4,-168.511"/>
 <text text-anchor="middle" x="70" y="-175.511" font-family="Helvetica,sans-Serif" font-size="10.00">states_set&lt; StateTwo &gt;</text>
 </a>

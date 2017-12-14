@@ -26,7 +26,7 @@ var searchData=
   ['entries',['entries',['../classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75',1,'Hamiltonianmatrix::entries()'],['../classHamiltonianmatrix.html#af958c897d9a12281a5fe61cd27a17204',1,'Hamiltonianmatrix::entries() const']]],
   ['entries_5f',['entries_',['../classHamiltonianmatrix.html#ad4cad596ce19725a995bf4821b1c2f09',1,'Hamiltonianmatrix']]],
   ['enumerated_5fstate',['enumerated_state',['../classenumerated__state.html',1,'enumerated_state&lt; T &gt;'],['../classenumerated__state.html#aaad1adfc9ad80ee949b20038a4bb3d53',1,'enumerated_state::enumerated_state(size_t idx, T state)'],['../classenumerated__state.html#a1e18642eece035040e4f76a2a9787fd9',1,'enumerated_state::enumerated_state()']]],
-  ['error',['error',['../classzmq_1_1error.html',1,'zmq::error'],['../structsqlite_1_1error.html',1,'sqlite::error'],['../classzmq_1_1error.html#a37f7ba24ff8de3e1b3eb33188a9b5bd0',1,'zmq::error::error()'],['../structsqlite_1_1error.html#a259c09c0c2e37d1f13ac8bc91e3daf10',1,'sqlite::error::error()']]],
+  ['error',['error',['../structsqlite_1_1error.html',1,'sqlite::error'],['../classzmq_1_1error.html',1,'zmq::error'],['../classzmq_1_1error.html#a37f7ba24ff8de3e1b3eb33188a9b5bd0',1,'zmq::error::error()'],['../structsqlite_1_1error.html#a259c09c0c2e37d1f13ac8bc91e3daf10',1,'sqlite::error::error()']]],
   ['even',['EVEN',['../dtypes_8h.html#a8c9f47bdc80c9f4db63b7bf8b1ad5290a8487756fbc720579906f0ae1738f0fcc',1,'dtypes.h']]],
   ['exec',['exec',['../classsqlite_1_1statement.html#add6b491603e9505c82779ad762f72888',1,'sqlite::statement']]]
 ];

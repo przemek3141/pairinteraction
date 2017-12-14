@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['hamiltonian',['Hamiltonian',['../classHamiltonian.html#a83ca78010fe499270b3ce6e06f68ed02',1,'Hamiltonian']]],
-  ['hamiltonianmatrix',['Hamiltonianmatrix',['../classHamiltonianmatrix.html#abee2f1bfc2b5239e366a59d1f96ba03e',1,'Hamiltonianmatrix::Hamiltonianmatrix()'],['../classHamiltonianmatrix.html#a1006c59b363af0f598fdd298cc3e1cbb',1,'Hamiltonianmatrix::Hamiltonianmatrix(eigen_sparse_t entries, eigen_sparse_t basis)'],['../classHamiltonianmatrix.html#ad7b8f364e55e714ba6f75f0bb4116acc',1,'Hamiltonianmatrix::Hamiltonianmatrix(size_t szBasis, size_t szEntries)']]],
-  ['hamiltonianone',['HamiltonianOne',['../classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36',1,'HamiltonianOne']]],
-  ['hamiltoniantwo',['HamiltonianTwo',['../classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c',1,'HamiltonianTwo::HamiltonianTwo(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one)'],['../classHamiltonianTwo.html#a7f3a2599cb21e5b766e7c9ce0f2fe431',1,'HamiltonianTwo::HamiltonianTwo(const Configuration &amp;config, boost::filesystem::path &amp;path_cache, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one1, std::shared_ptr&lt; HamiltonianOne &gt; hamiltonian_one2)']]],
-  ['handle',['handle',['../classsqlite_1_1handle.html#a599b10cf6c60b8c55e09f4f3135de43d',1,'sqlite::handle']]],
-  ['hashbasis',['hashBasis',['../classHamiltonianmatrix.html#a1e43ece7300d46f751f02c3260a14bfb',1,'Hamiltonianmatrix']]],
-  ['hashentries',['hashEntries',['../classHamiltonianmatrix.html#aebafe9543f93f3956fff32192efd86ce',1,'Hamiltonianmatrix']]],
-  ['hypergeometricu',['HypergeometricU',['../namespacewhittaker__functions.html#a9fe8c4e2c3ae8b4330b54af0abfc2224',1,'whittaker_functions']]]
+  ['imaginaryunit',['imaginaryUnit',['../classSystemOne.html#aaf92650141e156fbc69ca55a246f40bd',1,'SystemOne::imaginaryUnit()'],['../classSystemOne.html#a1effbfc1d84ba56d8cf87e4920bdeee8',1,'SystemOne::imaginaryUnit()']]],
+  ['incorporate',['incorporate',['../classSystemBase.html#aa3c0d0881ae902445f3900c5954f4713',1,'SystemBase::incorporate()'],['../classSystemOne.html#a4278feede19c90186f22f37c1d5d53b2',1,'SystemOne::incorporate()'],['../classSystemTwo.html#ada59122c89b2369278c2a8fc6d1160e1',1,'SystemTwo::incorporate()']]],
+  ['initial',['initial',['../classBasisnamesOne.html#a0f319437652eef95fa2b62952d17b996',1,'BasisnamesOne::initial()'],['../classBasisnamesTwo.html#a5f21e5b54b9a5695e15b39707179b007',1,'BasisnamesTwo::initial()']]],
+  ['initializebasis',['initializeBasis',['../classSystemBase.html#a547c51657b8169a0e7196ea3eb6237d1',1,'SystemBase::initializeBasis()'],['../classSystemOne.html#a1548df0406b8a36e4307f8dbf9226990',1,'SystemOne::initializeBasis()'],['../classSystemTwo.html#a7aa70b668bd55e25ba9ed8f9d037052c',1,'SystemTwo::initializeBasis()']]],
+  ['initializeinteraction',['initializeInteraction',['../classSystemBase.html#a083466f74d335bfac4aebd2ea8a1949e',1,'SystemBase::initializeInteraction()'],['../classSystemOne.html#abf6d26d44765fa787251956c128644a7',1,'SystemOne::initializeInteraction()'],['../classSystemTwo.html#a5cc89c42ab8066027b0c375b818c8333',1,'SystemTwo::initializeInteraction()']]],
+  ['integrate',['integrate',['../classNumerov.html#abe0bc223b504ce1f4736c1879582de8e',1,'Numerov::integrate()'],['../classWhittaker.html#ace99701f5bf448389ba485f293fa90cb',1,'Whittaker::integrate()']]],
+  ['integrateradialelement',['IntegrateRadialElement',['../Wavefunction_8h.html#a561ae0d91c1aa2054e96bb16287d0523',1,'Wavefunction.h']]],
+  ['iterator',['iterator',['../classsqlite_1_1statement_1_1iterator.html#a45e122b07a4ef1187380c7e6700ac5f3',1,'sqlite::statement::iterator::iterator()'],['../classsqlite_1_1statement_1_1iterator.html#abe9e2121ba042bb0b0b22bafb7098ac5',1,'sqlite::statement::iterator::iterator(statement *p)']]]
 ];

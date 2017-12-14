@@ -7,6 +7,7 @@ var hierarchy =
     [ "Basisnames< StateTwo >", "classBasisnames.html", [
       [ "BasisnamesTwo", "classBasisnamesTwo.html", null ]
     ] ],
+    [ "Cache< Key, Element, Hash >", "classCache.html", null ],
     [ "Configuration", "classConfiguration.html", null ],
     [ "ConstIter< ContainerType, ValueType >", "classConstIter.html", null ],
     [ "zmq::context", "classzmq_1_1context.html", null ],
@@ -63,6 +64,9 @@ var hierarchy =
       [ "StateTwo", "classStateTwo.html", null ]
     ] ],
     [ "sqlite::statement", "classsqlite_1_1statement.html", null ],
+    [ "states_set< T >", "structstates__set.html", null ],
+    [ "states_set< StateOne >", "structstates__set.html", null ],
+    [ "states_set< StateTwo >", "structstates__set.html", null ],
     [ "Symmetry", "structSymmetry.html", null ],
     [ "SystemBase< T >", "classSystemBase.html", null ],
     [ "SystemBase< StateOne >", "classSystemBase.html", [
@@ -85,8 +89,6 @@ var hierarchy =
     [ "shared_ptr< BasisnamesOne >", "classstd_1_1shared__ptr_3_01BasisnamesOne_01_4.html", null ],
     [ "shared_ptr< BasisnamesTwo >", "classstd_1_1shared__ptr_3_01BasisnamesTwo_01_4.html", null ],
     [ "size_t", "classsize__t.html", null ],
-    [ "states_set< StateOne >", "classstates__set_3_01StateOne_01_4.html", null ],
-    [ "states_set< StateTwo >", "classstates__set_3_01StateTwo_01_4.html", null ],
     [ "vector< StateOne >", "classstd_1_1vector_3_01StateOne_01_4.html", null ],
     [ "vector< StateTwo >", "classstd_1_1vector_3_01StateTwo_01_4.html", null ]
 ];

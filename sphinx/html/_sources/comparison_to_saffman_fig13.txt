@@ -13,9 +13,9 @@ Phys. 82, 2313 (2010) <https://dx.doi.org/10.1103/RevModPhys.82.2313>`__
 13 <https://journals.aps.org/rmp/article/10.1103/RevModPhys.82.2313/figures/13/medium>`__).
 Here we show how to reproduce this result using pairinteraction. The
 `Jupyter
-notebook <https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples/comparison_to_saffman_fig13.ipynb>`__
+notebook <https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples_python/comparison_to_saffman_fig13.ipynb>`__
 and the final `Python
-script <https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples/comparison_to_saffman_fig13.py>`__
+script <https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples_python/comparison_to_saffman_fig13.py>`__
 are available on GitHub.
 
 Ahead of our Python code, we call an IPython magic function to make the
@@ -165,7 +165,6 @@ with ``matplotlib``.
     if sys.platform != "win32":
         with Pool() as pool:
             energies1 = pool.map(partial(getEnergies, angle=0), bfields)
-        with Pool() as pool:
             energies2 = pool.map(partial(getEnergies, angle=np.pi/2), bfields)
     else:
         energies1 = list(map(partial(getEnergies, angle=0), bfields))

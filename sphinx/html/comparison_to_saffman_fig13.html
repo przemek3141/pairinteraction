@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>2.1. Blockade Interaction in a Magnetic Field &mdash; pairinteraction 0.7-alpha-11-gecada35 documentation</title>
+  <title>2.1. Blockade Interaction in a Magnetic Field &mdash; pairinteraction 0.7-alpha-27-g299cedc documentation</title>
   
 
   
@@ -33,9 +33,9 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pairinteraction 0.7-alpha-11-gecada35 documentation" href="index.html"/>
+    <link rel="top" title="pairinteraction 0.7-alpha-27-g299cedc documentation" href="index.html"/>
         <link rel="up" title="2. Tutorials" href="tutorials.html"/>
-        <link rel="next" title="libpairinteraction" href="modules.html"/>
+        <link rel="next" title="Modules" href="modules.html"/>
         <link rel="prev" title="2. Tutorials" href="tutorials.html"/> 
 
   
@@ -67,7 +67,7 @@
             
             
               <div class="version">
-                0.7-alpha-11-gecada35
+                0.7-alpha-27-g299cedc
               </div>
             
           
@@ -88,7 +88,7 @@
           
             
             
-                <p class="caption"><span class="caption-text">Contents:</span></p>
+                <p class="caption"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">1. Obtaining pairinteraction</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="tutorials.html">2. Tutorials</a><ul class="current">
@@ -96,8 +96,10 @@
 </ul>
 </li>
 </ul>
+<p class="caption"><span class="caption-text">Indices and Tables</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="modules.html">libpairinteraction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
 </ul>
 
             
@@ -156,9 +158,9 @@ Phys. 82, 2313 (2010)</a>
 (<a class="reference external" href="https://journals.aps.org/rmp/article/10.1103/RevModPhys.82.2313/figures/13/medium">Fig.
 13</a>).
 Here we show how to reproduce this result using pairinteraction. The
-<a class="reference external" href="https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples/comparison_to_saffman_fig13.ipynb">Jupyter
+<a class="reference external" href="https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples_python/comparison_to_saffman_fig13.ipynb">Jupyter
 notebook</a>
-and the final <a class="reference external" href="https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples/comparison_to_saffman_fig13.py">Python
+and the final <a class="reference external" href="https://github.com/pairinteraction/pairinteraction/blob/master/doc/sphinx/examples_python/comparison_to_saffman_fig13.py">Python
 script</a>
 are available on GitHub.</p>
 <p>Ahead of our Python code, we call an IPython magic function to make the
@@ -283,7 +285,6 @@ with <code class="docutils literal"><span class="pre">matplotlib</span></code>.<
 <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">platform</span> <span class="o">!=</span> <span class="s2">&quot;win32&quot;</span><span class="p">:</span>
     <span class="k">with</span> <span class="n">Pool</span><span class="p">()</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
         <span class="n">energies1</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="n">getEnergies</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">bfields</span><span class="p">)</span>
-    <span class="k">with</span> <span class="n">Pool</span><span class="p">()</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
         <span class="n">energies2</span> <span class="o">=</span> <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="n">getEnergies</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span> <span class="n">bfields</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="n">energies1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">partial</span><span class="p">(</span><span class="n">getEnergies</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">bfields</span><span class="p">))</span>
@@ -304,7 +305,7 @@ with <code class="docutils literal"><span class="pre">matplotlib</span></code>.<
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="modules.html" class="btn btn-neutral float-right" title="libpairinteraction" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="modules.html" class="btn btn-neutral float-right" title="Modules" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="tutorials.html" class="btn btn-neutral" title="2. Tutorials" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -338,7 +339,7 @@ with <code class="docutils literal"><span class="pre">matplotlib</span></code>.<
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.7-alpha-11-gecada35',
+            VERSION:'0.7-alpha-27-g299cedc',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
