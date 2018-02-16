@@ -1,0 +1,5 @@
+<map id="dlarfb" name="dlarfb">
+<area shape="rect" id="node2" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7603cb4329173f4be2a297f2b05153fa" title="dcopy" alt="" coords="118,5,178,32"/>
+<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a006b690b452f9eee2889ced5a253236a" title="dgemm" alt="" coords="112,56,184,83"/>
+<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a214d06b3452fb7d8b99d7d9be629e146" title="dtrmm" alt="" coords="115,107,181,133"/>
+</map>

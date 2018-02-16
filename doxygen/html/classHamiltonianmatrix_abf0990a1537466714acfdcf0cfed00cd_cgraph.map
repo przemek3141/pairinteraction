@@ -1,3 +1,5 @@
 <map id="Hamiltonianmatrix::removeUnnecessaryStates" name="Hamiltonianmatrix::removeUnnecessaryStates">
-<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#a9cd965385a65becbfb993fc79dc428f7" title="Hamiltonianmatrix::\lnum_coordinates" alt="" coords="249,5,397,47"/>
+<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#a9cd965385a65becbfb993fc79dc428f7" title="Hamiltonianmatrix::\lnum_coordinates" alt="" coords="250,5,398,47"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#acc35051d698e3973f1de5b9b78dbe345" title="Eigen::SparseMatrix\l::setFromTriplets" alt="" coords="249,71,399,112"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrix.html#a62e61bb861eee306d5b069ce652b5aa5" title="Eigen::SparseMatrix\l::rows" alt="" coords="447,5,596,47"/>
 </map>

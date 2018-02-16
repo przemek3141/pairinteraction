@@ -1,5 +1,11 @@
 <map id="Whittaker::integrate" name="Whittaker::integrate">
-<area shape="rect" id="node2" href="$namespacewhittaker__functions.html#ab69b6f45a0c575b401bdaf26a250f084" title="Radial wavefunctions from Whittaker&#39;s function. " alt="" coords="201,5,348,47"/>
-<area shape="rect" id="node3" href="$namespacewhittaker__functions.html#a27cc4e33339852cc4bce929bf7c0b4d4" title="Compute the Whittaker function. " alt="" coords="396,5,541,47"/>
-<area shape="rect" id="node4" href="$namespacewhittaker__functions.html#a9fe8c4e2c3ae8b4330b54af0abfc2224" title="Compute the confluent hypergeometric function. " alt="" coords="589,5,735,47"/>
+<area shape="rect" id="node2" href="$namespacewhittaker__functions.html#ab69b6f45a0c575b401bdaf26a250f084" title="Radial wavefunctions from Whittaker&#39;s function. " alt="" coords="212,49,359,90"/>
+<area shape="rect" id="node9" href="$classEigen_1_1PlainObjectBase.html#aba7a925ce36c08ba2a08c90086f34718" title="Eigen::PlainObjectBase\l::rows" alt="" coords="201,114,369,155"/>
+<area shape="rect" id="node10" href="$ArrayCwiseUnaryOps_8h.html#a281eccb624a3ff6dacbe305828e43a82" title="sign" alt="" coords="261,180,309,207"/>
+<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="467,5,513,32"/>
+<area shape="rect" id="node4" href="$namespacempfr.html#aab5871d4a4c8d66a2a4a920add576a88" title="mpfr::tgamma" alt="" coords="433,56,547,83"/>
+<area shape="rect" id="node5" href="$namespacewhittaker__functions.html#a27cc4e33339852cc4bce929bf7c0b4d4" title="Compute the Whittaker function. " alt="" coords="417,107,563,149"/>
+<area shape="rect" id="node6" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="665,64,711,91"/>
+<area shape="rect" id="node7" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="611,115,765,141"/>
+<area shape="rect" id="node8" href="$namespacewhittaker__functions.html#a9fe8c4e2c3ae8b4330b54af0abfc2224" title="Compute the confluent hypergeometric function. " alt="" coords="615,166,761,207"/>
 </map>

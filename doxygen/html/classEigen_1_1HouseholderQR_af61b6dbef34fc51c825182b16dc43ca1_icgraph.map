@@ -1,0 +1,5 @@
+<map id="Eigen::HouseholderQR::logAbsDeterminant" name="Eigen::HouseholderQR::logAbsDeterminant">
+<area shape="rect" id="node2" href="$classEigen_1_1HouseholderQR.html#aa8c555a962ee6fc24387696980d3068b" title="Eigen::HouseholderQR\l\&lt; TransposeTypeWithSameStorage\lOrder \&gt;::compute" alt="" coords="217,5,463,61"/>
+<area shape="rect" id="node3" href="$qr_8cpp.html#a9bfcf72d1c319774f027d3446dc121dd" title="qr_invertible" alt="" coords="290,85,390,112"/>
+<area shape="rect" id="node4" href="$qr_8cpp.html#a6693811f52bc269d1ec52b3ec57d8da2" title="qr_verify_assert" alt="" coords="279,136,401,163"/>
+</map>

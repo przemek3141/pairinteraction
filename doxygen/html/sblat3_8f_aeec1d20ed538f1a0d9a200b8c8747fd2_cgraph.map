@@ -1,0 +1,29 @@
+<map id="sblat3" name="sblat3">
+<area shape="rect" id="node2" href="$sblat2_8f.html#a72963c988f0815b2696fd1b0e4acf880" title="schk1" alt="" coords="121,173,179,199"/>
+<area shape="rect" id="node8" href="$sblat2_8f.html#af487c92bebaacfb6bd68589513c37b1a" title="schk2" alt="" coords="121,249,179,275"/>
+<area shape="rect" id="node12" href="$sblat2_8f.html#a6d51cc50b2f3e06e07ab721e1d8ba7e1" title="schk3" alt="" coords="121,730,179,757"/>
+<area shape="rect" id="node19" href="$sblat2_8f.html#a5cf796f321f488cf07ad670b6a4a3044" title="schk4" alt="" coords="121,97,179,123"/>
+<area shape="rect" id="node21" href="$sblat2_8f.html#a431e8080232dbe8ab951e5a396f22b02" title="schk5" alt="" coords="121,299,179,326"/>
+<area shape="rect" id="node24" href="$sblat2_8f.html#a1e23a9d74d4acf6f0a0c0944d653b213" title="schke" alt="" coords="121,502,179,529"/>
+<area shape="rect" id="node28" href="$sblat3_8f.html#a8b530541d1d90ba10621058fbabcf4e4" title="smmch" alt="" coords="115,9,185,35"/>
+<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a236970a9e7c17bb53eb835fa8caa0c8d" title="sgbmv" alt="" coords="233,223,299,250"/>
+<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a6df264cbf6ad22e80e1c456cf572fb78" title="sgemv" alt="" coords="233,173,299,199"/>
+<area shape="rect" id="node5" href="$sblat2_8f.html#ab3dd038d965d574dd3a32935efd13747" title="smake" alt="" coords="233,122,299,149"/>
+<area shape="rect" id="node6" href="$sblat2_8f.html#a32d78fc1870b445eb93c08d4faa9e1f5" title="smvch" alt="" coords="234,71,298,98"/>
+<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="347,21,393,47"/>
+<area shape="rect" id="node9" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8d0b69549632a625a7773e8279aeb44f" title="ssbmv" alt="" coords="234,375,298,402"/>
+<area shape="rect" id="node10" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a4e298686bdc17a46eb8cb46325106d7d" title="sspmv" alt="" coords="234,274,298,301"/>
+<area shape="rect" id="node11" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ae25b5db26a06b035d69d0dc507792478" title="ssymv" alt="" coords="235,325,297,351"/>
+<area shape="rect" id="node13" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#af16217ad67e122b872e95f1df67c3ef1" title="stbmv" alt="" coords="235,831,297,858"/>
+<area shape="rect" id="node14" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aaddc6212105d85eec54e387d04ff8e43" title="stbsv" alt="" coords="238,882,294,909"/>
+<area shape="rect" id="node15" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a12d2aff3c08b13fdce84d2591d4a12c3" title="stpmv" alt="" coords="235,933,297,959"/>
+<area shape="rect" id="node16" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aed4247e0c71c8b19f88ea5acf83ab8ef" title="stpsv" alt="" coords="238,679,294,706"/>
+<area shape="rect" id="node17" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8c34a24bd508795219d1f7b2c82336bd" title="strmv" alt="" coords="237,730,295,757"/>
+<area shape="rect" id="node18" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a404514769de88c9a62733dd5db132d97" title="strsv" alt="" coords="239,781,293,807"/>
+<area shape="rect" id="node20" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a4a5e76f07c2d95112cc12a5b1dc01631" title="sger" alt="" coords="241,21,291,47"/>
+<area shape="rect" id="node22" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7801664637671b70387a0a917e1ec24a" title="sspr" alt="" coords="241,426,291,453"/>
+<area shape="rect" id="node23" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a84af4a997fb98befbb79bde451291e93" title="ssyr" alt="" coords="242,477,290,503"/>
+<area shape="rect" id="node25" href="$cblat2_8f.html#af0279384c87f94223fdf27a4d97f4f7d" title="chkxer" alt="" coords="234,629,298,655"/>
+<area shape="rect" id="node26" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aa9ed7e7dabbbd9b9db055fc83389c9a6" title="sspr2" alt="" coords="237,527,295,554"/>
+<area shape="rect" id="node27" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ae42328431260f7157725e30f35e953dd" title="ssyr2" alt="" coords="238,578,294,605"/>
+</map>

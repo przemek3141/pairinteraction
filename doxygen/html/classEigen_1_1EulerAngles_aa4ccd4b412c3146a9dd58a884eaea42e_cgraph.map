@@ -1,0 +1,8 @@
+<map id="Eigen::EulerAngles::operator QuaternionType" name="Eigen::EulerAngles::operator QuaternionType">
+<area shape="rect" id="node2" href="$classEigen_1_1EulerAngles.html#a6146f78ee0fb9d9a7d685a4654066825" title="Eigen::EulerAngles\l::alpha" alt="" coords="246,5,386,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1EulerAngles.html#a33d034ea7e8cac1f4d7c329d741b9a59" title="Eigen::EulerAngles\l::AlphaAxisVector" alt="" coords="246,71,386,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1EulerAngles.html#a1bf59f8acaed985964c98c1f59d8f5ab" title="Eigen::EulerAngles\l::beta" alt="" coords="246,136,386,177"/>
+<area shape="rect" id="node5" href="$classEigen_1_1EulerAngles.html#aede24ef1ffc5913f2eb6539c1f1b9dc4" title="Eigen::EulerAngles\l::BetaAxisVector" alt="" coords="246,201,386,243"/>
+<area shape="rect" id="node6" href="$classEigen_1_1EulerAngles.html#aa75a5f16105d96eedf81bf9f8e789e21" title="Eigen::EulerAngles\l::gamma" alt="" coords="246,267,386,308"/>
+<area shape="rect" id="node7" href="$classEigen_1_1EulerAngles.html#a77ea78dac1d599353e2a87d95cc6f1d4" title="Eigen::EulerAngles\l::GammaAxisVector" alt="" coords="241,332,391,373"/>
+</map>

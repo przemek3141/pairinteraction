@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1traits_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptionsf3fc8f62cad8b28f185cf9e5b9c33ba2 =
+[
+    [ "Flags", "structEigen_1_1internal_1_1traits_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptionsf3fc8f62cad8b28f185cf9e5b9c33ba2.html#a2475aa1b12856a929b6ffa6e9332896ea1577cd17274e8098885d601e440bb843", null ]
+];

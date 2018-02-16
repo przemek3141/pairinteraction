@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1has__unary__operator_3_01scalar__identity__op_3_01Scalar_01_4_00_01IndexType_01_4 =
+[
+    [ "value", "structEigen_1_1internal_1_1has__unary__operator_3_01scalar__identity__op_3_01Scalar_01_4_00_01IndexType_01_4.html#a28306dba37c6211be5e2a4a16b6d55a4af8c9b66d813ba286de7474d62806dec4", null ]
+];

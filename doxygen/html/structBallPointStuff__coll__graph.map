@@ -1,0 +1,5 @@
+<map id="BallPointStuff&lt; Dim &gt;" name="BallPointStuff&lt; Dim &gt;">
+<area shape="rect" id="node2" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; double,\l Dim, 1 \&gt;" alt="" coords="639,45,805,87"/>
+<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; double, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;" alt="" coords="389,31,589,101"/>
+<area shape="rect" id="node5" href="$classEigen_1_1DenseStorage.html" title="Eigen::DenseStorage\l\&lt; Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \&gt;" alt="" coords="5,71,268,141"/>
+</map>

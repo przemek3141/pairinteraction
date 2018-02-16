@@ -1,0 +1,4 @@
+var structEigen_1_1SluMatrixMapHelper_3_01Matrix_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MRows_00_01MCols_01_4_01_4 =
+[
+    [ "MatrixType", "structEigen_1_1SluMatrixMapHelper_3_01Matrix_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MRows_00_01MCols_01_4_01_4.html#a54655c68633ab3e126220e2f13118ea8", null ]
+];

@@ -1,0 +1,5 @@
+<map id="Eigen::BlockImpl&lt; XprType, BlockRows, BlockCols, InnerPanel, Sparse &gt;" name="Eigen::BlockImpl&lt; XprType, BlockRows, BlockCols, InnerPanel, Sparse &gt;">
+<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; Block\&lt; XprType, BlockRows,\l BlockCols, InnerPanel \&gt; \&gt;" alt="" coords="244,5,456,61"/>
+<area shape="rect" id="node3" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Block\l\&lt; XprType, BlockRows,\l BlockCols, InnerPanel \&gt; \&gt;" alt="" coords="5,5,196,61"/>
+<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1no__assignment__operator.html" title="Eigen::internal::no\l_assignment_operator" alt="" coords="267,86,433,127"/>
+</map>

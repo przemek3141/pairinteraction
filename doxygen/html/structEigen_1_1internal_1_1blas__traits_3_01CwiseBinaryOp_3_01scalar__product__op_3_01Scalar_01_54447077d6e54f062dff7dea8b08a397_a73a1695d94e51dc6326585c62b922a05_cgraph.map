@@ -1,0 +1,4 @@
+<map id="Eigen::internal::blas_traits&lt; CwiseBinaryOp&lt; scalar_product_op&lt; Scalar &gt;, const CwiseNullaryOp&lt; scalar_constant_op&lt; Scalar &gt;, Plain &gt;, NestedXpr &gt; &gt;::extractScalarFactor" name="Eigen::internal::blas_traits&lt; CwiseBinaryOp&lt; scalar_product_op&lt; Scalar &gt;, const CwiseNullaryOp&lt; scalar_constant_op&lt; Scalar &gt;, Plain &gt;, NestedXpr &gt; &gt;::extractScalarFactor">
+<area shape="rect" id="node2" href="$classEigen_1_1CwiseBinaryOp.html#a0f73e7585dfb54d41c1983e1e6a4b269" title="Eigen::CwiseBinaryOp::lhs" alt="" coords="263,24,449,51"/>
+<area shape="rect" id="node3" href="$classEigen_1_1CwiseBinaryOp.html#a3a61cbdf6d1adaa62f012045b04b6d09" title="Eigen::CwiseBinaryOp::rhs" alt="" coords="263,75,449,101"/>
+</map>

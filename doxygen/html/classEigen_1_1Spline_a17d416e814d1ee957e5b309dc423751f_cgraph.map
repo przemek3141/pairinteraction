@@ -1,0 +1,4 @@
+<map id="Eigen::Spline::basisFunctionDerivatives" name="Eigen::Spline::basisFunctionDerivatives">
+<area shape="rect" id="node2" href="$classEigen_1_1Spline.html#a0df23e941ac0f31dcd095a4dd4f4a7ec" title="Returns the spline degree. " alt="" coords="252,5,409,32"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Spline.html#ae3eac8af580ad880d8ad3a259d453aa1" title="Returns the knots of the underlying spline. " alt="" coords="257,56,404,83"/>
+</map>

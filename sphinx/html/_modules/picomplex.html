@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>picomplex &mdash; pairinteraction 0.8-alpha-7-ga72d032 documentation</title>
+  <title>picomplex &mdash; pairinteraction 0.8-alpha-24-g7610241 documentation</title>
   
 
   
@@ -33,7 +33,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="pairinteraction 0.8-alpha-7-ga72d032 documentation" href="../index.html"/>
+    <link rel="top" title="pairinteraction 0.8-alpha-24-g7610241 documentation" href="../index.html"/>
         <link rel="up" title="Module code" href="index.html"/> 
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                0.8-alpha-7-ga72d032
+                0.8-alpha-24-g7610241
               </div>
             
           
@@ -1680,6 +1680,86 @@
     <span class="fm">__del__</span> <span class="o">=</span> <span class="k">lambda</span> <span class="bp">self</span><span class="p">:</span> <span class="kc">None</span>
 <span class="n">ArrayVectorSizeTTwo_swigregister</span> <span class="o">=</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayVectorSizeTTwo_swigregister</span>
 <span class="n">ArrayVectorSizeTTwo_swigregister</span><span class="p">(</span><span class="n">ArrayVectorSizeTTwo</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">ArrayEigenVectorDoubleTwo</span><span class="p">(</span><span class="n">_object</span><span class="p">):</span>
+    <span class="n">__swig_setmethods__</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="fm">__setattr__</span> <span class="o">=</span> <span class="k">lambda</span> <span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="n">_swig_setattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ArrayEigenVectorDoubleTwo</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+    <span class="n">__swig_getmethods__</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="fm">__getattr__</span> <span class="o">=</span> <span class="k">lambda</span> <span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="n">_swig_getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ArrayEigenVectorDoubleTwo</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+    <span class="fm">__repr__</span> <span class="o">=</span> <span class="n">_swig_repr</span>
+
+    <span class="k">def</span> <span class="nf">iterator</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;swig::SwigPyIterator *&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_iterator</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">iterator</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__nonzero__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;bool&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___nonzero__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__bool__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;bool&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___bool__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::size_type&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___len__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__getslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">i</span><span class="p">:</span> <span class="s1">&#39;std::array&lt; eigen_vector_double_t,2 &gt;::difference_type&#39;</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="s1">&#39;std::array&lt; eigen_vector_double_t,2 &gt;::difference_type&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt; *&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___getslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__setslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___setslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__delslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">i</span><span class="p">:</span> <span class="s1">&#39;std::array&lt; eigen_vector_double_t,2 &gt;::difference_type&#39;</span><span class="p">,</span> <span class="n">j</span><span class="p">:</span> <span class="s1">&#39;std::array&lt; eigen_vector_double_t,2 &gt;::difference_type&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___delslice__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__delitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___delitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::value_type const &amp;&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__setitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo___setitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
+        <span class="n">this</span> <span class="o">=</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">new_ArrayEigenVectorDoubleTwo</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">this</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">this</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">__builtin__</span><span class="o">.</span><span class="n">Exception</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">this</span> <span class="o">=</span> <span class="n">this</span>
+
+    <span class="k">def</span> <span class="nf">empty</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;bool&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">size</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::size_type&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_size</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">swap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">:</span> <span class="s1">&#39;ArrayEigenVectorDoubleTwo&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_swap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">begin</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::iterator&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_begin</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">end</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::iterator&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_end</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">rbegin</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::reverse_iterator&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_rbegin</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">rend</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::reverse_iterator&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_rend</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">front</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::value_type const &amp;&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_front</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">back</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;std::array&lt; eigen_vector_double_t,2 &gt;::value_type const &amp;&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_back</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">fill</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">u</span><span class="p">:</span> <span class="s1">&#39;std::array&lt; eigen_vector_double_t,2 &gt;::value_type const &amp;&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;void&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_fill</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">u</span><span class="p">)</span>
+    <span class="n">__swig_destroy__</span> <span class="o">=</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">delete_ArrayEigenVectorDoubleTwo</span>
+    <span class="fm">__del__</span> <span class="o">=</span> <span class="k">lambda</span> <span class="bp">self</span><span class="p">:</span> <span class="kc">None</span>
+<span class="n">ArrayEigenVectorDoubleTwo_swigregister</span> <span class="o">=</span> <span class="n">_picomplex</span><span class="o">.</span><span class="n">ArrayEigenVectorDoubleTwo_swigregister</span>
+<span class="n">ArrayEigenVectorDoubleTwo_swigregister</span><span class="p">(</span><span class="n">ArrayEigenVectorDoubleTwo</span><span class="p">)</span>
 
 <div class="viewcode-block" id="Triple"><a class="viewcode-back" href="../picomplex.html#picomplex.Triple">[docs]</a><span class="k">class</span> <span class="nc">Triple</span><span class="p">(</span><span class="n">_object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Proxy of C++ Triple class.&quot;&quot;&quot;</span>
@@ -3958,7 +4038,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.8-alpha-7-ga72d032',
+            VERSION:'0.8-alpha-24-g7610241',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

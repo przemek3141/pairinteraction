@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['utils',['utils',['../namespaceutils.html',1,'']]]
+  ['internal',['internal',['../namespacenumpy_1_1internal.html',1,'numpy']]],
+  ['numpy',['numpy',['../namespacenumpy.html',1,'']]]
 ];

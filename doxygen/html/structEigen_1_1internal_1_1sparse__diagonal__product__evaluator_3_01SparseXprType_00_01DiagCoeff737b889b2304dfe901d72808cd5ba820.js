@@ -1,0 +1,11 @@
+var structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820 =
+[
+    [ "InnerIterator", "classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeffT78553ee17a2176a2dbc163eeb119c7b7.html", "classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeffT78553ee17a2176a2dbc163eeb119c7b7" ],
+    [ "DiagCoeffNested", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#a5643daa5d8bda695a2452f53a3bf0c17", null ],
+    [ "Scalar", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#a3cc0c942755594bbab6d47924f9f4d90", null ],
+    [ "StorageIndex", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#ac566430035277187cbefefe893d20e5b", null ],
+    [ "sparse_diagonal_product_evaluator", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#af38a1fdbcec00837065684a356004d77", null ],
+    [ "nonZerosEstimate", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#a542f770b604b2d8c009169b23fe05265", null ],
+    [ "m_diagCoeffNested", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#a7409f9ccdab3310c04bc195a04f5d8e0", null ],
+    [ "m_sparseXprEval", "structEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagCoeff737b889b2304dfe901d72808cd5ba820.html#a480dc7703547d27943d9c582e3bd3873", null ]
+];

@@ -1,0 +1,5 @@
+<map id="Eigen::DGMRES&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::DGMRES&lt; _MatrixType, _Preconditioner &gt;">
+<area shape="rect" id="node2" href="$classEigen_1_1IterativeSolverBase.html" title="Eigen::IterativeSolverBase\l\&lt; DGMRES\&lt; _MatrixType, \l_Preconditioner \&gt; \&gt;" alt="" coords="17,184,208,240"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseSolverBase.html" title="Eigen::SparseSolverBase\l\&lt; DGMRES\&lt; _MatrixType,\l _Preconditioner \&gt; \&gt;" alt="" coords="19,80,206,136"/>
+<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="11,5,214,32"/>
+</map>

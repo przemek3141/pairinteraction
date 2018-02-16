@@ -1,0 +1,8 @@
+<map id="vectorization_logic_half::run" name="vectorization_logic_half::run">
+<area shape="rect" id="node2" href="$MatrixBase__col_8cpp.html#aa168d9544aa6d49fce0cbfc0bec849b0" title="col" alt="" coords="229,5,269,32"/>
+<area shape="rect" id="node3" href="$MatrixCwiseBinaryOps_8h.html#a7f2586dc31b1f2e4fd8f8937f26e85dd" title="cwiseQuotient" alt="" coords="193,56,304,83"/>
+<area shape="rect" id="node4" href="$MatrixBase__row_8cpp.html#a64ef8efef59f875033a27e7cbbc879ec" title="row" alt="" coords="227,107,271,133"/>
+<area shape="rect" id="node5" href="$vectorization__logic_8cpp.html#ac074569f0f48f2ab56064fc69b19359d" title="test_assign" alt="" coords="201,157,296,184"/>
+<area shape="rect" id="node7" href="$vectorization__logic_8cpp.html#a4103610741599869b5b39a1197174f74" title="test_redux" alt="" coords="203,208,294,235"/>
+<area shape="rect" id="node6" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="352,157,391,184"/>
+</map>

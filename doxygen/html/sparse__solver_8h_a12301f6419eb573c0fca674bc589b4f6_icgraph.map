@@ -1,0 +1,21 @@
+<map id="check_sparse_square_solving" name="check_sparse_square_solving">
+<area shape="rect" id="node2" href="$bicgstab_8cpp.html#a6b10e8f957d68eddc06558b12c8a7ede" title="test_bicgstab_T" alt="" coords="241,5,364,32"/>
+<area shape="rect" id="node4" href="$dgmres_8cpp.html#a27a94a47bf37c1f6d7e0a4f7f47c2dca" title="test_dgmres_T" alt="" coords="244,56,361,83"/>
+<area shape="rect" id="node6" href="$gmres_8cpp.html#a09172fb266310e5e339f2583b7a9eb1d" title="test_gmres_T" alt="" coords="248,107,357,133"/>
+<area shape="rect" id="node8" href="$lscg_8cpp.html#ae86b5d0fecebb22c09f4d9090181fcbb" title="test_lscg_T" alt="" coords="256,157,349,184"/>
+<area shape="rect" id="node10" href="$metis__support_8cpp.html#a28cf27a1370c1a54dd4475a40a1d9706" title="test_metis_T" alt="" coords="251,208,355,235"/>
+<area shape="rect" id="node11" href="$pardiso__support_8cpp.html#a75b580661d90e79c3c37bf803e323253" title="test_pardiso_T" alt="" coords="245,259,360,285"/>
+<area shape="rect" id="node13" href="$pastix__support_8cpp.html#a8796cda435a10970f492321d22aa481a" title="test_pastix_T" alt="" coords="249,309,356,336"/>
+<area shape="rect" id="node14" href="$pastix__support_8cpp.html#aff3a6aaf1eda07de11932e65acb53d31" title="test_pastix_T_LU" alt="" coords="238,360,367,387"/>
+<area shape="rect" id="node16" href="$sparselu_8cpp.html#a588c850e80e7122ba21c38a298705125" title="test_sparselu_T" alt="" coords="241,411,364,437"/>
+<area shape="rect" id="node18" href="$superlu__support_8cpp.html#afdab4ccedae4e5b639bb2344370408c3" title="test_superlu_support" alt="" coords="224,461,381,488"/>
+<area shape="rect" id="node19" href="$umfpack__support_8cpp.html#a08ef4d3466b812638d77e97b37dc6e74" title="test_umfpack_support_T" alt="" coords="213,512,392,539"/>
+<area shape="rect" id="node3" href="$bicgstab_8cpp.html#a32de8826ac20799c4d3c72636451dd0f" title="test_bicgstab" alt="" coords="469,5,577,32"/>
+<area shape="rect" id="node5" href="$dgmres_8cpp.html#a30cd39ecfad15a78fa5e00ed2ceaccbb" title="test_dgmres" alt="" coords="471,56,574,83"/>
+<area shape="rect" id="node7" href="$gmres_8cpp.html#a925bca3c82d5fc7d5190058e551bae18" title="test_gmres" alt="" coords="475,107,570,133"/>
+<area shape="rect" id="node9" href="$lscg_8cpp.html#a31134dc06f086dd9a7ba79cf4b654735" title="test_lscg" alt="" coords="483,157,562,184"/>
+<area shape="rect" id="node12" href="$pardiso__support_8cpp.html#ac3e224e5c9bc1d659101c93ef39066cb" title="test_pardiso_support" alt="" coords="444,259,601,285"/>
+<area shape="rect" id="node15" href="$pastix__support_8cpp.html#acefb2a606cc5a1617ad70a4768c0cfec" title="test_pastix_support" alt="" coords="449,360,597,387"/>
+<area shape="rect" id="node17" href="$sparselu_8cpp.html#ab4788d561008adba01399d2ab8ed2dfb" title="test_sparselu" alt="" coords="469,411,577,437"/>
+<area shape="rect" id="node20" href="$umfpack__support_8cpp.html#acd6cdc0ebb1bd5c6367c250d6f0bb41a" title="test_umfpack_support" alt="" coords="440,512,605,539"/>
+</map>

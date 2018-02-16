@@ -1,0 +1,6 @@
+<map id="qr" name="qr">
+<area shape="rect" id="node2" href="$qr__colpivoting_8cpp.html#ad5c305e7d9c3fd6abc3950b0edb0cc0c" title="qr_fixedsize" alt="" coords="108,5,205,32"/>
+<area shape="rect" id="node3" href="$qr__colpivoting_8cpp.html#a9bfcf72d1c319774f027d3446dc121dd" title="qr_invertible" alt="" coords="107,56,207,83"/>
+<area shape="rect" id="node4" href="$qr__colpivoting_8cpp.html#ab3860b0a2f15587340091be81254d208" title="qr_kahan_matrix" alt="" coords="92,107,221,133"/>
+<area shape="rect" id="node5" href="$qr__colpivoting_8cpp.html#a6693811f52bc269d1ec52b3ec57d8da2" title="qr_verify_assert" alt="" coords="95,157,218,184"/>
+</map>

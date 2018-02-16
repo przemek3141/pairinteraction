@@ -1,0 +1,4 @@
+<map id="Eigen::PolynomialSolverBase::selectRealRoot_withRespectToAbsRealPart" name="Eigen::PolynomialSolverBase::selectRealRoot_withRespectToAbsRealPart">
+<area shape="rect" id="node2" href="$classEigen_1_1PolynomialSolverBase.html#aa2f003d9662af8c776f1a1c12a9d4210" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;::absGreatestRealRoot" alt="" coords="295,5,551,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1PolynomialSolverBase.html#a9316eeb24076bcd4f60ea4d7f3e549eb" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;::absSmallestRealRoot" alt="" coords="295,71,551,112"/>
+</map>

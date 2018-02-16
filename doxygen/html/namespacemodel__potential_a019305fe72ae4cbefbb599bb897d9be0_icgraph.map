@@ -1,5 +1,15 @@
 <map id="model_potential::g" name="model_potential::g">
-<area shape="rect" id="node2" href="$wavefunction__test_8cpp.html#ad533eb5be260ec2c91319b4bc1365657" title="BOOST_FIXTURE_TEST\l_CASE_TEMPLATE" alt="" coords="195,5,357,47"/>
-<area shape="rect" id="node3" href="$classNumerov.html#abe0bc223b504ce1f4736c1879582de8e" title="Perform the integration. " alt="" coords="203,71,349,98"/>
-<area shape="rect" id="node4" href="$wavefunction__test_8cpp.html#adb72abe457d6e027bde21aa19c0f36a9" title="BOOST_FIXTURE_TEST\l_CASE_TEMPLATE" alt="" coords="405,64,568,105"/>
+<area shape="rect" id="node2" href="$classEigen_1_1DynamicSGroup.html#ab6d3580987345d4ef81c139e8399147b" title="Eigen::DynamicSGroup::add" alt="" coords="200,175,401,202"/>
+<area shape="rect" id="node9" href="$wavefunction__test_8cpp.html#ad533eb5be260ec2c91319b4bc1365657" title="BOOST_FIXTURE_TEST\l_CASE_TEMPLATE" alt="" coords="219,227,382,268"/>
+<area shape="rect" id="node10" href="$classEigen_1_1DGMRES.html#a151b188720b20e13e8e6b112a8bcc167" title="Perform one restart cycle of DGMRES. " alt="" coords="195,293,407,319"/>
+<area shape="rect" id="node11" href="$classNumerov.html#abe0bc223b504ce1f4736c1879582de8e" title="Perform the integration. " alt="" coords="227,343,374,370"/>
+<area shape="rect" id="node12" href="$namespaceEigen_1_1internal.html#a4474e5db9b28b4a360582253f0cbaeac" title="Eigen::internal::operator&#45;" alt="" coords="211,394,391,421"/>
+<area shape="rect" id="node13" href="$sparse__solver_8h.html#a61fc17617f5be6e4bac3faa50cd3790c" title="solve_with_guess" alt="" coords="235,445,367,471"/>
+<area shape="rect" id="node3" href="$classEigen_1_1DynamicSGroup.html#a4391a25c9d7edff1b2806f6f5be3c7b7" title="Eigen::DynamicSGroup\l::addAntiHermiticity" alt="" coords="471,5,640,47"/>
+<area shape="rect" id="node4" href="$classEigen_1_1DynamicSGroup.html#ac8415c3653c3c1e7053f8f930f2b9e24" title="Eigen::DynamicSGroup\l::addAntiSymmetry" alt="" coords="471,71,640,112"/>
+<area shape="rect" id="node5" href="$classEigen_1_1DynamicSGroup.html#a2faa098d02f0715fc82699ec1cf999c1" title="Eigen::DynamicSGroup\l::addHermiticity" alt="" coords="471,136,640,177"/>
+<area shape="rect" id="node6" href="$classEigen_1_1DynamicSGroup.html#a2efbaedb2063d418df9e3056b7616b20" title="Eigen::DynamicSGroup\l::addSymmetry" alt="" coords="471,201,640,243"/>
+<area shape="rect" id="node7" href="$classEigen_1_1DynamicSGroup.html#a8661b8489f8027f096700433b1890eac" title="Eigen::DynamicSGroup\l::operator=" alt="" coords="471,267,640,308"/>
+<area shape="rect" id="node8" href="$classEigen_1_1DynamicSGroupFromTemplateArgs.html#a7e24a7db69be7147c3ebb57a4f389e39" title="Eigen::DynamicSGroupFrom\lTemplateArgs::operator=" alt="" coords="455,332,656,373"/>
+<area shape="rect" id="node14" href="$sparse__solver_8h.html#a2f19cda157e1f89db0769de982ecc5fa" title="check_sparse_solving" alt="" coords="475,445,635,471"/>
 </map>

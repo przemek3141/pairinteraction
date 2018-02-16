@@ -1,4 +1,23 @@
 var searchData=
 [
-  ['npy_5fno_5fdeprecated_5fapi',['NPY_NO_DEPRECATED_API',['../NumpyUtils_8h.html#ab6e6ee86736f9ebb56e74ae21bf3ff8a',1,'NumpyUtils.h']]]
+  ['b0',['B0',['../main_8h.html#a8a03ef52aa4926d1d75cb647ac768622',1,'main.h']]],
+  ['begin_5fof',['BEGIN_OF',['../utilities_8h.html#ab3a87b21189ee2e3a88a9b6a561dc8c3',1,'utilities.h']]],
+  ['bench',['BENCH',['../BenchTimer_8h.html#ae76a6d67b16f030630408dd13a1c6e56',1,'BENCH():&#160;BenchTimer.h'],['../quat__slerp_8cpp.html#a56ab6875e1391dc0994b8a1b2cb40862',1,'BENCH():&#160;quat_slerp.cpp'],['../sparse__cholesky_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_cholesky.cpp'],['../sparse__dense__product_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_dense_product.cpp'],['../sparse__lu_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_lu.cpp'],['../bench_2sparse__product_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_product.cpp'],['../sparse__randomsetter_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_randomsetter.cpp'],['../sparse__setter_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_setter.cpp'],['../sparse__transpose_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_transpose.cpp'],['../sparse__trisolver_8cpp.html#a5fcf11b9dba96e1e0555440c480f839c',1,'BENCH():&#160;sparse_trisolver.cpp']]],
+  ['bench_5fperf',['BENCH_PERF',['../bench__norm_8cpp.html#a0ff51fa17d44bbc581c01026585c6d84',1,'bench_norm.cpp']]],
+  ['benchmark',['BENCHMARK',['../benchmark_8h.html#abd4949b3a3d378df616789b0cc0b6ddd',1,'benchmark.h']]],
+  ['benchmark_5frange',['BENCHMARK_RANGE',['../tensor__benchmarks_8h.html#a6aa5954039d61d291aedff49c4b0a491',1,'tensor_benchmarks.h']]],
+  ['binarycategory',['BINARYCATEGORY',['../TensorSyclExprConstructor_8h.html#aa13813eee9215e7c53034a88d9978103',1,'TensorSyclExprConstructor.h']]],
+  ['blas_5ffunc',['BLAS_FUNC',['../blas__interface__impl_8hh.html#ab8379e0d6777a53062a06ff918b33806',1,'blas_interface_impl.hh']]],
+  ['blasfunc',['BLASFUNC',['../bench_2btl_2libs_2BLAS_2blas_8h.html#a0688b81352a2d915602ab637fea62f8c',1,'BLASFUNC():&#160;blas.h'],['../Eigen_2src_2misc_2blas_8h.html#a0688b81352a2d915602ab637fea62f8c',1,'BLASFUNC():&#160;blas.h']]],
+  ['bm_5fcontractioncpu',['BM_ContractionCPU',['../contraction__benchmarks__cpu_8cc.html#a3651ac7a926e24cd77d72d288b30f59d',1,'contraction_benchmarks_cpu.cc']]],
+  ['bm_5ffunccpu',['BM_FuncCPU',['../tensor__benchmarks__cpu_8cc.html#ae6f18bbed08ebf1a67e50c97944163e2',1,'tensor_benchmarks_cpu.cc']]],
+  ['bm_5ffuncgpu',['BM_FuncGPU',['../tensor__benchmarks__sycl_8cc.html#a266006ab3d9ab6ade51acdada1b82d02',1,'tensor_benchmarks_sycl.cc']]],
+  ['bm_5ffuncwithinputdimscpu',['BM_FuncWithInputDimsCPU',['../tensor__benchmarks__cpu_8cc.html#a0dafbca79e6f68756a263ca06b369228',1,'tensor_benchmarks_cpu.cc']]],
+  ['bm_5ffuncwithkerneldimscpu',['BM_FuncWithKernelDimsCPU',['../tensor__benchmarks__cpu_8cc.html#a6275ffa823d1e4ffa28b6221ac56f27b',1,'tensor_benchmarks_cpu.cc']]],
+  ['boost_5ftest_5fmodule',['BOOST_TEST_MODULE',['../cache__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;cache_test.cpp'],['../communication__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;communication_test.cpp'],['../conf__parser__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;conf_parser_test.cpp'],['../integration__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;integration_test.cpp'],['../quantum__defect__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;quantum_defect_test.cpp'],['../sqlite__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;sqlite_test.cpp'],['../wavefunction__test_8cpp.html#a6b2a3852db8bb19ab6909bac01859985',1,'BOOST_TEST_MODULE():&#160;wavefunction_test.cpp']]],
+  ['btl_5falways_5finline',['BTL_ALWAYS_INLINE',['../btl_8hh.html#a516e52a1b3f50f6a07bcb7aabb058ef0',1,'btl.hh']]],
+  ['btl_5fasm_5fcomment',['BTL_ASM_COMMENT',['../btl_8hh.html#a3361a813e04a9e66d7833e804cf11579',1,'btl.hh']]],
+  ['btl_5fdisable_5fsse_5fexceptions',['BTL_DISABLE_SSE_EXCEPTIONS',['../btl_8hh.html#a1ea666dfed19d73820686f30f79e5ab0',1,'btl.hh']]],
+  ['btl_5fdont_5finline',['BTL_DONT_INLINE',['../btl_8hh.html#ae6c9d753850ceed00be0040f4f5337f4',1,'btl.hh']]],
+  ['btl_5fmain',['BTL_MAIN',['../btl_8hh.html#a1b15c896d61bf404b5803fe2d57f9876',1,'btl.hh']]]
 ];

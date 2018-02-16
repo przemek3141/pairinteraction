@@ -1,0 +1,48 @@
+var dir_0965e368ddfb2ceeee6d90b4c42368c0 =
+[
+    [ "arch", "dir_a028672e527db8531006e07dd588943b.html", "dir_a028672e527db8531006e07dd588943b" ],
+    [ "AlignedBox.h", "AlignedBox_8h.html", "AlignedBox_8h" ],
+    [ "AngleAxis.h", "AngleAxis_8h.html", "AngleAxis_8h" ],
+    [ "EulerAngles.h", "Eigen_2src_2Geometry_2EulerAngles_8h.html", null ],
+    [ "Homogeneous.h", "Homogeneous_8h.html", [
+      [ "traits< Homogeneous< MatrixType, Direction > >", "structEigen_1_1internal_1_1traits_3_01Homogeneous_3_01MatrixType_00_01Direction_01_4_01_4.html", "structEigen_1_1internal_1_1traits_3_01Homogeneous_3_01MatrixType_00_01Direction_01_4_01_4" ],
+      [ "homogeneous_left_product_impl", "structEigen_1_1internal_1_1homogeneous__left__product__impl.html", null ],
+      [ "homogeneous_right_product_impl", "structEigen_1_1internal_1_1homogeneous__right__product__impl.html", null ],
+      [ "take_matrix_for_product", "structEigen_1_1internal_1_1take__matrix__for__product.html", "structEigen_1_1internal_1_1take__matrix__for__product" ],
+      [ "take_matrix_for_product< Transform< Scalar, Dim, Mode, Options > >", "structEigen_1_1internal_1_1take__matrix__for__product_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_00_01Options_01_4_01_4.html", "structEigen_1_1internal_1_1take__matrix__for__product_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_00_01Options_01_4_01_4" ],
+      [ "take_matrix_for_product< Transform< Scalar, Dim, Projective, Options > >", "structEigen_1_1internal_1_1take__matrix__for__product_3_01Transform_3_01Scalar_00_01Dim_00_01Projective_00_01Options_01_4_01_4.html", "structEigen_1_1internal_1_1take__matrix__for__product_3_01Transform_3_01Scalar_00_01Dim_00_01Projective_00_01Options_01_4_01_4" ],
+      [ "traits< homogeneous_left_product_impl< Homogeneous< MatrixType, Vertical >, Lhs > >", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da.html", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da" ],
+      [ "homogeneous_left_product_impl< Homogeneous< MatrixType, Vertical >, Lhs >", "structEigen_1_1internal_1_1homogeneous__left__product__impl_3_01Homogeneous_3_01MatrixType_00_01Vertical_01_4_00_01Lhs_01_4.html", "structEigen_1_1internal_1_1homogeneous__left__product__impl_3_01Homogeneous_3_01MatrixType_00_01Vertical_01_4_00_01Lhs_01_4" ],
+      [ "traits< homogeneous_right_product_impl< Homogeneous< MatrixType, Horizontal >, Rhs > >", "structEigen_1_1internal_1_1traits_3_01homogeneous__right__product__impl_3_01Homogeneous_3_01Matr13723058393d68e38075a1361c09a15f.html", "structEigen_1_1internal_1_1traits_3_01homogeneous__right__product__impl_3_01Homogeneous_3_01Matr13723058393d68e38075a1361c09a15f" ],
+      [ "homogeneous_right_product_impl< Homogeneous< MatrixType, Horizontal >, Rhs >", "structEigen_1_1internal_1_1homogeneous__right__product__impl_3_01Homogeneous_3_01MatrixType_00_01Horizontal_01_4_00_01Rhs_01_4.html", "structEigen_1_1internal_1_1homogeneous__right__product__impl_3_01Homogeneous_3_01MatrixType_00_01Horizontal_01_4_00_01Rhs_01_4" ],
+      [ "evaluator_traits< Homogeneous< ArgType, Direction > >", "structEigen_1_1internal_1_1evaluator__traits_3_01Homogeneous_3_01ArgType_00_01Direction_01_4_01_4.html", "structEigen_1_1internal_1_1evaluator__traits_3_01Homogeneous_3_01ArgType_00_01Direction_01_4_01_4" ],
+      [ "AssignmentKind< DenseShape, HomogeneousShape >", "structEigen_1_1internal_1_1AssignmentKind_3_01DenseShape_00_01HomogeneousShape_01_4.html", "structEigen_1_1internal_1_1AssignmentKind_3_01DenseShape_00_01HomogeneousShape_01_4" ],
+      [ "unary_evaluator< Homogeneous< ArgType, Direction >, IndexBased >", "structEigen_1_1internal_1_1unary__evaluator_3_01Homogeneous_3_01ArgType_00_01Direction_01_4_00_01IndexBased_01_4.html", "structEigen_1_1internal_1_1unary__evaluator_3_01Homogeneous_3_01ArgType_00_01Direction_01_4_00_01IndexBased_01_4" ],
+      [ "Assignment< DstXprType, Homogeneous< ArgType, Vertical >, internal::assign_op< Scalar, typename ArgType::Scalar >, Dense2Dense >", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Vertical_4246a7ce3251626c8f20c5d4cd6c81f4.html", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Vertical_4246a7ce3251626c8f20c5d4cd6c81f4" ],
+      [ "Assignment< DstXprType, Homogeneous< ArgType, Horizontal >, internal::assign_op< Scalar, typename ArgType::Scalar >, Dense2Dense >", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Horizontac1f143842ed7f43f85f42f19a7023e02.html", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Horizontac1f143842ed7f43f85f42f19a7023e02" ],
+      [ "generic_product_impl< Homogeneous< LhsArg, Horizontal >, Rhs, HomogeneousShape, DenseShape, ProductTag >", "structEigen_1_1internal_1_1generic__product__impl_3_01Homogeneous_3_01LhsArg_00_01Horizontal_01_d231c3786fec7dd4d80df56eab9e7ac2.html", null ],
+      [ "homogeneous_right_product_refactoring_helper", "structEigen_1_1internal_1_1homogeneous__right__product__refactoring__helper.html", "structEigen_1_1internal_1_1homogeneous__right__product__refactoring__helper" ],
+      [ "product_evaluator< Product< Lhs, Rhs, LazyProduct >, ProductTag, HomogeneousShape, DenseShape >", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01LazyProduct_01_49cff417a5a0d865edc3667884f362d54.html", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01LazyProduct_01_49cff417a5a0d865edc3667884f362d54" ],
+      [ "generic_product_impl< Lhs, Homogeneous< RhsArg, Vertical >, DenseShape, HomogeneousShape, ProductTag >", "structEigen_1_1internal_1_1generic__product__impl_3_01Lhs_00_01Homogeneous_3_01RhsArg_00_01Vertifd36755d184ac0cba223425cc123a06c.html", null ],
+      [ "generic_product_impl< Lhs, Homogeneous< RhsArg, Vertical >, TriangularShape, HomogeneousShape, ProductTag >", "structEigen_1_1internal_1_1generic__product__impl_3_01Lhs_00_01Homogeneous_3_01RhsArg_00_01Vertif34f394976b6a8a76771a183e04556a8.html", null ],
+      [ "homogeneous_left_product_refactoring_helper", "structEigen_1_1internal_1_1homogeneous__left__product__refactoring__helper.html", "structEigen_1_1internal_1_1homogeneous__left__product__refactoring__helper" ],
+      [ "product_evaluator< Product< Lhs, Rhs, LazyProduct >, ProductTag, DenseShape, HomogeneousShape >", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01LazyProduct_01_4985d931046897cea49f0cc70c8637e23.html", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01LazyProduct_01_4985d931046897cea49f0cc70c8637e23" ],
+      [ "generic_product_impl< Transform< Scalar, Dim, Mode, Options >, Homogeneous< RhsArg, Vertical >, DenseShape, HomogeneousShape, ProductTag >", "structEigen_1_1internal_1_1generic__product__impl_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_009319fe6f8c2d3aa3400a58c344dd5f08.html", "structEigen_1_1internal_1_1generic__product__impl_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_009319fe6f8c2d3aa3400a58c344dd5f08" ],
+      [ "permutation_matrix_product< ExpressionType, Side, Transposed, HomogeneousShape >", "structEigen_1_1internal_1_1permutation__matrix__product_3_01ExpressionType_00_01Side_00_01Transposed_00_01HomogeneousShape_01_4.html", null ]
+    ] ],
+    [ "Hyperplane.h", "Hyperplane_8h.html", null ],
+    [ "OrthoMethods.h", "OrthoMethods_8h.html", [
+      [ "cross3_impl", "structEigen_1_1internal_1_1cross3__impl.html", null ],
+      [ "unitOrthogonal_selector", "structEigen_1_1internal_1_1unitOrthogonal__selector.html", "structEigen_1_1internal_1_1unitOrthogonal__selector" ],
+      [ "unitOrthogonal_selector< Derived, 3 >", "structEigen_1_1internal_1_1unitOrthogonal__selector_3_01Derived_00_013_01_4.html", "structEigen_1_1internal_1_1unitOrthogonal__selector_3_01Derived_00_013_01_4" ],
+      [ "unitOrthogonal_selector< Derived, 2 >", "structEigen_1_1internal_1_1unitOrthogonal__selector_3_01Derived_00_012_01_4.html", "structEigen_1_1internal_1_1unitOrthogonal__selector_3_01Derived_00_012_01_4" ]
+    ] ],
+    [ "ParametrizedLine.h", "ParametrizedLine_8h.html", null ],
+    [ "Quaternion.h", "Quaternion_8h.html", "Quaternion_8h" ],
+    [ "Rotation2D.h", "Rotation2D_8h.html", "Rotation2D_8h" ],
+    [ "RotationBase.h", "RotationBase_8h.html", "RotationBase_8h" ],
+    [ "Scaling.h", "Eigen_2src_2Geometry_2Scaling_8h.html", "Eigen_2src_2Geometry_2Scaling_8h" ],
+    [ "Transform.h", "Transform_8h.html", "Transform_8h" ],
+    [ "Translation.h", "Translation_8h.html", "Translation_8h" ],
+    [ "Umeyama.h", "Umeyama_8h.html", "Umeyama_8h" ]
+];

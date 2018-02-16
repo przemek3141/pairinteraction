@@ -1,0 +1,5 @@
+<map id="Eigen::internal::InnerReducer&lt; Self, Op, const Eigen::SyclDevice &gt;::run" name="Eigen::internal::InnerReducer&lt; Self, Op, const Eigen::SyclDevice &gt;::run">
+<area shape="rect" id="node2" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#aa93846494e766618619e24bc400b8aaa" title="template deduction for ExtractAccessor " alt="" coords="257,5,488,47"/>
+<area shape="rect" id="node3" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#a525ee07cdeb68d18359b511b1ae9ffc7" title="template deduction function for FunctorExtractor " alt="" coords="284,71,461,112"/>
+<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1GenericDimReducer.html#ad65e721ea1322448fb0ac5558897396c" title="Eigen::internal::Generic\lDimReducer::reduce" alt="" coords="287,136,458,177"/>
+</map>

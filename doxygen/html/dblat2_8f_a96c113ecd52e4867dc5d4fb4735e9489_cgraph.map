@@ -1,0 +1,11 @@
+<map id="dchk3" name="dchk3">
+<area shape="rect" id="node2" href="$dblat2_8f.html#a1c65c92d411e657e5fd49db5ea7739b4" title="dmake" alt="" coords="113,5,180,32"/>
+<area shape="rect" id="node3" href="$dblat2_8f.html#afbbc0e902d1922bc88fd3de1837756ef" title="dmvch" alt="" coords="114,56,179,83"/>
+<area shape="rect" id="node5" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8b5ca32a95777f8fa34eb83a56dfbcc8" title="dtbmv" alt="" coords="115,107,178,133"/>
+<area shape="rect" id="node6" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#adb244b5e92641905e5bdb7cb591b15c4" title="dtbsv" alt="" coords="118,157,175,184"/>
+<area shape="rect" id="node7" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8dc5676e63694d529c06a2cadd5eaacc" title="dtpmv" alt="" coords="115,208,178,235"/>
+<area shape="rect" id="node8" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a0aeda14c7a5e65e25360cefdbd8cc7c3" title="dtpsv" alt="" coords="118,259,175,285"/>
+<area shape="rect" id="node9" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#af34b477ee13b53a37210b6b931cd5e13" title="dtrmv" alt="" coords="117,309,177,336"/>
+<area shape="rect" id="node10" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a080e0b7d68273d31fa9f1ea5b54ff218" title="dtrsv" alt="" coords="119,360,174,387"/>
+<area shape="rect" id="node4" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="228,56,275,83"/>
+</map>

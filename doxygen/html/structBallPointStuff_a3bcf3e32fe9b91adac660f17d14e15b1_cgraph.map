@@ -1,0 +1,7 @@
+<map id="BallPointStuff::minimumOnVolumeObject" name="BallPointStuff::minimumOnVolumeObject">
+<area shape="rect" id="node2" href="$classEigen_1_1AlignedBox.html#afe02b2ef5cdc1e1cd45eddee33cf1be5" title="Eigen::AlignedBox::\lexteriorDistance" alt="" coords="248,27,392,69"/>
+<area shape="rect" id="node6" href="$BVH_8cpp.html#a008137b55395036613fb97c40e7ba8b5" title="SQR" alt="" coords="295,93,345,120"/>
+<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="506,5,553,32"/>
+<area shape="rect" id="node4" href="$classEigen_1_1AlignedBox.html#aa6d9ffc81bd77da631fef6559f45cf13" title="Eigen::AlignedBox::\lsquaredExteriorDistance" alt="" coords="440,57,619,98"/>
+<area shape="rect" id="node5" href="$classEigen_1_1AlignedBox.html#ab774df3608d0be913a3aa5d67476a521" title="Eigen::AlignedBox::dim" alt="" coords="667,64,835,91"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Eigen::Spline::ctrls" name="Eigen::Spline::ctrls">
+<area shape="rect" id="node2" href="$classEigen_1_1Spline.html#a17d416e814d1ee957e5b309dc423751f" title="Computes the non&#45;zero spline basis function derivatives up to given order. " alt="" coords="947,499,1145,541"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Spline.html#a0df23e941ac0f31dcd095a4dd4f4a7ec" title="Returns the spline degree. " alt="" coords="1193,195,1351,221"/>
+<area shape="rect" id="node4" href="$classEigen_1_1Spline.html#ae3eac8af580ad880d8ad3a259d453aa1" title="Returns the knots of the underlying spline. " alt="" coords="1199,423,1345,449"/>
+<area shape="rect" id="node5" href="$classEigen_1_1Spline.html#ab5d0d30713ca56dcd33dbb37c262829a" title="Computes the non&#45;zero spline basis function derivatives up to given order. " alt="" coords="192,617,391,658"/>
+<area shape="rect" id="node6" href="$classEigen_1_1Spline.html#afe0997f0bb02a3fac3073016abac04c6" title="Computes the non&#45;zero basis functions at the given site. " alt="" coords="439,245,644,272"/>
+<area shape="rect" id="node7" href="$classEigen_1_1Spline.html#aac1839e8a956636d76bec24a4afc27e2" title="Returns the spline&#39;s non&#45;zero basis functions. " alt="" coords="692,296,899,323"/>
+<area shape="rect" id="node8" href="$classEigen_1_1Spline.html#aaba7632c61b84194e890696c2b57be1b" title="Computes the spang within the provided knot vector in which u is falling. " alt="" coords="973,347,1119,373"/>
+<area shape="rect" id="node9" href="$classEigen_1_1Spline.html#ab62751802b4cc237aadb0dbf3455df98" title="Returns the span within the knot vector in which u is falling. " alt="" coords="724,144,867,171"/>
+<area shape="rect" id="node10" href="$classEigen_1_1Spline.html#a196730cf190dfa16907db888277e5aed" title="Evaluation of spline derivatives of up&#45;to given order. " alt="" coords="201,195,382,221"/>
+<area shape="rect" id="node12" href="$classEigen_1_1Spline.html#a3c7e1838eae4ee7e341ef9d3dbf9ba45" title="Returns the spline value at a given site . " alt="" coords="203,144,380,171"/>
+<area shape="rect" id="node11" href="$namespaceEigen.html#ae8ed4b8aebde67ffb90eafe2d29dd969" title="Eigen::derivativesImpl" alt="" coords="461,195,622,221"/>
+</map>

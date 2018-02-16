@@ -1,0 +1,6 @@
+<map id="Eigen::derivativesImpl" name="Eigen::derivativesImpl">
+<area shape="rect" id="node2" href="$classEigen_1_1Spline.html#ab62751802b4cc237aadb0dbf3455df98" title="Returns the span within the knot vector in which u is falling. " alt="" coords="215,31,357,57"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Spline.html#aaba7632c61b84194e890696c2b57be1b" title="Computes the spang within the provided knot vector in which u is falling. " alt="" coords="405,31,551,57"/>
+<area shape="rect" id="node4" href="$classEigen_1_1Spline.html#ae3eac8af580ad880d8ad3a259d453aa1" title="Returns the knots of the underlying spline. " alt="" coords="604,5,751,32"/>
+<area shape="rect" id="node5" href="$classEigen_1_1Spline.html#a0df23e941ac0f31dcd095a4dd4f4a7ec" title="Returns the spline degree. " alt="" coords="599,68,756,95"/>
+</map>

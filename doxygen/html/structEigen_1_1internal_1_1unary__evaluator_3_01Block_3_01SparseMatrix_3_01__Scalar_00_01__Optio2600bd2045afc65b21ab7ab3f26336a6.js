@@ -1,0 +1,6 @@
+var structEigen_1_1internal_1_1unary__evaluator_3_01Block_3_01SparseMatrix_3_01__Scalar_00_01__Optio2600bd2045afc65b21ab7ab3f26336a6 =
+[
+    [ "Base", "structEigen_1_1internal_1_1unary__evaluator_3_01Block_3_01SparseMatrix_3_01__Scalar_00_01__Optio2600bd2045afc65b21ab7ab3f26336a6.html#a221d36e0f40c7c9edfc9a9faf72faf09", null ],
+    [ "XprType", "structEigen_1_1internal_1_1unary__evaluator_3_01Block_3_01SparseMatrix_3_01__Scalar_00_01__Optio2600bd2045afc65b21ab7ab3f26336a6.html#ad19817d69cf39da9a1f1f130513f9bbe", null ],
+    [ "unary_evaluator", "structEigen_1_1internal_1_1unary__evaluator_3_01Block_3_01SparseMatrix_3_01__Scalar_00_01__Optio2600bd2045afc65b21ab7ab3f26336a6.html#a1e0c1698ff67d0d184113a085bfce4db", null ]
+];

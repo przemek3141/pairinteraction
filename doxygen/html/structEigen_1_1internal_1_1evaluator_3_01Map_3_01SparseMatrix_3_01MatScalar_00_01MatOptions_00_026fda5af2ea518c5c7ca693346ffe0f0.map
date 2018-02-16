@@ -1,0 +1,4 @@
+<map id="Eigen::internal::evaluator&lt; Map&lt; SparseMatrix&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt; &gt;" name="Eigen::internal::evaluator&lt; Map&lt; SparseMatrix&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt; &gt;">
+<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; SparseCompressedBase\&lt;\l Map\&lt; SparseMatrix\&lt; MatScalar,\l MatOptions, MatIndex \&gt;, Options,\l StrideType \&gt; \&gt; \&gt;" alt="" coords="332,5,573,91"/>
+<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; SparseCompressed\lBase\&lt; Map\&lt; SparseMatrix\&lt; MatScalar,\l MatOptions, MatIndex \&gt;, Options,\l StrideType \&gt; \&gt; \&gt;" alt="" coords="5,5,284,91"/>
+</map>

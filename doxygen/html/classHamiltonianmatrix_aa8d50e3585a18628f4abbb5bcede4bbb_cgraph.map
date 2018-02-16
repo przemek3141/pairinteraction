@@ -1,5 +1,11 @@
 <map id="Hamiltonianmatrix::doSerialization" name="Hamiltonianmatrix::doSerialization">
-<area shape="rect" id="node2" href="$classSerializer.html#a79a572d0a14988acd13217beb7d5547b" title="Serializer::save" alt="" coords="216,5,335,32"/>
-<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a035cf5188e89f3f4230beb502a718ea9" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="201,57,349,98"/>
-<area shape="rect" id="node3" href="$classSerializable.html#ad0b89a7563e6a98df7eb6a8a46c51735" title="Serializable::serialize" alt="" coords="397,5,552,32"/>
+<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="238,5,387,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrix.html#ae7b804bd39745156d20ca1611a296b67" title="Eigen::SparseMatrix\l::innerIndexPtr" alt="" coords="238,71,387,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#a5ff54ffc10296f9466dc81fa888733fd" title="Eigen::SparseMatrix\l::makeCompressed" alt="" coords="238,136,387,177"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SparseCompressedBase.html#a03de8b3da2c142ce8698a76123b3e7d3" title="Eigen::SparseCompressedBase\l::nonZeros" alt="" coords="201,201,424,243"/>
+<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html#a75506964d86d6badb32d0b4917acf2e2" title="Eigen::SparseMatrix\l::outerIndexPtr" alt="" coords="238,267,387,308"/>
+<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#a4e5f706cfae14d2eaec1ea1e234905f1" title="Eigen::SparseMatrix\l::outerSize" alt="" coords="238,332,387,373"/>
+<area shape="rect" id="node8" href="$classEigen_1_1SparseMatrix.html#a62e61bb861eee306d5b069ce652b5aa5" title="Eigen::SparseMatrix\l::rows" alt="" coords="238,397,387,439"/>
+<area shape="rect" id="node9" href="$classHamiltonianmatrix.html#a035cf5188e89f3f4230beb502a718ea9" title="Hamiltonianmatrix::\lsplitComplex" alt="" coords="239,463,387,504"/>
+<area shape="rect" id="node10" href="$classEigen_1_1SparseMatrix.html#a9d4354d3f4d121d764bbed33cac05329" title="Eigen::SparseMatrix\l::valuePtr" alt="" coords="238,528,387,569"/>
 </map>

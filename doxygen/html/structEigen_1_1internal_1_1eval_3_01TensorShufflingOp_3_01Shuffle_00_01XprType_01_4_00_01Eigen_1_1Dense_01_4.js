@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1eval_3_01TensorShufflingOp_3_01Shuffle_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4 =
+[
+    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorShufflingOp_3_01Shuffle_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4.html#aa646214bef26c3f0d0562c1c370b9c4b", null ]
+];

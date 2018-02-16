@@ -1,0 +1,6 @@
+<map id="resizeLikeTest" name="resizeLikeTest">
+<area shape="rect" id="node2" href="$classEigen_1_1PlainObjectBase.html#acc7200947e6399bee847ff37c8270fc8" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::resizeLike" alt="" coords="164,42,364,113"/>
+<area shape="rect" id="node3" href="$structEigen_1_1EigenBase.html#a324b16961a11d2ecfd2d1b7dd7946545" title="Eigen::EigenBase::derived" alt="" coords="419,5,606,32"/>
+<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1check__rows__cols__for__overflow.html#a96aadd23e6335d10018576e81dec4443" title="Eigen::internal::check\l_rows_cols_for_overflow::run" alt="" coords="412,57,613,98"/>
+<area shape="rect" id="node5" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="483,123,543,149"/>
+</map>

@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1traits_3_01MINRES_3_01__MatrixType_00_01__UpLo_00_01__Preconditioner_01_4_01_4 =
+[
+    [ "MatrixType", "structEigen_1_1internal_1_1traits_3_01MINRES_3_01__MatrixType_00_01__UpLo_00_01__Preconditioner_01_4_01_4.html#a3691fee920b886dd88c999822c6e9e5c", null ],
+    [ "Preconditioner", "structEigen_1_1internal_1_1traits_3_01MINRES_3_01__MatrixType_00_01__UpLo_00_01__Preconditioner_01_4_01_4.html#a3f3f17b775bea08e709a72ed320f9e91", null ]
+];

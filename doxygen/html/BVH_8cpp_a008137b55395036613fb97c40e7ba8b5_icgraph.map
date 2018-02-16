@@ -1,0 +1,10 @@
+<map id="SQR" name="SQR">
+<area shape="rect" id="node2" href="$structBallPointStuff.html#ac9ee65aeabd3c24f7b6577b7dd17a8e8" title="BallPointStuff::intersect\lObject" alt="" coords="115,5,285,47"/>
+<area shape="rect" id="node3" href="$structBallPointStuff.html#ab88745ed3b3b54f82c410d91675f3be9" title="BallPointStuff::intersect\lObjectObject" alt="" coords="115,71,285,112"/>
+<area shape="rect" id="node4" href="$structBallPointStuff.html#a80c45be6a67043c8384a0f8c0efa9869" title="BallPointStuff::intersect\lObjectVolume" alt="" coords="115,136,285,177"/>
+<area shape="rect" id="node5" href="$structBallPointStuff.html#ae4baa20e64034648bffabcee2f649281" title="BallPointStuff::intersect\lVolumeObject" alt="" coords="115,201,285,243"/>
+<area shape="rect" id="node6" href="$structBallPointStuff.html#a2a21e6a7f4ca3c45ede152799c1531f2" title="BallPointStuff::minimumOn\lObject" alt="" coords="103,267,297,308"/>
+<area shape="rect" id="node7" href="$structBallPointStuff.html#a4dfb3e06ed68a87e41fb5928b8af3ade" title="BallPointStuff::minimumOn\lObjectObject" alt="" coords="103,332,297,373"/>
+<area shape="rect" id="node8" href="$structBallPointStuff.html#ac5ff4bc8b68c12ea9342c2a525839bc8" title="BallPointStuff::minimumOn\lObjectVolume" alt="" coords="103,397,297,439"/>
+<area shape="rect" id="node9" href="$structBallPointStuff.html#a3bcf3e32fe9b91adac660f17d14e15b1" title="BallPointStuff::minimumOn\lVolumeObject" alt="" coords="103,463,297,504"/>
+</map>

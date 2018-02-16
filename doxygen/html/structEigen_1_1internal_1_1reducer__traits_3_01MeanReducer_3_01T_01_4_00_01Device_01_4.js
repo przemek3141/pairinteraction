@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1reducer__traits_3_01MeanReducer_3_01T_01_4_00_01Device_01_4 =
+[
+    [ "Cost", "structEigen_1_1internal_1_1reducer__traits_3_01MeanReducer_3_01T_01_4_00_01Device_01_4.html#a3b453306324fda85860fed92d9b9a29aac39ae6b96c3419ad6f77f35dc1712c32", null ],
+    [ "PacketAccess", "structEigen_1_1internal_1_1reducer__traits_3_01MeanReducer_3_01T_01_4_00_01Device_01_4.html#a3b453306324fda85860fed92d9b9a29aa65efbe5c2a2fda34720224efe7064bad", null ]
+];

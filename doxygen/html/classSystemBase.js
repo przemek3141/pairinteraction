@@ -52,7 +52,7 @@ var classSystemBase =
     [ "range", "classSystemBase.html#a8da674b7b97c0b8d2dca5d9d2d7952a2", null ],
     [ "real", "classSystemBase.html#ad423d1493924f2e73c88ec6e539b0370", null ],
     [ "real", "classSystemBase.html#a8b9750be832c41b97974539a2ed8c5cd", null ],
-    [ "removeRestrictedStates", "classSystemBase.html#ab703e63c4bd634d04db849e35b3392b6", null ],
+    [ "removeRestrictedStates", "classSystemBase.html#ae905f68f010b36501547305a2e8e9ee6", null ],
     [ "restrictEnergy", "classSystemBase.html#a366cc59f7742fbc5da7ba4c7e2b2448f", null ],
     [ "restrictJ", "classSystemBase.html#a88a66677df418886e4a258842a26e024", null ],
     [ "restrictJ", "classSystemBase.html#a86e2d30c311fd2c1a07c3c5d8d265611", null ],

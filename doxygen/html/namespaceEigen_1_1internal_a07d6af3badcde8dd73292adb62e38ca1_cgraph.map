@@ -1,0 +1,4 @@
+<map id="Eigen::internal::conditional_aligned_malloc&lt; false &gt;" name="Eigen::internal::conditional_aligned_malloc&lt; false &gt;">
+<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#aade40fb602f8649b396fd4f20494884e" title="Eigen::internal::check\l_that_malloc_is_allowed" alt="" coords="244,5,419,47"/>
+<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#aa03c647c0da4f77a83252fd9bd097ca4" title="Eigen::internal::throw\l_std_bad_alloc" alt="" coords="253,71,409,112"/>
+</map>

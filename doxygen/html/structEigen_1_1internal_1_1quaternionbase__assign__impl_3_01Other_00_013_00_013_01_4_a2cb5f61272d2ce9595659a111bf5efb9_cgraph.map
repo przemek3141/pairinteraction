@@ -1,0 +1,8 @@
+<map id="Eigen::internal::quaternionbase_assign_impl&lt; Other, 3, 3 &gt;::run" name="Eigen::internal::quaternionbase_assign_impl&lt; Other, 3, 3 &gt;::run">
+<area shape="rect" id="node2" href="$classEigen_1_1QuaternionBase.html#aa7bb3fc337ffa82b0ad795783eb8a2ce" title="Eigen::QuaternionBase\l::coeffs" alt="" coords="293,5,461,47"/>
+<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="353,71,400,98"/>
+<area shape="rect" id="node4" href="$classEigen_1_1QuaternionBase.html#a1f3f580927483150d4558c327988a9b4" title="Eigen::QuaternionBase::w" alt="" coords="284,122,469,149"/>
+<area shape="rect" id="node5" href="$classEigen_1_1QuaternionBase.html#a782b9d83caa9bbe84d6e0b822f2dbea9" title="Eigen::QuaternionBase::x" alt="" coords="285,173,468,199"/>
+<area shape="rect" id="node6" href="$classEigen_1_1QuaternionBase.html#a8c7883015c5fa41aa5107350279a5229" title="Eigen::QuaternionBase::y" alt="" coords="285,223,468,250"/>
+<area shape="rect" id="node7" href="$classEigen_1_1QuaternionBase.html#abb82ebd1b6ac5e6c4442201ede65449b" title="Eigen::QuaternionBase::z" alt="" coords="285,274,468,301"/>
+</map>

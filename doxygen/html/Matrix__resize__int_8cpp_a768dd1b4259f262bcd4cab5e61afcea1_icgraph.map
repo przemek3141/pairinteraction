@@ -1,0 +1,47 @@
+<map id="resize" name="resize">
+<area shape="rect" id="node2" href="$classEigen_1_1PlainObjectBase.html#ae67658cea63893ac50e3809c533649ca" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::_init1" alt="" coords="169,5,369,76"/>
+<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#ac919a0a42914a190ba025fb8a3467c6b" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::_init2" alt="" coords="169,100,369,171"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#a9dc538b2c1fe9027ba58f31ee83b2ff1" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::conservative\lResize" alt="" coords="174,195,365,251"/>
+<area shape="rect" id="node5" href="$classEigen_1_1DynamicSparseMatrix.html#ad1c810ff3cfcc97db704d26b9d114f94" title="Eigen::DynamicSparseMatrix\l::DynamicSparseMatrix" alt="" coords="167,276,372,317"/>
+<area shape="rect" id="node6" href="$init__matrix_8hh.html#ade1a90bd462e40939f3ba67550afa8dd" title="init_matrix_symm" alt="" coords="201,342,337,369"/>
+<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#aefa867746934b4e933a3774a65574a74" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::initAssignment" alt="" coords="167,393,372,435"/>
+<area shape="rect" id="node8" href="$classEigen_1_1DynamicSparseMatrix.html#a12fab494d7e774126fca5d0cd6e82851" title="Eigen::DynamicSparseMatrix\l::operator=" alt="" coords="167,459,372,500"/>
+<area shape="rect" id="node9" href="$classEigen_1_1SparseVector.html#a935bfc1abd2a6d621addee147fe53fc9" title="Eigen::SparseVector\l::operator=" alt="" coords="194,524,345,565"/>
+<area shape="rect" id="node10" href="$classEigen_1_1PlainObjectBase.html#a1682d60af2dd00c27507043aade71556" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::operator=" alt="" coords="169,589,369,660"/>
+<area shape="rect" id="node11" href="$classEigen_1_1SkylineMatrix.html#a00f9f9d0c8006efcc90074d8d6b046a2" title="Eigen::SkylineMatrix\l::operator=" alt="" coords="195,684,344,725"/>
+<area shape="rect" id="node12" href="$classEigen_1_1PlainObjectBase.html#abb80b2ee27de8b5d7ef2c8fb403c0068" title="Copy constructor with in&#45;place evaluation. " alt="" coords="156,749,383,820"/>
+<area shape="rect" id="node13" href="$classEigen_1_1SparseVector.html#a2dc842b3bb2ba3692e210565c48aff3c" title="Eigen::SparseVector\l::resize" alt="" coords="194,844,345,885"/>
+<area shape="rect" id="node14" href="$classEigen_1_1PlainObjectBase.html#ab71a655f73d05a0e389e3ed13b6fe5f3" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::resize" alt="" coords="169,909,369,980"/>
+<area shape="rect" id="node15" href="$classEigen_1_1PlainObjectBase.html#acc7200947e6399bee847ff37c8270fc8" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::resizeLike" alt="" coords="169,1004,369,1075"/>
+<area shape="rect" id="node17" href="$classEigen_1_1BlockSparseMatrix.html#a40891e477661e68bc870319d1379c7aa" title="Set the nonzero block pattern of the matrix. " alt="" coords="113,1099,425,1155"/>
+<area shape="rect" id="node18" href="$classEigen_1_1PlainObjectBase.html#ac8dea1df3d92b752cc683ff42abf6f9b" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setConstant" alt="" coords="168,1180,371,1251"/>
+<area shape="rect" id="node19" href="$classEigen_1_1PermutationBase.html#a830a80511a61634ef437795916f7f8da" title="Eigen::PermutationBase\l\&lt; PermutationMatrix\&lt; SizeAtCompile\lTime, MaxSizeAtCompileTime, \l_StorageIndex \&gt; \&gt;::setIdentity" alt="" coords="138,1275,401,1345"/>
+<area shape="rect" id="node20" href="$classEigen_1_1PlainObjectBase.html#a2871e88e1feb1cc665fa1f1cc800078b" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setOnes" alt="" coords="169,1369,369,1440"/>
+<area shape="rect" id="node21" href="$classEigen_1_1PlainObjectBase.html#af0e576a0e1aefc9ee346de44cc352ba3" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setRandom" alt="" coords="169,1464,369,1535"/>
+<area shape="rect" id="node38" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setZero" alt="" coords="169,1663,369,1733"/>
+<area shape="rect" id="node44" href="$classEigen_1_1SkylineMatrix.html#ab86b89c22e12f14697396df8473b4c9b" title="Eigen::SkylineMatrix\l::SkylineMatrix" alt="" coords="195,1757,344,1799"/>
+<area shape="rect" id="node45" href="$classEigen_1_1SparseMatrix.html#a68087ee333c9614ea28850ec52069079" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::SparseMatrix" alt="" coords="172,1823,367,1864"/>
+<area shape="rect" id="node46" href="$classEigen_1_1SparseVector.html#abde39b804c0d7aff81ac5ab3b2d13aae" title="Eigen::SparseVector\l::SparseVector" alt="" coords="194,1888,345,1929"/>
+<area shape="rect" id="node16" href="$resize_8cpp.html#aab05fd48ee8ff3c8f8038590dce2ec71" title="resizeLikeTest" alt="" coords="541,1026,652,1053"/>
+<area shape="rect" id="node22" href="$geometry_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="569,1079,624,1106"/>
+<area shape="rect" id="node23" href="$commainitializer_8cpp.html#a07e51114ce35b38957b66f0816fc375f" title="test_blocks" alt="" coords="549,1130,644,1157"/>
+<area shape="rect" id="node24" href="$evaluators_8cpp.html#a1c1067359dbb27f67f541e6a9981e912" title="test_evaluators" alt="" coords="536,1181,657,1207"/>
+<area shape="rect" id="node25" href="$fastmath_8cpp.html#a60c9e1e7b9ded0e1687a6c6d9e26b330" title="check_inf_nan" alt="" coords="541,1231,653,1258"/>
+<area shape="rect" id="node26" href="$geo__homogeneous_8cpp.html#aff5e99c31c243023ef64d37c97d94003" title="homogeneous" alt="" coords="539,1282,654,1309"/>
+<area shape="rect" id="node29" href="$inverse_8cpp.html#a0685e8ea74c2e85ea8ad3253f567107f" title="inverse" alt="" coords="563,1333,631,1359"/>
+<area shape="rect" id="node30" href="$prec__inverse__4x4_8cpp.html#a33fd5bbd610caedc6a1b46e9162ca10f" title="inverse_general_4x4" alt="" coords="520,1383,673,1410"/>
+<area shape="rect" id="node31" href="$product__small_8cpp.html#ab74f70f4a8caeeaad20cd528768b32a8" title="product1x1" alt="" coords="549,1434,644,1461"/>
+<area shape="rect" id="node32" href="$product__small_8cpp.html#a62d7411e4882a695f9f0a5059b31af7d" title="test_lazy_single" alt="" coords="535,1485,658,1511"/>
+<area shape="rect" id="node33" href="$product__small_8cpp.html#a7a14c2aadef4f26948d75af5832fe944" title="bug_1311" alt="" coords="554,1535,639,1562"/>
+<area shape="rect" id="node34" href="$product__trsolve_8cpp.html#af06c20e014dd39f1c87e7e1e2790f356" title="trsolve" alt="" coords="564,1586,629,1613"/>
+<area shape="rect" id="node35" href="$qr__colpivoting_8cpp.html#ad8fd13db943a2d9cc9efbd4a20365bf5" title="cod_fixedsize" alt="" coords="543,1637,650,1663"/>
+<area shape="rect" id="node36" href="$redux_8cpp.html#ace4113ee38149c3294d97ba59f476686" title="matrixRedux" alt="" coords="546,1687,647,1714"/>
+<area shape="rect" id="node37" href="$triangular_8cpp.html#ad027f8e738012e06c9b99c82143c5467" title="triangular_square" alt="" coords="529,1738,664,1765"/>
+<area shape="rect" id="node27" href="$geo__transformations_8cpp.html#ac9036d544f4abfa22c39531145f5a8f2" title="transform_associativity2" alt="" coords="794,1282,973,1309"/>
+<area shape="rect" id="node28" href="$geo__transformations_8cpp.html#a3e7ff0504c5d3427d7ae6fe43b3c1970" title="transform_associativity" alt="" coords="1047,1282,1217,1309"/>
+<area shape="rect" id="node39" href="$quat__slerp_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="569,1789,624,1815"/>
+<area shape="rect" id="node40" href="$structEigen_1_1internal_1_1tribb__kernel.html#a6e248061b97d4af03d1f605ac89766c8" title="Eigen::internal::tribb\l_kernel::operator()" alt="" coords="521,1840,672,1881"/>
+<area shape="rect" id="node41" href="$classEigen_1_1internal_1_1MappedSuperNodalMatrix.html#ab93581127fd87b6bc467b6f67fcf4eeb" title="Solve with the supernode triangular matrix. " alt="" coords="473,1906,720,1962"/>
+<area shape="rect" id="node42" href="$namespaceEigen_1_1internal.html#a1073ba7ac499827baa04c814e4251326" title="Compute size of each cluster given a partitioning. " alt="" coords="483,1987,710,2028"/>
+<area shape="rect" id="node43" href="$structEigen_1_1internal_1_1matrix__function__compute_3_01MatrixType_00_011_01_4.html#ad6c56b11de78e66a39194b001045298a" title="Eigen::internal::matrix\l_function_compute\&lt; MatrixType,\l 1 \&gt;::run" alt="" coords="768,1979,999,2035"/>
+</map>

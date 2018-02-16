@@ -107,7 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace14e505ba6d14c89927b99876914614"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzmq_1_1context.html#ace14e505ba6d14c89927b99876914614">operator void *</a> () const noexcept</td></tr>
 <tr class="memdesc:ace14e505ba6d14c89927b99876914614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion operator.  <a href="#ace14e505ba6d14c89927b99876914614">More...</a><br /></td></tr>
 <tr class="separator:ace14e505ba6d14c89927b99876914614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4484fc8a851e418e59b113629d254ce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classzmq_1_1socket.html">zmq::socket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzmq_1_1context.html#a4484fc8a851e418e59b113629d254ce5">socket</a> (<a class="el" href="classint.html">int</a> type) const</td></tr>
+<tr class="memitem:a4484fc8a851e418e59b113629d254ce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classzmq_1_1socket.html">zmq::socket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzmq_1_1context.html#a4484fc8a851e418e59b113629d254ce5">socket</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> type) const</td></tr>
 <tr class="separator:a4484fc8a851e418e59b113629d254ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <p>The context class exposes parts of the ZeroMQ C API in an object-oriented manner. Only the functionality we require is implemented. The context object implicitly behaves like a pointer to void which is what ZeroMQ expects. Thus a context object can be used like a regular context pointer with the C API. For example the <code>zmq_ctx_set</code> is not implemented but can be used nevertheless. </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> ( zmq_ctx_set(<a class="code" href="classzmq_1_1context.html#a8e8aa081ff6b48908f6d584a1fe7a94a">context</a>, ZMQ_IPV6, 1) == -1 )</div><div class="line">  <span class="keywordflow">throw</span> <a class="code" href="classzmq_1_1error.html">zmq::error</a>();</div></div><!-- fragment --><p> When using the C API directly, errors have to be checked explicitly!</p>
 <p>For details see <a href="http://api.zeromq.org/">http://api.zeromq.org/</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00192">192</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00191">191</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8e8aa081ff6b48908f6d584a1fe7a94a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e8aa081ff6b48908f6d584a1fe7a94a">&#9670;&nbsp;</a></span>context()</h2>
@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00197">197</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00196">196</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
 
 </div>
 </div>
@@ -173,7 +173,7 @@ Public Member Functions</h2></td></tr>
 <p>Conversion operator. </p>
 <p>A socket object implicitly behaves like a pointer to void which is what ZeroMQ expects, so that a socket object can be used like a regular socket pointer with the C API. </p>
 
-<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00205">205</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00204">204</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
 
 </div>
 </div>
@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classzmq_1_1socket.html">zmq::socket</a> zmq::context::socket </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -210,7 +210,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>errors of <code>zmq_socket</code> are handled in the <a class="el" href="classzmq_1_1socket.html" title="Socket class. ">zmq::socket</a> constructor </p>
 
-<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00214">214</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Communication_8h_source.html#l00213">213</a> of file <a class="el" href="Communication_8h_source.html">Communication.h</a>.</p>
 
 </div>
 </div>
@@ -223,7 +223,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacezmq.html">zmq</a></li><li class="navelem"><a class="el" href="classzmq_1_1context.html">context</a></li>
-    <li class="footer">Generated on Mon Jan 22 2018 20:39:49 for pairinteraction by
+    <li class="footer">Generated on Fri Feb 16 2018 04:14:49 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

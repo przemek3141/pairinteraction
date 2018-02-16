@@ -1,0 +1,10 @@
+<map id="eigensolver" name="eigensolver">
+<area shape="rect" id="node2" href="$classEigen_1_1EigenSolver.html#a38d032b75b3e75640e3db42e7ab20c24" title="Computes eigendecomposition of given matrix. " alt="" coords="171,5,311,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1EigenSolver.html#a114189009e42f5e03372a7a3dfa33b97" title="Returns the eigenvalues of given matrix. " alt="" coords="171,71,311,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1EigenSolver.html#a66288022802172e3ee059283b26201d7" title="Returns the eigenvectors of given matrix. " alt="" coords="171,136,311,177"/>
+<area shape="rect" id="node5" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="217,202,265,229"/>
+<area shape="rect" id="node6" href="$classEigen_1_1EigenSolver.html#ac4af54fadc33abcdd1778c87bfbf005b" title="Eigen::EigenSolver\l::info" alt="" coords="171,253,311,295"/>
+<area shape="rect" id="node7" href="$classEigen_1_1EigenSolver.html#a4979eafe0aeef06b19ada7fa5e19db17" title="Returns the block&#45;diagonal matrix in the pseudo&#45;eigendecomposition. " alt="" coords="148,319,333,360"/>
+<area shape="rect" id="node8" href="$classEigen_1_1EigenSolver.html#a4e796226f06e1f7347cf03a38755a155" title="Returns the pseudo&#45;eigenvectors of given matrix. " alt="" coords="161,384,320,425"/>
+<area shape="rect" id="node9" href="$classEigen_1_1EigenSolver.html#a6cff220aadfd8d8c1366b915ddefd164" title="Sets the maximum number of iterations allowed. " alt="" coords="171,449,311,491"/>
+</map>

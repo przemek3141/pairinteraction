@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 597;
+var viewWidth = 520;
 var viewHeight = 28;
 var sectionId = 'dynsection-2';
 </script>
@@ -97,19 +97,6 @@ var sectionId = 'dynsection-2';
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M427.265,-10C436.401,-10 445.187,-10 452.929,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="427.247,-6.5001 417.247,-10 427.247,-13.5001 427.247,-6.5001"/>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
-<polygon fill="none" stroke="black" points="548,-0.5 548,-19.5 589,-19.5 589,-0.5 548,-0.5"/>
-<text text-anchor="middle" x="568.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M522.522,-10C531.284,-10 540.22,-10 547.794,-10"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="522.408,-6.5001 512.408,-10 522.408,-13.5001 522.408,-6.5001"/>
 </g>
 </g>
 </svg>

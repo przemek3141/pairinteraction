@@ -1,0 +1,4 @@
+var structother__matrix__type_3_01Matrix_3_01__Scalar_00_01__Rows_00_01__Cols_00_01__Options_00_01__a5698b8ba35a3adbe69de076e1ee484f =
+[
+    [ "type", "structother__matrix__type_3_01Matrix_3_01__Scalar_00_01__Rows_00_01__Cols_00_01__Options_00_01__a5698b8ba35a3adbe69de076e1ee484f.html#ab4122294af91614a719ea919261dbd5e", null ]
+];

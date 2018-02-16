@@ -1,0 +1,17 @@
+<map id="Eigen::imag" name="Eigen::imag">
+<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1kiss__cpx__fft.html#a91e8db66ee520362382a514b8784c307" title="Eigen::internal::kiss\l_cpx_fft::bfly3" alt="" coords="191,5,336,47"/>
+<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1kiss__cpx__fft.html#aa5c67750f3ced8773739a0ba964e2485" title="Eigen::internal::kiss\l_cpx_fft::bfly4" alt="" coords="191,71,336,112"/>
+<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1kiss__cpx__fft.html#a62690918301f7eb99af959474f7ea9d6" title="Eigen::internal::kiss\l_cpx_fft::bfly5" alt="" coords="191,136,336,177"/>
+<area shape="rect" id="node6" href="$namespaceEigen.html#afc612da3483ee285f4c3375af03b7cf8" title="Eigen::EIGEN_SCALAR\l_BINARYOP_EXPR_RETURN_TYPE" alt="" coords="151,201,376,243"/>
+<area shape="rect" id="node8" href="$classEigen_1_1internal_1_1gebp__traits_3_01std_1_1complex_3_01RealScalar_01_4_00_01std_1_1compleab3b42d946da554331e68260d99122c5.html#a9966c4fd6218bb6a90a7d2e6cc302089" title="Eigen::internal::gebp\l_traits\&lt; std::complex\l\&lt; RealScalar \&gt;, std::complex\l\&lt; RealScalar \&gt;, _ConjLhs,\l _ConjRhs \&gt;::loadRhs" alt="" coords="159,267,367,353"/>
+<area shape="rect" id="node9" href="$namespaceEigen_1_1internal.html#a1cb8d312c017f94570a52317fd1ece5f" title="Compute logarithm of 2x2 triangular matrix. " alt="" coords="182,377,345,419"/>
+<area shape="rect" id="node11" href="$structEigen_1_1internal_1_1scalar__sign__op_3_01Scalar_00_01true_01_4.html#ab7a307311d19f2b54ce9805727b812a4" title="Eigen::internal::scalar\l_sign_op\&lt; Scalar, true\l \&gt;::operator()" alt="" coords="180,443,347,499"/>
+<area shape="rect" id="node12" href="$namespaceEigen_1_1internal.html#abf345f2bb58906567bb9355054af43d4" title="Eigen::internal::pcplxflip" alt="" coords="177,523,349,550"/>
+<area shape="rect" id="node13" href="$namespaceEigen_1_1internal.html#a62afddfd6054e0f7e840825e1a2e8516" title="Eigen::internal::pmul" alt="" coords="187,574,340,601"/>
+<area shape="rect" id="node14" href="$classEigen_1_1PolynomialSolverBase.html#a4ea3b29499623832a0ad7b2b3ab05597" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;::realRoots" alt="" coords="160,625,367,667"/>
+<area shape="rect" id="node15" href="$classEigen_1_1PolynomialSolverBase.html#afd4ddab1be4bdb2b1055194b86de1885" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;::selectRealRoot\l_withRespectToAbsRealPart" alt="" coords="156,691,371,747"/>
+<area shape="rect" id="node16" href="$classEigen_1_1PolynomialSolverBase.html#ae5275e8911cb0f27d8a9b6648221c320" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;::selectRealRoot\l_withRespectToRealPart" alt="" coords="156,771,371,827"/>
+<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1kiss__cpx__fft.html#a7ea71feb0d8704656596f2909dba9271" title="Eigen::internal::kiss\l_cpx_fft::work" alt="" coords="467,71,613,112"/>
+<area shape="rect" id="node7" href="$classEigen_1_1ArrayBase.html#acb769e1ab1d809abb77c7ab98021ad81" title="Eigen::ArrayBase\&lt; ArrayWrapper\l\&lt; ExpressionType \&gt; \&gt;::pow" alt="" coords="424,201,656,243"/>
+<area shape="rect" id="node10" href="$classEigen_1_1internal_1_1MatrixLogarithmAtomic.html#a14d76ac8fb2bc662a9560a76f7df4fe7" title="Compute matrix logarithm of atomic matrix. " alt="" coords="427,377,653,419"/>
+</map>

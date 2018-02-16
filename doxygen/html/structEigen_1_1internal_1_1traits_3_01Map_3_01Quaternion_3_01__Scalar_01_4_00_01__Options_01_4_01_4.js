@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1traits_3_01Map_3_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4 =
+[
+    [ "Coefficients", "structEigen_1_1internal_1_1traits_3_01Map_3_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4.html#aa41e45edf2c262979cc05621d1a877f2", null ]
+];

@@ -1,0 +1,11 @@
+<map id="Eigen::Spline::Span" name="Eigen::Spline::Span">
+<area shape="rect" id="node2" href="$classEigen_1_1Spline.html#aac1839e8a956636d76bec24a4afc27e2" title="Returns the spline&#39;s non&#45;zero basis functions. " alt="" coords="389,62,596,89"/>
+<area shape="rect" id="node4" href="$classEigen_1_1Spline.html#a0fc81e475d3a0ba34da1bd97f2e8fbc7" title="Returns the ctrls of the underlying spline. " alt="" coords="923,160,1062,186"/>
+<area shape="rect" id="node6" href="$classEigen_1_1Spline.html#ab62751802b4cc237aadb0dbf3455df98" title="Returns the span within the knot vector in which u is falling. " alt="" coords="199,152,341,178"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Spline.html#afe0997f0bb02a3fac3073016abac04c6" title="Computes the non&#45;zero basis functions at the given site. " alt="" coords="644,113,849,140"/>
+<area shape="rect" id="node5" href="$classEigen_1_1Spline.html#a3c7e1838eae4ee7e341ef9d3dbf9ba45" title="Returns the spline value at a given site . " alt="" coords="1136,134,1313,161"/>
+<area shape="rect" id="node7" href="$namespaceEigen.html#ae8ed4b8aebde67ffb90eafe2d29dd969" title="Eigen::derivativesImpl" alt="" coords="412,214,573,241"/>
+<area shape="rect" id="node8" href="$classEigen_1_1Spline.html#a196730cf190dfa16907db888277e5aed" title="Evaluation of spline derivatives of up&#45;to given order. " alt="" coords="656,214,837,241"/>
+<area shape="rect" id="node9" href="$splines_8cpp.html#a6cf977c6acde0519c1f7f5e7f428d0aa" title="check_global_interpolation\l_with_derivatives2d" alt="" coords="897,211,1088,252"/>
+<area shape="rect" id="node10" href="$splines_8cpp.html#a57b2505a0c99a367836411dc4e1546e2" title="test_splines" alt="" coords="1175,218,1274,245"/>
+</map>

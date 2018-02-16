@@ -1,5 +1,27 @@
 var searchData=
 [
-  ['hamiltonianmatrix',['hamiltonianmatrix',['../classSystemBase.html#ae4d99d8fed1ae0ecec068242d757aa23',1,'SystemBase']]],
-  ['hamiltonianmatrix_5funperturbed_5fcache',['hamiltonianmatrix_unperturbed_cache',['../classSystemBase.html#a63ee534d8f0d1213f450a50b65fd2f49',1,'SystemBase']]]
+  ['efficiency',['efficiency',['../structpreprocessed__inputfile__entry__t.html#a824c0c37cd74300a564106383b4b1d61',1,'preprocessed_inputfile_entry_t']]],
+  ['eig',['eig',['../eigenvalues_8cpp.html#a7e4608224e9537966c3fe2199688e0b7',1,'eigenvalues.cpp']]],
+  ['eigen_5fblock_5fsize_5fk',['eigen_block_size_k',['../benchmark-blocking-sizes_8cpp.html#a59282ca25d4a43320d64151756bfe2d4',1,'benchmark-blocking-sizes.cpp']]],
+  ['eigen_5fblock_5fsize_5fm',['eigen_block_size_m',['../benchmark-blocking-sizes_8cpp.html#ac0a7fc3ed9922cb463e258b82c97597a',1,'benchmark-blocking-sizes.cpp']]],
+  ['eigen_5fblock_5fsize_5fn',['eigen_block_size_n',['../benchmark-blocking-sizes_8cpp.html#a574fe5e1fb61113539dac01026af17cd',1,'benchmark-blocking-sizes.cpp']]],
+  ['eigen_5fuse_5fspecific_5fblock_5fsize',['eigen_use_specific_block_size',['../benchmark-blocking-sizes_8cpp.html#a410f6e66e24ab8e36d9b5882aaf920c7',1,'benchmark-blocking-sizes.cpp']]],
+  ['eivals',['eivals',['../MatrixBase__eigenvalues_8cpp.html#a012f8ea8c5ace568b775c1d04de1233d',1,'eivals():&#160;MatrixBase_eigenvalues.cpp'],['../SelfAdjointView__eigenvalues_8cpp.html#aad20042439815089dfe2278cadbb7f99',1,'eivals():&#160;SelfAdjointView_eigenvalues.cpp']]],
+  ['element',['element',['../classStateOne.html#ae22ba15afaf2eec48e44606447a93874',1,'StateOne::element()'],['../classStateTwo.html#a5e8726891d0faf4d1d86062c1535c065',1,'StateTwo::element()']]],
+  ['elementnames',['elementNames',['../classgdb_1_1printers_1_1EigenQuaternionPrinter_1_1__iterator.html#a84c39abaf18c7985b60eea277e77eda5',1,'gdb::printers::EigenQuaternionPrinter::_iterator']]],
+  ['elevations',['elevations',['../LLT__solve_8cpp.html#afe610523d69c7b6f151f9ed4981ba6ff',1,'LLT_solve.cpp']]],
+  ['else',['else',['../lapack_2cholesky_8cpp.html#a0544c3fe466e421738dae463968b70ba',1,'cholesky.cpp']]],
+  ['elseexpr',['elseExpr',['../structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01Tensore5f049593956424a3c80d2ab3d5d274c.html#af656739a194c38573a49ce81e45c65b0',1,'Eigen::TensorSycl::internal::FunctorExtractor&lt; TensorEvaluator&lt; const TensorSelectOp&lt; IfExpr, ThenExpr, ElseExpr &gt;, Dev &gt; &gt;']]],
+  ['energy',['energy',['../classQuantumDefect.html#a6213aaba7f194adf75968f6f70ab4c22',1,'QuantumDefect']]],
+  ['energy_5fmax',['energy_max',['../classSystemBase.html#a3db7683894c5767514a321a89e5299e8',1,'SystemBase']]],
+  ['energy_5fmin',['energy_min',['../classSystemBase.html#ad2122243eb1648a43f327dc1bfde4fa0',1,'SystemBase']]],
+  ['entries',['entries',['../structinputfile__t.html#ac8f2c6266db6be2396e00b55910c4efc',1,'inputfile_t::entries()'],['../structpreprocessed__inputfile__t.html#ae136843cc834777f0684158ffce334b6',1,'preprocessed_inputfile_t::entries()']]],
+  ['entries_5f',['entries_',['../classHamiltonianmatrix.html#ad4cad596ce19725a995bf4821b1c2f09',1,'Hamiltonianmatrix']]],
+  ['epsfcn',['epsfcn',['../structEigen_1_1HybridNonLinearSolver_1_1Parameters.html#a978be043045e930edc9bfb6b86696d7e',1,'Eigen::HybridNonLinearSolver::Parameters::epsfcn()'],['../structEigen_1_1LevenbergMarquardt_1_1Parameters.html#aeb79e200a070bbbdab814231c5483394',1,'Eigen::LevenbergMarquardt::Parameters::epsfcn()']]],
+  ['es',['es',['../EigenSolver__compute_8cpp.html#a1eb615296caf62d46c5f9f4798b18a50',1,'es():&#160;EigenSolver_compute.cpp'],['../SelfAdjointEigenSolver__SelfAdjointEigenSolver_8cpp.html#aacff44099005bf998165f4e8627ce72f',1,'es():&#160;SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp']]],
+  ['evalbeforeassigningbit',['EvalBeforeAssigningBit',['../group__flags.html#ga0972b20dc004d13984e642b3bd12532e',1,'Eigen']]],
+  ['evalbeforenestingbit',['EvalBeforeNestingBit',['../group__flags.html#gaa34e83bae46a8eeae4e69ebe3aaecbed',1,'Eigen']]],
+  ['exclusions',['exclusions',['../namespacerelicense.html#a9c9035882ee424d435e75c447fa697c5',1,'relicense']]],
+  ['expr',['expr',['../structEigen_1_1TensorSycl_1_1internal_1_1EvalToLHSConstructor.html#ac2696513c08bf6b4d2c8985a0fbe2c89',1,'Eigen::TensorSycl::internal::EvalToLHSConstructor']]],
+  ['expx',['expx',['../namespaceEigen.html#ab63002a89341ef7158fe60fa7570e88c',1,'Eigen']]]
 ];

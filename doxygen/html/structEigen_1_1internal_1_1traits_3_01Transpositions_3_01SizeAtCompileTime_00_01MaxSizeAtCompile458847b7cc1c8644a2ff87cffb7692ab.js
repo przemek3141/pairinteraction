@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1traits_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeAtCompile458847b7cc1c8644a2ff87cffb7692ab =
+[
+    [ "IndicesType", "structEigen_1_1internal_1_1traits_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeAtCompile458847b7cc1c8644a2ff87cffb7692ab.html#a5e14855a658b38c00a6ec76c6ea80740", null ],
+    [ "StorageKind", "structEigen_1_1internal_1_1traits_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeAtCompile458847b7cc1c8644a2ff87cffb7692ab.html#a8c7c6257ce259676efa40a7327f796f4", null ]
+];

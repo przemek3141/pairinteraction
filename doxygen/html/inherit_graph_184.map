@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Sparse\lSelfAdjointView\&lt; MatrixType,\l _Mode \&gt; \&gt;" alt="" coords="5,5,211,61"/>
+<area shape="rect" id="node2" href="$classEigen_1_1SparseSelfAdjointView.html" title="Pseudo expression to manipulate a triangular sparse matrix as a selfadjoint matrix. " alt="" coords="259,13,457,54"/>
+</map>

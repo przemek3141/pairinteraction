@@ -1,0 +1,5 @@
+<map id="Eigen::internal::FullReducer&lt; Self, Op, const Eigen::SyclDevice, Vectorizable &gt;::run" name="Eigen::internal::FullReducer&lt; Self, Op, const Eigen::SyclDevice, Vectorizable &gt;::run">
+<area shape="rect" id="node2" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#aa93846494e766618619e24bc400b8aaa" title="template deduction for ExtractAccessor " alt="" coords="275,5,505,47"/>
+<area shape="rect" id="node3" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#a525ee07cdeb68d18359b511b1ae9ffc7" title="template deduction function for FunctorExtractor " alt="" coords="301,71,479,112"/>
+<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1syclGenericBufferReducer.html#a1e5ae4cfe38806b0ed52dfdb42aaa195" title="Eigen::internal::syclGeneric\lBufferReducer::run" alt="" coords="293,136,487,177"/>
+</map>

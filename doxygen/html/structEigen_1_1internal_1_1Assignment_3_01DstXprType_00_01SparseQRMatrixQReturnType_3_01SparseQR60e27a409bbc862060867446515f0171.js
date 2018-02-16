@@ -1,0 +1,6 @@
+var structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseQRMatrixQReturnType_3_01SparseQR60e27a409bbc862060867446515f0171 =
+[
+    [ "Scalar", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseQRMatrixQReturnType_3_01SparseQR60e27a409bbc862060867446515f0171.html#a984972577f134d4f22af56f47b30e70f", null ],
+    [ "SrcXprType", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseQRMatrixQReturnType_3_01SparseQR60e27a409bbc862060867446515f0171.html#a70e8931a8c4b0ba14aa81dfad16bfb40", null ],
+    [ "StorageIndex", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseQRMatrixQReturnType_3_01SparseQR60e27a409bbc862060867446515f0171.html#ab019ba7d743296423b446e15d0131ad2", null ]
+];

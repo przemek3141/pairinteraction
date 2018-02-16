@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1nested_3_01TensorImagePatchOp_3_01Rows_00_01Cols_00_01XprType_01_4_0045e83793bea174a49910656804ba267a =
+[
+    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorImagePatchOp_3_01Rows_00_01Cols_00_01XprType_01_4_0045e83793bea174a49910656804ba267a.html#aa97b12a0ae66edba3be88dcb6e769a1f", null ]
+];

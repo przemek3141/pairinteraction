@@ -1,0 +1,5 @@
+<map id="Eigen::Hyperplane&lt; _Scalar, _AmbientDim, _Options &gt;" name="Eigen::Hyperplane&lt; _Scalar, _AmbientDim, _Options &gt;">
+<area shape="rect" id="node2" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; Scalar,\l Index(AmbientDimAtCompileTime)\l==Dynamic ? Dynamic :Index\l(AmbientDimAtCompileTime)+1,\l 1, Options \&gt;" alt="" coords="639,23,885,109"/>
+<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;" alt="" coords="389,31,589,101"/>
+<area shape="rect" id="node5" href="$classEigen_1_1DenseStorage.html" title="Eigen::DenseStorage\l\&lt; Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \&gt;" alt="" coords="5,71,268,141"/>
+</map>

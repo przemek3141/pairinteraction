@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structEigen_1_1internal_1_1auto__diff__special__op.html" title="Eigen::internal::auto\l_diff_special_op\&lt; _DerType,\l !internal::is_same\&lt; internal\l::traits\&lt; internal::remove_all\l\&lt; _DerType \&gt;::type \&gt;::Scalar,\l NumTraits\&lt; internal::traits\&lt; internal\l::remove_all\&lt; _DerType \&gt;::type \&gt;::Scalar\l \&gt;::Real \&gt;::value \&gt;" alt="" coords="5,5,292,135"/>
+<area shape="rect" id="node2" href="$classEigen_1_1AutoDiffScalar.html" title="A scalar type replacement with automatic differentation capability. " alt="" coords="340,49,496,91"/>
+</map>

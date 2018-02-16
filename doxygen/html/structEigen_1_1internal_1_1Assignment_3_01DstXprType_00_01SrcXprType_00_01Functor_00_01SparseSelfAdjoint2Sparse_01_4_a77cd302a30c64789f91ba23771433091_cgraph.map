@@ -1,0 +1,7 @@
+<map id="Eigen::internal::Assignment&lt; DstXprType, SrcXprType, Functor, SparseSelfAdjoint2Sparse &gt;::run" name="Eigen::internal::Assignment&lt; DstXprType, SrcXprType, Functor, SparseSelfAdjoint2Sparse &gt;::run">
+<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#ad37c6a435875b21fda4d7ca5a4364154" title="Eigen::internal::call\l_assignment_no_alias\l_no_transpose" alt="" coords="344,30,507,86"/>
+<area shape="rect" id="node3" href="$namespaceEigen_1_1TensorSycl.html#a789ef14500d782279cc4bb95e6ba3dbd" title="Eigen::TensorSycl::run" alt="" coords="555,78,716,105"/>
+<area shape="rect" id="node4" href="$structEigen_1_1TensorEvaluator.html#ae188d806978166eb8cbffbd63c944fb3" title="Eigen::TensorEvaluator\l::evalSubExprsIfNeeded" alt="" coords="766,5,939,47"/>
+<area shape="rect" id="node5" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#a525ee07cdeb68d18359b511b1ae9ffc7" title="template deduction function for FunctorExtractor " alt="" coords="764,71,941,112"/>
+<area shape="rect" id="node6" href="$structEigen_1_1TensorEvaluator.html#a76ec54bcca9523ec104aaa9adaf74983" title="Eigen::TensorEvaluator\l::cleanup" alt="" coords="769,136,936,177"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Eigen::internal::coletree" name="Eigen::internal::coletree">
+<area shape="rect" id="node2" href="$classEigen_1_1SparseLU.html#aa907ff958c4f4855145091d2686f3a8a" title="Eigen::SparseLU::analyze\lPattern" alt="" coords="231,23,413,65"/>
+<area shape="rect" id="node6" href="$classEigen_1_1SparseQR.html#a4b425ddb1358c914d764cde48853a4f6" title="Preprocessing step of a QR factorization. " alt="" coords="229,89,415,130"/>
+<area shape="rect" id="node7" href="$classEigen_1_1SparseQR.html#a55a34bacf05bd30a1dacbccad9f03c6d" title="Performs the numerical QR factorization of the input matrix. " alt="" coords="227,155,417,181"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseLU.html#a96a8dcb02015ab9be5777d4ba9173266" title="Eigen::SparseLU::compute" alt="" coords="473,5,664,32"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SparseLU.html#a9f8d0e64ae5bb5568ca091a0dbc8c9dd" title="Eigen::SparseLU::~SparseLU" alt="" coords="465,56,672,83"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseLU.html#ac1678e57af46b42561cea4f149861164" title="Eigen::SparseLU::SparseLU" alt="" coords="720,5,915,32"/>
+</map>

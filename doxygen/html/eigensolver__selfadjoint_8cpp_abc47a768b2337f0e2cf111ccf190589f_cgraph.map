@@ -1,0 +1,61 @@
+<map id="selfadjointeigensolver" name="selfadjointeigensolver">
+<area shape="rect" id="node2" href="$adjoint_8cpp.html#a7333648f53414b05be9e4fd2f009fc22" title="adjoint" alt="" coords="543,249,608,275"/>
+<area shape="rect" id="node13" href="$classEigen_1_1GeneralizedSelfAdjointEigenSolver.html#a724764fe196612b752042692156ed023" title="Computes generalized eigendecomposition of given matrix pencil. " alt="" coords="213,851,423,892"/>
+<area shape="rect" id="node16" href="$classEigen_1_1SelfAdjointEigenSolver.html#a88bcdc24112efa7c4d2ebb3476efcbe9" title="Computes eigendecomposition of given matrix. " alt="" coords="471,973,679,1015"/>
+<area shape="rect" id="node17" href="$classEigen_1_1SelfAdjointEigenSolver.html#a297893df7098c43278d385e4d4e23fe4" title="Computes the eigen decomposition from a tridiagonal symmetric matrix. " alt="" coords="214,165,422,207"/>
+<area shape="rect" id="node21" href="$diagonal_8cpp.html#a92340af6dbaaba622e275be130b27f4b" title="diagonal" alt="" coords="280,454,356,481"/>
+<area shape="rect" id="node22" href="$classEigen_1_1SelfAdjointEigenSolver.html#a8efab27e82aa6aa0ae0c64739238c2e0" title="Returns the eigenvalues of given matrix. " alt="" coords="471,609,679,651"/>
+<area shape="rect" id="node23" href="$classEigen_1_1SelfAdjointEigenSolver.html#a7b9f7e641fa46ac4c5f2371405c69b2b" title="Returns the eigenvectors of given matrix. " alt="" coords="471,675,679,716"/>
+<area shape="rect" id="node24" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="294,967,342,994"/>
+<area shape="rect" id="node25" href="$classEigen_1_1SelfAdjointEigenSolver.html#a56bd59b85a6f6f00ff7bff307ad0e015" title="Reports whether previous computation was successful. " alt="" coords="471,805,679,847"/>
+<area shape="rect" id="node26" href="$classEigen_1_1SelfAdjointEigenSolver.html#a71fe0aea0b22d176efcea556c5c160f5" title="Computes the inverse square root of the matrix. " alt="" coords="214,1019,422,1060"/>
+<area shape="rect" id="node27" href="$classEigen_1_1SelfAdjointEigenSolver.html#a5c5158fd86366081bdabec38112c2c8a" title="Computes the positive&#45;definite square root of the matrix. " alt="" coords="214,1084,422,1125"/>
+<area shape="rect" id="node28" href="$eigensolver__selfadjoint_8cpp.html#a507481e3a562013d80e091ff8e3b206a" title="selfadjointeigensolver\l_essential_check" alt="" coords="238,733,398,775"/>
+<area shape="rect" id="node53" href="$Matrix__setZero__int_8cpp.html#ad232582b2296c80e793e9f17c6f5a0ab" title="setZero" alt="" coords="281,1150,355,1177"/>
+<area shape="rect" id="node54" href="$svd__fill_8h.html#a19396409f47b0f885449f3d0005fa11d" title="svd_fill_random" alt="" coords="257,533,379,559"/>
+<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="1043,241,1089,267"/>
+<area shape="rect" id="node4" href="$exceptions_8cpp.html#a75f785bf0f51cbc94279c80d143642ae" title="conj" alt="" coords="1271,306,1319,333"/>
+<area shape="rect" id="node5" href="$Tutorial__Map__using_8cpp.html#ab3a01b595d22393ace0d30d5fa299f76" title="m2" alt="" coords="804,325,847,351"/>
+<area shape="rect" id="node6" href="$namespaceEigen_1_1TensorSycl.html#a789ef14500d782279cc4bb95e6ba3dbd" title="Eigen::TensorSycl::run" alt="" coords="745,623,906,650"/>
+<area shape="rect" id="node10" href="$ArrayCwiseUnaryOps_8h.html#aa1e484838873e960b8c8ba7e066ba837" title="square" alt="" coords="792,223,859,250"/>
+<area shape="rect" id="node11" href="$Tutorial__ReshapeMat2Vec_8cpp.html#ab9625a9870f2caafab58a03342febdff" title="v1" alt="" coords="806,71,845,98"/>
+<area shape="rect" id="node12" href="$Tutorial__ReshapeMat2Vec_8cpp.html#aadb36892292ac81ba8d5a277e5fdd83d" title="v2" alt="" coords="806,122,845,149"/>
+<area shape="rect" id="node7" href="$structEigen_1_1TensorEvaluator.html#ae188d806978166eb8cbffbd63c944fb3" title="Eigen::TensorEvaluator\l::evalSubExprsIfNeeded" alt="" coords="979,292,1153,333"/>
+<area shape="rect" id="node8" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#a525ee07cdeb68d18359b511b1ae9ffc7" title="template deduction function for FunctorExtractor " alt="" coords="977,357,1155,399"/>
+<area shape="rect" id="node9" href="$structEigen_1_1TensorEvaluator.html#a76ec54bcca9523ec104aaa9adaf74983" title="Eigen::TensorEvaluator\l::cleanup" alt="" coords="983,423,1149,464"/>
+<area shape="rect" id="node14" href="$classEigen_1_1LLT.html#a7f4a3eedbf82e7ce2d6bf0dcd84cdfa3" title="Eigen::LLT::matrixL" alt="" coords="506,871,645,898"/>
+<area shape="rect" id="node15" href="$classEigen_1_1LLT.html#a18a390f085567e650e8345cc7e7c0df8" title="Eigen::LLT::matrixU" alt="" coords="504,922,647,949"/>
+<area shape="rect" id="node18" href="$namespaceEigen_1_1internal.html#a38da09fda4f78efb9723a482048c3d6c" title="Eigen::internal::compute\lFromTridiagonal_impl" alt="" coords="736,5,915,47"/>
+<area shape="rect" id="node19" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="1025,67,1107,94"/>
+<area shape="rect" id="node20" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="1249,67,1341,94"/>
+<area shape="rect" id="node29" href="$classEigen_1_1SelfAdjointEigenSolver.html#a40b0a68841d6176b1ab98743cc82bef4" title="Computes eigendecomposition of given matrix using a closed&#45;form algorithm. " alt="" coords="471,740,679,781"/>
+<area shape="rect" id="node30" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="806,910,845,937"/>
+<area shape="rect" id="node31" href="$ArrayCwiseUnaryOps_8h.html#a4921dbe62d034394f6fa7810e8711356" title="abs2" alt="" coords="799,961,852,987"/>
+<area shape="rect" id="node32" href="$namespacempfr.html#a4238bee86f75920532130abda801e7d0" title="mpfr::hypot" alt="" coords="777,1078,873,1105"/>
+<area shape="rect" id="node38" href="$level1__real__impl_8h.html#ae381d5286bacccc54459c8ae7dc50202" title="rot" alt="" coords="805,674,845,701"/>
+<area shape="rect" id="node40" href="$classEigen_1_1JacobiRotation.html#af1c132146bc93a872b799bc57d9ced50" title="Eigen::JacobiRotation::c" alt="" coords="1210,770,1379,797"/>
+<area shape="rect" id="node41" href="$classEigen_1_1JacobiRotation.html#a2c7a08e2d27875fd770d489317746969" title="Eigen::JacobiRotation::s" alt="" coords="1210,846,1379,873"/>
+<area shape="rect" id="node52" href="$classEigen_1_1JacobiRotation.html#af73c81e9cc139b7e0d877ce553b02ec0" title="Eigen::JacobiRotation\l::makeGivens" alt="" coords="748,1012,903,1053"/>
+<area shape="rect" id="node33" href="$namespacempfr.html#a004935036c2970cebb55e20e22edb67e" title="mpfr::max" alt="" coords="1022,1002,1110,1029"/>
+<area shape="rect" id="node34" href="$classmpfr_1_1mpreal.html#ab554a180ceca6eed0e5798b316f944b0" title="mpfr::mpreal::getPrecision" alt="" coords="971,1154,1161,1181"/>
+<area shape="rect" id="node36" href="$classmpfr_1_1mpreal.html#a566f64ca066c54923d19c11d6c3d15cd" title="mpfr::mpreal::mpfr\l_srcptr" alt="" coords="1223,1067,1366,1108"/>
+<area shape="rect" id="node37" href="$classmpfr_1_1mpreal.html#af4e3b56888463376c675cac70b6ceca3" title="mpfr::mpreal::mpfr_ptr" alt="" coords="982,1103,1150,1130"/>
+<area shape="rect" id="node35" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="1275,1154,1314,1181"/>
+<area shape="rect" id="node39" href="$namespaceEigen_1_1internal.html#a5f7738a5c56c9b9decf94d9728ba7906" title="Eigen::internal::apply\l_rotation_in_the_plane" alt="" coords="983,591,1149,632"/>
+<area shape="rect" id="node47" href="$common_8h.html#a7fecc876b02cead11e333e3d17465a3b" title="make_vector" alt="" coords="1013,657,1119,683"/>
+<area shape="rect" id="node48" href="$level1__cplx__impl_8h.html#a8bf94ce8356a33ac47003c927a2041ce" title="rvx" alt="" coords="1045,707,1087,734"/>
+<area shape="rect" id="node49" href="$level1__cplx__impl_8h.html#a350a7cbbdbb64866d420982fd0c4aa04" title="rvy" alt="" coords="1045,758,1087,785"/>
+<area shape="rect" id="node50" href="$level1__cplx__impl_8h.html#a76b57f4654907ddf5e378e28cdac4835" title="vx" alt="" coords="1047,489,1085,515"/>
+<area shape="rect" id="node51" href="$level1__cplx__impl_8h.html#a597b30b6b23602957548d07b47be830a" title="vy" alt="" coords="1047,539,1085,566"/>
+<area shape="rect" id="node42" href="$namespaceEigen_1_1internal.html#aaab57ef8d873301545ff0afbf2e28458" title="Eigen::internal::pstore" alt="" coords="1213,489,1376,515"/>
+<area shape="rect" id="node43" href="$namespaceEigen_1_1internal.html#a0f50f3baa0dcc73cd1c0baa06e5c8c13" title="Eigen::internal::padd" alt="" coords="1218,539,1371,566"/>
+<area shape="rect" id="node44" href="$structEigen_1_1internal_1_1conj__helper.html#a10c2bdc3cc1a624a2c8d5d9ccc89679e" title="Eigen::internal::conj\l_helper::pmul" alt="" coords="1221,591,1368,632"/>
+<area shape="rect" id="node45" href="$namespaceEigen_1_1internal.html#acfb1e7fe49c73d1885dea028b1745e6a" title="Eigen::internal::psub" alt="" coords="1219,657,1371,683"/>
+<area shape="rect" id="node46" href="$namespaceEigen_1_1internal.html#abcb1c5d429335ed8c976a6b238287a2e" title="Eigen::internal::pstoreu" alt="" coords="1209,707,1380,734"/>
+<area shape="rect" id="node55" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="498,507,653,534"/>
+<area shape="rect" id="node56" href="$classEigen_1_1ArrayBase.html#ab6dc101d82e8228a19a8840e3a29c1c9" title="Eigen::ArrayBase::pow" alt="" coords="493,558,657,585"/>
+<area shape="rect" id="node57" href="$namespaceEigen.html#a0d9a7ddcee5c7c8defaba3628455efb2" title="Eigen::createRandomPIMatrix\lOfRank" alt="" coords="471,441,680,483"/>
+<area shape="rect" id="node58" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l::setZero" alt="" coords="741,507,909,548"/>
+<area shape="rect" id="node59" href="$classEigen_1_1HouseholderQR.html#affd506c10ef2d25f56e7b1f9f25ff885" title="Eigen::HouseholderQR\l::householderQ" alt="" coords="743,441,907,483"/>
+<area shape="rect" id="node60" href="$namespaceEigen.html#a9489ae63302dfd33d4560c5377ead43f" title="Eigen::randomPermutation\lVector" alt="" coords="728,376,923,417"/>
+</map>

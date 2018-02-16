@@ -1,0 +1,7 @@
+<map id="IcoSphere::vertices" name="IcoSphere::vertices">
+<area shape="rect" id="node2" href="$classIcoSphere.html#a78f6530ab445aaeb87668cda333ffd5b" title="IcoSphere::_subdivide" alt="" coords="197,5,359,32"/>
+<area shape="rect" id="node5" href="$classIcoSphere.html#aed61bbb925b80c8ad9506caaf6bb8c2e" title="IcoSphere::draw" alt="" coords="216,56,340,83"/>
+<area shape="rect" id="node6" href="$classIcoSphere.html#aafcbb05c197d252eca0209d93d503fff" title="IcoSphere::indices" alt="" coords="209,107,347,133"/>
+<area shape="rect" id="node3" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="407,5,489,32"/>
+<area shape="rect" id="node4" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="537,5,629,32"/>
+</map>

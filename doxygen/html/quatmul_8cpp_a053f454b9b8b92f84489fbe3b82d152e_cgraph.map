@@ -1,0 +1,11 @@
+<map id="bench" name="bench">
+<area shape="rect" id="node2" href="$classEigen_1_1BenchTimer.html#ae8b673b0fa356d3432c7a65c79e8af0e" title="Eigen::BenchTimer::best" alt="" coords="115,5,292,32"/>
+<area shape="rect" id="node3" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="184,56,223,83"/>
+<area shape="rect" id="node4" href="$quatmul_8cpp.html#a6914617a0635c907a875743170d51534" title="quatmul_default" alt="" coords="140,107,267,133"/>
+<area shape="rect" id="node5" href="$quatmul_8cpp.html#a5fc804920e47765ed3bc2dc1f040148a" title="quatmul_novec" alt="" coords="143,157,263,184"/>
+<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1quat__product.html#a84c5271d02e088d165237397504795b8" title="Eigen::internal::quat\l_product::run" alt="" coords="340,150,491,191"/>
+<area shape="rect" id="node7" href="$classEigen_1_1QuaternionBase.html#a1f3f580927483150d4558c327988a9b4" title="Eigen::QuaternionBase::w" alt="" coords="539,81,724,108"/>
+<area shape="rect" id="node8" href="$classEigen_1_1QuaternionBase.html#a782b9d83caa9bbe84d6e0b822f2dbea9" title="Eigen::QuaternionBase::x" alt="" coords="540,132,723,159"/>
+<area shape="rect" id="node9" href="$classEigen_1_1QuaternionBase.html#a8c7883015c5fa41aa5107350279a5229" title="Eigen::QuaternionBase::y" alt="" coords="540,183,723,209"/>
+<area shape="rect" id="node10" href="$classEigen_1_1QuaternionBase.html#abb82ebd1b6ac5e6c4442201ede65449b" title="Eigen::QuaternionBase::z" alt="" coords="540,233,723,260"/>
+</map>

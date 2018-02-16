@@ -1,0 +1,21 @@
+<map id="StartBenchmarkTiming" name="StartBenchmarkTiming">
+<area shape="rect" id="node2" href="$classBenchmarkSuite.html#a89d7913590aaec7d04bc6662f246a0ea" title="BenchmarkSuite::algebraicFunc" alt="" coords="242,5,465,32"/>
+<area shape="rect" id="node3" href="$classtesting_1_1Benchmark.html#ade815a2836cacda5dcb65c14691c1ead" title="testing::Benchmark\l::Benchmark" alt="" coords="280,57,427,98"/>
+<area shape="rect" id="node4" href="$classBenchmarkSuite.html#a6c5e0aef280fbded77b7c792715a34f2" title="BenchmarkSuite::broadcasting" alt="" coords="244,123,463,149"/>
+<area shape="rect" id="node5" href="$classBenchmarkSuite.html#a4c50732f7d23e075225a0e6864d24d12" title="BenchmarkSuite::coeffWiseOp" alt="" coords="246,173,461,200"/>
+<area shape="rect" id="node6" href="$classBenchmarkSuite.html#acfde6aa82a61fafbc7fc4fc28057e709" title="BenchmarkSuite::colChip" alt="" coords="262,224,445,251"/>
+<area shape="rect" id="node7" href="$classBenchmarkSuite.html#a207ac9706067b08800f3f478a719f274" title="BenchmarkSuite::colReduction" alt="" coords="245,275,461,301"/>
+<area shape="rect" id="node8" href="$classBenchmarkSuite.html#a4e60940b0962859e6bf020bf4f25676f" title="BenchmarkSuite::contraction" alt="" coords="249,325,457,352"/>
+<area shape="rect" id="node9" href="$classBenchmarkSuite.html#ae613f9d381021dc15dad6c86f55ee19b" title="BenchmarkSuite::convolution" alt="" coords="249,376,458,403"/>
+<area shape="rect" id="node10" href="$classBenchmarkSuite.html#a80ac0e92f7d973f3fa24da7fc85582c3" title="BenchmarkSuite::fullReduction" alt="" coords="245,427,461,453"/>
+<area shape="rect" id="node11" href="$classBenchmarkSuite.html#a71e21f4a518dec18f7b61fe1f90cf4ce" title="BenchmarkSuite::memcpy" alt="" coords="257,477,449,504"/>
+<area shape="rect" id="node12" href="$classBenchmarkSuite.html#a01d9720c94f4a02cb91d2703df1d7d03" title="BenchmarkSuite::padding" alt="" coords="260,528,447,555"/>
+<area shape="rect" id="node13" href="$classBenchmarkSuite.html#ac0fcdc53056b4b4d05aa32c42e18a555" title="BenchmarkSuite::random" alt="" coords="260,579,447,605"/>
+<area shape="rect" id="node14" href="$classBenchmarkSuite.html#a313a846461859242eabf7eb4522e6bd8" title="BenchmarkSuite::rowChip" alt="" coords="260,629,447,656"/>
+<area shape="rect" id="node15" href="$classBenchmarkSuite.html#a54d4004f67f2f52bb37886c7a3095225" title="BenchmarkSuite::rowReduction" alt="" coords="243,680,463,707"/>
+<area shape="rect" id="node16" href="$classBenchmarkSuite.html#abc6c3f1ea3d7637d703fa8f69703af8d" title="BenchmarkSuite::shuffling" alt="" coords="259,731,448,757"/>
+<area shape="rect" id="node17" href="$classBenchmarkSuite.html#a49b8182ae4f802fa8f095ab70a9cba4b" title="BenchmarkSuite::slicing" alt="" coords="266,781,441,808"/>
+<area shape="rect" id="node18" href="$classBenchmarkSuite.html#a42047753fd9853ff243739811c9f145e" title="BenchmarkSuite::striding" alt="" coords="262,832,445,859"/>
+<area shape="rect" id="node19" href="$classBenchmarkSuite.html#a5a93f86f9df9d99de1d63db8e5f0b85b" title="BenchmarkSuite::transcendentalFunc" alt="" coords="223,883,484,909"/>
+<area shape="rect" id="node20" href="$classBenchmarkSuite.html#a0789df8b43b1868fc69286063663e313" title="BenchmarkSuite::typeCasting" alt="" coords="247,933,459,960"/>
+</map>

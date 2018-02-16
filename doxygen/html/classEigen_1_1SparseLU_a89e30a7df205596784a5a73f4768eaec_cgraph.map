@@ -1,0 +1,6 @@
+<map id="Eigen::SparseLU::logAbsDeterminant" name="Eigen::SparseLU::logAbsDeterminant">
+<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="369,5,414,32"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseLU.html#a634e903f97c46b55591db2e12d1d45d1" title="Eigen::SparseLU::cols" alt="" coords="312,56,471,83"/>
+<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a48e72df6412ca98881afcd657352a1d5" title="log" alt="" coords="371,107,412,133"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="519,49,668,90"/>
+</map>

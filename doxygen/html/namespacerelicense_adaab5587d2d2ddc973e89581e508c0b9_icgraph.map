@@ -1,0 +1,11 @@
+<map id="relicense.update" name="relicense.update">
+<area shape="rect" id="node2" href="$classGpuHelper.html#a52a9ab12d07acbf4ad80737595a9b06e" title="GpuHelper::forceMatrixTarget" alt="" coords="189,5,397,32"/>
+<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#ab3a38b842941fe5ffcbff2bdd4735c1c" title="Eigen::internal::handmade\l_aligned_realloc" alt="" coords="198,57,389,98"/>
+<area shape="rect" id="node6" href="$classMandelbrotWidget.html#a3e1c70630eedc31d8111f98cebedfb8e" title="MandelbrotWidget::mouseMove\lEvent" alt="" coords="182,122,405,163"/>
+<area shape="rect" id="node7" href="$classMandelbrotWidget.html#a8a76969f2198787b0a1cddef0e0c4b4e" title="MandelbrotWidget::mousePress\lEvent" alt="" coords="181,187,405,229"/>
+<area shape="rect" id="node8" href="$classMandelbrotWidget.html#a6ecbf356d445fb4c3e42cd3a65945630" title="MandelbrotWidget::paintEvent" alt="" coords="187,253,400,280"/>
+<area shape="rect" id="node9" href="$classEigen_1_1LDLT.html#a858dc77b65dd48248299bb6a6a758abf" title="Eigen::LDLT::rankUpdate" alt="" coords="205,304,381,331"/>
+<area shape="rect" id="node10" href="$structEigen_1_1internal_1_1ldlt__inplace_3_01Upper_01_4.html#ac476b25dfc49b62b8351201cb06a7708" title="Eigen::internal::ldlt\l_inplace\&lt; Upper \&gt;::update" alt="" coords="195,355,391,397"/>
+<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#a947d8a34310c29ac9ca59f4a07ac41b0" title="Eigen::internal::aligned\l_realloc" alt="" coords="453,57,620,98"/>
+<area shape="rect" id="node5" href="$namespaceEigen_1_1internal.html#a8a13c6a933c2616aa086843efdddf6e0" title="Eigen::internal::conditional\l_aligned_realloc" alt="" coords="668,57,859,98"/>
+</map>

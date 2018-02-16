@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseSymmetricPermutationProduct_3_01047c06457d1f6bf5babed287b97ea56a =
+[
+    [ "DstIndex", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseSymmetricPermutationProduct_3_01047c06457d1f6bf5babed287b97ea56a.html#ab03c962995ac3213c9ebb3eced4aba88", null ],
+    [ "SrcXprType", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SparseSymmetricPermutationProduct_3_01047c06457d1f6bf5babed287b97ea56a.html#a27237deaf69ded2cfef08d699c0303cc", null ]
+];

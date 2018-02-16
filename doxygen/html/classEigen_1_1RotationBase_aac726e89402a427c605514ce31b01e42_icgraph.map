@@ -1,0 +1,9 @@
+<map id="Eigen::RotationBase::toRotationMatrix" name="Eigen::RotationBase::toRotationMatrix">
+<area shape="rect" id="node2" href="$classEigen_1_1EulerAngles.html#aeaf9524ff49ee720786e78f44c23cc17" title="Eigen::EulerAngles\l::EulerAngles" alt="" coords="237,5,377,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1EulerAngles.html#aec5a08ed94b3574402d99850d766d18a" title="Eigen::EulerAngles\l::FromRotation" alt="" coords="237,71,377,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1Matrix.html#ae714ec2f92b13d808c336faf185e5893" title="Constructs a Dim x Dim rotation matrix from the rotation r. " alt="" coords="226,136,389,177"/>
+<area shape="rect" id="node5" href="$classEigen_1_1UniformScaling.html#a991e1de828f897a9d6f706fe9d129387" title="Eigen::UniformScaling\l::operator*" alt="" coords="226,201,389,243"/>
+<area shape="rect" id="node6" href="$classEigen_1_1Transform.html#aa73043c4528a632eae5f3366c403a405" title="Eigen::Transform::operator*=" alt="" coords="203,267,412,294"/>
+<area shape="rect" id="node7" href="$classEigen_1_1Matrix.html#a5893df80f2b3a446ce701616f8713229" title="Set a Dim x Dim rotation matrix from the rotation r. " alt="" coords="226,319,389,360"/>
+<area shape="rect" id="node8" href="$classEigen_1_1EulerAngles.html#abc2256872ea7e285cb915b8af82b6810" title="Eigen::EulerAngles\l::operator=" alt="" coords="237,384,377,425"/>
+</map>

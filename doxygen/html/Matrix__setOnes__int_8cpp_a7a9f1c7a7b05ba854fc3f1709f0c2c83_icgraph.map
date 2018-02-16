@@ -1,0 +1,8 @@
+<map id="setOnes" name="setOnes">
+<area shape="rect" id="node2" href="$classEigen_1_1PlainObjectBase.html#af2ce47a0cde3943e528e00f2b191f7da" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::MapAligned" alt="" coords="169,5,369,76"/>
+<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Vertical_4246a7ce3251626c8f20c5d4cd6c81f4.html#a770eda3cab096546dd27ba4d5399241d" title="Eigen::internal::Assignment\l\&lt; DstXprType, Homogeneous\l\&lt; ArgType, Vertical \&gt;, internal\l::assign_op\&lt; Scalar, typename\l ArgType::Scalar \&gt;, Dense2Dense \&gt;::run" alt="" coords="128,101,409,186"/>
+<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Homogeneous_3_01ArgType_00_01Horizontac1f143842ed7f43f85f42f19a7023e02.html#af499e5c05f833725f99b695b9d3cbae5" title="Eigen::internal::Assignment\l\&lt; DstXprType, Homogeneous\l\&lt; ArgType, Horizontal \&gt;, internal\l::assign_op\&lt; Scalar, typename ArgType\l::Scalar \&gt;, Dense2Dense \&gt;::run" alt="" coords="131,210,407,295"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrix.html#a89013d2aa58413672c90932607a0d6f0" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::setIdentity" alt="" coords="180,320,357,361"/>
+<area shape="rect" id="node6" href="$triangular_8cpp.html#ac79ef2ddeb55562aa14ca597bf74fa02" title="triangular_rect" alt="" coords="211,386,326,413"/>
+<area shape="rect" id="node7" href="$triangular_8cpp.html#ad027f8e738012e06c9b99c82143c5467" title="triangular_square" alt="" coords="201,437,336,463"/>
+</map>

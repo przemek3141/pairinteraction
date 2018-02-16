@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1permutation__matrix__product_3_01ExpressionType_00_01Side_00_01Transposed_00_01DenseShape_01_4 =
+[
+    [ "MatrixType", "structEigen_1_1internal_1_1permutation__matrix__product_3_01ExpressionType_00_01Side_00_01Transposed_00_01DenseShape_01_4.html#af969c77893a9291a1b9625c307a5daf6", null ],
+    [ "MatrixTypeCleaned", "structEigen_1_1internal_1_1permutation__matrix__product_3_01ExpressionType_00_01Side_00_01Transposed_00_01DenseShape_01_4.html#ab490ca1ee4f78042bf0abb820f155b50", null ]
+];

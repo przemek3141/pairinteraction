@@ -1,0 +1,12 @@
+<map id="relerr" name="relerr">
+<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a9448b0a0a26552a366ce8062cc39ff9c" title="Eigen::internal::blueNorm_impl" alt="" coords="109,100,328,127"/>
+<area shape="rect" id="node5" href="$bench__norm_8cpp.html#ad65a6a64af552dfdf126a0f8957c736d" title="pblueNorm" alt="" coords="172,191,265,217"/>
+<area shape="rect" id="node9" href="$matrix__exponential_8cpp.html#a51d8fa1cad10d19a8af5b22b0535b6f9" title="test2dHyperbolicRotation" alt="" coords="127,241,310,268"/>
+<area shape="rect" id="node10" href="$matrix__exponential_8cpp.html#aa6f0571f6c1d605879fd2b1fd0cc38ba" title="test2dRotation" alt="" coords="161,292,276,319"/>
+<area shape="rect" id="node11" href="$matrix__exponential_8cpp.html#a6a2a67b0842b526e91473470aeb57f11" title="testPascal" alt="" coords="175,343,262,369"/>
+<area shape="rect" id="node3" href="$classEigen_1_1MatrixBase.html#a3f3faa00163c16824ff03e58a210c74c" title="Eigen::MatrixBase\&lt;\l Solve\&lt; Decomposition,\l RhsType \&gt; \&gt;::blueNorm" alt="" coords="391,5,569,61"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrixBase.html#a23769bd7c0784d25e69fb4759b18adf4" title="Eigen::SparseMatrixBase\l\&lt; CwiseBinaryOp\&lt; BinaryOp,\l Lhs, Rhs \&gt; \&gt;::blueNorm" alt="" coords="376,85,584,141"/>
+<area shape="rect" id="node6" href="$bench__norm_8cpp.html#a1572918a22c4a7e69eed47d34ac589e5" title="check_accuracy" alt="" coords="419,165,541,192"/>
+<area shape="rect" id="node7" href="$bench__norm_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="632,216,687,243"/>
+<area shape="rect" id="node8" href="$bench__norm_8cpp.html#a69991b70f29fbc9ede65affface83314" title="check_accuracy_var" alt="" coords="405,267,555,293"/>
+</map>

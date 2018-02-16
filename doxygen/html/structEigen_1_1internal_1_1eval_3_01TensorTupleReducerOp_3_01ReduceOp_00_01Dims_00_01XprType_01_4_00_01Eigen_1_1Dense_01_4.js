@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1eval_3_01TensorTupleReducerOp_3_01ReduceOp_00_01Dims_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4 =
+[
+    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorTupleReducerOp_3_01ReduceOp_00_01Dims_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4.html#a9ae5f10df4edc6fe899135d529c71bf5", null ]
+];

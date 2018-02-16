@@ -1,0 +1,7 @@
+<map id="Camera::setOrientation" name="Camera::setOrientation">
+<area shape="rect" id="node2" href="$classCamera.html#a33f874756ce3f26b661124a13aa0da2c" title="Camera::localRotate" alt="" coords="253,5,403,32"/>
+<area shape="rect" id="node3" href="$classCamera.html#af0243aa90deb97bdab8592a634e6a6cd" title="Camera::rotateAroundTarget" alt="" coords="225,56,431,83"/>
+<area shape="rect" id="node4" href="$classCamera.html#af8621940fefd60a60df8a02093458960" title="Camera::setDirection" alt="" coords="249,107,407,133"/>
+<area shape="rect" id="node5" href="$classCamera.html#a098f0009be2dbd2068472154d281ad7a" title="Camera::setTarget" alt="" coords="479,107,619,133"/>
+<area shape="rect" id="node6" href="$classCamera.html#a5c68f1ee8348320a6c47419ae2d724fb" title="Camera::Camera" alt="" coords="667,107,799,133"/>
+</map>

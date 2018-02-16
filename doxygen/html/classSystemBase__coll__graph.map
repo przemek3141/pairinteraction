@@ -1,4 +1,9 @@
 <map id="SystemBase&lt; T &gt;" name="SystemBase&lt; T &gt;">
-<area shape="rect" id="node3" href="$classdouble.html" title="double" alt="" coords="129,5,195,32"/>
-<area shape="rect" id="node6" href="$classbool.html" title="bool" alt="" coords="435,5,484,32"/>
+<area shape="rect" id="node3" href="$classdouble.html" title="double" alt="" coords="1119,85,1185,112"/>
+<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;" alt="" coords="1077,346,1227,387"/>
+<area shape="rect" id="node7" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format. " alt="" coords="683,351,905,407"/>
+<area shape="rect" id="node8" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions. " alt="" coords="341,323,523,365"/>
+<area shape="rect" id="node9" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Derived \&gt;" alt="" coords="5,331,216,357"/>
+<area shape="rect" id="node10" href="$classbool.html" title="bool" alt="" coords="86,260,135,287"/>
+<area shape="rect" id="node13" href="$classEigen_1_1internal_1_1CompressedStorage.html" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex \&gt;" alt="" coords="676,522,912,563"/>
 </map>

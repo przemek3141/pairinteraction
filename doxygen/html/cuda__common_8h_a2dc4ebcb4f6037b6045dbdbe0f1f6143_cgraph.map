@@ -1,0 +1,4 @@
+<map id="run_and_compare_to_cuda" name="run_and_compare_to_cuda">
+<area shape="rect" id="node2" href="$cuda__common_8h.html#ac6fe3277d974fdfc37105ea2912f1b8b" title="run_on_cpu" alt="" coords="253,5,349,32"/>
+<area shape="rect" id="node3" href="$cuda__common_8h.html#a458905ae10e4d478ee9531fc28e05ade" title="run_on_cuda" alt="" coords="249,56,353,83"/>
+</map>

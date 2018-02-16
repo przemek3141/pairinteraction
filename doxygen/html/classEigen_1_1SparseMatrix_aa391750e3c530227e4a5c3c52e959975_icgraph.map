@@ -1,0 +1,55 @@
+<map id="Eigen::SparseMatrix::cols" name="Eigen::SparseMatrix::cols">
+<area shape="rect" id="node2" href="$classSystemBase.html#a321c8c5c9f833cf60322f82219af5d8b" title="SystemBase\&lt; StateTwo\l \&gt;::add" alt="" coords="233,5,407,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseLU.html#aa907ff958c4f4855145091d2686f3a8a" title="Eigen::SparseLU::analyze\lPattern" alt="" coords="229,71,411,112"/>
+<area shape="rect" id="node7" href="$classSystemBase.html#abb34230ba3da96baaabae371fb1907ef" title="SystemBase\&lt; StateTwo\l \&gt;::applyRightsideTransformator" alt="" coords="207,239,433,280"/>
+<area shape="rect" id="node8" href="$classSystemTwo.html#a7aa70b668bd55e25ba9ed8f9d037052c" title="Method that allows base class to initialize Basis //////////////. " alt="" coords="521,213,708,239"/>
+<area shape="rect" id="node9" href="$classSystemBase.html#afd61d33f38b4306de55d51bc5b3b094e" title="SystemBase\&lt; StateTwo\l \&gt;::buildRotator" alt="" coords="233,304,407,345"/>
+<area shape="rect" id="node10" href="$classEigen_1_1IncompleteLU.html#a976a4a54494f793c67d95513bd55d941" title="Eigen::IncompleteLU\l::cols" alt="" coords="244,369,396,411"/>
+<area shape="rect" id="node11" href="$classEigen_1_1IncompleteCholesky.html#a0d66a1c8e340617e7ff404e63186fedb" title="Eigen::IncompleteCholesky\l::cols" alt="" coords="223,435,417,476"/>
+<area shape="rect" id="node12" href="$classEigen_1_1SparseLU.html#a634e903f97c46b55591db2e12d1d45d1" title="Eigen::SparseLU::cols" alt="" coords="241,501,399,527"/>
+<area shape="rect" id="node17" href="$classEigen_1_1SPQR.html#a9fb013cddbd9e634b7174f8d2a4bca33" title="Eigen::SPQR::compute" alt="" coords="237,551,403,578"/>
+<area shape="rect" id="node20" href="$classEigen_1_1PastixBase.html#a4173afa8a88aec8f1346372b2de71af9" title="Eigen::PastixBase\&lt;\l PastixLU\&lt; _MatrixType\l \&gt; \&gt;::compute" alt="" coords="236,602,404,658"/>
+<area shape="rect" id="node21" href="$structsparseGaussianTest.html#a613e13b4e27120473ba6bc74d224aef8" title="sparseGaussianTest::df" alt="" coords="235,682,405,709"/>
+<area shape="rect" id="node22" href="$classHamiltonianmatrix.html#aa8d50e3585a18628f4abbb5bcede4bbb" title="Hamiltonianmatrix::\ldoSerialization" alt="" coords="246,733,394,775"/>
+<area shape="rect" id="node31" href="$sparse__randomsetter_8cpp.html#a728f25a36d04ee2c3aa05cb72245345a" title="dostuff" alt="" coords="287,865,353,891"/>
+<area shape="rect" id="node32" href="$BenchSparseUtil_8h.html#a3a793c6a0917359f91a7ddca3df96e23" title="eiToDense" alt="" coords="277,915,363,942"/>
+<area shape="rect" id="node34" href="$BenchSparseUtil_8h.html#a0fd61c7904dc93b13137609cbb19f7e4" title="eiToGmm" alt="" coords="279,1017,361,1043"/>
+<area shape="rect" id="node36" href="$BenchSparseUtil_8h.html#ac7f91e23e9b6237bfc41ab6ebd1d68f2" title="eiToMtl" alt="" coords="287,1067,353,1094"/>
+<area shape="rect" id="node37" href="$BenchSparseUtil_8h.html#aceb6d7bd92608892e3e8163984191f85" title="eiToUblas" alt="" coords="279,966,361,993"/>
+<area shape="rect" id="node38" href="$classEigen_1_1SparseLU.html#a39858b0e72f2659d596364e252b34cbc" title="Eigen::SparseLU::factorize" alt="" coords="225,137,415,163"/>
+<area shape="rect" id="node39" href="$classEigen_1_1IncompleteCholesky.html#ae218a158db71382db2ed5e01e9ba0bc0" title="Eigen::IncompleteCholesky\l::factorize" alt="" coords="223,1119,417,1160"/>
+<area shape="rect" id="node40" href="$classEigen_1_1SimplicialCholeskyBase.html#a340f5bfbe509aad506ebda8d9877d918" title="Eigen::SimplicialCholesky\lBase\&lt; SimplicialLDLT\&lt; \l_MatrixType, _UpLo, _Ordering\l \&gt; \&gt;::factorize_preordered" alt="" coords="213,1184,427,1255"/>
+<area shape="rect" id="node41" href="$classSystemBase.html#a4ffed53296033614e4701f01363e6b3f" title="SystemBase\&lt; StateTwo\l \&gt;::getConnections" alt="" coords="233,1279,407,1320"/>
+<area shape="rect" id="node42" href="$sparse__solvers_8cpp.html#afdc1343eeabd8d973eaa0a8025e4b7c8" title="initSPD" alt="" coords="286,1345,354,1371"/>
+<area shape="rect" id="node43" href="$namespaceEigen_1_1internal.html#ac7273b28570c18860aea6ed34493d5dc" title="Eigen::internal::lmqrsolv" alt="" coords="233,1395,407,1422"/>
+<area shape="rect" id="node44" href="$namespaceEigen_1_1internal.html#ac4cdf88f2d52d415825bd1d185d897d6" title="Eigen::internal::minimum\l_degree_ordering" alt="" coords="229,1447,411,1488"/>
+<area shape="rect" id="node45" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="246,799,394,840"/>
+<area shape="rect" id="node51" href="$classEigen_1_1MatrixMarketIterator.html#a80f334d9fbbed0d24ba0c32d2bea16bc" title="Eigen::MatrixMarketIterator\l::refX" alt="" coords="223,1512,417,1553"/>
+<area shape="rect" id="node53" href="$classEigen_1_1MatrixMarketIterator.html#ac141e537f3bc3a3c078a2780a6a956b6" title="Eigen::MatrixMarketIterator::rhs" alt="" coords="209,1578,431,1605"/>
+<area shape="rect" id="node54" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01Diagonal2Sparse_01_4.html#a3ebebc30f1ceca09787e5ad5c0fd9c43" title="Eigen::internal::Assignment\l\&lt; DstXprType, SrcXprType,\l Functor, Diagonal2Sparse \&gt;::run" alt="" coords="203,1629,437,1685"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseLU.html#a96a8dcb02015ab9be5777d4ba9173266" title="Eigen::SparseLU::compute" alt="" coords="519,81,710,107"/>
+<area shape="rect" id="node6" href="$classEigen_1_1SparseLU.html#a9f8d0e64ae5bb5568ca091a0dbc8c9dd" title="Eigen::SparseLU::~SparseLU" alt="" coords="511,135,718,162"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SparseLU.html#ac1678e57af46b42561cea4f149861164" title="Eigen::SparseLU::SparseLU" alt="" coords="792,81,987,107"/>
+<area shape="rect" id="node13" href="$classEigen_1_1SparseLU.html#a06fa89424239fb169d408f08252426d0" title="Eigen::SparseLU::absDeterminant" alt="" coords="495,391,734,418"/>
+<area shape="rect" id="node14" href="$classEigen_1_1SparseLU.html#a02d63d242d27211b5c5827f5d4fd99ff" title="Eigen::SparseLU::determinant" alt="" coords="508,442,721,469"/>
+<area shape="rect" id="node15" href="$classEigen_1_1SparseLU.html#a89e30a7df205596784a5a73f4768eaec" title="Eigen::SparseLU::logAbsDeterminant" alt="" coords="485,290,744,317"/>
+<area shape="rect" id="node16" href="$classEigen_1_1SparseLU.html#a6651143e3b18fa90cfb3808b6fd23c4e" title="Eigen::SparseLU::signDeterminant" alt="" coords="494,341,735,367"/>
+<area shape="rect" id="node18" href="$spqr__support_8cpp.html#a304d82d2a0c507e2fc919a50cffaa2cd" title="test_spqr_scalar" alt="" coords="551,493,678,519"/>
+<area shape="rect" id="node19" href="$spqr__support_8cpp.html#ab75e5ca1f976c9246980f89dcb9e807b" title="test_spqr_support" alt="" coords="820,493,959,519"/>
+<area shape="rect" id="node23" href="$classHamiltonianmatrix.html#a1e43ece7300d46f751f02c3260a14bfb" title="Hamiltonianmatrix::\lhashBasis" alt="" coords="541,544,689,585"/>
+<area shape="rect" id="node24" href="$classHamiltonianmatrix.html#aebafe9543f93f3956fff32192efd86ce" title="Hamiltonianmatrix::\lhashEntries" alt="" coords="541,609,689,651"/>
+<area shape="rect" id="node25" href="$classHamiltonianmatrix.html#aa3c3a422c8c3e87c47700c9f32e02051" title="Hamiltonianmatrix::save" alt="" coords="525,741,704,767"/>
+<area shape="rect" id="node30" href="$classHamiltonianmatrix.html#a39e7ea919bcbfa99ef1838b5300756f0" title="Hamiltonianmatrix::\lserialize" alt="" coords="541,675,689,716"/>
+<area shape="rect" id="node26" href="$classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" title="HamiltonianOne::build" alt="" coords="808,791,971,818"/>
+<area shape="rect" id="node28" href="$classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb" title="HamiltonianTwo::calculate" alt="" coords="796,974,983,1001"/>
+<area shape="rect" id="node27" href="$classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" title="HamiltonianOne::HamiltonianOne" alt="" coords="1035,791,1271,818"/>
+<area shape="rect" id="node29" href="$classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c" title="HamiltonianTwo::HamiltonianTwo" alt="" coords="1039,974,1267,1001"/>
+<area shape="rect" id="node33" href="$spmv_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="587,1207,642,1234"/>
+<area shape="rect" id="node35" href="$benchEigenSolver_8cpp.html#a8ac5b586fb64c29472e9ff06b49ad20c" title="__attribute__" alt="" coords="562,1258,667,1285"/>
+<area shape="rect" id="node46" href="$classHamiltonianmatrix.html#ae853573db74eee2e78215465d08f1486" title="Hamiltonianmatrix::\lapplyCutoff" alt="" coords="541,908,689,949"/>
+<area shape="rect" id="node47" href="$Hamiltonianmatrix_8cpp.html#a791b0058df01d49e6700e531334f3df7" title="combine" alt="" coords="576,1157,653,1183"/>
+<area shape="rect" id="node48" href="$classHamiltonianmatrix.html#a1db6d20a1d88ef89f1acdad819af34ee" title="Hamiltonianmatrix::\ldiagonalize" alt="" coords="541,843,689,884"/>
+<area shape="rect" id="node49" href="$classHamiltonianmatrix.html#a5958f8545a449aaac4355b60b5587a91" title="Hamiltonianmatrix::\lgetBlock" alt="" coords="541,1025,689,1067"/>
+<area shape="rect" id="node50" href="$classHamiltonianmatrix.html#a2ff416efff07de6e3df93948c2688989" title="Hamiltonianmatrix::\lremoveUnnecessaryBasisvectors" alt="" coords="497,1091,732,1132"/>
+<area shape="rect" id="node52" href="$spbenchsolver_8h.html#ac81b22c63e6090bebae8f71644564c5a" title="Browse_Matrices" alt="" coords="550,1549,679,1575"/>
+</map>

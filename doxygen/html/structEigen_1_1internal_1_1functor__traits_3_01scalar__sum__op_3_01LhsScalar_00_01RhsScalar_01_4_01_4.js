@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1functor__traits_3_01scalar__sum__op_3_01LhsScalar_00_01RhsScalar_01_4_01_4 =
+[
+    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__sum__op_3_01LhsScalar_00_01RhsScalar_01_4_01_4.html#ac5f6138f9205ed1567677060d4831862ae9723ad8ec7dbf7ebdb98bf1c63dfef1", null ],
+    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__sum__op_3_01LhsScalar_00_01RhsScalar_01_4_01_4.html#ac5f6138f9205ed1567677060d4831862a9d6cb1fc12eb23516d70e1f2cf7e7181", null ]
+];

@@ -1,0 +1,7 @@
+<map id="Eigen::TensorSycl::internal::ExtractAccessor&lt; TensorEvaluator&lt; const TensorEvalToOp&lt; Expr &gt;, Dev &gt; &gt;::getTuple" name="Eigen::TensorSycl::internal::ExtractAccessor&lt; TensorEvaluator&lt; const TensorEvalToOp&lt; Expr &gt;, Dev &gt; &gt;::getTuple">
+<area shape="rect" id="node2" href="$namespaceutility_1_1tuple.html#aeb1d9564d8270778d3b964c1bbc97345" title="the deduction function for append_base that automatically generate the IndexRange ..." alt="" coords="271,13,422,39"/>
+<area shape="rect" id="node5" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="571,95,619,122"/>
+<area shape="rect" id="node6" href="$structEigen_1_1TensorSycl_1_1internal_1_1AccessorConstructor.html#a7afcb4b214e2371f61cdeb81eda14e5a" title="Eigen::TensorSycl::\linternal::AccessorConstructor\l::getTuple" alt="" coords="241,114,452,170"/>
+<area shape="rect" id="node3" href="$namespaceutility_1_1tuple.html#a446670118f4f4b05503c4e0b41dae565" title="unpacking the elements of the input tuple t and creating a new tuple by adding element a at the end o..." alt="" coords="500,13,689,39"/>
+<area shape="rect" id="node4" href="$namespaceutility_1_1tuple.html#aa68638ef30be12f1bcc6ef5da635c744" title="Creates a tuple object, deducing the target type from the types of arguments. " alt="" coords="737,5,876,47"/>
+</map>

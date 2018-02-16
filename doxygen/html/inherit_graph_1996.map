@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classEigen_1_1RotationBase.html" title="Eigen::RotationBase\l\&lt; Map\&lt; const Quaternion\l\&lt; _Scalar \&gt;, _Options \&gt;, 3 \&gt;" alt="" coords="5,5,215,61"/>
+<area shape="rect" id="node2" href="$classEigen_1_1QuaternionBase.html" title="Eigen::QuaternionBase\l\&lt; Map\&lt; const Quaternion\l\&lt; _Scalar \&gt;, _Options \&gt; \&gt;" alt="" coords="263,5,456,61"/>
+<area shape="rect" id="node3" href="$classEigen_1_1Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4.html" title="Quaternion expression mapping a constant memory buffer. " alt="" coords="504,13,721,54"/>
+</map>

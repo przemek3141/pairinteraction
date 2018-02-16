@@ -1,0 +1,5 @@
+<map id="initSparse" name="initSparse">
+<area shape="rect" id="node2" href="$classEigen_1_1SparseVector.html#ab62763544df1c3833648ec2ef5316801" title="Eigen::SparseVector\l::insertBack" alt="" coords="140,5,291,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseVector.html#a594675dd305845e55edcab61c1b21d33" title="Eigen::SparseVector\l::reserve" alt="" coords="140,71,291,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseVector.html#ac36267ff08f2ac0d884189086acf2b44" title="Eigen::SparseVector\l::setZero" alt="" coords="140,136,291,177"/>
+</map>

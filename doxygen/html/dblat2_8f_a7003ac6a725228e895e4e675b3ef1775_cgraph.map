@@ -1,0 +1,29 @@
+<map id="dblat2" name="dblat2">
+<area shape="rect" id="node2" href="$dblat2_8f.html#abc28e954ae40095eb4051416b83bec18" title="dchk1" alt="" coords="116,157,176,184"/>
+<area shape="rect" id="node6" href="$dblat2_8f.html#afbbc0e902d1922bc88fd3de1837756ef" title="dmvch" alt="" coords="225,5,290,32"/>
+<area shape="rect" id="node8" href="$dblat2_8f.html#a3589e340665ad60c229f4efdc79a6229" title="dchk2" alt="" coords="116,233,176,260"/>
+<area shape="rect" id="node12" href="$dblat2_8f.html#a96c113ecd52e4867dc5d4fb4735e9489" title="dchk3" alt="" coords="116,715,176,741"/>
+<area shape="rect" id="node19" href="$dblat2_8f.html#aa8fdd6ba213f5c4bdf7f9ba5e6a1a0e7" title="dchk4" alt="" coords="116,81,176,108"/>
+<area shape="rect" id="node21" href="$dblat2_8f.html#aa5e1ff12141c4f3001796e7c26fb4f4a" title="dchk5" alt="" coords="116,284,176,311"/>
+<area shape="rect" id="node24" href="$dblat2_8f.html#add7fe1a057c0b80a7547c153f32fc0d3" title="dchk6" alt="" coords="116,335,176,361"/>
+<area shape="rect" id="node27" href="$dblat2_8f.html#a9e9fa2f6b42c5bbdde09d50fffaafc4e" title="dchke" alt="" coords="116,487,176,513"/>
+<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a3ee846dfd7565eb8e66890dde27a4583" title="dgbmv" alt="" coords="224,157,291,184"/>
+<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a9a335858ceda256f234af77d6e91b8a1" title="dgemv" alt="" coords="224,208,291,235"/>
+<area shape="rect" id="node5" href="$dblat2_8f.html#a1c65c92d411e657e5fd49db5ea7739b4" title="dmake" alt="" coords="224,107,291,133"/>
+<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="339,5,385,32"/>
+<area shape="rect" id="node9" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a5a03568fbda643dd9120f2cee11a5996" title="dsbmv" alt="" coords="225,259,290,285"/>
+<area shape="rect" id="node10" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7df755e1a1a98ca6061ed299bc95d976" title="dspmv" alt="" coords="225,309,290,336"/>
+<area shape="rect" id="node11" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a1d1ee0d1db655dad77bc799a06f76af3" title="dsymv" alt="" coords="225,360,289,387"/>
+<area shape="rect" id="node13" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8b5ca32a95777f8fa34eb83a56dfbcc8" title="dtbmv" alt="" coords="226,664,289,691"/>
+<area shape="rect" id="node14" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#adb244b5e92641905e5bdb7cb591b15c4" title="dtbsv" alt="" coords="229,715,286,741"/>
+<area shape="rect" id="node15" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8dc5676e63694d529c06a2cadd5eaacc" title="dtpmv" alt="" coords="226,765,289,792"/>
+<area shape="rect" id="node16" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a0aeda14c7a5e65e25360cefdbd8cc7c3" title="dtpsv" alt="" coords="229,816,286,843"/>
+<area shape="rect" id="node17" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#af34b477ee13b53a37210b6b931cd5e13" title="dtrmv" alt="" coords="227,867,287,893"/>
+<area shape="rect" id="node18" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a080e0b7d68273d31fa9f1ea5b54ff218" title="dtrsv" alt="" coords="230,917,285,944"/>
+<area shape="rect" id="node20" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aaff3a8cbf2ee6c216d2ab07f45d03066" title="dger" alt="" coords="232,56,283,83"/>
+<area shape="rect" id="node22" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7b656b29fa7428de6e2ed2fc476675f9" title="dspr" alt="" coords="232,411,283,437"/>
+<area shape="rect" id="node23" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#af6c83265b239636b20d0bf7f05f4dc00" title="dsyr" alt="" coords="233,461,282,488"/>
+<area shape="rect" id="node25" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a5574d2772363af7d328f3577ca6186ae" title="dspr2" alt="" coords="228,512,287,539"/>
+<area shape="rect" id="node26" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a8ac5d394d9c3bcd9c36ea3ca50a9df0a" title="dsyr2" alt="" coords="229,563,286,589"/>
+<area shape="rect" id="node28" href="$cblat2_8f.html#af0279384c87f94223fdf27a4d97f4f7d" title="chkxer" alt="" coords="225,613,289,640"/>
+</map>

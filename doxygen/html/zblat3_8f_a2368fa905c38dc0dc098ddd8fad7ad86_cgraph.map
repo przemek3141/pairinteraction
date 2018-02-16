@@ -1,0 +1,30 @@
+<map id="zblat3" name="zblat3">
+<area shape="rect" id="node2" href="$zblat2_8f.html#a8bbecaad6e0c7955bb26a35899dbcc48" title="zchk1" alt="" coords="121,127,179,153"/>
+<area shape="rect" id="node8" href="$zblat2_8f.html#ae4863a1b84cfa5425f063d25e0c8ba47" title="zchk2" alt="" coords="121,228,179,255"/>
+<area shape="rect" id="node12" href="$zblat2_8f.html#a99c9f633332de648e159af16eef2229c" title="zchk3" alt="" coords="121,785,179,812"/>
+<area shape="rect" id="node19" href="$zblat2_8f.html#ad9d43cde9712596dfc11c7d026777795" title="zchk4" alt="" coords="121,279,179,305"/>
+<area shape="rect" id="node22" href="$zblat2_8f.html#acf42765025434e00f9e5bb5e0a7f510b" title="zchk5" alt="" coords="121,329,179,356"/>
+<area shape="rect" id="node25" href="$zblat2_8f.html#aeded6062b08910a66e33a41338f27a62" title="zchke" alt="" coords="121,532,179,559"/>
+<area shape="rect" id="node29" href="$zblat3_8f.html#aa3b6f173885a4f541795864085fadd4d" title="zmmch" alt="" coords="115,25,185,52"/>
+<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7ebff83b68195fc8baec12b43d9912c5" title="zgbmv" alt="" coords="233,25,299,52"/>
+<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a217e1211a5408f9e77a467a9a1b0f557" title="zgemv" alt="" coords="233,76,299,103"/>
+<area shape="rect" id="node5" href="$zblat2_8f.html#adedd6c58099503010cc6951c138fa2b6" title="zmake" alt="" coords="233,127,299,153"/>
+<area shape="rect" id="node6" href="$zblat2_8f.html#a5855f5864c71cc806045f56037f3ff30" title="zmvch" alt="" coords="234,177,298,204"/>
+<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="347,76,393,103"/>
+<area shape="rect" id="node9" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ac87980ab271048f9220680dfd2ab5cd6" title="zhbmv" alt="" coords="233,228,299,255"/>
+<area shape="rect" id="node10" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#abb1b3ab2fdbc301968d23dffd6a336c2" title="zhemv" alt="" coords="233,279,299,305"/>
+<area shape="rect" id="node11" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a2fc2b43c0a31750cb06f977f6c06a145" title="zhpmv" alt="" coords="233,329,299,356"/>
+<area shape="rect" id="node13" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#abc698f049eee6d921b9ab71a7553403f" title="ztbmv" alt="" coords="235,735,297,761"/>
+<area shape="rect" id="node14" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a065a3513492dde636c0f2c6c45ef969a" title="ztbsv" alt="" coords="238,785,294,812"/>
+<area shape="rect" id="node15" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#acd557d9c44296a96403f7feccd0cb2a0" title="ztpmv" alt="" coords="235,836,297,863"/>
+<area shape="rect" id="node16" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#abd9e9c9fb64d78ca478f20a5bbcf8bba" title="ztpsv" alt="" coords="238,887,294,913"/>
+<area shape="rect" id="node17" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a69c8f715db7952a045f5aa33721d6eb5" title="ztrmv" alt="" coords="237,937,295,964"/>
+<area shape="rect" id="node18" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a55dcdd3a36b1b1acf602d7c65d7b207d" title="ztrsv" alt="" coords="239,988,293,1015"/>
+<area shape="rect" id="node20" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aa89e878517d1b1883a48a51d384af5df" title="zgerc" alt="" coords="237,380,295,407"/>
+<area shape="rect" id="node21" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ae5278aa00a74de9eda40d7b5eca62914" title="zgeru" alt="" coords="237,431,295,457"/>
+<area shape="rect" id="node23" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ac05c43627e590d201be0f67262894199" title="zher" alt="" coords="241,481,291,508"/>
+<area shape="rect" id="node24" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a2992c68a9eeb25c27adda578d780c4bc" title="zhpr" alt="" coords="241,532,291,559"/>
+<area shape="rect" id="node26" href="$cblat2_8f.html#af0279384c87f94223fdf27a4d97f4f7d" title="chkxer" alt="" coords="234,583,298,609"/>
+<area shape="rect" id="node27" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a44becfeb8e5197839a4da4dd68cb3281" title="zher2" alt="" coords="237,633,295,660"/>
+<area shape="rect" id="node28" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a2aee87398c6db6213a6acf4a595e8849" title="zhpr2" alt="" coords="237,684,295,711"/>
+</map>

@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1functor__traits_3_01scalar__digamma__op_3_01Scalar_01_4_01_4 =
+[
+    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__digamma__op_3_01Scalar_01_4_01_4.html#a90fa81570fff72dd59da13be090f6ab2a524be53821fc7ee75fe498ec699fb004", null ],
+    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__digamma__op_3_01Scalar_01_4_01_4.html#a90fa81570fff72dd59da13be090f6ab2a7b78c920cddef8c1f62e131bc83047b3", null ]
+];

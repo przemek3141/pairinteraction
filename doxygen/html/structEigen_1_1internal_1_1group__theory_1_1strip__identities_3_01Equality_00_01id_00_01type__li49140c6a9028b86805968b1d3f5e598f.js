@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1group__theory_1_1strip__identities_3_01Equality_00_01id_00_01type__li49140c6a9028b86805968b1d3f5e598f =
+[
+    [ "type", "structEigen_1_1internal_1_1group__theory_1_1strip__identities_3_01Equality_00_01id_00_01type__li49140c6a9028b86805968b1d3f5e598f.html#af3a12f6baa1c633160d5fb31ca180303", null ]
+];

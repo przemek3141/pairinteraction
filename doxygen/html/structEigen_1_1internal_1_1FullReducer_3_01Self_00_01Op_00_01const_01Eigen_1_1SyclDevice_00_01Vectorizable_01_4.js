@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1FullReducer_3_01Self_00_01Op_00_01const_01Eigen_1_1SyclDevice_00_01Vectorizable_01_4 =
+[
+    [ "CoeffReturnType", "structEigen_1_1internal_1_1FullReducer_3_01Self_00_01Op_00_01const_01Eigen_1_1SyclDevice_00_01Vectorizable_01_4.html#aa02e68b933cb294854a8dd61a3952962", null ]
+];

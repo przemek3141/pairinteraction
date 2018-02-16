@@ -1,0 +1,5 @@
+<map id="Eigen::RealSchur::compute" name="Eigen::RealSchur::compute">
+<area shape="rect" id="node2" href="$classEigen_1_1EigenSolver.html#a99e6120839b1f65c4e1f1ba61efa264e" title="Eigen::EigenSolver\l\&lt; CompanionMatrixType\l \&gt;::compute" alt="" coords="249,5,427,61"/>
+<area shape="rect" id="node3" href="$classEigen_1_1RealSchur.html#abb78996b43b8642a5f507415730445cb" title="Returns the quasi&#45;triangular matrix in the Schur decomposition. " alt="" coords="247,86,429,127"/>
+<area shape="rect" id="node4" href="$classEigen_1_1RealSchur.html#afef4d3dc5a493aca2760c20b34337016" title="Constructor; computes real Schur decomposition of given matrix. " alt="" coords="247,151,429,193"/>
+</map>

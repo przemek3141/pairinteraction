@@ -1,0 +1,8 @@
+var structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e =
+[
+    [ "_cil", "structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e.html#aa1ad822a7c954f50c68f4816d51a5379", null ],
+    [ "_helper", "structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e.html#ad5eaddb9edeaa7a4ec420de323a7ec9e", null ],
+    [ "coset_elements", "structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e.html#a1fbe795efaa7e346c931246f13253b35", null ],
+    [ "new_coset_rep", "structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e.html#a1bf3379d0bfe40d6e3d586b6aa4c31b9", null ],
+    [ "type", "structEigen_1_1internal_1_1group__theory_1_1dimino__add__cosets__for__rep_3_01Multiply_00_01Equae60b56781226d2dad4792f645af0641e.html#aacbd0c209eacd22d83f250546df29512", null ]
+];

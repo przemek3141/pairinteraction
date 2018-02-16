@@ -1,0 +1,6 @@
+<map id="measure_clock_speed" name="measure_clock_speed">
+<area shape="rect" id="node2" href="$benchmark-blocking-sizes_8cpp.html#a2448c2abccf666684f95243f0f7292cf" title="run_benchmarks" alt="" coords="461,46,591,73"/>
+<area shape="rect" id="node5" href="$benchmark-blocking-sizes_8cpp.html#aea02bf6aae653ce300842f4a85cf9b63" title="try_run_some_benchmarks" alt="" coords="217,71,413,98"/>
+<area shape="rect" id="node3" href="$structmeasure__all__pot__sizes__action__t.html#a0e609492bfec2fefd574cb35b60b1bfe" title="measure_all_pot_sizes\l_action_t::run" alt="" coords="640,5,807,47"/>
+<area shape="rect" id="node4" href="$structmeasure__default__sizes__action__t.html#a5efe4ed712585335504ef98a65a3370f" title="measure_default_sizes\l_action_t::run" alt="" coords="639,71,808,112"/>
+</map>

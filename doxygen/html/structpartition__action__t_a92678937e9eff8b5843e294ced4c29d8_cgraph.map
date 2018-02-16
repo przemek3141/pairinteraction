@@ -1,0 +1,18 @@
+<map id="partition_action_t::run" name="partition_action_t::run">
+<area shape="rect" id="node2" href="$analyze-blocking-sizes_8cpp.html#a34cc789c61a8174dae38e9be24dd969a" title="check_all_files_in\l_same_exact_order" alt="" coords="227,39,375,81"/>
+<area shape="rect" id="node3" href="$analyze-blocking-sizes_8cpp.html#a9f80f02295f554b0d2fb8bec25c486fe" title="efficiency_of_partition" alt="" coords="451,171,611,197"/>
+<area shape="rect" id="node6" href="$analyze-blocking-sizes_8cpp.html#a83e3605484cce39201e4dc6c5de1d6e9" title="find_partition_with\l_efficiency_higher_than" alt="" coords="216,105,387,146"/>
+<area shape="rect" id="node14" href="$analyze-blocking-sizes_8cpp.html#ab7c534592b27494e4cdd1ac357ce0481" title="print_partition" alt="" coords="246,221,357,248"/>
+<area shape="rect" id="node17" href="$namespaceEigen_1_1internal.html#a5e29312945258e3f4bef07251a522d58" title="Eigen::internal::repeat" alt="" coords="220,272,383,299"/>
+<area shape="rect" id="node4" href="$analyze-blocking-sizes_8cpp.html#a34bb78c57cc4a6cf3fea5aca848e7222" title="efficiency_of_subset" alt="" coords="696,220,847,247"/>
+<area shape="rect" id="node5" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="967,271,1005,297"/>
+<area shape="rect" id="node7" href="$analyze-blocking-sizes_8cpp.html#a2af209de2ec03fb96902e935bf93b976" title="find_subset_with_efficiency\l_higher_than" alt="" coords="435,47,628,89"/>
+<area shape="rect" id="node8" href="$namespacempfr.html#ab4c32b4cee0e259ccf879ae894c108b0" title="mpfr::remainder" alt="" coords="468,113,595,140"/>
+<area shape="rect" id="node9" href="$namespacempfr.html#a004935036c2970cebb55e20e22edb67e" title="mpfr::max" alt="" coords="727,165,815,192"/>
+<area shape="rect" id="node10" href="$classmpfr_1_1mpreal.html#ab554a180ceca6eed0e5798b316f944b0" title="mpfr::mpreal::getPrecision" alt="" coords="676,13,867,40"/>
+<area shape="rect" id="node12" href="$classmpfr_1_1mpreal.html#a566f64ca066c54923d19c11d6c3d15cd" title="mpfr::mpreal::mpfr\l_srcptr" alt="" coords="915,57,1057,98"/>
+<area shape="rect" id="node13" href="$classmpfr_1_1mpreal.html#af4e3b56888463376c675cac70b6ceca3" title="mpfr::mpreal::mpfr_ptr" alt="" coords="687,115,855,141"/>
+<area shape="rect" id="node11" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="967,5,1005,32"/>
+<area shape="rect" id="node15" href="$analyze-blocking-sizes_8cpp.html#aad9fe69ae63901e8c9db2a0cc1cbc3e0" title="dump_table_for_subset" alt="" coords="445,272,617,299"/>
+<area shape="rect" id="node16" href="$analyze-blocking-sizes_8cpp.html#afbedf6ed54bf4e5d85ac53e224d6283f" title="log2_pot" alt="" coords="733,271,810,297"/>
+</map>

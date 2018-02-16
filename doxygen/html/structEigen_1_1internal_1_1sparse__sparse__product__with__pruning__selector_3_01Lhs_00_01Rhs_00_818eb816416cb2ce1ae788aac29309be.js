@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1sparse__sparse__product__with__pruning__selector_3_01Lhs_00_01Rhs_00_818eb816416cb2ce1ae788aac29309be =
+[
+    [ "RealScalar", "structEigen_1_1internal_1_1sparse__sparse__product__with__pruning__selector_3_01Lhs_00_01Rhs_00_818eb816416cb2ce1ae788aac29309be.html#af0c0f348f707921999a8bdd2883f18fb", null ]
+];

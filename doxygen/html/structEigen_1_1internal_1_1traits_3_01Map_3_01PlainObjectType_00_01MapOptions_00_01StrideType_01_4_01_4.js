@@ -1,0 +1,9 @@
+var structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4 =
+[
+    [ "TraitsBase", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#a90f1edf2f2637a65bed060bb57b0c43e", null ],
+    [ "InnerStrideAtCompileTime", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#ae6e8827c96c1ec622268218d13fa9548ab8f6b91ada5bd38b69d497e29762da2e", null ],
+    [ "OuterStrideAtCompileTime", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#ae6e8827c96c1ec622268218d13fa9548a0b0dcdc40cf203955170f9f6129a30e8", null ],
+    [ "Alignment", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#ae6e8827c96c1ec622268218d13fa9548a0803cd5425220bd3af5b84bdb8c0844a", null ],
+    [ "Flags0", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#ae6e8827c96c1ec622268218d13fa9548ad4b7f3460583bb18ce6f22911c206f54", null ],
+    [ "Flags", "structEigen_1_1internal_1_1traits_3_01Map_3_01PlainObjectType_00_01MapOptions_00_01StrideType_01_4_01_4.html#ae6e8827c96c1ec622268218d13fa9548aa934663521b04138730c191c1d913c30", null ]
+];

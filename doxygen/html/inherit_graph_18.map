@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structnumpy_1_1internal_1_1py__type_3_01double_01_4.html" title="Specialization of py_type for double. " alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node1" href="$structaction__t.html" title="action_t" alt="" coords="5,97,79,124"/>
+<area shape="rect" id="node2" href="$structevaluate__defaults__action__t.html" title="evaluate_defaults_action_t" alt="" coords="127,5,320,32"/>
+<area shape="rect" id="node3" href="$structmeasure__all__pot__sizes__action__t.html" title="measure_all_pot_sizes\l_action_t" alt="" coords="140,57,307,98"/>
+<area shape="rect" id="node4" href="$structmeasure__default__sizes__action__t.html" title="measure_default_sizes\l_action_t" alt="" coords="139,122,308,163"/>
+<area shape="rect" id="node5" href="$structpartition__action__t.html" title="partition_action_t" alt="" coords="157,188,290,215"/>
 </map>

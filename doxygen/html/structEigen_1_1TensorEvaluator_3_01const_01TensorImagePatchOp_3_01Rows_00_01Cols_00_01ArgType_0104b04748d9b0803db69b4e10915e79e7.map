@@ -1,0 +1,15 @@
+<map id="Eigen::TensorEvaluator&lt; const TensorImagePatchOp&lt; Rows, Cols, ArgType &gt;, Device &gt;" name="Eigen::TensorEvaluator&lt; const TensorImagePatchOp&lt; Rows, Cols, ArgType &gt;, Device &gt;">
+<area shape="rect" id="node2" href="$structEigen_1_1DSizes.html" title="Eigen::DSizes\&lt; Index,\l NumDims \&gt;" alt="" coords="1777,338,1940,379"/>
+<area shape="rect" id="node19" href="$structEigen_1_1TensorEvaluator.html" title="Eigen::TensorEvaluator\l\&lt; ArgType, Device \&gt;" alt="" coords="2101,179,2267,221"/>
+<area shape="rect" id="node3" href="$classEigen_1_1array.html" title="Eigen::array\&lt; Index,\l NumDims \&gt;" alt="" coords="1537,338,1688,379"/>
+<area shape="rect" id="node4" href="$classEigen_1_1Triplet.html" title="Eigen::Triplet\&lt; double \&gt;" alt="" coords="1269,345,1444,372"/>
+<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html" title="Eigen::SparseMatrix\l\&lt; double \&gt;" alt="" coords="1013,367,1163,409"/>
+<area shape="rect" id="node7" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format. " alt="" coords="683,267,905,323"/>
+<area shape="rect" id="node8" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions. " alt="" coords="341,274,523,315"/>
+<area shape="rect" id="node9" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Derived \&gt;" alt="" coords="5,256,216,283"/>
+<area shape="rect" id="node10" href="$classbool.html" title="bool" alt="" coords="86,307,135,333"/>
+<area shape="rect" id="node13" href="$classEigen_1_1internal_1_1CompressedStorage.html" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex \&gt;" alt="" coords="676,438,912,479"/>
+<area shape="rect" id="node17" href="$structEigen_1_1internal_1_1remove__const.html" title="Eigen::internal::remove\l_const\&lt; typename XprType\l::Scalar \&gt;" alt="" coords="2085,324,2283,380"/>
+<area shape="rect" id="node18" href="$structEigen_1_1internal_1_1TensorIntDivisor.html" title="Eigen::internal::TensorInt\lDivisor\&lt; Index \&gt;" alt="" coords="2095,461,2273,502"/>
+<area shape="rect" id="node20" href="$structEigen_1_1internal_1_1traits.html" title="Eigen::internal::traits\l\&lt; ArgType \&gt;" alt="" coords="1781,221,1936,262"/>
+</map>

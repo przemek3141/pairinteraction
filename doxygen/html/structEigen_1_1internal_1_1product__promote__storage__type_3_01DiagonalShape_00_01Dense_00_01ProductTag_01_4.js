@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1product__promote__storage__type_3_01DiagonalShape_00_01Dense_00_01ProductTag_01_4 =
+[
+    [ "ret", "structEigen_1_1internal_1_1product__promote__storage__type_3_01DiagonalShape_00_01Dense_00_01ProductTag_01_4.html#a4934f44fe4b8fd3ea78b8301fa85ac01", null ]
+];

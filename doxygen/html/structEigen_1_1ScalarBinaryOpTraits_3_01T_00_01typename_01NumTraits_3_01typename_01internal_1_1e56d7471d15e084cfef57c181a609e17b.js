@@ -1,0 +1,4 @@
+var structEigen_1_1ScalarBinaryOpTraits_3_01T_00_01typename_01NumTraits_3_01typename_01internal_1_1e56d7471d15e084cfef57c181a609e17b =
+[
+    [ "ReturnType", "structEigen_1_1ScalarBinaryOpTraits_3_01T_00_01typename_01NumTraits_3_01typename_01internal_1_1e56d7471d15e084cfef57c181a609e17b.html#ac255ba4c0d28dd1d600d3220dc31d078", null ]
+];

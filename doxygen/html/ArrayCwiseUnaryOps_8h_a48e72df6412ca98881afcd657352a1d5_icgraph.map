@@ -1,0 +1,25 @@
+<map id="log" name="log">
+<area shape="rect" id="node2" href="$array_8cpp.html#a42679ca56b93432f069ffb2f7da98ecd" title="array_complex" alt="" coords="166,5,282,32"/>
+<area shape="rect" id="node3" href="$array_8cpp.html#a12b21dad85caad3597039ebc71399d96" title="array_real" alt="" coords="181,56,267,83"/>
+<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#a1431fef40d5236138ca393d225f8aea5" title="Eigen::internal::chkder" alt="" coords="142,107,306,133"/>
+<area shape="rect" id="node7" href="$classEigen_1_1internal_1_1MatrixLogarithmAtomic.html#a14d76ac8fb2bc662a9560a76f7df4fe7" title="Compute matrix logarithm of atomic matrix. " alt="" coords="401,314,627,355"/>
+<area shape="rect" id="node8" href="$structBennett5__functor.html#a4fbfe9e83818f73c25994ed19cc00f90" title="Bennett5_functor::df" alt="" coords="147,208,301,235"/>
+<area shape="rect" id="node9" href="$structrat43__functor.html#ae80e8d0d9679fb984d14368620c7cb1b" title="rat43_functor::df" alt="" coords="160,259,288,285"/>
+<area shape="rect" id="node10" href="$classEigen_1_1SparseLU.html#a89e30a7df205596784a5a73f4768eaec" title="Eigen::SparseLU::logAbsDeterminant" alt="" coords="95,309,353,336"/>
+<area shape="rect" id="node11" href="$classEigen_1_1CholmodBase.html#a597f7839a39604af18a8741a0d8c46bf" title="Eigen::CholmodBase\l\&lt; _MatrixType, _UpLo,\l CholmodSimplicialLLT\l\&lt; _MatrixType, _UpLo \&gt;\l \&gt;::logDeterminant" alt="" coords="137,360,311,445"/>
+<area shape="rect" id="node12" href="$namespaceEigen_1_1internal.html#a1cb8d312c017f94570a52317fd1ece5f" title="Compute logarithm of 2x2 triangular matrix. " alt="" coords="143,470,305,511"/>
+<area shape="rect" id="node13" href="$structEigen_1_1internal_1_1scalar__log__op.html#a5a3bf7b2b930acc86457b63b664ee870" title="Eigen::internal::scalar\l_log_op::operator()" alt="" coords="145,535,303,577"/>
+<area shape="rect" id="node14" href="$namespaceEigen_1_1internal.html#a3df2f47dad3f497cb70171f03353fccc" title="Eigen::internal::plog" alt="" coords="150,601,298,628"/>
+<area shape="rect" id="node16" href="$qr_8cpp.html#a9bfcf72d1c319774f027d3446dc121dd" title="qr_invertible" alt="" coords="174,652,274,679"/>
+<area shape="rect" id="node17" href="$namespaceEigen_1_1internal.html#ac1914699ceb08035d3fd618e5a9d8f42" title="Eigen::internal::RandomTo\lTypeNormal" alt="" coords="131,703,317,745"/>
+<area shape="rect" id="node18" href="$structEigen_1_1internal_1_1digamma__impl.html#a55a556100db7911f893d5898b345a953" title="Eigen::internal::digamma\l_impl::run" alt="" coords="133,769,315,810"/>
+<area shape="rect" id="node20" href="$structEigen_1_1internal_1_1igammac__impl.html#a3f7c5dcfb2f846fe33b0e3fdb5ac3fd2" title="Eigen::internal::igammac\l_impl::run" alt="" coords="133,834,315,875"/>
+<area shape="rect" id="node21" href="$structEigen_1_1internal_1_1igamma__impl.html#addc92285f27b7153bdf25f7bfa11dab9" title="Eigen::internal::igamma\l_impl::run" alt="" coords="137,899,311,941"/>
+<area shape="rect" id="node22" href="$size__log_8hh.html#a5291a0d15b63e631ba8c0767e2329e8a" title="size_log" alt="" coords="187,965,261,992"/>
+<area shape="rect" id="node5" href="$NonLinearOptimization_8cpp.html#aab547093e734e12279952045fc6c799b" title="testChkder" alt="" coords="468,107,560,133"/>
+<area shape="rect" id="node6" href="$NonLinearOptimization_8cpp.html#a82697273022ac522a2ed2441e2399d0b" title="test_NonLinearOptimization" alt="" coords="675,107,875,133"/>
+<area shape="rect" id="node15" href="$structEigen_1_1internal_1_1scalar__log__op.html#a6328839017cffa9c646ac8843c1d318f" title="Eigen::internal::scalar\l_log_op::packetOp" alt="" coords="435,594,593,635"/>
+<area shape="rect" id="node19" href="$structEigen_1_1internal_1_1polygamma__impl.html#af82ca97b90b2cf3d0c2416047f02a56a" title="Eigen::internal::polygamma\l_impl::run" alt="" coords="415,769,613,810"/>
+<area shape="rect" id="node23" href="$size__lin__log_8hh.html#a4728dbf73a1c9b1d78f3e345a87ab839" title="size_lin_log" alt="" coords="467,965,561,992"/>
+<area shape="rect" id="node24" href="$bench_8hh.html#ad6e40d9b206134fb8fb7efcdf4d7d82b" title="bench" alt="" coords="744,965,805,992"/>
+</map>

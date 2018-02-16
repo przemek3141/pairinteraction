@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01SparseSelfAdjoint2Sparse_01_4 =
+[
+    [ "AssignOpType", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01SparseSelfAdjoint2Sparse_01_4.html#ad85cf07ae0637a29d606af6dbc03405c", null ],
+    [ "StorageIndex", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01SparseSelfAdjoint2Sparse_01_4.html#a429efae6af903e6754d8ed4bfd28948a", null ]
+];

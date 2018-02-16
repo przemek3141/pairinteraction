@@ -1,0 +1,5 @@
+var structEigen_1_1internal_1_1functor__traits_3_01scalar__polygamma__op_3_01Scalar_01_4_01_4 =
+[
+    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__polygamma__op_3_01Scalar_01_4_01_4.html#a557e1e3a8c5df24ca2431895de758bdcaf5bf823680b9b07dab89b0901c63efc3", null ],
+    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__polygamma__op_3_01Scalar_01_4_01_4.html#a557e1e3a8c5df24ca2431895de758bdca357d679ab49160d2819fdc818e9badcf", null ]
+];

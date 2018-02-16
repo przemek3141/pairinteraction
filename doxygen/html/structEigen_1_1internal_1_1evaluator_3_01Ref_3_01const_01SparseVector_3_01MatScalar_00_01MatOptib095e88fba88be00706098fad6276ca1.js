@@ -1,0 +1,7 @@
+var structEigen_1_1internal_1_1evaluator_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptib095e88fba88be00706098fad6276ca1 =
+[
+    [ "Base", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptib095e88fba88be00706098fad6276ca1.html#a04470f825a1e6420859a174d51164918", null ],
+    [ "XprType", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptib095e88fba88be00706098fad6276ca1.html#a459863657e03cb2a0643634215802a60", null ],
+    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptib095e88fba88be00706098fad6276ca1.html#aa962d13f48407321465baf57490834af", null ],
+    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01const_01SparseVector_3_01MatScalar_00_01MatOptib095e88fba88be00706098fad6276ca1.html#a319221e2add4fb7671100559f55f3008", null ]
+];

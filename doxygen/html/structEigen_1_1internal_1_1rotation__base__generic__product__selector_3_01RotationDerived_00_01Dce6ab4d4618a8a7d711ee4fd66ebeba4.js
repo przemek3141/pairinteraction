@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1rotation__base__generic__product__selector_3_01RotationDerived_00_01Dce6ab4d4618a8a7d711ee4fd66ebeba4 =
+[
+    [ "ReturnType", "structEigen_1_1internal_1_1rotation__base__generic__product__selector_3_01RotationDerived_00_01Dce6ab4d4618a8a7d711ee4fd66ebeba4.html#a85185b2776cd7e5617639cc40a9c5a98", null ]
+];

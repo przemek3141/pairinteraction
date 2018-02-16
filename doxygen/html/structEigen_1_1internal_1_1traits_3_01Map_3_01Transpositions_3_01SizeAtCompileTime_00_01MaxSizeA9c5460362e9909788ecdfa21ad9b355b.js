@@ -1,0 +1,6 @@
+var structEigen_1_1internal_1_1traits_3_01Map_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeA9c5460362e9909788ecdfa21ad9b355b =
+[
+    [ "IndicesType", "structEigen_1_1internal_1_1traits_3_01Map_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeA9c5460362e9909788ecdfa21ad9b355b.html#aef77ab5aeac1d5d76a4916f38ed30fe3", null ],
+    [ "StorageIndex", "structEigen_1_1internal_1_1traits_3_01Map_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeA9c5460362e9909788ecdfa21ad9b355b.html#ab81b76d6ea129d36f31200ca3a778278", null ],
+    [ "StorageKind", "structEigen_1_1internal_1_1traits_3_01Map_3_01Transpositions_3_01SizeAtCompileTime_00_01MaxSizeA9c5460362e9909788ecdfa21ad9b355b.html#a8d32ad3349c273f89a2e2e25b19bf182", null ]
+];

@@ -1,0 +1,4 @@
+var structEigen_1_1ScalarBinaryOpTraits_3_01typename_01DerType_1_1Scalar_00_01AutoDiffScalar_3_01DerType_01_4_00_01BinOp_01_4 =
+[
+    [ "ReturnType", "structEigen_1_1ScalarBinaryOpTraits_3_01typename_01DerType_1_1Scalar_00_01AutoDiffScalar_3_01DerType_01_4_00_01BinOp_01_4.html#a5f2f186ee03a4f32839029d3503807e9", null ]
+];

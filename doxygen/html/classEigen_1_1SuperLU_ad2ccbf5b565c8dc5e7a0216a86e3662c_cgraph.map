@@ -1,0 +1,11 @@
+<map id="Eigen::SuperLU::determinant" name="Eigen::SuperLU::determinant">
+<area shape="rect" id="node2" href="$dense__solvers_8cpp.html#a8ef543dd0111424127c81cdd31f3753a" title="compute" alt="" coords="300,56,379,83"/>
+<area shape="rect" id="node3" href="$determinant_8cpp.html#a23eb90efd73058c5e4579446dbe819d3" title="determinant" alt="" coords="289,107,390,133"/>
+<area shape="rect" id="node7" href="$structEigen_1_1SluMatrix.html#aed2b1c36eb8e9c1c6725d5dc2e699dfd" title="Eigen::SluMatrix::Map" alt="" coords="260,157,419,184"/>
+<area shape="rect" id="node10" href="$common_8h.html#a94360d20ee722c1bcb23e5b2fbba8554" title="matrix" alt="" coords="308,208,371,235"/>
+<area shape="rect" id="node4" href="$exceptions_8cpp.html#a75f785bf0f51cbc94279c80d143642ae" title="conj" alt="" coords="558,5,606,32"/>
+<area shape="rect" id="node5" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="558,56,606,83"/>
+<area shape="rect" id="node6" href="$Tutorial__Map__using_8cpp.html#ab3a01b595d22393ace0d30d5fa299f76" title="m2" alt="" coords="561,107,603,133"/>
+<area shape="rect" id="node8" href="$structEigen_1_1SluMatrix.html#a77c5ddf8fd6cfb5314f937976046cf46" title="Eigen::SluMatrix::setScalarType" alt="" coords="472,157,692,184"/>
+<area shape="rect" id="node9" href="$structEigen_1_1SluMatrix.html#ae36a82e01409ad0c3cbbf5847c096f0b" title="Eigen::SluMatrix::setStorageType" alt="" coords="467,208,697,235"/>
+</map>

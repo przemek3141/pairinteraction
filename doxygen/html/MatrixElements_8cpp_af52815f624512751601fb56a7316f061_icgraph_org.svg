@@ -8,52 +8,52 @@
  viewBox="0.00 0.00 565.00 153.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 149.5)">
 <title>selectionRulesMomentum</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="5.68434e-14,-69 5.68434e-14,-88 140,-88 140,-69 5.68434e-14,-69"/>
 <text text-anchor="middle" x="70" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">selectionRulesMomentum</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" target="_top" xlink:title="HamiltonianOne::build">
 <polygon fill="none" stroke="black" points="199,-126 199,-145 321,-145 321,-126 199,-126"/>
 <text text-anchor="middle" x="260" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::build</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M104.405,-91.7726C124.867,-99.6054 151.706,-109.352 176,-116.5 187.771,-119.963 200.633,-123.178 212.643,-125.941"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="105.5,-88.4437 94.911,-88.1009 102.975,-94.9725 105.5,-88.4437"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:href="classMatrixElements.html#a5352b0d0dc75bb41105e40e02c271130" target="_top" xlink:title="MatrixElements::getRadial">
 <polygon fill="none" stroke="black" points="189.5,-88 189.5,-107 330.5,-107 330.5,-88 189.5,-88"/>
 <text text-anchor="middle" x="260" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::getRadial</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node3&#45;&gt;Node6 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M150.459,-86.5304C163.371,-87.8354 176.659,-89.1783 189.315,-90.4573"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.505,-83.0173 140.203,-85.494 149.801,-89.9818 150.505,-83.0173"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <g id="a_node5"><a xlink:href="classSystemOne.html#abf6d26d44765fa787251956c128644a7" target="_top" xlink:title="Method that allows base class to calculate the interaction /////. ">
 <polygon fill="none" stroke="black" points="176,-50 176,-69 344,-69 344,-50 176,-50"/>
 <text text-anchor="middle" x="260" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">SystemOne::initializeInteraction</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge4" class="edge"><title>Node3&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M150.399,-70.4756C158.838,-69.6227 167.439,-68.7535 175.919,-67.8965"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="149.801,-67.0182 140.203,-71.506 150.505,-73.9827 149.801,-67.0182"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" target="_top" xlink:title="MatrixElements::precalculate\lDiamagnetism">
 <polygon fill="none" stroke="black" points="182.5,-0.5 182.5,-30.5 337.5,-30.5 337.5,-0.5 182.5,-0.5"/>
 <text text-anchor="start" x="190.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::precalculate</text>
@@ -61,21 +61,21 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
+<!-- Node3&#45;&gt;Node8 -->
+<g id="edge5" class="edge"><title>Node3&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M105.811,-65.3609C126.175,-57.8104 152.436,-48.3063 176,-40.5 186.143,-37.1399 197.044,-33.7206 207.502,-30.5334"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="104.474,-62.1238 96.3253,-68.8945 106.918,-68.6834 104.474,-62.1238"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" target="_top" xlink:title="HamiltonianOne::HamiltonianOne">
 <polygon fill="none" stroke="black" points="380,-126 380,-145 557,-145 557,-126 380,-126"/>
 <text text-anchor="middle" x="468.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::HamiltonianOne</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M331.089,-135.5C346.708,-135.5 363.46,-135.5 379.69,-135.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="331.006,-132 321.006,-135.5 331.006,-139 331.006,-132"/>
 </g>

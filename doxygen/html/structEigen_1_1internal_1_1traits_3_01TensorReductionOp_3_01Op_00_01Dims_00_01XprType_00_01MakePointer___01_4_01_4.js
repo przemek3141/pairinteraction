@@ -1,0 +1,9 @@
+var structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4 =
+[
+    [ "MakePointer", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePf6c287125138dbd62db054afb4886baf.html", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePf6c287125138dbd62db054afb4886baf" ],
+    [ "Index", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4.html#a28d32710e15385637ecc88af1b16db7c", null ],
+    [ "Nested", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4.html#ad772958ebc0d560135345d3aba8eec0c", null ],
+    [ "Scalar", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4.html#ac61816b17088b8fa3f8143d437e1adbd", null ],
+    [ "StorageKind", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4.html#ad70cc2835b95c8377fcbb12be066af33", null ],
+    [ "XprTraits", "structEigen_1_1internal_1_1traits_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePointer___01_4_01_4.html#a4d135f5a02920c8586b94e80ac64a44c", null ]
+];

@@ -1,5 +1,37 @@
 <map id="Hamiltonianmatrix::diagonalize" name="Hamiltonianmatrix::diagonalize">
-<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78" title="Hamiltonianmatrix::\lbasis" alt="" coords="201,5,349,47"/>
-<area shape="rect" id="node3" href="$classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75" title="Hamiltonianmatrix::\lentries" alt="" coords="201,71,349,112"/>
-<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="201,136,349,177"/>
+<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#ab0f42b034579983088548dd6dd4e1e78" title="Hamiltonianmatrix::\lbasis" alt="" coords="231,16,379,57"/>
+<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#a25626a55b26a4323565f79d1b7c48ea8" title="Eigen::PlainObjectBase\l::coeffRef" alt="" coords="221,81,389,123"/>
+<area shape="rect" id="node4" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="286,147,325,174"/>
+<area shape="rect" id="node5" href="$eigensolver__complex_8cpp.html#a936952f9210b126877c2c4a0f5f6e084" title="eigensolver" alt="" coords="258,198,353,225"/>
+<area shape="rect" id="node28" href="$classEigen_1_1SelfAdjointEigenSolver.html#a8efab27e82aa6aa0ae0c64739238c2e0" title="Returns the eigenvalues of given matrix. " alt="" coords="201,249,409,291"/>
+<area shape="rect" id="node29" href="$classEigen_1_1SelfAdjointEigenSolver.html#a7b9f7e641fa46ac4c5f2371405c69b2b" title="Returns the eigenvectors of given matrix. " alt="" coords="201,315,409,356"/>
+<area shape="rect" id="node30" href="$classHamiltonianmatrix.html#a9a6919d68a5f490c249adaaffd46fe75" title="Hamiltonianmatrix::\lentries" alt="" coords="231,380,379,421"/>
+<area shape="rect" id="node31" href="$classEigen_1_1SparseMatrix.html#aae45e3b5fec7f6a0cdd10eec7c6d3666" title="Eigen::SparseMatrix\l::insert" alt="" coords="231,445,380,487"/>
+<area shape="rect" id="node32" href="$classEigen_1_1SparseMatrix.html#a5ff54ffc10296f9466dc81fa888733fd" title="Eigen::SparseMatrix\l::makeCompressed" alt="" coords="231,511,380,552"/>
+<area shape="rect" id="node33" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="231,576,379,617"/>
+<area shape="rect" id="node35" href="$classEigen_1_1SparseMatrix.html#a1518e58ac49bed0e2385b722a034f7d3" title="Eigen::SparseMatrix\l::reserve" alt="" coords="231,641,380,683"/>
+<area shape="rect" id="node36" href="$classEigen_1_1SparseMatrix.html#ad3c7416090f913e8685523cb3ab7c2f7" title="Eigen::SparseMatrix\l::setZero" alt="" coords="231,707,380,748"/>
+<area shape="rect" id="node6" href="$classEigen_1_1ComplexEigenSolver.html#aeb7e38c6db5369f5c974f3786e94c1f0" title="Computes eigendecomposition of given matrix. " alt="" coords="701,8,897,49"/>
+<area shape="rect" id="node7" href="$classEigen_1_1ComplexEigenSolver.html#a10c25c7620e7faedcd39991cce3a757b" title="Returns the eigenvalues of given matrix. " alt="" coords="457,67,653,108"/>
+<area shape="rect" id="node9" href="$classEigen_1_1ComplexEigenSolver.html#a3aa5e27800349990778da8fa532c1270" title="Returns the eigenvectors of given matrix. " alt="" coords="457,132,653,173"/>
+<area shape="rect" id="node10" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="531,198,579,225"/>
+<area shape="rect" id="node11" href="$classEigen_1_1ComplexEigenSolver.html#ad4d9d8b90145900b9686d2dabbe46730" title="Reports whether previous computation was successful. " alt="" coords="457,249,653,291"/>
+<area shape="rect" id="node13" href="$classEigen_1_1ComplexEigenSolver.html#a0c5a974da17774d75be41e351e6bda62" title="Sets the maximum number of iterations allowed. " alt="" coords="457,315,653,356"/>
+<area shape="rect" id="node15" href="$eigensolver__complex_8cpp.html#aa4187a23a508d9ba4e25992ade0580f7" title="verify_is_approx_upto\l_permutation" alt="" coords="475,380,635,421"/>
+<area shape="rect" id="node8" href="$common_8h.html#a94360d20ee722c1bcb23e5b2fbba8554" title="matrix" alt="" coords="768,74,831,101"/>
+<area shape="rect" id="node12" href="$classEigen_1_1ComplexSchur.html#a8c5ee15fecfd126fc362c3f2fd28f51e" title="Reports whether previous computation was successful. " alt="" coords="720,249,879,291"/>
+<area shape="rect" id="node14" href="$classEigen_1_1ComplexSchur.html#a6ca227fbd5387f3a625351354b8eec44" title="Sets the maximum number of iterations allowed. " alt="" coords="720,315,879,356"/>
+<area shape="rect" id="node16" href="$MatrixCwiseUnaryOps_8h.html#a426713f88e0c1c0d6626fbadced4e9d7" title="cwiseAbs2" alt="" coords="755,383,843,410"/>
+<area shape="rect" id="node26" href="$eigensolver__complex_8cpp.html#a77a711fc919c8e7780bf1071a67eacc0" title="find_pivot" alt="" coords="758,434,841,461"/>
+<area shape="rect" id="node17" href="$MatrixCwiseUnaryOps_8h.html#a0e379b45253546d07dcea81d8588297e" title="cwiseSqrt" alt="" coords="947,299,1030,326"/>
+<area shape="rect" id="node22" href="$namespacempfr.html#ad838087b4c59a17f714c4da9984aea66" title="mpfr::root" alt="" coords="945,358,1032,385"/>
+<area shape="rect" id="node25" href="$ArrayCwiseUnaryOps_8h.html#aa1e484838873e960b8c8ba7e066ba837" title="square" alt="" coords="955,409,1022,435"/>
+<area shape="rect" id="node18" href="$MatrixCwiseUnaryOps_8h.html#a92d50e5a414332785a7e6b6ff406198c" title="cwiseSign" alt="" coords="1122,249,1206,275"/>
+<area shape="rect" id="node21" href="$ArrayCwiseUnaryOps_8h.html#a281eccb624a3ff6dacbe305828e43a82" title="sign" alt="" coords="1140,299,1188,326"/>
+<area shape="rect" id="node19" href="$MatrixCwiseUnaryOps_8h.html#a71265e72c85a2d90d349543171b150cb" title="cwiseInverse" alt="" coords="1296,223,1399,250"/>
+<area shape="rect" id="node20" href="$ArrayCwiseUnaryOps_8h.html#ab3df1b08b9c073db2a7e61a9b06bb295" title="inverse" alt="" coords="1313,274,1381,301"/>
+<area shape="rect" id="node23" href="$classmpfr_1_1mpreal.html#a566f64ca066c54923d19c11d6c3d15cd" title="mpfr::mpreal::mpfr\l_srcptr" alt="" coords="1093,351,1235,392"/>
+<area shape="rect" id="node24" href="$classmpfr_1_1mpreal.html#af4e3b56888463376c675cac70b6ceca3" title="mpfr::mpreal::mpfr_ptr" alt="" coords="1080,417,1248,443"/>
+<area shape="rect" id="node27" href="$MatrixBase__col_8cpp.html#aa168d9544aa6d49fce0cbfc0bec849b0" title="col" alt="" coords="969,459,1009,486"/>
+<area shape="rect" id="node34" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="481,576,630,617"/>
 </map>

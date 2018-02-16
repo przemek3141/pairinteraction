@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1evaluator__traits_3_01BandMatrix_3_01__Scalar_00_01__Rows_00_01__Colsf7e442eb3e21c09f1321b9e7937a4c1b =
+[
+    [ "Shape", "structEigen_1_1internal_1_1evaluator__traits_3_01BandMatrix_3_01__Scalar_00_01__Rows_00_01__Colsf7e442eb3e21c09f1321b9e7937a4c1b.html#a30dd5d09d4b8218007889fcccb86f544", null ]
+];

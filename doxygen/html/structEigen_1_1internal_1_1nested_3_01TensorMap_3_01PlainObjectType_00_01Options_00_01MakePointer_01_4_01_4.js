@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1nested_3_01TensorMap_3_01PlainObjectType_00_01Options_00_01MakePointer_01_4_01_4 =
+[
+    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorMap_3_01PlainObjectType_00_01Options_00_01MakePointer_01_4_01_4.html#adb48e61f96a990e748de51e90a137d7d", null ]
+];

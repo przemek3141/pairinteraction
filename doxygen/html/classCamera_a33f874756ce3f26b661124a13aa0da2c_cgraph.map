@@ -1,0 +1,6 @@
+<map id="Camera::localRotate" name="Camera::localRotate">
+<area shape="rect" id="node2" href="$classCamera.html#aae4b943f1e8d26086029abdd6c13b148" title="Camera::direction" alt="" coords="222,5,358,32"/>
+<area shape="rect" id="node3" href="$classCamera.html#a87dcab091782b992386fc0fa30d77f46" title="Camera::orientation" alt="" coords="424,31,575,57"/>
+<area shape="rect" id="node4" href="$classCamera.html#ac5e39b63430bbcdc52d42e7c69374efe" title="Camera::position" alt="" coords="225,107,355,133"/>
+<area shape="rect" id="node5" href="$classCamera.html#abcdafc0aeba359632ecef5bf07bbfa4c" title="Camera::setOrientation" alt="" coords="204,157,376,184"/>
+</map>

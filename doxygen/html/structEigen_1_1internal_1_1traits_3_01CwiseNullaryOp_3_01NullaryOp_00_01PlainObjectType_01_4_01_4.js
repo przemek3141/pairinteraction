@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1traits_3_01CwiseNullaryOp_3_01NullaryOp_00_01PlainObjectType_01_4_01_4 =
+[
+    [ "Flags", "structEigen_1_1internal_1_1traits_3_01CwiseNullaryOp_3_01NullaryOp_00_01PlainObjectType_01_4_01_4.html#ad6c04f7f6024b2ea242b7692a5f11e95a0c9403bccb4ddccbb6837b2fcca34cbe", null ]
+];

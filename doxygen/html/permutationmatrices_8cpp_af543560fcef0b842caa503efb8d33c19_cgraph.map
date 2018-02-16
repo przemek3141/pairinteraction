@@ -1,0 +1,7 @@
+<map id="permutationmatrices" name="permutationmatrices">
+<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#ab3df1b08b9c073db2a7e61a9b06bb295" title="inverse" alt="" coords="277,5,345,32"/>
+<area shape="rect" id="node3" href="$namespaceEigen.html#a9489ae63302dfd33d4560c5377ead43f" title="Eigen::randomPermutation\lVector" alt="" coords="213,57,408,98"/>
+<area shape="rect" id="node6" href="$classEigen_1_1PlainObjectBase.html#aa86254240c534cc55143f38af58c8bdf" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::swap" alt="" coords="211,122,411,193"/>
+<area shape="rect" id="node4" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="459,64,541,91"/>
+<area shape="rect" id="node5" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="589,64,681,91"/>
+</map>

@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1nested__eval_3_01ReturnByValue_3_01Derived_01_4_00_01n_00_01PlainObject_01_4 =
+[
+    [ "type", "structEigen_1_1internal_1_1nested__eval_3_01ReturnByValue_3_01Derived_01_4_00_01n_00_01PlainObject_01_4.html#a2548d47a8e27255de008b64a904a9046", null ]
+];

@@ -1,0 +1,6 @@
+var structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84fa5bb3edf3ee13e13f42a8eb9b6782 =
+[
+    [ "type", "structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84fa5bb3edf3ee13e13f42a8eb9b6782.html#a56a976fd13a3fadcc937fb3030f492f0", null ],
+    [ "StorageOrderMatch", "structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84fa5bb3edf3ee13e13f42a8eb9b6782.html#a2297b3ea86ff453fe3f8f6dd36e4c67aafb73e51c4415f4723d920ac0a80eca7e", null ],
+    [ "MatchAtCompileTime", "structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84fa5bb3edf3ee13e13f42a8eb9b6782.html#a2297b3ea86ff453fe3f8f6dd36e4c67aa0800a83279a4ce15f233a84fdd70eb30", null ]
+];

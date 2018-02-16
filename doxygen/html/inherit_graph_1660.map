@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structEigen_1_1internal_1_1traits.html" title="Eigen::internal::traits\l\&lt; Block\&lt; VectorType, traits\l\&lt; VectorType \&gt;::Flags &amp;RowMajorBit\l ? 1 :Size, traits\&lt; VectorType\l \&gt;::Flags &amp;RowMajorBit ? Size :1 \&gt; \&gt;" alt="" coords="5,5,263,91"/>
+<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1traits_3_01VectorBlock_3_01VectorType_00_01Size_01_4_01_4.html" title="Eigen::internal::traits\l\&lt; VectorBlock\&lt; VectorType,\l Size \&gt; \&gt;" alt="" coords="311,20,511,76"/>
+</map>

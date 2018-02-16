@@ -1,0 +1,10 @@
+<map id="Eigen::SparseVector::operator=" name="Eigen::SparseVector::operator=">
+<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html#a34a7f8da0b505b870a65bf58d946a502" title="Eigen::SparseMatrixBase\l::const_cast_derived" alt="" coords="204,5,385,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html#a1c648eecf99e2774aa61195f3282b45a" title="Eigen::SparseMatrixBase\l::isRValue" alt="" coords="204,71,385,112"/>
+<area shape="rect" id="node4" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="265,137,325,163"/>
+<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrixBase.html#a124bc57921775eb9aa2dfd9727e23472" title="Eigen::SparseMatrixBase\l::size" alt="" coords="204,188,385,229"/>
+<area shape="rect" id="node6" href="$namespaceEigen_1_1internal.html#aefb14fc87518cc6b91063a820a66a21b" title="Eigen::internal::swap" alt="" coords="218,254,371,281"/>
+<area shape="rect" id="node7" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="475,225,558,251"/>
+<area shape="rect" id="node9" href="$classEigen_1_1internal_1_1scoped__array.html#a53e524d42e288b9117a59f5aded705dd" title="Eigen::internal::scoped\l_array::ptr" alt="" coords="433,276,600,317"/>
+<area shape="rect" id="node8" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="648,225,740,251"/>
+</map>

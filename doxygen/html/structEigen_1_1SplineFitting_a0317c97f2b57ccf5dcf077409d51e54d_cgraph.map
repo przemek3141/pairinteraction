@@ -1,0 +1,7 @@
+<map id="Eigen::SplineFitting::InterpolateWithDerivatives" name="Eigen::SplineFitting::InterpolateWithDerivatives">
+<area shape="rect" id="node2" href="$group__Splines__Module.html#gae10a6f9b6ab7fb400a2526b6382c533b" title="Computes knot averages when derivative constraints are present. Note that this is a technical interpr..." alt="" coords="251,5,435,47"/>
+<area shape="rect" id="node4" href="$class__FullPivLU_8cpp.html#a7c5c6799f10510af17433b66da2c9ae8" title="lu" alt="" coords="323,71,362,98"/>
+<area shape="rect" id="node5" href="$MatrixBase__row_8cpp.html#a64ef8efef59f875033a27e7cbbc879ec" title="row" alt="" coords="321,122,365,149"/>
+<area shape="rect" id="node6" href="$classEigen_1_1FullPivLU.html#af563471f6f3283fd10779ef02dd0b748" title="Eigen::FullPivLU::solve" alt="" coords="263,173,423,199"/>
+<area shape="rect" id="node3" href="$group__Splines__Module.html#ga9474da5ed68bbd9a6788a999330416d6" title="Computes knot averages.The knots are computed as &#160;where &#160;is the degree and &#160;the number knots of the d..." alt="" coords="483,13,640,39"/>
+</map>

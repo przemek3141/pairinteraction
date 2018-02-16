@@ -1,0 +1,11 @@
+<map id="Eigen::DynamicSparseMatrix::operator=" name="Eigen::DynamicSparseMatrix::operator=">
+<area shape="rect" id="node2" href="$classEigen_1_1DynamicSparseMatrix.html#abbdaf1aa19849142248b9ca523248ced" title="Eigen::DynamicSparseMatrix\l::cols" alt="" coords="259,5,464,47"/>
+<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html#a34a7f8da0b505b870a65bf58d946a502" title="Eigen::SparseMatrixBase\l::const_cast_derived" alt="" coords="271,71,452,112"/>
+<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrixBase.html#a1c648eecf99e2774aa61195f3282b45a" title="Eigen::SparseMatrixBase\l::isRValue" alt="" coords="271,136,452,177"/>
+<area shape="rect" id="node5" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="331,202,391,229"/>
+<area shape="rect" id="node6" href="$classEigen_1_1DynamicSparseMatrix.html#a1c2ced5ffb36a58e59235d94d521158c" title="Eigen::DynamicSparseMatrix\l::rows" alt="" coords="259,253,464,295"/>
+<area shape="rect" id="node7" href="$namespaceEigen_1_1internal.html#aefb14fc87518cc6b91063a820a66a21b" title="Eigen::internal::swap" alt="" coords="285,319,438,346"/>
+<area shape="rect" id="node8" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="554,290,637,317"/>
+<area shape="rect" id="node10" href="$classEigen_1_1internal_1_1scoped__array.html#a53e524d42e288b9117a59f5aded705dd" title="Eigen::internal::scoped\l_array::ptr" alt="" coords="512,341,679,383"/>
+<area shape="rect" id="node9" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="727,290,819,317"/>
+</map>

@@ -1,0 +1,4 @@
+var structEigen_1_1internal_1_1traits_3_01SparseQRMatrixQTransposeReturnType_3_01SparseQRType_01_4_01_4 =
+[
+    [ "ReturnType", "structEigen_1_1internal_1_1traits_3_01SparseQRMatrixQTransposeReturnType_3_01SparseQRType_01_4_01_4.html#a3d2567bf554756c12327729f4a16ddcc", null ]
+];

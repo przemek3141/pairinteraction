@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['traits',['traits',['../namespacetraits.html',1,'']]]
+  ['internal',['internal',['../namespacempfr_1_1internal.html',1,'mpfr']]],
+  ['model_5fpotential',['model_potential',['../namespacemodel__potential.html',1,'']]],
+  ['mpfr',['mpfr',['../namespacempfr.html',1,'']]]
 ];

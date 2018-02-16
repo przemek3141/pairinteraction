@@ -1,0 +1,20 @@
+<map id="test_splines" name="test_splines">
+<area shape="rect" id="node2" href="$splines_8cpp.html#a77f0fc9d98ed14abf8a32e543f74e152" title="check_global_interpolation2d" alt="" coords="152,291,359,317"/>
+<area shape="rect" id="node7" href="$splines_8cpp.html#a6cf977c6acde0519c1f7f5e7f428d0aa" title="check_global_interpolation\l_with_derivatives2d" alt="" coords="160,78,351,119"/>
+<area shape="rect" id="node15" href="$splines_8cpp.html#a0a4b6b0dbc4279a75342800becbcc7f7" title="eval_closed_spline2d" alt="" coords="177,341,333,368"/>
+<area shape="rect" id="node17" href="$splines_8cpp.html#abf4f97135eec8460579ea43dfc7dc199" title="eval_spline3d" alt="" coords="201,392,309,419"/>
+<area shape="rect" id="node19" href="$splines_8cpp.html#a64a1a305f8293c46d0acfdd57c558794" title="eval_spline3d_onbrks" alt="" coords="176,443,335,469"/>
+<area shape="rect" id="node3" href="$group__Splines__Module.html#ga1b4cbde5d98411405871accf877552d2" title="Computes chord length parameters which are required for spline interpolation. " alt="" coords="655,173,810,200"/>
+<area shape="rect" id="node4" href="$common_8h.html#a94360d20ee722c1bcb23e5b2fbba8554" title="matrix" alt="" coords="901,247,964,273"/>
+<area shape="rect" id="node5" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="486,392,525,419"/>
+<area shape="rect" id="node6" href="$structEigen_1_1SplineFitting.html#adc80b6f0dd0dbbea28130fb254626874" title="Fits an interpolating Spline to the given data points. " alt="" coords="434,225,577,266"/>
+<area shape="rect" id="node8" href="$classEigen_1_1Spline.html#a196730cf190dfa16907db888277e5aed" title="Evaluation of spline derivatives of up&#45;to given order. " alt="" coords="415,5,596,32"/>
+<area shape="rect" id="node14" href="$structEigen_1_1SplineFitting.html#a7bd937fdcfa168dbdc27932886a4da9f" title="Fits an interpolating spline to the given data points and derivatives. " alt="" coords="407,107,604,149"/>
+<area shape="rect" id="node9" href="$namespaceEigen.html#ae8ed4b8aebde67ffb90eafe2d29dd969" title="Eigen::derivativesImpl" alt="" coords="652,64,813,91"/>
+<area shape="rect" id="node10" href="$classEigen_1_1Spline.html#ab62751802b4cc237aadb0dbf3455df98" title="Returns the span within the knot vector in which u is falling. " alt="" coords="861,108,1004,135"/>
+<area shape="rect" id="node11" href="$classEigen_1_1Spline.html#aaba7632c61b84194e890696c2b57be1b" title="Computes the spang within the provided knot vector in which u is falling. " alt="" coords="1052,133,1197,160"/>
+<area shape="rect" id="node12" href="$classEigen_1_1Spline.html#ae3eac8af580ad880d8ad3a259d453aa1" title="Returns the knots of the underlying spline. " alt="" coords="1251,184,1397,211"/>
+<area shape="rect" id="node13" href="$classEigen_1_1Spline.html#a0df23e941ac0f31dcd095a4dd4f4a7ec" title="Returns the spline degree. " alt="" coords="1245,108,1403,135"/>
+<area shape="rect" id="node16" href="$splines_8cpp.html#adb686331e02adc1bff6567347a642811" title="closed_spline2d" alt="" coords="444,341,567,368"/>
+<area shape="rect" id="node18" href="$splines_8cpp.html#ac95dea2df2ac478a6d2d020798dc2ca7" title="spline3d" alt="" coords="468,443,543,469"/>
+</map>
