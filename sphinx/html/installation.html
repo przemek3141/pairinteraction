@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>1. Obtaining pairinteraction &mdash; pairinteraction 0.8-alpha-24-g7610241 documentation</title>
+  <title>1. Obtaining pairinteraction &mdash; pairinteraction 0.8-alpha-25-g47fb0b6 documentation</title>
   
 
   
@@ -33,7 +33,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pairinteraction 0.8-alpha-24-g7610241 documentation" href="index.html"/>
+    <link rel="top" title="pairinteraction 0.8-alpha-25-g47fb0b6 documentation" href="index.html"/>
         <link rel="next" title="2. Tutorials" href="tutorials.html"/>
         <link rel="prev" title="Welcome to the pairinteraction documentation!" href="index.html"/> 
 
@@ -66,7 +66,7 @@
             
             
               <div class="version">
-                0.8-alpha-24-g7610241
+                0.8-alpha-25-g47fb0b6
               </div>
             
           
@@ -220,11 +220,20 @@ script:</p>
 <p>For GNU/Linux, all dependencies of the pairinteraction C++ library are installed
 automatically and the C++ library can be used right away.</p>
 <p>For Windows or OS X, the following C++ libraries and their development headers have to
-be installed manually: Eigen3, Sqlite3, Boost, GSL, ZeroMQ</p>
+be installed manually: Sqlite3, Boost, GSL, ZeroMQ</p>
 </div>
 </div>
 <div class="section" id="building-from-source">
 <h2>1.2. Building from Source<a class="headerlink" href="#building-from-source" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">In the tutorials and examples you will often find instructions to
+extend the <code class="docutils literal"><span class="pre">PYTHONPATH</span></code> to accomodate pairinteraction.  These
+instructions only hold true if you installed pairinteraction from
+the official binary installers.  If you built from source you
+instead have to point the scripts to your build directory or the
+custom location where you installed the program.</p>
+</div>
 <div class="section" id="requirements">
 <h3>1.2.1. Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
 <p>The following tools and libraries, including header files, are required
@@ -240,9 +249,6 @@ for compiling the source code.</p>
 <dl class="docutils">
 <dt>C++ Compiler</dt>
 <dd>C++11 capable C++ compiler (e.g., GCC 4.8.1 or later).</dd>
-<dt>Eigen3</dt>
-<dd>Eigen is a C++ template library for linear algebra: matrices,
-vectors, numerical solvers, and related algorithms.</dd>
 <dt>Sqlite3</dt>
 <dd>SQLite is a self-contained, high-reliability, embedded,
 full-featured, public-domain, SQL database engine.</dd>
@@ -332,9 +338,8 @@ support for large, multi-dimensional arrays and matrices.</dd>
 <div class="section" id="dependencies">
 <h4>1.2.3.1. Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h4>
 <p>The build system relies on CMake.  To build the Python GUI we need the
-PyQT5 toolkit.  The library Eigen3 is header only and thus cross
-platform.  Thus you have to install the following packages</p>
-<div class="highlight-none"><div class="highlight"><pre><span></span>cmake build-essential git libeigen3-dev pyqt5-dev-tools
+PyQT5 toolkit.  Thus you have to install the following packages</p>
+<div class="highlight-none"><div class="highlight"><pre><span></span>cmake build-essential git pyqt5-dev-tools
 </pre></div>
 </div>
 <p>For the backend we need the following packages</p>
@@ -385,9 +390,8 @@ library can be used right away.</p>
 <div class="section" id="id1">
 <h4>1.2.4.1. Dependencies<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <p>The build system relies on CMake.  To build the Python GUI we need the
-PyQT5 toolkit.  The library Eigen3 is header only and thus cross
-platform.  Thus you have to install the following packages</p>
-<div class="highlight-none"><div class="highlight"><pre><span></span>git cmake eigen3-devel python3-qt5-devel
+PyQT5 toolkit.  Thus you have to install the following packages</p>
+<div class="highlight-none"><div class="highlight"><pre><span></span>git cmake python3-qt5-devel
 </pre></div>
 </div>
 <p>For the backend we need the following packages</p>
@@ -444,7 +448,7 @@ library can be used right away.</p>
 <h4>1.2.5.1. Dependencies<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
 <p>The build system relies on CMake. For building the pairinteraction C++ backend,
 you have to install (e.g. via homebrew) the following packages</p>
-<div class="highlight-none"><div class="highlight"><pre><span></span>cmake git eigen gsl swig zeromq llvm@3.9
+<div class="highlight-none"><div class="highlight"><pre><span></span>cmake git gsl swig zeromq llvm@3.9
 </pre></div>
 </div>
 <div class="admonition note">
@@ -475,6 +479,10 @@ successfully.</p>
 </div>
 <p>Given that the package <code class="docutils literal"><span class="pre">llvm&#64;3.9</span></code> has been installed via <code class="docutils literal"><span class="pre">homebrew</span></code>, we force CMake
 to use the Clang C++ compiler by executing the bash commands</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">CXX</span><span class="o">=</span>/usr/local/opt/llvm@3.9/bin/clang++
+$ <span class="nb">export</span> <span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-L/usr/local/opt/llvm@3.9/lib -Wl,-rpath,/usr/local/opt/llvm@3.9/lib,-rpath,</span><span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span><span class="s2">/lib&quot;</span>
+</pre></div>
+</div>
 <p>Then proceed with the usual CMake workflow</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> pairinteraction
 $ mkdir build
@@ -614,7 +622,7 @@ processors can speed up the compilation process significantly.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.8-alpha-24-g7610241',
+            VERSION:'0.8-alpha-25-g47fb0b6',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
