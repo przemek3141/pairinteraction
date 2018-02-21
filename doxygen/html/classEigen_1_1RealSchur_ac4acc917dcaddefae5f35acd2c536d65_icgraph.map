@@ -1,4 +1,0 @@
-<map id="Eigen::RealSchur::computeFromHessenberg" name="Eigen::RealSchur::computeFromHessenberg">
-<area shape="rect" id="node2" href="$classEigen_1_1RealSchur.html#aa6d762f59f27cfbe33db709a2e0a2ba1" title="Eigen::RealSchur\&lt; Matrix\lType \&gt;::compute" alt="" coords="247,5,429,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1RealSchur.html#abb78996b43b8642a5f507415730445cb" title="Returns the quasi&#45;triangular matrix in the Schur decomposition. " alt="" coords="247,71,429,112"/>
-</map>

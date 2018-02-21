@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1skyline__product__selector_3_01Lhs_00_01Rhs_00_01ResultType_00_01RowMajor_01_4 =
-[
-    [ "Scalar", "structEigen_1_1internal_1_1skyline__product__selector_3_01Lhs_00_01Rhs_00_01ResultType_00_01RowMajor_01_4.html#a921b8f22f16be7fbe252bd91c3b1159d", null ]
-];

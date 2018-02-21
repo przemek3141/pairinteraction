@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01TensorEvalToOp_3_01XprType_00_01MakePointer___01_4_01_4_1_1MakePointer =
-[
-    [ "MakePointerT", "structEigen_1_1internal_1_1traits_3_01TensorEvalToOp_3_01XprType_00_01MakePointer___01_4_01_4_1_1MakePointer.html#a0f9cc40eef1427b1547580f12867a070", null ],
-    [ "Type", "structEigen_1_1internal_1_1traits_3_01TensorEvalToOp_3_01XprType_00_01MakePointer___01_4_01_4_1_1MakePointer.html#ac6ba8fc5ef2af9cb2df627a47bf39063", null ]
-];

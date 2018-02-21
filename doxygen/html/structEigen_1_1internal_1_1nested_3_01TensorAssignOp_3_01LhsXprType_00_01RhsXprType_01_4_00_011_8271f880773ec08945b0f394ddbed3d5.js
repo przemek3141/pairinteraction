@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorAssignOp_3_01LhsXprType_00_01RhsXprType_01_4_00_011_8271f880773ec08945b0f394ddbed3d5 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorAssignOp_3_01LhsXprType_00_01RhsXprType_01_4_00_011_8271f880773ec08945b0f394ddbed3d5.html#a425a3d77941857370cf7e6910e3f3aa8", null ]
-];

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorCustomUnaryOp_3_01CustomUnaryFunc_00_01XprType_01_4_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorCustomUnaryOp_3_01CustomUnaryFunc_00_01XprType_01_4_01_4.html#a0cd94968503c87726bbc162053a28a5c", null ]
-];

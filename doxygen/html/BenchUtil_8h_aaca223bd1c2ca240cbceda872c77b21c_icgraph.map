@@ -1,5 +1,0 @@
-<map id="initMatrix_identity" name="initMatrix_identity">
-<area shape="rect" id="node2" href="$basicbenchmark_8h.html#a89db298323dddcb5d63adea904e9fdab" title="benchBasic" alt="" coords="209,5,304,32"/>
-<area shape="rect" id="node4" href="$BenchUtil_8h.html#af03059ceff46160bbce9dc56d5758686" title="initMatrix_random" alt="" coords="188,56,325,83"/>
-<area shape="rect" id="node3" href="$basicbenchmark_8h.html#ab2852ae2df55f670c62297f69779f7d8" title="benchBasic_loop" alt="" coords="373,5,503,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Eigen::internal::evaluator&lt; PlainObjectBase&lt; Derived &gt; &gt;" name="Eigen::internal::evaluator&lt; PlainObjectBase&lt; Derived &gt; &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; Derived \&gt;" alt="" coords="323,5,504,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,13,208,39"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, IsVectorAt\lCompileTime ? 0 :int(IsRowMajor)\l ? ColsAtCompileTime :RowsAtCompileTime \&gt;" alt="" coords="257,71,569,141"/>
-</map>

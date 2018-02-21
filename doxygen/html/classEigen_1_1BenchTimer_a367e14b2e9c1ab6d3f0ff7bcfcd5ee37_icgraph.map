@@ -1,7 +1,0 @@
-<map id="Eigen::BenchTimer::stop" name="Eigen::BenchTimer::stop">
-<area shape="rect" id="node2" href="$bench__reverse_8cpp.html#af57f208bfabc394dd45616e63728dce0" title="__attribute__" alt="" coords="231,31,336,57"/>
-<area shape="rect" id="node5" href="$bench__svd_8cpp.html#a7b4c34d12049e4025e7ca9a19e135581" title="bench_svd" alt="" coords="238,81,329,108"/>
-<area shape="rect" id="node6" href="$spmv_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="256,132,311,159"/>
-<area shape="rect" id="node3" href="$basicbenchmark_8h.html#ab2852ae2df55f670c62297f69779f7d8" title="benchBasic_loop" alt="" coords="388,5,517,32"/>
-<area shape="rect" id="node4" href="$BenchUtil_8h.html#af03059ceff46160bbce9dc56d5758686" title="initMatrix_random" alt="" coords="384,56,521,83"/>
-</map>

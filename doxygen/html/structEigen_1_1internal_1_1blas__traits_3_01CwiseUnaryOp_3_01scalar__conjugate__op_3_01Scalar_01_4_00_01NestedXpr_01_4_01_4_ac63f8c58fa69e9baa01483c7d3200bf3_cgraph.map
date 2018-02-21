@@ -1,4 +1,0 @@
-<map id="Eigen::internal::blas_traits&lt; CwiseUnaryOp&lt; scalar_conjugate_op&lt; Scalar &gt;, NestedXpr &gt; &gt;::extractScalarFactor" name="Eigen::internal::blas_traits&lt; CwiseUnaryOp&lt; scalar_conjugate_op&lt; Scalar &gt;, NestedXpr &gt; &gt;::extractScalarFactor">
-<area shape="rect" id="node2" href="$namespaceEigen.html#abf77613d5f9e90497c6d3e01f915b588" title="Eigen::conj" alt="" coords="269,5,360,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1CwiseUnaryOp.html#a25d4402be360cf0b8ff867863da46c7d" title="Eigen::CwiseUnaryOp\l::nestedExpression" alt="" coords="236,57,393,98"/>
-</map>

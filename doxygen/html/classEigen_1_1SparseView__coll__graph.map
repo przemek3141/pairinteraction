@@ -1,7 +1,0 @@
-<map id="Eigen::SparseView&lt; MatrixType &gt;" name="Eigen::SparseView&lt; MatrixType &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; SparseView\&lt; MatrixType \&gt; \&gt;" alt="" coords="323,39,545,80"/>
-<area shape="rect" id="node3" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Sparse\lView\&lt; MatrixType \&gt; \&gt;" alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node4" href="$classbool.html" title="bool" alt="" coords="77,71,126,98"/>
-<area shape="rect" id="node6" href="$structEigen_1_1NumTraits.html" title="Eigen::NumTraits\&lt; Scalar \&gt;" alt="" coords="335,155,533,182"/>
-<area shape="rect" id="node7" href="$structEigen_1_1GenericNumTraits.html" title="Eigen::GenericNumTraits\l\&lt; Scalar \&gt;" alt="" coords="12,148,191,189"/>
-</map>

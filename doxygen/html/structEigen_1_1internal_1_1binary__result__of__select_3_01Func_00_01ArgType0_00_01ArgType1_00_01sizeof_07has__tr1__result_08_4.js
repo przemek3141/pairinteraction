@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1binary__result__of__select_3_01Func_00_01ArgType0_00_01ArgType1_00_01sizeof_07has__tr1__result_08_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1binary__result__of__select_3_01Func_00_01ArgType0_00_01ArgType1_00_01sizeof_07has__tr1__result_08_4.html#a3e27d3266b9728c213c35a4e90f1a73d", null ]
-];

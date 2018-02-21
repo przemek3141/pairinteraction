@@ -1,6 +1,0 @@
-<map id="test_blocks" name="test_blocks">
-<area shape="rect" id="node2" href="$Tutorial__ReshapeMat2Mat_8cpp.html#a428d096ff5bfc3df5c5489495c926984" title="M2" alt="" coords="227,5,269,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#af0e576a0e1aefc9ee346de44cc352ba3" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setRandom" alt="" coords="148,57,348,127"/>
-<area shape="rect" id="node4" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="413,53,473,80"/>
-<area shape="rect" id="node5" href="$HouseholderQR__householderQ_8cpp.html#a7bddadaf72fd7356fb04dd15cf547bc2" title="setRandom" alt="" coords="396,104,491,131"/>
-</map>

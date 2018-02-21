@@ -1,4 +1,0 @@
-<map id="Eigen::internal::LU_kernel_bmod::run" name="Eigen::internal::LU_kernel_bmod::run">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1SparseLUImpl.html#ae34275602cf12560edfcaf7cd5cbe932" title="Performs numeric block updates (sup&#45;col) in topological order. " alt="" coords="195,5,436,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1SparseLUImpl.html#a277936738db49e25285164ac25c498c3" title="Performs numeric block updates (sup&#45;panel) in topological order. " alt="" coords="195,85,436,141"/>
-</map>

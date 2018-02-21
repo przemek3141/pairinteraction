@@ -1,6 +1,0 @@
-<map id="Eigen::PolynomialSolver&lt; _Scalar, 1 &gt;" name="Eigen::PolynomialSolver&lt; _Scalar, 1 &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1PolynomialSolverBase.html" title="Eigen::PolynomialSolverBase\l\&lt; _Scalar, 1 \&gt;" alt="" coords="923,45,1129,87"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; RootType,\l _Deg, 1 \&gt;" alt="" coords="639,45,817,87"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; RootType, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;" alt="" coords="389,31,589,101"/>
-<area shape="rect" id="node6" href="$classEigen_1_1DenseStorage.html" title="Eigen::DenseStorage\l\&lt; Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \&gt;" alt="" coords="5,71,268,141"/>
-</map>

@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01TridiagonalizationMatrixTReturnType_3_01MatrixType_01_4_01_4 =
-[
-    [ "ReturnType", "structEigen_1_1internal_1_1traits_3_01TridiagonalizationMatrixTReturnType_3_01MatrixType_01_4_01_4.html#ac98c68554cfb85855f7b85299983aec9", null ],
-    [ "Flags", "structEigen_1_1internal_1_1traits_3_01TridiagonalizationMatrixTReturnType_3_01MatrixType_01_4_01_4.html#abbd1eb6e53a6126f8dd60fa8175de9b3a5748e20057e2d100e7e36c94729a2004", null ]
-];

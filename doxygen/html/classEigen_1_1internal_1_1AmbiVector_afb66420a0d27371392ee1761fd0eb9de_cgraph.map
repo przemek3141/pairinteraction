@@ -1,8 +1,0 @@
-<map id="Eigen::internal::AmbiVector::AmbiVector" name="Eigen::internal::AmbiVector::AmbiVector">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1AmbiVector.html#a8824e2cbbfa61753c6e064b92a731eeb" title="Eigen::internal::AmbiVector\l::init" alt="" coords="248,5,443,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1AmbiVector.html#ae0b137e95f52dea2320c16c379d27e74" title="Eigen::internal::AmbiVector\l::nonZeros" alt="" coords="248,71,443,112"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1AmbiVector.html#a1cf1919df3994163c459503c2b3d6ff9" title="Eigen::internal::AmbiVector\l::resize" alt="" coords="248,136,443,177"/>
-<area shape="rect" id="node5" href="$classEigen_1_1internal_1_1AmbiVector.html#af1131fb62ecadc60ced9720d23981c80" title="Eigen::internal::AmbiVector\l::reallocate" alt="" coords="491,165,685,207"/>
-<area shape="rect" id="node6" href="$classEigen_1_1internal_1_1AmbiVector.html#a67176aa3101e7ec02ea335bda34d96ea" title="Eigen::internal::AmbiVector\l::convert_index" alt="" coords="733,107,928,148"/>
-<area shape="rect" id="node7" href="$classEigen_1_1internal_1_1AmbiVector.html#a40b55429f5cba5a5673369ee552897fd" title="Eigen::internal::AmbiVector\l::size" alt="" coords="733,172,928,213"/>
-</map>

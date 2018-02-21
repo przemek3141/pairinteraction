@@ -1,7 +1,0 @@
-<map id="GpuHelper::popMatrix" name="GpuHelper::popMatrix">
-<area shape="rect" id="node2" href="$classFancySpheres.html#a1621bf349aa1a2df706b8c08356aeb35" title="FancySpheres::draw" alt="" coords="237,5,386,32"/>
-<area shape="rect" id="node4" href="$classGpuHelper.html#a0d2c77ee60d1954d609af0ca1075fb06" title="GpuHelper::drawVector" alt="" coords="227,56,396,83"/>
-<area shape="rect" id="node5" href="$classGpuHelper.html#a31bf94099a0d4d70bdc86a881f5661ed" title="GpuHelper::drawVectorBox" alt="" coords="215,107,408,133"/>
-<area shape="rect" id="node6" href="$classGpuHelper.html#a1d4fb48533179c50f92123fd9df47d91" title="GpuHelper::popProjection\lMode2D" alt="" coords="219,158,404,199"/>
-<area shape="rect" id="node3" href="$classRenderingWidget.html#a8de01daec1a221f02b4751c153040d11" title="RenderingWidget::drawScene" alt="" coords="456,31,663,57"/>
-</map>

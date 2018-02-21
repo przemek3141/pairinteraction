@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1has__nullary__operator_3_01scalar__identity__op_3_01Scalar_01_4_00_01IndexType_01_4 =
-[
-    [ "value", "structEigen_1_1internal_1_1has__nullary__operator_3_01scalar__identity__op_3_01Scalar_01_4_00_01IndexType_01_4.html#a3cc26a1ea275f9ad5e7ad2c03a9237f8a1d3a2f724b6d0d5994df5408482f32db", null ]
-];

@@ -1,6 +1,0 @@
-<map id="Eigen::AlignedBox::sample" name="Eigen::AlignedBox::sample">
-<area shape="rect" id="node2" href="$classEigen_1_1AlignedBox.html#ab774df3608d0be913a3aa5d67476a521" title="Eigen::AlignedBox::dim" alt="" coords="197,5,365,32"/>
-<area shape="rect" id="node3" href="$namespacempfr.html#acf72e850a023ca647224439809e21d9d" title="mpfr::random" alt="" coords="226,56,337,83"/>
-<area shape="rect" id="node4" href="$namespacempfr.html#a335951da3e36f93915a300c884ae3483" title="mpfr::urandom" alt="" coords="413,56,532,83"/>
-<area shape="rect" id="node5" href="$classmpfr_1_1mpreal.html#af4e3b56888463376c675cac70b6ceca3" title="mpfr::mpreal::mpfr_ptr" alt="" coords="580,56,748,83"/>
-</map>

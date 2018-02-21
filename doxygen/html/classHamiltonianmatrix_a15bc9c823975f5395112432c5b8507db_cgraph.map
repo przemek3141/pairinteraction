@@ -1,10 +1,4 @@
 <map id="Hamiltonianmatrix::doDeserialization" name="Hamiltonianmatrix::doDeserialization">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrix.html#a505802f4dd45f7c036ad28261f065610" title="Eigen::SparseMatrix\l::finalize" alt="" coords="201,5,351,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrix.html#ae7b804bd39745156d20ca1611a296b67" title="Eigen::SparseMatrix\l::innerIndexPtr" alt="" coords="201,71,351,112"/>
-<area shape="rect" id="node4" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="218,137,334,163"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrix.html#a5ff54ffc10296f9466dc81fa888733fd" title="Eigen::SparseMatrix\l::makeCompressed" alt="" coords="201,188,351,229"/>
-<area shape="rect" id="node6" href="$classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="202,253,350,295"/>
-<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#a75506964d86d6badb32d0b4917acf2e2" title="Eigen::SparseMatrix\l::outerIndexPtr" alt="" coords="201,319,351,360"/>
-<area shape="rect" id="node8" href="$classEigen_1_1SparseMatrix.html#a3a60ad3fcc5941f5a1272e0d13d89fbf" title="Eigen::SparseMatrix\l::resizeNonZeros" alt="" coords="201,384,351,425"/>
-<area shape="rect" id="node9" href="$classEigen_1_1SparseMatrix.html#a9d4354d3f4d121d764bbed33cac05329" title="Eigen::SparseMatrix\l::valuePtr" alt="" coords="201,449,351,491"/>
+<area shape="rect" id="node2" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="217,5,333,32"/>
+<area shape="rect" id="node3" href="$classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="201,57,349,98"/>
 </map>

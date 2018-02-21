@@ -1,7 +1,0 @@
-<map id="Eigen::UniformScaling::operator*" name="Eigen::UniformScaling::operator*">
-<area shape="rect" id="node2" href="$classEigen_1_1UniformScaling.html#a600949d7c5ed124adacaba53b631b6e6" title="Eigen::UniformScaling\l::factor" alt="" coords="237,5,399,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Transform.html#a535bd63d047c2a36585c3f9b62219a1e" title="Eigen::Transform::linear" alt="" coords="233,71,403,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Transform.html#aec8168000a88a807130d41020af98d47" title="Eigen::Transform::matrix" alt="" coords="229,122,407,149"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Transform.html#afa93ba97d26912bb3d8777cbed102045" title="Eigen::Transform::translation" alt="" coords="216,173,420,199"/>
-<area shape="rect" id="node6" href="$classEigen_1_1Translation.html#a32dfe108b6ec918236c13a7626309a10" title="Eigen::Translation\l::vector" alt="" coords="251,224,385,265"/>
-</map>

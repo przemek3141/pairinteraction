@@ -1,8 +1,0 @@
-var structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4 =
-[
-    [ "PacketScalar", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4.html#a45c80e6975a1cc49f74f7dc5e11ff837", null ],
-    [ "Scalar", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4.html#a92554573500a786e71a86a21b53cc775", null ],
-    [ "PacketSize", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4.html#a183a7c1b59f713b7366456a4a5436971ae0b1cdd6a3fb45eb8fa6a23942bdc306", null ],
-    [ "Size", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4.html#a183a7c1b59f713b7366456a4a5436971ac1a9f43f03c9612a6b74bd38dbca8a37", null ],
-    [ "VectorizedSize", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01LinearVectorizedTraversal_00_01CompleteUnrolling_01_4.html#a183a7c1b59f713b7366456a4a5436971a3f0ac082a6d39a150d11420cee53c5ab", null ]
-];

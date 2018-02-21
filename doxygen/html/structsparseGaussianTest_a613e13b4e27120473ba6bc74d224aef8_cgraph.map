@@ -1,7 +1,0 @@
-<map id="sparseGaussianTest::df" name="sparseGaussianTest::df">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrix.html#a013197b3f598968ff37ed8c97087f1ef" title="Eigen::SparseMatrix\l::coeffRef" alt="" coords="223,5,372,47"/>
-<area shape="rect" id="node3" href="$MatrixBase__col_8cpp.html#aa168d9544aa6d49fce0cbfc0bec849b0" title="col" alt="" coords="277,71,317,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="223,123,372,164"/>
-<area shape="rect" id="node5" href="$MatrixBase__row_8cpp.html#a64ef8efef59f875033a27e7cbbc879ec" title="row" alt="" coords="275,189,319,215"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html#a62e61bb861eee306d5b069ce652b5aa5" title="Eigen::SparseMatrix\l::rows" alt="" coords="223,240,372,281"/>
-</map>

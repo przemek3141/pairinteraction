@@ -1,5 +1,0 @@
-<map id="Eigen::Tensor::coeff" name="Eigen::Tensor::coeff">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1CoeffLoader.html#ae63c80db8734f22daf0f01a9cffc2099" title="Eigen::internal::CoeffLoader\l\&lt; Eigen::Tensor, Tensor::\lRawAccess \&gt;::coeff" alt="" coords="201,5,400,61"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1TensorPrinter_3_01Tensor_00_010_01_4.html#a4ed64d0c0cceee3f2aec009c833937e0" title="Eigen::internal::TensorPrinter\l\&lt; Tensor, 0 \&gt;::run" alt="" coords="199,86,403,127"/>
-<area shape="rect" id="node4" href="$classtensor__interface.html#a7a0253893f96e390d00e9e37c05ace13" title="tensor_interface::vector\l_to_stl" alt="" coords="213,151,388,193"/>
-</map>

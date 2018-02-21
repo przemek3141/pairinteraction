@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1general__matrix__matrix__product_3_01Index_00_01LhsScalar_00_01LhsSto3a9f34f2b10e22ad6e3d7c79ac3d5f9e =
-[
-    [ "ResScalar", "structEigen_1_1internal_1_1general__matrix__matrix__product_3_01Index_00_01LhsScalar_00_01LhsSto3a9f34f2b10e22ad6e3d7c79ac3d5f9e.html#a22f92f3a2a4388d44c9f8194528f37a5", null ],
-    [ "Traits", "structEigen_1_1internal_1_1general__matrix__matrix__product_3_01Index_00_01LhsScalar_00_01LhsSto3a9f34f2b10e22ad6e3d7c79ac3d5f9e.html#abc40149462d36992f3d298c17bc33f3f", null ]
-];

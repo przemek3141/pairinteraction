@@ -1,8 +1,0 @@
-var structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4 =
-[
-    [ "ResultType", "structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4.html#a2a1ca35510e3f48eff5f8c57d5bfd3e6", null ],
-    [ "Dim", "structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4.html#a1918d389c2ca99501390671c4cb810ada31dfec690d2bd74580d545fc3064324b", null ],
-    [ "HDim", "structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4.html#a1918d389c2ca99501390671c4cb810adab53b482f907192a11699f5979f67325c", null ],
-    [ "OtherRows", "structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4.html#a1918d389c2ca99501390671c4cb810adac5dc2d82aa9befc67dbbe0440ce29b1d", null ],
-    [ "OtherCols", "structEigen_1_1internal_1_1transform__right__product__impl_3_01TransformType_00_01MatrixType_00_011_00_01RhsCols_01_4.html#a1918d389c2ca99501390671c4cb810ada3537e5619b06765aeffe5d2ba5b7859e", null ]
-];

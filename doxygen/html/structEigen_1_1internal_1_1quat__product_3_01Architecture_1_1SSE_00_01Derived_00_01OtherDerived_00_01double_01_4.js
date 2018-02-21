@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1quat__product_3_01Architecture_1_1SSE_00_01Derived_00_01OtherDerived_00_01double_01_4 =
-[
-    [ "BAlignment", "structEigen_1_1internal_1_1quat__product_3_01Architecture_1_1SSE_00_01Derived_00_01OtherDerived_00_01double_01_4.html#af4b8c40ef22cd066f19ee21836b0f542ac84373711792168192025ffae30667a3", null ],
-    [ "ResAlignment", "structEigen_1_1internal_1_1quat__product_3_01Architecture_1_1SSE_00_01Derived_00_01OtherDerived_00_01double_01_4.html#af4b8c40ef22cd066f19ee21836b0f542a7c98fa874c2f443889db290a72798dc7", null ]
-];

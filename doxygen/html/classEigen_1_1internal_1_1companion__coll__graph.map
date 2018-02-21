@@ -1,6 +1,0 @@
-<map id="Eigen::internal::companion&lt; _Scalar, _Deg &gt;" name="Eigen::internal::companion&lt; _Scalar, _Deg &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; Scalar,\l Deg, 1 \&gt;" alt="" coords="639,5,801,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;" alt="" coords="389,32,589,103"/>
-<area shape="rect" id="node6" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; Scalar,\l Deg_1, 1 \&gt;" alt="" coords="639,71,801,112"/>
-<area shape="rect" id="node5" href="$classEigen_1_1DenseStorage.html" title="Eigen::DenseStorage\l\&lt; Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \&gt;" alt="" coords="5,72,268,143"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="Eigen::DGMRES::dgmresComputeDeflationData" name="Eigen::DGMRES::dgmresComputeDeflationData">
-<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="355,5,400,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l::setZero" alt="" coords="293,57,461,98"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#afe2a11c61eff70f7f68681a557fa21e7" title="Computes a permutation vector to have a sorted sequence. " alt="" coords="291,122,464,163"/>
-<area shape="rect" id="node5" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="512,104,595,131"/>
-<area shape="rect" id="node7" href="$common_8h.html#a94360d20ee722c1bcb23e5b2fbba8554" title="matrix" alt="" coords="522,155,585,181"/>
-<area shape="rect" id="node6" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="643,104,735,131"/>
-</map>

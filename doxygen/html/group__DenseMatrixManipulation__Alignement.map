@@ -1,9 +1,0 @@
-<map id="Alignment issues" name="Alignment issues">
-<area shape="rect" id="node1" href="$group__TopicFixedSizeVectorizable.html" title="TopicFixedSizeVectorizable" alt="" coords="425,5,616,32"/>
-<area shape="rect" id="node2" href="$group__TopicPassingByValue.html" title="TopicPassingByValue" alt="" coords="445,56,597,83"/>
-<area shape="rect" id="node3" href="$group__TopicWrongStackAlignment.html" title="TopicWrongStackAlignment" alt="" coords="424,107,617,133"/>
-<area shape="rect" id="node5" href="$group__TopicStlContainers.html" title="TopicStlContainers" alt="" coords="451,157,590,184"/>
-<area shape="rect" id="node6" href="$group__TopicStructHavingEigenMembers.html" title="TopicStructHavingEigenMembers" alt="" coords="405,208,636,235"/>
-<area shape="rect" id="node8" href="$group__TopicUnalignedArrayAssert.html" title="TopicUnalignedArrayAssert" alt="" coords="425,259,617,285"/>
-<area shape="rect" id="node7" href="$group__DenseMatrixManipulation__chapter.html" title="Dense matrix and array\l manipulation" alt="" coords="5,125,179,166"/>
-</map>

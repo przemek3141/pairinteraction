@@ -1,7 +1,0 @@
-<map id="Eigen::internal::permute_symm_to_fullsymm" name="Eigen::internal::permute_symm_to_fullsymm">
-<area shape="rect" id="node2" href="$exceptions_8cpp.html#a75f785bf0f51cbc94279c80d143642ae" title="conj" alt="" coords="299,5,347,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html#aa75a5f413b9c78b4ff906091cc9706a5" title="Eigen::SparseMatrixBase\l\&lt; SparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex\l \&gt; \&gt;::derived" alt="" coords="229,57,416,127"/>
-<area shape="rect" id="node4" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="303,152,342,179"/>
-<area shape="rect" id="node5" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="281,203,364,229"/>
-<area shape="rect" id="node6" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="464,203,556,229"/>
-</map>

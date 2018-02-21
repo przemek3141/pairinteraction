@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__identity__op_3_01Scalar_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__identity__op_3_01Scalar_01_4_01_4.html#aa0e236d02d9a6bad39c8e4caed12ed9caad4fd6d654d1da397ef8f61ad2d7f544", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__identity__op_3_01Scalar_01_4_01_4.html#aa0e236d02d9a6bad39c8e4caed12ed9cadd3423b22cb10486b7bf457afb30098a", null ],
-    [ "IsRepeatable", "structEigen_1_1internal_1_1functor__traits_3_01scalar__identity__op_3_01Scalar_01_4_01_4.html#aa0e236d02d9a6bad39c8e4caed12ed9ca186db6ba86a196ee012840e5cc65895c", null ]
-];

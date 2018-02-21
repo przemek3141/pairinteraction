@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorVolumePatchOp_3_01Planes_00_01Rows_00_01Cols_00_01XprT88a090a5a8d5c4c63aac31934e3504e1 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorVolumePatchOp_3_01Planes_00_01Rows_00_01Cols_00_01XprT88a090a5a8d5c4c63aac31934e3504e1.html#a54106f5d14855e901ab0457b5f581f03", null ]
-];

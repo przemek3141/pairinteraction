@@ -1,6 +1,0 @@
-<map id="mpfr::tgamma" name="mpfr::tgamma">
-<area shape="rect" id="node2" href="$namespacewhittaker__functions.html#ab69b6f45a0c575b401bdaf26a250f084" title="Radial wavefunctions from Whittaker&#39;s function. " alt="" coords="168,31,315,72"/>
-<area shape="rect" id="node3" href="$classWhittaker.html#ace99701f5bf448389ba485f293fa90cb" title="Evaluate the radial wavefunction. " alt="" coords="375,13,523,39"/>
-<area shape="rect" id="node5" href="$classNumerov.html#aac0e95cf7c77162c82d8e51e16bb423c" title="Power kernel for matrix elements. " alt="" coords="363,63,535,90"/>
-<area shape="rect" id="node4" href="$wavefunction__test_8cpp.html#ab52bae1a740a52f2836c4fd55d353ff6" title="BOOST_FIXTURE_TEST\l_CASE_TEMPLATE" alt="" coords="583,5,745,47"/>
-</map>

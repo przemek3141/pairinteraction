@@ -1,3 +1,0 @@
-<map id="Eigen::internal::TensorContractionBlocking::nc" name="Eigen::internal::TensorContractionBlocking::nc">
-<area shape="rect" id="node2" href="$structEigen_1_1TensorContractionEvaluatorBase.html#aee0cb093c9876554ac9fecd6a96d4d87" title="Eigen::TensorContraction\lEvaluatorBase\&lt; TensorEvaluator\l\&lt; const TensorContractionOp\l\&lt; Indices, LeftArgType, RightArgType\l \&gt;, Device \&gt; \&gt;::evalGemm" alt="" coords="289,5,543,91"/>
-</map>

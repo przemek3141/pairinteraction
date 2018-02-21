@@ -1,8 +1,0 @@
-<map id="Eigen::internal::evaluator&lt; DynamicSparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt; &gt;" name="Eigen::internal::evaluator&lt; DynamicSparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt; &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; DynamicSparseMatrix\l\&lt; _Scalar, _Options, _StorageIndex \&gt; \&gt;" alt="" coords="753,8,1032,64"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="381,5,583,32"/>
-<area shape="rect" id="node4" href="$classEigen_1_1DynamicSparseMatrix.html" title="A sparse matrix class designed for matrix assembly purpose. " alt="" coords="761,121,1024,162"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; DynamicSparseMatrix\l\&lt; _Scalar, _Options, _StorageIndex \&gt; \&gt;" alt="" coords="343,56,621,112"/>
-<area shape="rect" id="node6" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Dynamic\lSparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex \&gt; \&gt;" alt="" coords="5,23,217,79"/>
-<area shape="rect" id="node7" href="$classbool.html" title="bool" alt="" coords="87,103,136,129"/>
-</map>

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01FullPivHouseholderQR_3_01__MatrixType_01_4_01_4 =
-[
-    [ "Flags", "structEigen_1_1internal_1_1traits_3_01FullPivHouseholderQR_3_01__MatrixType_01_4_01_4.html#a9bdb6011063b2eb2ace82ff578be9bb7a56c83eb391e3472e08222af9f3fda2e1", null ]
-];

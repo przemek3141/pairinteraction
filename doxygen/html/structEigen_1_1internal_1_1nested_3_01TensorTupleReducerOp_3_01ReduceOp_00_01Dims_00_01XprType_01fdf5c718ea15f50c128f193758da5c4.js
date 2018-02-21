@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorTupleReducerOp_3_01ReduceOp_00_01Dims_00_01XprType_01fdf5c718ea15f50c128f193758da5c4 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorTupleReducerOp_3_01ReduceOp_00_01Dims_00_01XprType_01fdf5c718ea15f50c128f193758da5c4.html#a2fd021b3b1b4fc8cd840876e76f9a8f7", null ]
-];

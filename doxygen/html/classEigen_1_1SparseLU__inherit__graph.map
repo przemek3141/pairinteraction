@@ -1,5 +1,0 @@
-<map id="Eigen::SparseLU&lt; _MatrixType, _OrderingType &gt;" name="Eigen::SparseLU&lt; _MatrixType, _OrderingType &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseSolverBase.html" title="Eigen::SparseSolverBase\l\&lt; SparseLU\&lt; _MatrixType,\l _OrderingType \&gt; \&gt;" alt="" coords="281,5,472,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,20,208,47"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1SparseLUImpl.html" title="Eigen::internal::SparseLUImpl\l\&lt; _MatrixType::Scalar, _MatrixType\l::StorageIndex \&gt;" alt="" coords="256,85,497,141"/>
-</map>

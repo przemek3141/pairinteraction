@@ -1,8 +1,0 @@
-var structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4 =
-[
-    [ "BasisDerivativeType", "structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4.html#a507283e4ba6108e20eae19e805816770", null ],
-    [ "DerivativeType", "structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4.html#a5e0a0e3b07c844c84cf164a7f0db9314", null ],
-    [ "OrderAtCompileTime", "structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4.html#a109e7a1f2fa7ccc74feda3000354a239aa546f3e09061b25456cf70107db72ccd", null ],
-    [ "NumOfDerivativesAtCompileTime", "structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4.html#a4d9e1645a8314bc4c966de73982d232aa75a34223007ae974d1c19d653b2abfa3", null ],
-    [ "DerivativeMemoryLayout", "structEigen_1_1SplineTraits_3_01Spline_3_01__Scalar_00_01__Dim_00_01__Degree_01_4_00_01__DerivativeOrder_01_4.html#ad4f524df329f825372d7f577f0cbe23aa7e79c844da14c6fa961e112d05e23175", null ]
-];

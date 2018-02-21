@@ -1,4 +1,0 @@
-<map id="Eigen::Diagonal::cols" name="Eigen::Diagonal::cols">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1trmv__selector_3_01Mode_00_01RowMajor_01_4.html#ac1d7f5899a6fae8d9d41dc1f92a35825" title="Eigen::internal::trmv\l_selector\&lt; Mode, RowMajor\l \&gt;::run" alt="" coords="219,5,416,61"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1gemv__dense__selector_3_01OnTheRight_00_01RowMajor_00_01true_01_4.html#a58d2254655edbf6807aa0b60906ef5f9" title="Eigen::internal::gemv\l_dense_selector\&lt; OnTheRight,\l RowMajor, true \&gt;::run" alt="" coords="208,85,427,141"/>
-</map>

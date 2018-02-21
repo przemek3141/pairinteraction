@@ -1,4 +1,0 @@
-<map id="Eigen::SparseMatrixBase::segment" name="Eigen::SparseMatrixBase::segment">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1triangular__matrix__vector__product_3_01Index_00_01Mode_00_01LhsScalacba82d1974de6a0033a8c1da6e99db3c.html#a89cb957348fb21a7125fcb511a750df2" title="Eigen::internal::triangular\l_matrix_vector_product\&lt;\l Index, Mode, LhsScalar,\l ConjLhs, RhsScalar, ConjRhs,\l ColMajor, Version \&gt;::run" alt="" coords="235,5,445,91"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1triangular__matrix__vector__product_3_01Index_00_01Mode_00_01LhsScala0609abf0278b02eaf910e8ff939012fe.html#aafcdc880dbd90da1abd4182d80257e46" title="Eigen::internal::triangular\l_matrix_vector_product\&lt;\l Index, Mode, LhsScalar,\l ConjLhs, RhsScalar, ConjRhs,\l RowMajor, Version \&gt;::run" alt="" coords="235,115,445,200"/>
-</map>

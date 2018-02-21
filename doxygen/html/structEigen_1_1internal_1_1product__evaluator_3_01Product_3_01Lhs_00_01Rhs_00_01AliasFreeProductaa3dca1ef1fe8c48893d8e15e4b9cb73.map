@@ -1,5 +1,0 @@
-<map id="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, Rhs, AliasFreeProduct &gt;, ProductTag, PermutationShape, SparseShape &gt;" name="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, Rhs, AliasFreeProduct &gt;, ProductTag, PermutationShape, SparseShape &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; permutation_matrix_product\l\&lt; Rhs, OnTheLeft, false, SparseShape\l \&gt;::ReturnType \&gt;" alt="" coords="312,5,577,76"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; permutation\l_matrix_product\&lt; Rhs, OnTheLeft,\l false, SparseShape \&gt;::ReturnType \&gt;" alt="" coords="5,5,263,76"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1permutation__matrix__product.html" title="Eigen::internal::permutation\l_matrix_product\&lt; Rhs, OnTheLeft,\l false, SparseShape \&gt;" alt="" coords="324,101,565,157"/>
-</map>

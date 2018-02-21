@@ -1,9 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$Tutorial__sparse__example_8cpp.html#a2563d84202fb56ea78ca60731badc33f" title="buildProblem" alt="" coords="165,16,270,43"/>
-<area shape="rect" id="node5" href="$Tutorial__sparse__example_8cpp.html#afef736ce24d71fb43661b8e285578dd5" title="saveAsBitmap" alt="" coords="160,72,275,99"/>
-<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#acc35051d698e3973f1de5b9b78dbe345" title="Eigen::SparseMatrix\l::setFromTriplets" alt="" coords="143,123,292,165"/>
-<area shape="rect" id="node8" href="$classEigen_1_1SparseSolverBase.html#a4a66e9498b06e3ec4ec36f06b26d4e8f" title="Eigen::SparseSolverBase\l\&lt; SimplicialCholesky\&lt;\l _MatrixType, _UpLo, _Ordering\l \&gt; \&gt;::solve" alt="" coords="108,189,327,259"/>
-<area shape="rect" id="node3" href="$Tutorial__sparse__example__details_8cpp.html#abccb5c43c202f29ec7ea865b6a127250" title="insertCoefficient" alt="" coords="412,5,537,32"/>
-<area shape="rect" id="node4" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="623,5,661,32"/>
-<area shape="rect" id="node6" href="$classEigen_1_1PlainObjectBase.html#ac25699535374b1854cf8494e44ad31b2" title="Eigen::PlainObjectBase\l\&lt; Array\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::data" alt="" coords="375,57,575,127"/>
-</map>

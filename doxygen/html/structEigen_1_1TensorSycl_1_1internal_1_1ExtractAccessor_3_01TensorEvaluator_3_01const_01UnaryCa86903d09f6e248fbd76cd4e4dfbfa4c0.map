@@ -1,3 +1,0 @@
-<map id="Eigen::TensorSycl::internal::ExtractAccessor&lt; TensorEvaluator&lt; const UnaryCategory&lt; OP, RHSExpr &gt;, Dev &gt; &gt;" name="Eigen::TensorSycl::internal::ExtractAccessor&lt; TensorEvaluator&lt; const UnaryCategory&lt; OP, RHSExpr &gt;, Dev &gt; &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1TensorSycl_1_1internal_1_1ExtractAccessor_3_01TensorEvaluator_3_01UnaryCategory_3e8f502a7e5b06ee0eab1626e3e4660d0.html" title="specialisation of the ExtractAccessor struct when the node type is TensorCwiseNullaryOp, TensorCwiseUnaryOp and TensorBroadcastingOp " alt="" coords="272,13,521,83"/>
-</map>

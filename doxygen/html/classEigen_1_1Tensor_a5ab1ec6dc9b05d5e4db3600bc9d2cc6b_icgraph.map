@@ -1,6 +1,0 @@
-<map id="Eigen::Tensor::resize" name="Eigen::Tensor::resize">
-<area shape="rect" id="node2" href="$classtensor__interface.html#ae8b9ffe5345b1a8bed0d7ad9e6aa6590" title="tensor_interface::matrix\l_from_stl" alt="" coords="205,5,380,47"/>
-<area shape="rect" id="node3" href="$cxx11__tensor__image__patch_8cpp.html#a96397d60a0ff9135771b1092efb26111" title="test_imagenet_patches" alt="" coords="206,71,379,98"/>
-<area shape="rect" id="node5" href="$classtensor__interface.html#a1c684ab8c12594170aa1ae75468cb9bc" title="tensor_interface::vector\l_from_stl" alt="" coords="205,123,380,164"/>
-<area shape="rect" id="node4" href="$cxx11__tensor__image__patch_8cpp.html#ab20a651a95e730f52aa3ce5aae894fbf" title="test_cxx11_tensor_image\l_patch" alt="" coords="428,64,615,105"/>
-</map>

@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1unary__evaluator_3_01TriangularView_3_01MatrixType_00_01Mode_01_4_00_01IndexBased_01_4 =
-[
-    [ "Base", "structEigen_1_1internal_1_1unary__evaluator_3_01TriangularView_3_01MatrixType_00_01Mode_01_4_00_01IndexBased_01_4.html#a3a7729a020a83f999d535d7cc1273164", null ],
-    [ "XprType", "structEigen_1_1internal_1_1unary__evaluator_3_01TriangularView_3_01MatrixType_00_01Mode_01_4_00_01IndexBased_01_4.html#a87825ad5799553ca3c40591899488f89", null ],
-    [ "unary_evaluator", "structEigen_1_1internal_1_1unary__evaluator_3_01TriangularView_3_01MatrixType_00_01Mode_01_4_00_01IndexBased_01_4.html#af39191a25a16e28e69f61de2fc305808", null ]
-];

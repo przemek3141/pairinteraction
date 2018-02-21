@@ -1,6 +1,0 @@
-<map id="Eigen::KroneckerProductSparse::evalTo" name="Eigen::KroneckerProductSparse::evalTo">
-<area shape="rect" id="node2" href="$classEigen_1_1KroneckerProductBase.html#af3fa696ee7b8faaf7011b4a4e60828f3" title="Eigen::KroneckerProductBase\l::cols" alt="" coords="276,5,487,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#ac25699535374b1854cf8494e44ad31b2" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::data" alt="" coords="281,71,481,141"/>
-<area shape="rect" id="node5" href="$classEigen_1_1KroneckerProductBase.html#af56e882e5fbf162bfa2fab85810dd26f" title="Eigen::KroneckerProductBase\l::rows" alt="" coords="276,165,487,207"/>
-<area shape="rect" id="node4" href="$classEigen_1_1DenseStorage.html#a5b5984857e0f9091125bc75acc6f770f" title="Eigen::DenseStorage\l::data" alt="" coords="535,85,692,127"/>
-</map>

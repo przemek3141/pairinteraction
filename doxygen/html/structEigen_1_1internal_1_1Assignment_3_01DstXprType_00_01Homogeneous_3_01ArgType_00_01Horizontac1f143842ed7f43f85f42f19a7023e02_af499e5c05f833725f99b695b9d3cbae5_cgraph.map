@@ -1,7 +1,0 @@
-<map id="Eigen::internal::Assignment&lt; DstXprType, Homogeneous&lt; ArgType, Horizontal &gt;, internal::assign_op&lt; Scalar, typename ArgType::Scalar &gt;, Dense2Dense &gt;::run" name="Eigen::internal::Assignment&lt; DstXprType, Homogeneous&lt; ArgType, Horizontal &gt;, internal::assign_op&lt; Scalar, typename ArgType::Scalar &gt;, Dense2Dense &gt;::run">
-<area shape="rect" id="node2" href="$classEigen_1_1Homogeneous.html#aa9150d97385cc380135bafc2b6a0b6e6" title="Eigen::Homogeneous\l::cols" alt="" coords="329,5,488,47"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Homogeneous.html#a4c1e03451bd7cdeb7a17163d034ba20a" title="Eigen::Homogeneous\l::nestedExpression" alt="" coords="329,71,488,112"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Homogeneous.html#a585a4512c1b27905c801e2dc7140a71a" title="Eigen::Homogeneous\l::rows" alt="" coords="329,136,488,177"/>
-<area shape="rect" id="node6" href="$Matrix__setOnes__int_8cpp.html#a7a9f1c7a7b05ba854fc3f1709f0c2c83" title="setOnes" alt="" coords="371,202,446,229"/>
-<area shape="rect" id="node3" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="536,78,575,105"/>
-</map>

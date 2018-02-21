@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorPatchOp_3_01PatchDim_00_01XprType_01_4_00_011_00_01t47333c9dea79634dbd71ad5da0485159 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorPatchOp_3_01PatchDim_00_01XprType_01_4_00_011_00_01t47333c9dea79634dbd71ad5da0485159.html#a15cc52483741ab88259c03bd13a00dcd", null ]
-];

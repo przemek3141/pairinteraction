@@ -1,8 +1,0 @@
-<map id="Eigen::QuaternionBase::w" name="Eigen::QuaternionBase::w">
-<area shape="rect" id="node2" href="$classEigen_1_1AngleAxis.html#aff838a6d260ae70bd7b8ff452dfbdfb6" title="Eigen::AngleAxis::operator=" alt="" coords="253,5,455,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1quat__product.html#a84c5271d02e088d165237397504795b8" title="Eigen::internal::quat\l_product::run" alt="" coords="279,57,429,98"/>
-<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1quat__conj.html#aacb4c3ff28770adad256f1dea67e4d34" title="Eigen::internal::quat\l_conj::run" alt="" coords="279,122,429,163"/>
-<area shape="rect" id="node7" href="$structEigen_1_1internal_1_1quaternionbase__assign__impl_3_01Other_00_013_00_013_01_4.html#a2cb5f61272d2ce9595659a111bf5efb9" title="Eigen::internal::quaternionbase\l_assign_impl\&lt; Other, 3, 3 \&gt;::run" alt="" coords="239,187,469,229"/>
-<area shape="rect" id="node4" href="$quatmul_8cpp.html#a5fc804920e47765ed3bc2dc1f040148a" title="quatmul_novec" alt="" coords="517,64,637,91"/>
-<area shape="rect" id="node5" href="$quatmul_8cpp.html#a053f454b9b8b92f84489fbe3b82d152e" title="bench" alt="" coords="685,64,747,91"/>
-</map>

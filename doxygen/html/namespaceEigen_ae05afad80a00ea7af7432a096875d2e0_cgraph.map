@@ -1,8 +1,0 @@
-<map id="Eigen::viewAsCholmod" name="Eigen::viewAsCholmod">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html#a34a7f8da0b505b870a65bf58d946a502" title="Eigen::SparseMatrixBase\l\&lt; SparseVector\&lt; _Scalar,\l _Options, _StorageIndex\l \&gt; \&gt;::const_cast_derived" alt="" coords="219,5,408,76"/>
-<area shape="rect" id="node3" href="$namespaceEigen.html#ac9fb9e40cfc9ddbdc7da84ee01bb7545" title="Eigen::viewAsCholmod" alt="" coords="231,101,396,127"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1TensorSycl.html#a789ef14500d782279cc4bb95e6ba3dbd" title="Eigen::TensorSycl::run" alt="" coords="456,101,617,127"/>
-<area shape="rect" id="node5" href="$structEigen_1_1TensorEvaluator.html#ae188d806978166eb8cbffbd63c944fb3" title="Eigen::TensorEvaluator\l::evalSubExprsIfNeeded" alt="" coords="667,28,841,69"/>
-<area shape="rect" id="node6" href="$namespaceEigen_1_1TensorSycl_1_1internal.html#a525ee07cdeb68d18359b511b1ae9ffc7" title="template deduction function for FunctorExtractor " alt="" coords="665,93,843,135"/>
-<area shape="rect" id="node7" href="$structEigen_1_1TensorEvaluator.html#a76ec54bcca9523ec104aaa9adaf74983" title="Eigen::TensorEvaluator\l::cleanup" alt="" coords="671,159,837,200"/>
-</map>

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1promote__scalar__arg__unsupported_3_01S_00_01T_00_01PromotedType_00_01true_00_01true_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1promote__scalar__arg__unsupported_3_01S_00_01T_00_01PromotedType_00_01true_00_01true_01_4.html#a64364a92b21177220b54217e88f1703d", null ]
-];

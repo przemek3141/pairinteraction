@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4 =
-[
-    [ "Coefficients", "structEigen_1_1internal_1_1traits_3_01Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4.html#a7f06dc786624ddaab7233c12eaf696d1", null ],
-    [ "TraitsBase", "structEigen_1_1internal_1_1traits_3_01Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4.html#aab4d999273f7f2590a7a6e40dd00ac6c", null ],
-    [ "Flags", "structEigen_1_1internal_1_1traits_3_01Map_3_01const_01Quaternion_3_01__Scalar_01_4_00_01__Options_01_4_01_4.html#a64fb230cd62c166fbfef10cbf244f27faf59a3ef2d249a9a0ba38df53bf3318f5", null ]
-];

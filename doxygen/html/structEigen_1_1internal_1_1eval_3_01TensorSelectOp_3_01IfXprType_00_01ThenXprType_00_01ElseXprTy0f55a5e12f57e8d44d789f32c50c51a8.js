@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorSelectOp_3_01IfXprType_00_01ThenXprType_00_01ElseXprTy0f55a5e12f57e8d44d789f32c50c51a8 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorSelectOp_3_01IfXprType_00_01ThenXprType_00_01ElseXprTy0f55a5e12f57e8d44d789f32c50c51a8.html#ad89e726a4cade10b810f686837240ac2", null ]
-];

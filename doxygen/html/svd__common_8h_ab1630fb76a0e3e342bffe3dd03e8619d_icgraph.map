@@ -1,6 +1,0 @@
-<map id="svd_test_all_computation_options" name="svd_test_all_computation_options">
-<area shape="rect" id="node2" href="$bdcsvd_8cpp.html#a55d9069ac4c9bf0feb5f2e1d3760f118" title="bdcsvd" alt="" coords="246,5,313,32"/>
-<area shape="rect" id="node5" href="$jacobisvd_8cpp.html#a2d5810666a5ef33f431b89cce0a56958" title="jacobisvd" alt="" coords="239,56,320,83"/>
-<area shape="rect" id="node3" href="$dense__solvers_8cpp.html#a578ba2d5aea4aaa8751e7311d8384181" title="bench" alt="" coords="413,5,474,32"/>
-<area shape="rect" id="node4" href="$boostmultiprec_8cpp.html#af8983cadf0ba3b55cb55879f4b3d833d" title="test_boostmultiprec" alt="" coords="368,56,519,83"/>
-</map>

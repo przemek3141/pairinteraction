@@ -1,6 +1,5 @@
 var dir_f811dd580933abc475fb939fab666633 =
 [
-    [ "eigen", "dir_953505463e97eb8daee61ba222586c06.html", "dir_953505463e97eb8daee61ba222586c06" ],
     [ "unit_test", "dir_fe78b7a94f3036b4688f92539e4e775a.html", "dir_fe78b7a94f3036b4688f92539e4e775a" ],
     [ "Basisnames.cpp", "Basisnames_8cpp.html", null ],
     [ "Basisnames.h", "Basisnames_8h.html", [

@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1evaluator_3_01CwiseBinaryOp_3_01internal_1_1scalar__product__op_3_01S6c0cdfe5b2796e1f76893a3464935965 =
-[
-    [ "Base", "structEigen_1_1internal_1_1evaluator_3_01CwiseBinaryOp_3_01internal_1_1scalar__product__op_3_01S6c0cdfe5b2796e1f76893a3464935965.html#a9626a0e1d13b8213c27d2a4988280ac3", null ],
-    [ "XprType", "structEigen_1_1internal_1_1evaluator_3_01CwiseBinaryOp_3_01internal_1_1scalar__product__op_3_01S6c0cdfe5b2796e1f76893a3464935965.html#a518128307c011806fa4f530d8d1c7a96", null ],
-    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01CwiseBinaryOp_3_01internal_1_1scalar__product__op_3_01S6c0cdfe5b2796e1f76893a3464935965.html#a2998439c31f40d62004644b9b2cdc88e", null ]
-];

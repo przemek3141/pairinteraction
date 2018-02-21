@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__cast__op_3_01int_00_01Eigen_1_1half_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__cast__op_3_01int_00_01Eigen_1_1half_01_4_01_4.html#a1c17a505e2ca9224554fe86bbdbb22e3a99eceb6a56a3dec3e455bd1b59fae0e7", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__cast__op_3_01int_00_01Eigen_1_1half_01_4_01_4.html#a1c17a505e2ca9224554fe86bbdbb22e3aab88de72e42872da573ba54a8028e2db", null ]
-];

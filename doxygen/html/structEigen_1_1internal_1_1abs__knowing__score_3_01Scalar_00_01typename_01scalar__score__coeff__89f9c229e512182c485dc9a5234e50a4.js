@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1abs__knowing__score_3_01Scalar_00_01typename_01scalar__score__coeff__89f9c229e512182c485dc9a5234e50a4 =
-[
-    [ "result_type", "structEigen_1_1internal_1_1abs__knowing__score_3_01Scalar_00_01typename_01scalar__score__coeff__89f9c229e512182c485dc9a5234e50a4.html#a56c4384e0a6242d2759f34a74e067785", null ],
-    [ "operator()", "structEigen_1_1internal_1_1abs__knowing__score_3_01Scalar_00_01typename_01scalar__score__coeff__89f9c229e512182c485dc9a5234e50a4.html#a89e1f41591ec9a2f8d674296403b6426", null ]
-];

@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__lgamma__op_3_01Scalar_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__lgamma__op_3_01Scalar_01_4_01_4.html#a9e1bb02bbc9aa7f5eab27eabd2a99a61a251d80498bab5f360a1aaae3da92cc62", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__lgamma__op_3_01Scalar_01_4_01_4.html#a9e1bb02bbc9aa7f5eab27eabd2a99a61a32c9298fab336afdddc90c603ec48461", null ]
-];

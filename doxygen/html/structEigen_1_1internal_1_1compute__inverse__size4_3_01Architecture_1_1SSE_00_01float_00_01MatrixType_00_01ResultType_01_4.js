@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1compute__inverse__size4_3_01Architecture_1_1SSE_00_01float_00_01MatrixType_00_01ResultType_01_4 =
-[
-    [ "ActualMatrixType", "structEigen_1_1internal_1_1compute__inverse__size4_3_01Architecture_1_1SSE_00_01float_00_01MatrixType_00_01ResultType_01_4.html#a3b9b2332c19ad1337922138ef2b4a011", null ],
-    [ "MatrixAlignment", "structEigen_1_1internal_1_1compute__inverse__size4_3_01Architecture_1_1SSE_00_01float_00_01MatrixType_00_01ResultType_01_4.html#ab398ec185fe84a9a50af54c668730e53a93684dc3b2dd71add6cbb345c6313029", null ],
-    [ "ResultAlignment", "structEigen_1_1internal_1_1compute__inverse__size4_3_01Architecture_1_1SSE_00_01float_00_01MatrixType_00_01ResultType_01_4.html#ab398ec185fe84a9a50af54c668730e53af093d5e4dc154b6c50676f5973bc1ac1", null ],
-    [ "StorageOrdersMatch", "structEigen_1_1internal_1_1compute__inverse__size4_3_01Architecture_1_1SSE_00_01float_00_01MatrixType_00_01ResultType_01_4.html#ab398ec185fe84a9a50af54c668730e53acfeaf7edd2c790c96836cc2554f59dd4", null ]
-];

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1gemv__static__vector__if_3_01Scalar_00_01Size_00_01Dynamic_00_01true_01_4 =
-[
-    [ "data", "structEigen_1_1internal_1_1gemv__static__vector__if_3_01Scalar_00_01Size_00_01Dynamic_00_01true_01_4.html#a70bb966a3697166cc95904af768d23fd", null ]
-];

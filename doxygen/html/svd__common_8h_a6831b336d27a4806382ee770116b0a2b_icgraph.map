@@ -1,7 +1,0 @@
-<map id="svd_compare_to_full" name="svd_compare_to_full">
-<area shape="rect" id="node2" href="$svd__common_8h.html#ab1630fb76a0e3e342bffe3dd03e8619d" title="svd_test_all_computation\l_options" alt="" coords="207,23,392,65"/>
-<area shape="rect" id="node3" href="$bdcsvd_8cpp.html#a55d9069ac4c9bf0feb5f2e1d3760f118" title="bdcsvd" alt="" coords="447,5,514,32"/>
-<area shape="rect" id="node6" href="$jacobisvd_8cpp.html#a2d5810666a5ef33f431b89cce0a56958" title="jacobisvd" alt="" coords="440,56,521,83"/>
-<area shape="rect" id="node4" href="$dense__solvers_8cpp.html#a578ba2d5aea4aaa8751e7311d8384181" title="bench" alt="" coords="614,5,675,32"/>
-<area shape="rect" id="node5" href="$boostmultiprec_8cpp.html#af8983cadf0ba3b55cb55879f4b3d833d" title="test_boostmultiprec" alt="" coords="569,56,720,83"/>
-</map>

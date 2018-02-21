@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01Map_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84aa94a010b63df14ce7f42d9aeea962 =
-[
-    [ "PlainObjectType", "structEigen_1_1internal_1_1traits_3_01Map_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84aa94a010b63df14ce7f42d9aeea962.html#a7ea1289147e8e15383731b2ca4ef5dee", null ],
-    [ "TraitsBase", "structEigen_1_1internal_1_1traits_3_01Map_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84aa94a010b63df14ce7f42d9aeea962.html#a515426d8fed72750e4815acd12da5aa0", null ],
-    [ "Flags", "structEigen_1_1internal_1_1traits_3_01Map_3_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01Ma84aa94a010b63df14ce7f42d9aeea962.html#a5dbf3a4ba481fbbb220f6c7814d8a32ba57f9815e07239ed31972ecaf59c758c5", null ]
-];

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1generic__product__impl_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_009319fe6f8c2d3aa3400a58c344dd5f08 =
-[
-    [ "TransformType", "structEigen_1_1internal_1_1generic__product__impl_3_01Transform_3_01Scalar_00_01Dim_00_01Mode_009319fe6f8c2d3aa3400a58c344dd5f08.html#afd08afc85d6796cb4200d5947afb5fd8", null ]
-];

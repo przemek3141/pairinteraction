@@ -115,11 +115,11 @@ $(document).ready(function(){initNavTree('Interface_8cpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa28668204e33bfa8981eec32e8c60f69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#aa28668204e33bfa8981eec32e8c60f69">thread_ctrl</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> num_threads)</td></tr>
+<tr class="memitem:aa28668204e33bfa8981eec32e8c60f69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#aa28668204e33bfa8981eec32e8c60f69">thread_ctrl</a> (<a class="el" href="classint.html">int</a> num_threads)</td></tr>
 <tr class="separator:aa28668204e33bfa8981eec32e8c60f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad96e405f7fdd0b4064f567b7195914c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#ad96e405f7fdd0b4064f567b7195914c7">compute</a> (const std::string &amp;config_name, const std::string &amp;output_name, std::string const &amp;endpoint)</td></tr>
+<tr class="memitem:ad96e405f7fdd0b4064f567b7195914c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#ad96e405f7fdd0b4064f567b7195914c7">compute</a> (const std::string &amp;config_name, const std::string &amp;output_name, std::string const &amp;endpoint)</td></tr>
 <tr class="separator:ad96e405f7fdd0b4064f567b7195914c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad35205fca127f7b40c9a87547b82d56c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#ad35205fca127f7b40c9a87547b82d56c">mainMatrixElement</a> (std::string const &amp;element, std::string const &amp;<a class="el" href="BlockMethods_8h.html#a8dd30d04b6ce8a78abb064008deb8a9c">row</a>, std::string const &amp;<a class="el" href="BlockMethods_8h.html#ac820575ee62de615224f350c02085469">col</a>, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> power)</td></tr>
+<tr class="memitem:ad35205fca127f7b40c9a87547b82d56c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Interface_8cpp.html#ad35205fca127f7b40c9a87547b82d56c">mainMatrixElement</a> (std::string const &amp;element, std::string const &amp;row, std::string const &amp;col, <a class="el" href="classint.html">int</a> power)</td></tr>
 <tr class="separator:ad35205fca127f7b40c9a87547b82d56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,7 +130,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> compute </td>
+          <td class="memname"><a class="el" href="classint.html">int</a> compute </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>config_name</em>, </td>
@@ -157,13 +157,23 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="Interface_8cpp_source.html#l00059">59</a> of file <a class="el" href="Interface_8cpp_source.html">Interface.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ConfParser_8h_source.html#l00122">Configuration::count()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00082">BasisnamesOne::fromBoth()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00028">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00055">BasisnamesOne::fromSecond()</a>, <a class="el" href="ConfParser_8cpp_source.html#l00023">Configuration::load_from_json()</a>, <a class="el" href="Communication_8h_source.html#l00014">zmq::endpoint::name</a>, and <a class="el" href="Parallelizer_8h_source.html#l00067">Eigen::setNbThreads()</a>.</p>
+<p class="reference">References <a class="el" href="ConfParser_8h_source.html#l00122">Configuration::count()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00082">BasisnamesOne::fromBoth()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00028">BasisnamesOne::fromFirst()</a>, <a class="el" href="Basisnames_8cpp_source.html#l00055">BasisnamesOne::fromSecond()</a>, <a class="el" href="ConfParser_8cpp_source.html#l00023">Configuration::load_from_json()</a>, and <a class="el" href="Communication_8h_source.html#l00014">zmq::endpoint::name</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00023">main()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Interface_8cpp_ad96e405f7fdd0b4064f567b7195914c7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="Interface_8cpp_ad96e405f7fdd0b4064f567b7195914c7_cgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="Interface_8cpp_ad96e405f7fdd0b4064f567b7195914c7_icgraph.svg" width="192" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -176,7 +186,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> mainMatrixElement </td>
+          <td class="memname"><a class="el" href="classint.html">int</a> mainMatrixElement </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>element</em>, </td>
@@ -196,7 +206,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>power</em>&#160;</td>
         </tr>
         <tr>
@@ -210,11 +220,11 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="Interface_8cpp_source.html#l00126">126</a> of file <a class="el" href="Interface_8cpp_source.html">Interface.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Basisnames_8cpp_source.html#l00022">BasisnamesOne::fromStates()</a>, <a class="el" href="State_8h_source.html#l00052">StateOne::j</a>, <a class="el" href="State_8h_source.html#l00051">StateOne::l</a>, <a class="el" href="State_8h_source.html#l00052">StateOne::m</a>, and <a class="el" href="State_8h_source.html#l00051">StateOne::n</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="Interface_8cpp_ad35205fca127f7b40c9a87547b82d56c_cgraph.svg" width="412" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -228,9 +238,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> thread_ctrl </td>
+          <td class="memname"><a class="el" href="classint.html">int</a> thread_ctrl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>num_threads</em></td><td>)</td>
           <td></td>
         </tr>
@@ -249,7 +259,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_f811dd580933abc475fb939fab666633.html">libpairinteraction</a></li><li class="navelem"><a class="el" href="Interface_8cpp.html">Interface.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 21 2018 04:51:31 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 21 2018 22:29:43 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

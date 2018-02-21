@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01TensorEvaluator_3_01const_01TensorContractionOp_3_01Indicee5624eb12a9fd9c61d81e106bddfffca =
-[
-    [ "Device", "structEigen_1_1internal_1_1traits_3_01TensorEvaluator_3_01const_01TensorContractionOp_3_01Indicee5624eb12a9fd9c61d81e106bddfffca.html#a3a7784e71b4ea5235ab49a896463c719", null ],
-    [ "Indices", "structEigen_1_1internal_1_1traits_3_01TensorEvaluator_3_01const_01TensorContractionOp_3_01Indicee5624eb12a9fd9c61d81e106bddfffca.html#a4cbc1240380aaabcab00607090746a2e", null ],
-    [ "LeftArgType", "structEigen_1_1internal_1_1traits_3_01TensorEvaluator_3_01const_01TensorContractionOp_3_01Indicee5624eb12a9fd9c61d81e106bddfffca.html#a0a2bdf62cec450069b30f365e605ccfa", null ],
-    [ "RightArgType", "structEigen_1_1internal_1_1traits_3_01TensorEvaluator_3_01const_01TensorContractionOp_3_01Indicee5624eb12a9fd9c61d81e106bddfffca.html#aca062cea9ef2e619685bd9fc769712d5", null ]
-];

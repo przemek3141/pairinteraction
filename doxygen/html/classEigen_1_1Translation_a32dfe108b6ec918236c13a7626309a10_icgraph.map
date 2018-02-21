@@ -1,8 +1,0 @@
-<map id="Eigen::Translation::vector" name="Eigen::Translation::vector">
-<area shape="rect" id="node2" href="$classEigen_1_1UniformScaling.html#a19c405341f2c861eb0ddfc4f760fecf8" title="Eigen::UniformScaling\l::operator*" alt="" coords="210,5,373,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Transform.html#ab996e752b1e3c4c770acb948370af604" title="Eigen::Transform::operator*" alt="" coords="192,71,391,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Transform.html#a6674a30f5fc24421249c9b1ac1d09657" title="Eigen::Transform::operator*=" alt="" coords="187,122,396,149"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Transform.html#af7d406aca4233e1bb6d4a35f48130b46" title="Eigen::Transform::operator=" alt="" coords="190,173,393,199"/>
-<area shape="rect" id="node6" href="$openglsupport_8cpp.html#ad1b3d039088c04b22817ca7c0b5d5f8e" title="test_openglsupport" alt="" coords="218,223,365,250"/>
-<area shape="rect" id="node7" href="$namespaceEigen.html#ac2f0a7266e0f6a0079eb31cfcf06afcc" title="Eigen::test_relative\l_error" alt="" coords="219,275,363,316"/>
-</map>

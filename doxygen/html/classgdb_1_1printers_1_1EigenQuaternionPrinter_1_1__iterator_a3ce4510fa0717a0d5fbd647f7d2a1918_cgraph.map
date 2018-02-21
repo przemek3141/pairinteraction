@@ -1,4 +1,0 @@
-<map id="gdb.printers.EigenQuaternionPrinter._iterator.next" name="gdb.printers.EigenQuaternionPrinter._iterator.next">
-<area shape="rect" id="node2" href="$classgdb_1_1printers_1_1EigenMatrixPrinter_1_1__iterator.html#a46f72eca8ff8788d46671ac364beef1b" title="gdb.printers.EigenMatrix\lPrinter._iterator.__next__" alt="" coords="277,5,457,47"/>
-<area shape="rect" id="node3" href="$classgdb_1_1printers_1_1EigenQuaternionPrinter_1_1__iterator.html#a11d582280237f3ba949db06c283cbd4d" title="gdb.printers.EigenQuaternion\lPrinter._iterator.__next__" alt="" coords="263,71,472,112"/>
-</map>

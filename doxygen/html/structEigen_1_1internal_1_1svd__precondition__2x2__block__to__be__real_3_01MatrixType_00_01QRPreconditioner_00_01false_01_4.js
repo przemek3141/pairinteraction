@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1svd__precondition__2x2__block__to__be__real_3_01MatrixType_00_01QRPreconditioner_00_01false_01_4 =
-[
-    [ "RealScalar", "structEigen_1_1internal_1_1svd__precondition__2x2__block__to__be__real_3_01MatrixType_00_01QRPreconditioner_00_01false_01_4.html#a9256fcadaa3aa0e1ad3a5785dae44751", null ],
-    [ "SVD", "structEigen_1_1internal_1_1svd__precondition__2x2__block__to__be__real_3_01MatrixType_00_01QRPreconditioner_00_01false_01_4.html#a03f1047549bd0f97f40c2df3f4a14927", null ]
-];

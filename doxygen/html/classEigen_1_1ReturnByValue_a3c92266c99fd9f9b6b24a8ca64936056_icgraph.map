@@ -1,5 +1,0 @@
-<map id="Eigen::ReturnByValue::cols" name="Eigen::ReturnByValue::cols">
-<area shape="rect" id="node2" href="$classEigen_1_1PlainObjectBase.html#acb52615e4274fb0f9a47359bc8bbbf79" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::_init1" alt="" coords="224,5,424,76"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#a1682d60af2dd00c27507043aade71556" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::operator=" alt="" coords="224,100,424,171"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html#abb80b2ee27de8b5d7ef2c8fb403c0068" title="Copy constructor with in&#45;place evaluation. " alt="" coords="211,195,437,265"/>
-</map>

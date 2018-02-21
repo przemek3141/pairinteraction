@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1cwise__promote__storage__order_3_01Sparse_00_01RhsKind_00_01LhsOrder_00_01RhsOrder_01_4 =
-[
-    [ "value", "structEigen_1_1internal_1_1cwise__promote__storage__order_3_01Sparse_00_01RhsKind_00_01LhsOrder_00_01RhsOrder_01_4.html#ac12f4b3f1fdaee22d1b2c73116118aa7a5f96c67d36fbb8341e02322d5235d162", null ]
-];

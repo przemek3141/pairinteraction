@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1TensorContractionEvaluatorBase.html" title="Eigen::TensorContraction\lEvaluatorBase\&lt; TensorEvaluator\l\&lt; const TensorContractionOp\l\&lt; Indices, LeftArgType, RightArgType\l \&gt;, Device \&gt; \&gt;" alt="" coords="5,5,259,91"/>
-<area shape="rect" id="node2" href="$structEigen_1_1TensorEvaluator_3_01const_01TensorContractionOp_3_01Indices_00_01LeftArgType_00_08d280fe9de8ebac174c99176add3d3f2.html" title="Eigen::TensorEvaluator\l\&lt; const TensorContractionOp\l\&lt; Indices, LeftArgType, RightArgType\l \&gt;, Device \&gt;" alt="" coords="307,13,560,83"/>
-</map>

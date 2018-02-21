@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01const_01TensorMap_3_01PlainObjectType_00_01Options_00_01Makeb7b0c343137eeb867b4b85d9dd287202 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01const_01TensorMap_3_01PlainObjectType_00_01Options_00_01Makeb7b0c343137eeb867b4b85d9dd287202.html#abeac2b4fdcbefb72b9b0becd7f089d1d", null ]
-];

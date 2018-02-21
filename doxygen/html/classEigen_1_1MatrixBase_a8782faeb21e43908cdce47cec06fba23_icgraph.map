@@ -1,5 +1,0 @@
-<map id="Eigen::MatrixBase::squaredNorm" name="Eigen::MatrixBase::squaredNorm">
-<area shape="rect" id="node2" href="$classEigen_1_1GMRES.html#a8064e57ae70670b4023c0d5c7c340049" title="Eigen::GMRES::_solve_impl" alt="" coords="197,5,391,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1IterationController.html#aa43c7653d26cdec6e6f4597e18bca1df" title="Eigen::IterationController\l::finished" alt="" coords="204,57,384,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1MatrixBase.html#aa60c37d8bb4139f7254d4fb9e2cebb68" title="Eigen::MatrixBase\&lt;\l Solve\&lt; Decomposition,\l RhsType \&gt; \&gt;::imag" alt="" coords="206,123,382,179"/>
-</map>

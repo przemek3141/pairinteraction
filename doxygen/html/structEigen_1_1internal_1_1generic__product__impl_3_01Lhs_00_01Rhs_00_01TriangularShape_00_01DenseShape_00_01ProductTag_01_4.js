@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1generic__product__impl_3_01Lhs_00_01Rhs_00_01TriangularShape_00_01DenseShape_00_01ProductTag_01_4 =
-[
-    [ "Scalar", "structEigen_1_1internal_1_1generic__product__impl_3_01Lhs_00_01Rhs_00_01TriangularShape_00_01DenseShape_00_01ProductTag_01_4.html#a21a4e3453caef0f96ffb1f1cf63abf6b", null ]
-];

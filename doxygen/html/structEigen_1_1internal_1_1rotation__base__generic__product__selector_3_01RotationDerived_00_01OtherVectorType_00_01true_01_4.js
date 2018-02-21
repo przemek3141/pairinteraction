@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1rotation__base__generic__product__selector_3_01RotationDerived_00_01OtherVectorType_00_01true_01_4 =
-[
-    [ "ReturnType", "structEigen_1_1internal_1_1rotation__base__generic__product__selector_3_01RotationDerived_00_01OtherVectorType_00_01true_01_4.html#a523751106cdef07ae1ea8cd07ab84d2a", null ],
-    [ "Dim", "structEigen_1_1internal_1_1rotation__base__generic__product__selector_3_01RotationDerived_00_01OtherVectorType_00_01true_01_4.html#ab0d080d9544b03d71f542918d17aaf63aa29164286fdcd8cd07f0113175a972bc", null ]
-];

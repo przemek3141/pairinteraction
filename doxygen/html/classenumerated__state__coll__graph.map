@@ -1,10 +1,3 @@
 <map id="enumerated_state&lt; T &gt;" name="enumerated_state&lt; T &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1Triplet.html" title="Eigen::Triplet\&lt; double \&gt;" alt="" coords="1269,95,1444,121"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html" title="Eigen::SparseMatrix\l\&lt; double \&gt;" alt="" coords="1013,117,1163,158"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format. " alt="" coords="683,16,905,72"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions. " alt="" coords="341,23,523,65"/>
-<area shape="rect" id="node7" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Derived \&gt;" alt="" coords="5,5,216,32"/>
-<area shape="rect" id="node8" href="$classbool.html" title="bool" alt="" coords="86,56,135,83"/>
-<area shape="rect" id="node11" href="$classEigen_1_1internal_1_1CompressedStorage.html" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex \&gt;" alt="" coords="676,187,912,229"/>
-<area shape="rect" id="node13" href="$classsize__t.html" title="size_t" alt="" coords="1327,145,1386,172"/>
+<area shape="rect" id="node2" href="$classsize__t.html" title="size_t" alt="" coords="29,5,88,32"/>
 </map>

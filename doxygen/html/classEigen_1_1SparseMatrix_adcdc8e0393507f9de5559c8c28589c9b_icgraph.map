@@ -1,5 +1,0 @@
-<map id="Eigen::SparseMatrix::insertByOuterInner" name="Eigen::SparseMatrix::insertByOuterInner">
-<area shape="rect" id="node2" href="$sparse_8h.html#a3ba4abd21a1ace3122406c3b3b27fc5b" title="initSparse" alt="" coords="204,31,291,57"/>
-<area shape="rect" id="node3" href="$sparse__solvers_8cpp.html#afdc1343eeabd8d973eaa0a8025e4b7c8" title="initSPD" alt="" coords="365,5,433,32"/>
-<area shape="rect" id="node4" href="$test_2sparse__product_8cpp.html#a7c1ebb5061b52283fef06715cf3410e1" title="sparse_product" alt="" coords="339,56,460,83"/>
-</map>

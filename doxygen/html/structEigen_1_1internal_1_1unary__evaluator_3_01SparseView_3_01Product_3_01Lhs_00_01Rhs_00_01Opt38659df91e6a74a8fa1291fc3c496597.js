@@ -1,8 +1,0 @@
-var structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597 =
-[
-    [ "Base", "structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597.html#a2ac684434ecfd71287c901da09822627", null ],
-    [ "PlainObject", "structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597.html#a6c295c293186a2489a4314e2b0705307", null ],
-    [ "XprType", "structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597.html#a2e5dc5bf23eb931fc5c185962a09ada6", null ],
-    [ "unary_evaluator", "structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597.html#a82f50e8685604a2602665e58167a2b4e", null ],
-    [ "m_result", "structEigen_1_1internal_1_1unary__evaluator_3_01SparseView_3_01Product_3_01Lhs_00_01Rhs_00_01Opt38659df91e6a74a8fa1291fc3c496597.html#ad5fce295f56e535fc51a841ea7c7bf0d", null ]
-];

@@ -1,5 +1,0 @@
-<map id="Eigen::LeastSquaresConjugateGradient&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::LeastSquaresConjugateGradient&lt; _MatrixType, _Preconditioner &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1IterativeSolverBase.html" title="Eigen::IterativeSolverBase\l\&lt; LeastSquaresConjugateGradient\l\&lt; _MatrixType, _Preconditioner \&gt; \&gt;" alt="" coords="552,5,800,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseSolverBase.html" title="Eigen::SparseSolverBase\l\&lt; LeastSquaresConjugateGradient\l\&lt; _MatrixType, _Preconditioner \&gt; \&gt;" alt="" coords="256,5,504,61"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,20,208,47"/>
-</map>

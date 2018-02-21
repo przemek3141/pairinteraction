@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01AffineCompact_00_01Opti5286416fe2e38bf1b4c261fe63741506 =
-[
-    [ "MatrixType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01AffineCompact_00_01Opti5286416fe2e38bf1b4c261fe63741506.html#a25762d347c9a2836052c3e9535c6548b", null ],
-    [ "ResultType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01AffineCompact_00_01Opti5286416fe2e38bf1b4c261fe63741506.html#a67ebae5233155e876dd3a12a41782c88", null ],
-    [ "TransformType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01AffineCompact_00_01Opti5286416fe2e38bf1b4c261fe63741506.html#afb7cffcf9ee2dfcb21ed434e507f1421", null ]
-];

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1quat__conj_3_01Architecture_1_1SSE_00_01Derived_00_01float_01_4 =
-[
-    [ "ResAlignment", "structEigen_1_1internal_1_1quat__conj_3_01Architecture_1_1SSE_00_01Derived_00_01float_01_4.html#aeca8c4d4f15153456c4f08f4a11817a6ac0daa31d1a3a61aafb58a33717aa3696", null ]
-];

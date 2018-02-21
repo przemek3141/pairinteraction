@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01DefaultTraversal_00_01NoUnrolling_01_4 =
-[
-    [ "Scalar", "structEigen_1_1internal_1_1redux__impl_3_01Func_00_01Derived_00_01DefaultTraversal_00_01NoUnrolling_01_4.html#afaa145437cd5078e52e269b05271619e", null ]
-];

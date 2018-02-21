@@ -1,8 +1,0 @@
-<map id="Eigen::internal::sparse_matrix_block_impl&lt; SparseMatrixType, BlockRows, BlockCols &gt;" name="Eigen::internal::sparse_matrix_block_impl&lt; SparseMatrixType, BlockRows, BlockCols &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseCompressedBase.html" title="Eigen::SparseCompressedBase\l\&lt; Block\&lt; SparseMatrixType,\l BlockRows, BlockCols, true \&gt; \&gt;" alt="" coords="635,39,859,95"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; Block\&lt; SparseMatrixType,\l BlockRows, BlockCols, true \&gt; \&gt;" alt="" coords="357,39,581,95"/>
-<area shape="rect" id="node4" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Block\l\&lt; SparseMatrixType, BlockRows,\l BlockCols, true \&gt; \&gt;" alt="" coords="5,5,232,61"/>
-<area shape="rect" id="node5" href="$classbool.html" title="bool" alt="" coords="94,85,143,112"/>
-<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1ref__selector.html" title="Eigen::internal::ref\l_selector\&lt; SparseMatrixType \&gt;" alt="" coords="635,119,858,161"/>
-<area shape="rect" id="node7" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, OuterSize \&gt;" alt="" coords="631,185,863,226"/>
-</map>

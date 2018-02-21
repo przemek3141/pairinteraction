@@ -1,4 +1,0 @@
-<map id="Eigen::internal::smart_memmove" name="Eigen::internal::smart_memmove">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1CompressedStorage.html#a8621aa0d1d0e27b025d41b9321968357" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex\l \&gt;::atWithInsertion" alt="" coords="226,5,447,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1sparse__matrix__block__impl.html#a1163a9d4638cbd5f950d413805842374" title="Eigen::internal::sparse\l_matrix_block_impl\&lt; const\l SparseMatrix\&lt; _Scalar, \l_Options, _StorageIndex \&gt;,\l BlockRows, BlockCols \&gt;::operator=" alt="" coords="212,85,461,171"/>
-</map>

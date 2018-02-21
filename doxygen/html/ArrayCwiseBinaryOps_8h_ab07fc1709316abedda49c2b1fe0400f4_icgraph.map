@@ -1,6 +1,0 @@
-<map id="zeta" name="zeta">
-<area shape="rect" id="node2" href="$special__functions_8cpp.html#a0c1b93c71125726e808123ed31b92f31" title="array_special_functions" alt="" coords="104,5,275,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1scalar__zeta__op.html#aff9f3c6a47117364cf8dd8d176eb88ff" title="Eigen::internal::scalar\l_zeta_op::operator()" alt="" coords="110,57,269,98"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#ad94cae7622231a44fd9d428eb6b39769" title="Eigen::internal::pzeta" alt="" coords="111,123,268,149"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1scalar__zeta__op.html#a25854b992c6fdc70164f04c3096371d7" title="Eigen::internal::scalar\l_zeta_op::packetOp" alt="" coords="323,115,481,157"/>
-</map>

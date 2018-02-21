@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01JacobiSVD_3_01__MatrixType_00_01QRPreconditioner_01_4_01_4 =
-[
-    [ "MatrixType", "structEigen_1_1internal_1_1traits_3_01JacobiSVD_3_01__MatrixType_00_01QRPreconditioner_01_4_01_4.html#a0c5efadd389b46f324bdee9e47f7c273", null ]
-];

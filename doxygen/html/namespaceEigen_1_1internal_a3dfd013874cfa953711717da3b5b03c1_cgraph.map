@@ -1,6 +1,0 @@
-<map id="Eigen::internal::pstoreu&lt; double &gt;" name="Eigen::internal::pstoreu&lt; double &gt;">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a5edf629e883e10447347e830b8c9f06f" title="Eigen::internal::pgather\l\&lt; float, Packet4f \&gt;" alt="" coords="224,5,395,47"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#aea49c19b4b3f450da1ff1a018e958eef" title="Eigen::internal::pstoreu\l\&lt; float \&gt;" alt="" coords="224,71,395,112"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1internal.html#abe9341bd54c8f36e4add9c441481704c" title="Eigen::internal::pstoreu\l\&lt; int \&gt;" alt="" coords="224,136,395,177"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#a63e92b056e3378b0853f510fdb6757b2" title="Eigen::internal::pload\l\&lt; Packet4f \&gt;" alt="" coords="443,5,599,47"/>
-</map>

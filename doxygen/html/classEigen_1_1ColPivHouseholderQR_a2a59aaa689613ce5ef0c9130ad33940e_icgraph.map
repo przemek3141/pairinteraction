@@ -1,7 +1,0 @@
-<map id="Eigen::ColPivHouseholderQR::rank" name="Eigen::ColPivHouseholderQR::rank">
-<area shape="rect" id="node2" href="$qr__colpivoting_8cpp.html#a234047f1d6b0303293c8918968a9670e" title="qr" alt="" coords="237,69,276,96"/>
-<area shape="rect" id="node3" href="$qr__colpivoting_8cpp.html#ad5c305e7d9c3fd6abc3950b0edb0cc0c" title="qr_fixedsize" alt="" coords="340,5,437,32"/>
-<area shape="rect" id="node5" href="$qr__colpivoting_8cpp.html#ab3860b0a2f15587340091be81254d208" title="qr_kahan_matrix" alt="" coords="324,157,453,184"/>
-<area shape="rect" id="node4" href="$qr__colpivoting_8cpp.html#a9bfcf72d1c319774f027d3446dc121dd" title="qr_invertible" alt="" coords="339,56,439,83"/>
-<area shape="rect" id="node6" href="$qr__colpivoting_8cpp.html#a6693811f52bc269d1ec52b3ec57d8da2" title="qr_verify_assert" alt="" coords="327,107,450,133"/>
-</map>

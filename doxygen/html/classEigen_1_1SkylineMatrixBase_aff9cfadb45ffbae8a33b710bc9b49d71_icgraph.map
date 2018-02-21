@@ -1,6 +1,0 @@
-<map id="Eigen::SkylineMatrixBase::cols" name="Eigen::SkylineMatrixBase::cols">
-<area shape="rect" id="node2" href="$classEigen_1_1SkylineMatrixBase.html#aa292a7a59be094f9d3184210623ed5ec" title="Eigen::SkylineMatrixBase\l\&lt; SkylineMatrix\&lt; _Scalar,\l _Options \&gt; \&gt;::assignGeneric" alt="" coords="235,5,445,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SkylineMatrixBase.html#a901f2691facc1a0321740300dc7a12d7" title="Eigen::SkylineMatrixBase\l\&lt; SkylineMatrix\&lt; _Scalar,\l _Options \&gt; \&gt;::innerSize" alt="" coords="247,85,433,141"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SkylineMatrixBase.html#a63cc4a263d32a8a225e4a42e891b8ac0" title="Eigen::SkylineMatrixBase\l\&lt; SkylineMatrix\&lt; _Scalar,\l _Options \&gt; \&gt;::outerSize" alt="" coords="247,165,433,221"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SkylineMatrixBase.html#a635234baea6bd59f97e6bd219adbdb64" title="Eigen::SkylineMatrixBase\l\&lt; SkylineMatrix\&lt; _Scalar,\l _Options \&gt; \&gt;::size" alt="" coords="247,245,433,301"/>
-</map>

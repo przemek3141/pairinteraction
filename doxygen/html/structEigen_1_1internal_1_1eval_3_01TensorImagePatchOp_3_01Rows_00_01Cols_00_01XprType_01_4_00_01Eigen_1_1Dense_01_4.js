@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorImagePatchOp_3_01Rows_00_01Cols_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorImagePatchOp_3_01Rows_00_01Cols_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4.html#aaf8010f4cd7b811c2ba9d2bd32ee630e", null ]
-];

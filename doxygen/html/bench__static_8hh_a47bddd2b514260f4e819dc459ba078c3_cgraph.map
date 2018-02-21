@@ -1,6 +1,0 @@
-<map id="bench_static" name="bench_static">
-<area shape="rect" id="node2" href="$xy__file_8hh.html#aa2d17b18e811bd37cc63b75d78fbad02" title="dump_xy_file" alt="" coords="195,5,300,32"/>
-<area shape="rect" id="node3" href="$structstatic__size__generator.html#a320325ca497fcbb648da06fe427f4214" title="static_size_generator::go" alt="" coords="156,56,339,83"/>
-<area shape="rect" id="node4" href="$classBtlConfig.html#aa1184fa46feaaf4b78ee67142966b869" title="BtlConfig::skipAction" alt="" coords="171,107,323,133"/>
-<area shape="rect" id="node5" href="$classBtlString.html#aa8f891f0f2ee7464261da613499cf6fe" title="BtlString::contains" alt="" coords="387,107,525,133"/>
-</map>

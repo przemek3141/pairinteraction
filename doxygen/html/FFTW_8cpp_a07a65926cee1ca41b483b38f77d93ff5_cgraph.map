@@ -1,9 +1,0 @@
-<map id="test_complex_generic" name="test_complex_generic">
-<area shape="rect" id="node2" href="$FFTW_8cpp.html#a2c2a9b95e2b6f64c7d8bbf0ebe8ab5c5" title="dif_rmse" alt="" coords="216,56,293,83"/>
-<area shape="rect" id="node5" href="$FFTW_8cpp.html#a50fc74eb7e6fc76c36a3e947bd05fd0d" title="fft_rmse" alt="" coords="217,107,292,133"/>
-<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a4921dbe62d034394f6fa7810e8711356" title="abs2" alt="" coords="353,56,407,83"/>
-<area shape="rect" id="node4" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="357,5,403,32"/>
-<area shape="rect" id="node6" href="$ArrayCwiseUnaryOps_8h.html#a4ae93c48c742ccd51e0ec59fa85b49bd" title="acos" alt="" coords="354,107,406,133"/>
-<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="357,157,403,184"/>
-<area shape="rect" id="node8" href="$FFTW_8cpp.html#a5249f301efebd1792e16860affeb02be" title="promote" alt="" coords="341,208,419,235"/>
-</map>

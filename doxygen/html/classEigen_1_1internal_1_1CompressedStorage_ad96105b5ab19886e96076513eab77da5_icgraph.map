@@ -1,6 +1,0 @@
-<map id="Eigen::internal::CompressedStorage::searchLowerIndex" name="Eigen::internal::CompressedStorage::searchLowerIndex">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1CompressedStorage.html#a0fe151c0217177fd43df764e8e0cdec2" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex \&gt;::at" alt="" coords="256,5,513,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1CompressedStorage.html#a70c2745dd270aaa44b415ec2e9bf2ae0" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex\l \&gt;::atInRange" alt="" coords="274,71,495,127"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1CompressedStorage.html#a8621aa0d1d0e27b025d41b9321968357" title="Eigen::internal::Compressed\lStorage\&lt; Scalar, StorageIndex\l \&gt;::atWithInsertion" alt="" coords="274,151,495,207"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrix.html#a013197b3f598968ff37ed8c97087f1ef" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::coeffRef" alt="" coords="305,232,465,273"/>
-</map>

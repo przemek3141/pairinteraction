@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorConvolutionOp_3_01Dimensions_00_01InputXprType_00_01Ke4af888947ece11333e110ff14d223751 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorConvolutionOp_3_01Dimensions_00_01InputXprType_00_01Ke4af888947ece11333e110ff14d223751.html#a8f7e34df6ea8af751c0a567532806aca", null ]
-];

@@ -1,4 +1,0 @@
-<map id="Eigen::BlockImpl&lt; XprType, BlockRows, BlockCols, true, Sparse &gt;" name="Eigen::BlockImpl&lt; XprType, BlockRows, BlockCols, true, Sparse &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; Block\&lt; XprType, BlockRows,\l BlockCols, true \&gt; \&gt;" alt="" coords="5,109,217,165"/>
-<area shape="rect" id="node3" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Block\l\&lt; XprType, BlockRows,\l BlockCols, true \&gt; \&gt;" alt="" coords="21,5,202,61"/>
-</map>

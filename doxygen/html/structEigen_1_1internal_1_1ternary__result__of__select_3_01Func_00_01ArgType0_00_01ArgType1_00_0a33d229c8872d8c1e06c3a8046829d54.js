@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1ternary__result__of__select_3_01Func_00_01ArgType0_00_01ArgType1_00_0a33d229c8872d8c1e06c3a8046829d54 =
-[
-    [ "type", "structEigen_1_1internal_1_1ternary__result__of__select_3_01Func_00_01ArgType0_00_01ArgType1_00_0a33d229c8872d8c1e06c3a8046829d54.html#a94a87d65f800082633c13bb55453e9e5", null ]
-];

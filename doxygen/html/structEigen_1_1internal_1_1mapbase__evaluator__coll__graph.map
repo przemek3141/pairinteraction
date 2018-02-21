@@ -1,6 +1,0 @@
-<map id="Eigen::internal::mapbase_evaluator&lt; Derived, PlainObjectType &gt;" name="Eigen::internal::mapbase_evaluator&lt; Derived, PlainObjectType &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; Derived \&gt;" alt="" coords="275,5,456,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,13,208,39"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, XprType\l::InnerStrideAtCompileTime \&gt;" alt="" coords="259,71,471,127"/>
-<area shape="rect" id="node6" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, XprType\l::OuterStrideAtCompileTime \&gt;" alt="" coords="257,202,473,258"/>
-</map>

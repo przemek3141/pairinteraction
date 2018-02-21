@@ -1,4 +1,0 @@
-<map id="utility::tuple::append" name="utility::tuple::append">
-<area shape="rect" id="node2" href="$namespaceutility_1_1tuple.html#a446670118f4f4b05503c4e0b41dae565" title="unpacking the elements of the input tuple t and creating a new tuple by adding element a at the end o..." alt="" coords="204,13,393,39"/>
-<area shape="rect" id="node3" href="$namespaceutility_1_1tuple.html#aa68638ef30be12f1bcc6ef5da635c744" title="Creates a tuple object, deducing the target type from the types of arguments. " alt="" coords="441,5,580,47"/>
-</map>

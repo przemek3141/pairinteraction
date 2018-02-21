@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1evaluator_3_01Array_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MaxRows_00_01MaxCols_01_4_01_4 =
-[
-    [ "XprType", "structEigen_1_1internal_1_1evaluator_3_01Array_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MaxRows_00_01MaxCols_01_4_01_4.html#a8c05424c2b21ad594be7765087e95d82", null ],
-    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01Array_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MaxRows_00_01MaxCols_01_4_01_4.html#a6637726f2511eb89d5daef3550e52baa", null ],
-    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01Array_3_01Scalar_00_01Rows_00_01Cols_00_01Options_00_01MaxRows_00_01MaxCols_01_4_01_4.html#a5bb6989dade9d2973cccd7b1c2041810", null ]
-];

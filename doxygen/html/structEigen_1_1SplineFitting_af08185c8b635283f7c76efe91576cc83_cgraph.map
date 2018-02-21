@@ -1,5 +1,0 @@
-<map id="Eigen::SplineFitting::Interpolate" name="Eigen::SplineFitting::Interpolate">
-<area shape="rect" id="node2" href="$group__Splines__Module.html#ga9474da5ed68bbd9a6788a999330416d6" title="Computes knot averages.The knots are computed as &#160;where &#160;is the degree and &#160;the number knots of the d..." alt="" coords="199,5,357,32"/>
-<area shape="rect" id="node3" href="$HouseholderQR__householderQ_8cpp.html#af53b5efeae0c759d8b7022b84007a9a2" title="qr" alt="" coords="259,56,297,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1HouseholderQR.html#a3e8e56769bbaaed0616ad98c4ff99c7b" title="Eigen::HouseholderQR\l::solve" alt="" coords="196,107,360,149"/>
-</map>

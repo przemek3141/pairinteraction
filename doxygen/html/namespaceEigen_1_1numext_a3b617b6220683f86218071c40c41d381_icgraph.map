@@ -1,6 +1,0 @@
-<map id="Eigen::numext::swap" name="Eigen::numext::swap">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1direct__selfadjoint__eigenvalues_3_01SolverType_00_013_00_01false_01_4.html#a9bba7b5bd5aeb6d3ede0cd70ed18f231" title="Eigen::internal::direct\l_selfadjoint_eigenvalues\l\&lt; SolverType, 3, false \&gt;::run" alt="" coords="273,5,476,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1TensorStorage_3_01T_00_01DSizes_3_01IndexType_00_01NumIndices___01_4_00_01Options___01_4.html#a6e107fcd9402b7934ce0c975d1431207" title="Eigen::TensorStorage\l\&lt; T, DSizes\&lt; IndexType,\l NumIndices_ \&gt;, Options\l_ \&gt;::swap" alt="" coords="285,86,465,157"/>
-<area shape="rect" id="node4" href="$structEigen_1_1Tuple.html#a18d61f9a86ba8627ed39fc38b165a977" title="Eigen::Tuple::swap" alt="" coords="306,181,443,208"/>
-<area shape="rect" id="node5" href="$structEigen_1_1TensorContractionEvaluatorBase.html#aa793ab4101a2169bdf623cd8128389f0" title="Eigen::TensorContraction\lEvaluatorBase\&lt; TensorEvaluator\l\&lt; const TensorContractionOp\l\&lt; Indices, LeftArgType, RightArgType\l \&gt;, Device \&gt; \&gt;::TensorContractionEvaluatorBase" alt="" coords="208,232,541,317"/>
-</map>

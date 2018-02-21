@@ -1,8 +1,0 @@
-<map id="Eigen::UniformScaling::factor" name="Eigen::UniformScaling::factor">
-<area shape="rect" id="node2" href="$classEigen_1_1RotationBase.html#ad7b31a12a4f8f2584b8937f958bd6ea6" title="Eigen::RotationBase\l\&lt; Derived, 3 \&gt;::operator*" alt="" coords="227,5,414,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1UniformScaling.html#a0fc239af586bb24d7db99c6b8ce42373" title="Eigen::UniformScaling\l::operator*" alt="" coords="239,71,402,112"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Translation.html#a3bdbcc636879ae5fc2258a0649fc1cb9" title="Eigen::Translation\l::operator*" alt="" coords="254,136,387,177"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Transform.html#a09ac6ff4ac93ededc79acd4e16f5c27f" title="Eigen::Transform::operator*" alt="" coords="221,202,420,229"/>
-<area shape="rect" id="node6" href="$classEigen_1_1Transform.html#ac181717b37d3fd2f067582baa131e1cd" title="Eigen::Transform::operator*=" alt="" coords="216,253,425,279"/>
-<area shape="rect" id="node7" href="$classEigen_1_1Transform.html#aa2f17e37d240ebe05a3e1cef00d542f2" title="Eigen::Transform::operator=" alt="" coords="219,303,422,330"/>
-</map>

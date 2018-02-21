@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__cmp__op_3_01LhsScalar_00_01RhsScalar_00_01cmp_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__cmp__op_3_01LhsScalar_00_01RhsScalar_00_01cmp_01_4_01_4.html#a66c20096140daaf511330dc4f4926cb9a860ce6e7050f8019bdde1b8db142a1bf", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__cmp__op_3_01LhsScalar_00_01RhsScalar_00_01cmp_01_4_01_4.html#a66c20096140daaf511330dc4f4926cb9a6a1a34b8c2da6638e642241bc1c03d3f", null ]
-];

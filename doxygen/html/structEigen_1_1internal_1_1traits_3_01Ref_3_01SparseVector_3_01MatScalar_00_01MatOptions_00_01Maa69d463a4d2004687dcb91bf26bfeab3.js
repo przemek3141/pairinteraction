@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseVector_3_01MatScalar_00_01MatOptions_00_01Maa69d463a4d2004687dcb91bf26bfeab3 =
-[
-    [ "type", "structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseVector_3_01MatScalar_00_01MatOptions_00_01Maa69d463a4d2004687dcb91bf26bfeab3.html#a0090fbf7183b2401eaf865a069870caf", null ],
-    [ "MatchAtCompileTime", "structEigen_1_1internal_1_1traits_3_01Ref_3_01SparseVector_3_01MatScalar_00_01MatOptions_00_01Maa69d463a4d2004687dcb91bf26bfeab3.html#afc5b7e162f8fad02cd0157b7eeadd45fa31e241ba79f8a2bc59cac8b24d43209a", null ]
-];

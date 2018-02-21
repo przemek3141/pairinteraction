@@ -1,6 +1,0 @@
-<map id="Eigen::DynamicSparseMatrix::reserve" name="Eigen::DynamicSparseMatrix::reserve">
-<area shape="rect" id="node2" href="$sparse_8h.html#a0a64bddc1880325d0e2a60d3e428eb67" title="initSparse" alt="" coords="303,5,390,32"/>
-<area shape="rect" id="node3" href="$sparse__setter_8cpp.html#a300bea4b860afacc6073fc683f1f01ea" title="setrand_eigen_compact" alt="" coords="259,56,435,83"/>
-<area shape="rect" id="node4" href="$sparse__setter_8cpp.html#ad75572165093fb297fa4bd63b0046928" title="setrand_eigen_dynamic" alt="" coords="259,107,434,133"/>
-<area shape="rect" id="node5" href="$sparse__setter_8cpp.html#a196522fd030dca63048f5758eecfa50b" title="setrand_eigen_sumeq" alt="" coords="265,157,429,184"/>
-</map>

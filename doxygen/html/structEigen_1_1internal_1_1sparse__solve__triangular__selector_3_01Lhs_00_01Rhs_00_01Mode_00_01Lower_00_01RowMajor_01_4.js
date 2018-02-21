@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1sparse__solve__triangular__selector_3_01Lhs_00_01Rhs_00_01Mode_00_01Lower_00_01RowMajor_01_4 =
-[
-    [ "LhsEval", "structEigen_1_1internal_1_1sparse__solve__triangular__selector_3_01Lhs_00_01Rhs_00_01Mode_00_01Lower_00_01RowMajor_01_4.html#a58331b737f5a5b2e0facb4f30d0b0433", null ],
-    [ "LhsIterator", "structEigen_1_1internal_1_1sparse__solve__triangular__selector_3_01Lhs_00_01Rhs_00_01Mode_00_01Lower_00_01RowMajor_01_4.html#ac06cb9e6d635f18def4cc49d5a298774", null ],
-    [ "Scalar", "structEigen_1_1internal_1_1sparse__solve__triangular__selector_3_01Lhs_00_01Rhs_00_01Mode_00_01Lower_00_01RowMajor_01_4.html#a0c354a1ca81e2dd528d0367a1c4fc4a2", null ]
-];

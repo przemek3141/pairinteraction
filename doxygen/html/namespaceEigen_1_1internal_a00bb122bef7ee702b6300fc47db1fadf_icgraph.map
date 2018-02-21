@@ -1,8 +1,0 @@
-<map id="Eigen::internal::pandnot&lt; Packet4f &gt;" name="Eigen::internal::pandnot&lt; Packet4f &gt;">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a2907d155591bf6553fdbf268569ec745" title="Eigen::internal::pandnot\l\&lt; Packet2cf \&gt;" alt="" coords="228,5,403,47"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#afc41c0196b601e87b2123adfee80c65f" title="Eigen::internal::pscatter\l\&lt; std::complex\&lt; double\l \&gt;, Packet1cd \&gt;" alt="" coords="451,27,628,83"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#adb3213470976ff627f38a34e3bde917b" title="Eigen::internal::plset\l\&lt; Packet4i \&gt;" alt="" coords="239,123,391,164"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1internal.html#abdf0ea7e126fdf116b7e4d9200f7a90f" title="Eigen::internal::pmadd" alt="" coords="456,193,623,219"/>
-<area shape="rect" id="node6" href="$namespaceEigen_1_1internal.html#a446e376a6b2d96f743deec927cfc934b" title="Eigen::internal::pxor\l\&lt; Packet2d \&gt;" alt="" coords="241,240,390,281"/>
-<area shape="rect" id="node7" href="$namespaceEigen_1_1internal.html#abaadd9aa6aafdf268f71646684340302" title="Eigen::internal::pblend" alt="" coords="457,247,621,274"/>
-</map>

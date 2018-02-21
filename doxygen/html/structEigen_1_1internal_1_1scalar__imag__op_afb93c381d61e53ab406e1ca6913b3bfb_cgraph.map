@@ -1,6 +1,0 @@
-<map id="Eigen::internal::scalar_imag_op::operator()" name="Eigen::internal::scalar_imag_op::operator()">
-<area shape="rect" id="node2" href="$CommonCwiseUnaryOps_8h.html#a8f366de9a7bba88c7988324754f1756e" title="imag" alt="" coords="212,56,267,83"/>
-<area shape="rect" id="node3" href="$CommonCwiseUnaryOps_8h.html#ab8047e72312c629685f323ffa253de80" title="Apply a unary operator coefficient&#45;wise. " alt="" coords="315,5,401,32"/>
-<area shape="rect" id="node4" href="$CommonCwiseUnaryOps_8h.html#a77fe7ae45351d38a1936f075e555760d" title="unaryViewExpr" alt="" coords="449,56,564,83"/>
-<area shape="rect" id="node5" href="$CommonCwiseUnaryOps_8h.html#a756e40bd56eb3768e9dd9d2ecf0a0c4f" title="real" alt="" coords="612,81,659,108"/>
-</map>

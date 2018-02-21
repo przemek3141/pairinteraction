@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01Array_3_01__Scalar_00_01__Rows_00_01__Cols_00_01__Options_37ffcfaaa78edf67b2a7bb8bc17557b2 =
-[
-    [ "XprBase", "structEigen_1_1internal_1_1traits_3_01Array_3_01__Scalar_00_01__Rows_00_01__Cols_00_01__Options_37ffcfaaa78edf67b2a7bb8bc17557b2.html#a5b5c49c6d0c55ea8e63ba9cd126ff1f1", null ],
-    [ "XprKind", "structEigen_1_1internal_1_1traits_3_01Array_3_01__Scalar_00_01__Rows_00_01__Cols_00_01__Options_37ffcfaaa78edf67b2a7bb8bc17557b2.html#abb5cac484560c0fa7f7dc3d11c46e60c", null ]
-];

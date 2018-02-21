@@ -1,6 +1,0 @@
-<map id="Eigen::UmfPackLU::_solve_impl" name="Eigen::UmfPackLU::_solve_impl">
-<area shape="rect" id="node2" href="$classEigen_1_1DenseBase.html#a469583ed90462820888344e63ebe1a80" title="Eigen::DenseBase::col" alt="" coords="201,5,365,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#ac25699535374b1854cf8494e44ad31b2" title="Eigen::PlainObjectBase\l::data" alt="" coords="199,57,367,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html#a99d9054ee2d5a40c6e00ded0265e9cea" title="Eigen::PlainObjectBase\l::resize" alt="" coords="199,122,367,163"/>
-<area shape="rect" id="node5" href="$namespaceEigen.html#a4f4b67e7827ef63894888bb9475512dc" title="Eigen::umfpack_solve" alt="" coords="203,188,363,215"/>
-</map>

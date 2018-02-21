@@ -1,6 +1,0 @@
-<map id="Eigen::SparseMatrixBase::col" name="Eigen::SparseMatrixBase::col">
-<area shape="rect" id="node2" href="$classEigen_1_1SPQR.html#a9fb013cddbd9e634b7174f8d2a4bca33" title="Eigen::SPQR::compute" alt="" coords="304,5,469,32"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1generic__product__impl_3_01MatrixReplacement_00_01Rhs_00_01SparseShap75a8e60e0fe2f8efb468d0f8ec1432f5.html#aab29b3abf905f2a3a9a59d8752054909" title="Eigen::internal::generic\l_product_impl\&lt; MatrixReplacement,\l Rhs, SparseShape, DenseShape,\l GemvProduct \&gt;::scaleAndAddTo" alt="" coords="260,57,513,127"/>
-<area shape="rect" id="node3" href="$spqr__support_8cpp.html#a304d82d2a0c507e2fc919a50cffaa2cd" title="test_spqr_scalar" alt="" coords="561,5,688,32"/>
-<area shape="rect" id="node4" href="$spqr__support_8cpp.html#ab75e5ca1f976c9246980f89dcb9e807b" title="test_spqr_support" alt="" coords="736,5,875,32"/>
-</map>

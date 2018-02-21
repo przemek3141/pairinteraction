@@ -1,7 +1,0 @@
-<map id="Eigen::AlignedBox::AlignedBox" name="Eigen::AlignedBox::AlignedBox">
-<area shape="rect" id="node2" href="$classEigen_1_1AlignedBox.html#a269eb719d3e093d9c1cb4309b815c51b" title="Eigen::AlignedBox::cast" alt="" coords="197,5,368,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1AlignedBox.html#adf8c0e000b283ad22f00474356916686" title="Eigen::AlignedBox::\lexteriorDistance" alt="" coords="211,57,355,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1AlignedBox.html#ac31024e7fccb025810535eb5a673ed14" title="Eigen::AlignedBox::\lintersection" alt="" coords="211,122,355,163"/>
-<area shape="rect" id="node6" href="$classEigen_1_1AlignedBox.html#a8182b7661c4b244285ca0f831363b00a" title="Eigen::AlignedBox::\lmerged" alt="" coords="211,187,355,229"/>
-<area shape="rect" id="node5" href="$structBallPointStuff.html#a272cdbc5fd934c41f1a346d4c91d531a" title="BallPointStuff::intersect\lVolumeVolume" alt="" coords="416,122,587,163"/>
-</map>

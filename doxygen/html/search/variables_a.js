@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['j',['j',['../classQuantumDefect.html#ac79cdd7e90de108b32b96dfeb1da22ad',1,'QuantumDefect::j()'],['../classStateOne.html#a9d953e8457dd35af0aec8637444622a1',1,'StateOne::j()'],['../classStateTwo.html#ae5effe7b3e21a8824a972a83a858d7b4',1,'StateTwo::j()'],['../Jacobi__makeJacobi_8cpp.html#a4804f9d1c212b9655934738d0ae395ab',1,'J():&#160;Jacobi_makeJacobi.cpp'],['../tut__arithmetic__redux__minmax_8cpp.html#a39513f0f8d942bf9ef17b2e87ac6d34e',1,'j():&#160;tut_arithmetic_redux_minmax.cpp']]]
+  ['n',['n',['../classQuantumDefect.html#ac52932df9a6809cc933cf16bb9d22651',1,'QuantumDefect::n()'],['../classStateOne.html#acf57fe4900bc23746b2c77b17d27485a',1,'StateOne::n()'],['../classStateTwo.html#a66cbf553eb0eab3f7ee23353cdfe2b6f',1,'StateTwo::n()']]],
+  ['name',['name',['../structzmq_1_1endpoint.html#ab6870ed7f54bfe363f8ab3c360f86028',1,'zmq::endpoint']]],
+  ['names_5f',['names_',['../classBasisnames.html#a69ce77679f92b55d99e9f8924b0a753a',1,'Basisnames']]],
+  ['nstar',['nstar',['../classQuantumDefect.html#ab2384adc052eeb4610356f59d442da5e',1,'QuantumDefect']]]
 ];

@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classEigen_1_1MapBase.html" title="Eigen::MapBase\&lt; Derived,\l Level \&gt;" alt="" coords="5,79,197,120"/>
-<area shape="rect" id="node2" href="$classEigen_1_1Map.html" title="Eigen::Map\&lt; SparseMatrix\l\&lt; _Scalar, _Flags, _StorageIndex \&gt; \&gt;" alt="" coords="245,5,508,47"/>
-<area shape="rect" id="node4" href="$classEigen_1_1RefBase.html" title="Eigen::RefBase\&lt; Ref\l\&lt; const TPlainObjectType,\l Options, StrideType \&gt; \&gt;" alt="" coords="283,71,470,127"/>
-<area shape="rect" id="node6" href="$classEigen_1_1RefBase.html" title="Eigen::RefBase\&lt; Ref\l\&lt; PlainObjectType, Options,\l StrideType \&gt; \&gt;" alt="" coords="278,151,475,207"/>
-<area shape="rect" id="node3" href="$classEigen_1_1MappedSparseMatrix.html" title="Sparse matrix. " alt="" coords="556,5,803,47"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Ref_3_01const_01TPlainObjectType_00_01Options_00_01StrideType_01_4.html" title="Eigen::Ref\&lt; const TPlain\lObjectType, Options, StrideType \&gt;" alt="" coords="561,79,798,120"/>
-<area shape="rect" id="node7" href="$classEigen_1_1Ref.html" title="A matrix or vector expression mapping an existing expression. " alt="" coords="578,159,781,200"/>
-</map>

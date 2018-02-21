@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Inverse_3_01XprType_01_4_00_01internal6c5c4776bbb1b16e08b6cbd291af318a =
-[
-    [ "SrcXprType", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01Inverse_3_01XprType_01_4_00_01internal6c5c4776bbb1b16e08b6cbd291af318a.html#a5da1a8b1aecc8ceb7b2086590499d960", null ]
-];

@@ -1,5 +1,0 @@
-<map id="Eigen::MINRES&lt; _MatrixType, _UpLo, _Preconditioner &gt;" name="Eigen::MINRES&lt; _MatrixType, _UpLo, _Preconditioner &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1IterativeSolverBase.html" title="Eigen::IterativeSolverBase\l\&lt; MINRES\&lt; _MatrixType, \l_UpLo, _Preconditioner \&gt; \&gt;" alt="" coords="9,184,208,240"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseSolverBase.html" title="Eigen::SparseSolverBase\l\&lt; MINRES\&lt; _MatrixType,\l _UpLo, _Preconditioner \&gt; \&gt;" alt="" coords="7,80,210,136"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="7,5,210,32"/>
-</map>

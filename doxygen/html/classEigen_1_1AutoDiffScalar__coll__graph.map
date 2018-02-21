@@ -1,5 +1,0 @@
-<map id="Eigen::AutoDiffScalar&lt; _DerType &gt;" name="Eigen::AutoDiffScalar&lt; _DerType &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1auto__diff__special__op.html" title="Eigen::internal::auto\l_diff_special_op\&lt; _DerType,\l !internal::is_same\&lt; internal\l::traits\&lt; internal::remove_all\l\&lt; _DerType \&gt;::type \&gt;::Scalar,\l NumTraits\&lt; internal::traits\&lt; internal\l::remove_all\&lt; _DerType \&gt;::type \&gt;::Scalar\l \&gt;::Real \&gt;::value \&gt;" alt="" coords="5,5,292,135"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1traits.html" title="Eigen::internal::traits\l\&lt; DerType \&gt;" alt="" coords="71,159,226,200"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1remove__all.html" title="Eigen::internal::remove\l_all\&lt; _DerType \&gt;" alt="" coords="63,224,234,265"/>
-</map>

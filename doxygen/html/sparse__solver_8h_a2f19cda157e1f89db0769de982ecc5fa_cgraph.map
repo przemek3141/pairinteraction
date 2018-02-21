@@ -1,9 +1,0 @@
-<map id="check_sparse_solving" name="check_sparse_solving">
-<area shape="rect" id="node2" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="255,5,303,32"/>
-<area shape="rect" id="node3" href="$sparse__solver_8h.html#a61fc17617f5be6e4bac3faa50cd3790c" title="solve_with_guess" alt="" coords="213,56,345,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseSolverBase.html#ad213fb2c2199ca597b96f1f79653637f" title="Eigen::SparseSolverBase\l::derived" alt="" coords="393,19,576,61"/>
-<area shape="rect" id="node5" href="$namespacemodel__potential.html#a019305fe72ae4cbefbb599bb897d9be0" title="Helper function for Numerov&#39;s method.s. " alt="" coords="414,85,555,112"/>
-<area shape="rect" id="node6" href="$namespacemodel__potential.html#a9af0bc4c48b7d3125624d27c83073c2d" title="Calculate the model potentials. " alt="" coords="624,85,767,112"/>
-<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="869,60,915,87"/>
-<area shape="rect" id="node8" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="815,111,969,137"/>
-</map>

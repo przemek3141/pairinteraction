@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01SparseQR__QProduct_3_01SparseQRType_00_01Derived_01_4_01_4 =
-[
-    [ "ReturnType", "structEigen_1_1internal_1_1traits_3_01SparseQR__QProduct_3_01SparseQRType_00_01Derived_01_4_01_4.html#ae1e596296cf3e313d0248b6ffadd37d4", null ]
-];

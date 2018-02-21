@@ -1,7 +1,0 @@
-<map id="cchk2" name="cchk2">
-<area shape="rect" id="node2" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a2a8978fcb9c461bbe45ab1098ea13952" title="chbmv" alt="" coords="112,5,177,32"/>
-<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a7edd9535b29c505a4a055db630d41dab" title="chemv" alt="" coords="112,56,177,83"/>
-<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ae3ded0e5425ba11155b20c46912573a3" title="chpmv" alt="" coords="112,107,177,133"/>
-<area shape="rect" id="node5" href="$cblat2_8f.html#a0abb9fcb91316270032dcb08c0b1dc21" title="cmake" alt="" coords="112,157,177,184"/>
-<area shape="rect" id="node6" href="$cblat2_8f.html#ab837b3979a55d08c93070afd6eed031b" title="cmvch" alt="" coords="113,208,177,235"/>
-</map>

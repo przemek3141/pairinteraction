@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1product__promote__storage__type_3_01PermutationStorage_00_01Dense_00_01ProductTag_01_4 =
-[
-    [ "ret", "structEigen_1_1internal_1_1product__promote__storage__type_3_01PermutationStorage_00_01Dense_00_01ProductTag_01_4.html#a315df19892150524bf5b33b5fa99c94f", null ]
-];

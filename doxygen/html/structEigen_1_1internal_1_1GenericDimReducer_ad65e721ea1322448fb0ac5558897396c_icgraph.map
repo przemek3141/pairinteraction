@@ -1,4 +1,0 @@
-<map id="Eigen::internal::GenericDimReducer::reduce" name="Eigen::internal::GenericDimReducer::reduce">
-<area shape="rect" id="node2" href="$structEigen_1_1TensorEvaluator_3_01const_01TensorReductionOp_3_01Op_00_01Dims_00_01ArgType_00_014168a2bb10f12dfe0dec31809c49959b.html#a6d5d6ea8a22ba0e68f8893b8397aeaa6" title="Eigen::TensorEvaluator\l\&lt; const TensorReductionOp\l\&lt; Op, Dims, ArgType, MakePointer\l_ \&gt;, Device \&gt;::coeff" alt="" coords="224,5,465,76"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1InnerReducer_3_01Self_00_01Op_00_01const_01Eigen_1_1SyclDevice_01_4.html#a471bb175078f166e0d5c4040fc4494d9" title="Eigen::internal::InnerReducer\l\&lt; Self, Op, const Eigen::\lSyclDevice \&gt;::run" alt="" coords="243,101,447,157"/>
-</map>

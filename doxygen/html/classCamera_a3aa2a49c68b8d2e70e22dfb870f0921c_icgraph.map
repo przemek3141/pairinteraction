@@ -1,5 +1,0 @@
-<map id="Camera::updateViewMatrix" name="Camera::updateViewMatrix">
-<area shape="rect" id="node2" href="$classCamera.html#a4872379b01876af2ffd8d2d871472ed1" title="Camera::activateGL" alt="" coords="501,24,651,51"/>
-<area shape="rect" id="node3" href="$classCamera.html#af0243aa90deb97bdab8592a634e6a6cd" title="Camera::rotateAroundTarget" alt="" coords="248,24,453,51"/>
-<area shape="rect" id="node4" href="$classCamera.html#a733bc9a1e7bd797d36e09ac652f1fea5" title="Camera::viewMatrix" alt="" coords="277,75,424,101"/>
-</map>

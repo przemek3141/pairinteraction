@@ -1,5 +1,0 @@
-<map id="Eigen::internal::transform_construct_from_matrix&lt; Other, Mode, Options, Dim, HDim, Dim, Dim &gt;::run" name="Eigen::internal::transform_construct_from_matrix&lt; Other, Mode, Options, Dim, HDim, Dim, Dim &gt;::run">
-<area shape="rect" id="node2" href="$classEigen_1_1Transform.html#a535bd63d047c2a36585c3f9b62219a1e" title="Eigen::Transform::linear" alt="" coords="272,5,443,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Transform.html#a18580c6c151bac89f03818164dd19632" title="Eigen::Transform::makeAffine" alt="" coords="253,56,461,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Transform.html#afa93ba97d26912bb3d8777cbed102045" title="Eigen::Transform::translation" alt="" coords="255,107,459,133"/>
-</map>

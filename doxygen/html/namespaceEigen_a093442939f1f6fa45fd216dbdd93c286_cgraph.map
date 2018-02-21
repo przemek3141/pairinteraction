@@ -1,8 +1,0 @@
-<map id="Eigen::test_is_equal" name="Eigen::test_is_equal">
-<area shape="rect" id="node2" href="$namespaceEigen.html#a0d9a7ddcee5c7c8defaba3628455efb2" title="Eigen::createRandomPIMatrix\lOfRank" alt="" coords="203,71,412,112"/>
-<area shape="rect" id="node3" href="$classEigen_1_1HouseholderQR.html#affd506c10ef2d25f56e7b1f9f25ff885" title="Eigen::HouseholderQR\l::householderQ" alt="" coords="475,5,639,47"/>
-<area shape="rect" id="node4" href="$namespaceEigen.html#a9489ae63302dfd33d4560c5377ead43f" title="Eigen::randomPermutation\lVector" alt="" coords="460,71,655,112"/>
-<area shape="rect" id="node7" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l::setZero" alt="" coords="473,136,641,177"/>
-<area shape="rect" id="node5" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="703,78,785,105"/>
-<area shape="rect" id="node6" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="833,78,925,105"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="Eigen::Transform::translation" name="Eigen::Transform::translation">
-<area shape="rect" id="node2" href="$classEigen_1_1UniformScaling.html#a19c405341f2c861eb0ddfc4f760fecf8" title="Eigen::UniformScaling\l::operator*" alt="" coords="305,5,467,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Translation.html#a3bdbcc636879ae5fc2258a0649fc1cb9" title="Eigen::Translation\l::operator*" alt="" coords="319,71,453,112"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1transform__construct__from__matrix_3_01Other_00_01Mode_00_01Options_0c1b7d53342be06a2670ea017363cec47.html#af4c45b77c8995f01a933d753f7a5c3b1" title="Eigen::internal::transform\l_construct_from_matrix\&lt;\l Other, Mode, Options, Dim,\l HDim, Dim, Dim \&gt;::run" alt="" coords="286,136,486,207"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01AffineCompact_00_01Opticf627d631fe41d7d884a195de33da60a.html#a0f2b0fb2334a07e7b51a1e9eaae3888e" title="Eigen::internal::transform\l_left_product_impl\&lt; Other,\l AffineCompact, Options, Dim,\l HDim, Dim, HDim \&gt;::run" alt="" coords="279,231,493,301"/>
-<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1transform__transform__product__impl_3_01Transform_3_01Scalar_00_01Dim4de007efee6381d8874a7a6fa03974a7.html#ad90db0bdb34cb2f6631ef120dc667c23" title="Eigen::internal::transform\l_transform_product_impl\l\&lt; Transform\&lt; Scalar, Dim,\l LhsMode, LhsOptions \&gt;, Transform\l\&lt; Scalar, Dim, RhsMode, RhsOptions\l \&gt;, false \&gt;::run" alt="" coords="257,325,515,425"/>
-<area shape="rect" id="node7" href="$classEigen_1_1Hyperplane.html#a1705f330bad337dc4a62814b5f9c4af1" title="Eigen::Hyperplane::\ltransform" alt="" coords="313,449,459,491"/>
-<area shape="rect" id="node8" href="$classEigen_1_1Transform.html#afee5c6820f39d01ba818c07c1d33133d" title="Eigen::Transform::Transform" alt="" coords="287,515,485,542"/>
-</map>

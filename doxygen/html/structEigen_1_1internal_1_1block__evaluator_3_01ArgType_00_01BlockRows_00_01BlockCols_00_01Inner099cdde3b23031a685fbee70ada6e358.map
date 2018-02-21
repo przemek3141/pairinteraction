@@ -1,7 +1,0 @@
-<map id="Eigen::internal::block_evaluator&lt; ArgType, BlockRows, BlockCols, InnerPanel, true &gt;" name="Eigen::internal::block_evaluator&lt; ArgType, BlockRows, BlockCols, InnerPanel, true &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1mapbase__evaluator.html" title="Eigen::internal::mapbase\l_evaluator\&lt; Block\&lt; ArgType,\l BlockRows, BlockCols, InnerPanel\l \&gt;, Block\&lt; ArgType, BlockRows,\l BlockCols, InnerPanel \&gt;::PlainObject \&gt;" alt="" coords="653,104,924,189"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; Block\&lt; ArgType, BlockRows,\l BlockCols, InnerPanel \&gt; \&gt;" alt="" coords="257,5,508,61"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,20,208,47"/>
-<area shape="rect" id="node5" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, XprType\l::InnerStrideAtCompileTime \&gt;" alt="" coords="277,85,489,141"/>
-<area shape="rect" id="node7" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, XprType\l::OuterStrideAtCompileTime \&gt;" alt="" coords="275,216,491,272"/>
-</map>

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorCustomBinaryOp_3_01CustomBinaryFunc_00_01LhsXprType_00_01RhsXprType_01_4_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorCustomBinaryOp_3_01CustomBinaryFunc_00_01LhsXprType_00_01RhsXprType_01_4_01_4.html#a3fe10c625cc04306c4f7484864dd5139", null ]
-];

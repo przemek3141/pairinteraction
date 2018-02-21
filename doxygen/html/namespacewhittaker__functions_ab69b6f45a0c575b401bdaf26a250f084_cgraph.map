@@ -1,8 +1,4 @@
 <map id="whittaker_functions::RadialWFWhittaker" name="whittaker_functions::RadialWFWhittaker">
-<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="249,5,296,32"/>
-<area shape="rect" id="node3" href="$namespacempfr.html#aab5871d4a4c8d66a2a4a920add576a88" title="mpfr::tgamma" alt="" coords="215,56,330,83"/>
-<area shape="rect" id="node4" href="$namespacewhittaker__functions.html#a27cc4e33339852cc4bce929bf7c0b4d4" title="Compute the Whittaker function. " alt="" coords="200,107,345,149"/>
-<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="448,64,493,91"/>
-<area shape="rect" id="node6" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="393,115,548,141"/>
-<area shape="rect" id="node7" href="$namespacewhittaker__functions.html#a9fe8c4e2c3ae8b4330b54af0abfc2224" title="Compute the confluent hypergeometric function. " alt="" coords="398,166,543,207"/>
+<area shape="rect" id="node2" href="$namespacewhittaker__functions.html#a27cc4e33339852cc4bce929bf7c0b4d4" title="Compute the Whittaker function. " alt="" coords="200,5,345,47"/>
+<area shape="rect" id="node3" href="$namespacewhittaker__functions.html#a9fe8c4e2c3ae8b4330b54af0abfc2224" title="Compute the confluent hypergeometric function. " alt="" coords="393,5,539,47"/>
 </map>

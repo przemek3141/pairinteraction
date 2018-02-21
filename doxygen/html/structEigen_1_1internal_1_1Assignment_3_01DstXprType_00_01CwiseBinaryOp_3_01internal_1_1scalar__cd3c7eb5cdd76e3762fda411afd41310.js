@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01CwiseBinaryOp_3_01internal_1_1scalar__cd3c7eb5cdd76e3762fda411afd41310 =
-[
-    [ "SrcXprType", "structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01CwiseBinaryOp_3_01internal_1_1scalar__cd3c7eb5cdd76e3762fda411afd41310.html#ab1c625f36159caa0534d2ef9147aaf25", null ]
-];

@@ -1,6 +1,0 @@
-<map id="Eigen::BlockSparseMatrix&lt; _Scalar, _BlockAtCompileTime, _Options, _StorageIndex &gt;::BlockInnerIterator" name="Eigen::BlockSparseMatrix&lt; _Scalar, _BlockAtCompileTime, _Options, _StorageIndex &gt;::BlockInnerIterator">
-<area shape="rect" id="node2" href="$classEigen_1_1BlockSparseMatrix.html" title="Eigen::BlockSparseMatrix\l\&lt; _Scalar, _BlockAtCompileTime,\l _Options, StorageIndex \&gt;" alt="" coords="757,151,992,207"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; BlockSparseMatrix\&lt; \l_Scalar, _BlockAtCompileTime,\l _Options, StorageIndex \&gt; \&gt;" alt="" coords="371,81,589,151"/>
-<area shape="rect" id="node4" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; BlockSparse\lMatrix\&lt; _Scalar, _BlockAtCompile\lTime, _Options, StorageIndex \&gt; \&gt;" alt="" coords="5,55,245,111"/>
-<area shape="rect" id="node5" href="$classbool.html" title="bool" alt="" coords="101,135,150,161"/>
-</map>

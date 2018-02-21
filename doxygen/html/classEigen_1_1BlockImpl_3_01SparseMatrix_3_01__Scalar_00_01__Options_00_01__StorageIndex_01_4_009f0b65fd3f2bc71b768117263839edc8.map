@@ -1,6 +1,0 @@
-<map id="Eigen::BlockImpl&lt; SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true, Sparse &gt;" name="Eigen::BlockImpl&lt; SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true, Sparse &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1sparse__matrix__block__impl.html" title="Eigen::internal::sparse\l_matrix_block_impl\&lt; SparseMatrix\l\&lt; _Scalar, _Options, _StorageIndex\l \&gt;, BlockRows, BlockCols \&gt;" alt="" coords="827,13,1075,83"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseCompressedBase.html" title="Eigen::SparseCompressedBase\l\&lt; Block\&lt; SparseMatrix\&lt; \l_Scalar, _Options, _StorageIndex\l \&gt;, BlockRows, BlockCols, true \&gt; \&gt;" alt="" coords="536,13,779,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; Block\&lt; SparseMatrix\l\&lt; _Scalar, _Options, _StorageIndex\l \&gt;, BlockRows, BlockCols, true \&gt; \&gt;" alt="" coords="240,13,488,83"/>
-<area shape="rect" id="node5" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Block\l\&lt; SparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex\l \&gt;, BlockRows, BlockCols,\l true \&gt; \&gt;" alt="" coords="5,5,192,91"/>
-</map>

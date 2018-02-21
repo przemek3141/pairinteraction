@@ -1,7 +1,0 @@
-<map id="check2" name="check2">
-<area shape="rect" id="node2" href="$cblat1_8f.html#aefe3dd8c590960cceacbe19f55ff769c" title="ctest" alt="" coords="123,5,178,32"/>
-<area shape="rect" id="node4" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ace4d7d47d5066426901987edbb949ae3" title="zaxpy" alt="" coords="121,56,180,83"/>
-<area shape="rect" id="node5" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ab61229c4b4616d23a30379a7926aad2e" title="zcopy" alt="" coords="121,107,180,133"/>
-<area shape="rect" id="node6" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#adf7cba8d24595deda9294c9eb5834928" title="zswap" alt="" coords="120,157,181,184"/>
-<area shape="rect" id="node3" href="$cblat1_8f.html#a077aa8449e1055cdecdebf7cb41738a5" title="stest" alt="" coords="229,5,284,32"/>
-</map>

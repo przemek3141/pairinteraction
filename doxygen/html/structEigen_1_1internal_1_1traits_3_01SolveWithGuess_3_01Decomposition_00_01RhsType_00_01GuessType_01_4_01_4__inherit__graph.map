@@ -1,4 +1,0 @@
-<map id="Eigen::internal::traits&lt; SolveWithGuess&lt; Decomposition, RhsType, GuessType &gt; &gt;" name="Eigen::internal::traits&lt; SolveWithGuess&lt; Decomposition, RhsType, GuessType &gt; &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1traits_3_01Solve_3_01Decomposition_00_01RhsType_01_4_01_4.html" title="Eigen::internal::traits\l\&lt; Solve\&lt; Decomposition,\l RhsType \&gt; \&gt;" alt="" coords="279,20,465,76"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1traits.html" title="Eigen::internal::traits\l\&lt; solve_traits\&lt; Decomposition,\l RhsType, internal::traits\l\&lt; RhsType \&gt;::StorageKind \&gt;::\lPlainObject \&gt;" alt="" coords="5,5,231,91"/>
-</map>

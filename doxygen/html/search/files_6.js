@@ -1,25 +1,4 @@
 var searchData=
 [
-  ['failtest_5fsanity_5fcheck_2ecpp',['failtest_sanity_check.cpp',['../failtest__sanity__check_8cpp.html',1,'']]],
-  ['fastmath_2ecpp',['fastmath.cpp',['../fastmath_8cpp.html',1,'']]],
-  ['fdjac1_2eh',['fdjac1.h',['../fdjac1_8h.html',1,'']]],
-  ['fft_2ecpp',['FFT.cpp',['../doc_2examples_2FFT_8cpp.html',1,'(Global Namespace)'],['../test_2FFT_8cpp.html',1,'(Global Namespace)']]],
-  ['fftw_2ecpp',['FFTW.cpp',['../FFTW_8cpp.html',1,'']]],
-  ['first_5faligned_2ecpp',['first_aligned.cpp',['../first__aligned_8cpp.html',1,'']]],
-  ['fixedsizevectorizable_2edox',['FixedSizeVectorizable.dox',['../FixedSizeVectorizable_8dox.html',1,'']]],
-  ['forcealignedaccess_2eh',['ForceAlignedAccess.h',['../ForceAlignedAccess_8h.html',1,'']]],
-  ['forward_5fadolc_2ecpp',['forward_adolc.cpp',['../forward__adolc_8cpp.html',1,'']]],
-  ['forwarddeclarations_2eh',['ForwardDeclarations.h',['../ForwardDeclarations_8h.html',1,'']]],
-  ['fullpivhouseholderqr_2eh',['FullPivHouseholderQR.h',['../FullPivHouseholderQR_8h.html',1,'']]],
-  ['fullpivhouseholderqr_5fsolve_2ecpp',['FullPivHouseholderQR_solve.cpp',['../FullPivHouseholderQR__solve_8cpp.html',1,'']]],
-  ['fullpivlu_2eh',['FullPivLU.h',['../FullPivLU_8h.html',1,'']]],
-  ['fullpivlu_5fimage_2ecpp',['FullPivLU_image.cpp',['../FullPivLU__image_8cpp.html',1,'']]],
-  ['fullpivlu_5fint_2ecpp',['fullpivlu_int.cpp',['../fullpivlu__int_8cpp.html',1,'']]],
-  ['fullpivlu_5fkernel_2ecpp',['FullPivLU_kernel.cpp',['../FullPivLU__kernel_8cpp.html',1,'']]],
-  ['fullpivlu_5fsolve_2ecpp',['FullPivLU_solve.cpp',['../FullPivLU__solve_8cpp.html',1,'']]],
-  ['fullpivqr_5fint_2ecpp',['fullpivqr_int.cpp',['../fullpivqr__int_8cpp.html',1,'']]],
-  ['function_5ftaking_5feigenbase_2ecpp',['function_taking_eigenbase.cpp',['../function__taking__eigenbase_8cpp.html',1,'']]],
-  ['function_5ftaking_5fref_2ecpp',['function_taking_ref.cpp',['../function__taking__ref_8cpp.html',1,'']]],
-  ['functionstakingeigentypes_2edox',['FunctionsTakingEigenTypes.dox',['../FunctionsTakingEigenTypes_8dox.html',1,'']]],
-  ['fuzzy_2eh',['Fuzzy.h',['../Fuzzy_8h.html',1,'']]]
+  ['numpyutils_2eh',['NumpyUtils.h',['../NumpyUtils_8h.html',1,'']]]
 ];

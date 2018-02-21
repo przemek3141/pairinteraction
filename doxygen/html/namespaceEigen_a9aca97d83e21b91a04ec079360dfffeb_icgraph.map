@@ -1,4 +1,0 @@
-<map id="Eigen::nbThreads" name="Eigen::nbThreads">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a2a7e89a0df89d06dd95f0c3dda17cf3e" title="Eigen::internal::parallelize_gemm" alt="" coords="211,5,445,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1sparse__time__dense__product__impl_3_01SparseLhsType_00_01DenseRhsTyp9a792d4ee9c75d9914d6c7ad20d0617b.html#ad84ea1f91d62e9274500d41413e4ad45" title="Eigen::internal::sparse\l_time_dense_product_impl\l\&lt; SparseLhsType, DenseRhsType,\l DenseResType, typename DenseResType\l::Scalar, RowMajor, true \&gt;::run" alt="" coords="185,56,471,141"/>
-</map>

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1product__promote__storage__type_3_01DiagonalShape_00_01B_00_01ProductTag_01_4 =
-[
-    [ "ret", "structEigen_1_1internal_1_1product__promote__storage__type_3_01DiagonalShape_00_01B_00_01ProductTag_01_4.html#a3f6b937aa24fb81d1e6febbd20e810d2", null ]
-];

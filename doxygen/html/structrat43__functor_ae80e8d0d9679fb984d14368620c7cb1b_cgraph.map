@@ -1,6 +1,0 @@
-<map id="rat43_functor::df" name="rat43_functor::df">
-<area shape="rect" id="node2" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="239,5,278,32"/>
-<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="236,56,281,83"/>
-<area shape="rect" id="node4" href="$ArrayCwiseUnaryOps_8h.html#a48e72df6412ca98881afcd657352a1d5" title="log" alt="" coords="238,107,279,133"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="181,157,336,184"/>
-</map>

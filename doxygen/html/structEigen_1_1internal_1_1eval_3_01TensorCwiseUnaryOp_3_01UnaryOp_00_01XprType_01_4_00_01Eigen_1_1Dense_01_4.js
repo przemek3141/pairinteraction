@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorCwiseUnaryOp_3_01UnaryOp_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorCwiseUnaryOp_3_01UnaryOp_00_01XprType_01_4_00_01Eigen_1_1Dense_01_4.html#ad2ba6e282c882d5bc684360dcec74eee", null ]
-];

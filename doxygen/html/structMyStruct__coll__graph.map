@@ -1,6 +1,0 @@
-<map id="MyStruct" name="MyStruct">
-<area shape="rect" id="node2" href="$classchar.html" title="char" alt="" coords="689,5,739,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Matrix.html" title="Eigen::Matrix\&lt; float,\l 8, 1 \&gt;" alt="" coords="639,57,789,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; float, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;" alt="" coords="389,42,589,113"/>
-<area shape="rect" id="node6" href="$classEigen_1_1DenseStorage.html" title="Eigen::DenseStorage\l\&lt; Scalar, Base::MaxSizeAtCompile\lTime, Base::RowsAtCompileTime,\l Base::ColsAtCompileTime, Options \&gt;" alt="" coords="5,82,268,153"/>
-</map>

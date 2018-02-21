@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1result__of_3_01scalar__cmp__op_3_01LhsScalar_00_01RhsScalar_00_01Cmp_cae27906412bee36be989a9849316871 =
-[
-    [ "type", "structEigen_1_1internal_1_1result__of_3_01scalar__cmp__op_3_01LhsScalar_00_01RhsScalar_00_01Cmp_cae27906412bee36be989a9849316871.html#ad71776b5f3e55cc1949d292b6c3f9a28", null ]
-];

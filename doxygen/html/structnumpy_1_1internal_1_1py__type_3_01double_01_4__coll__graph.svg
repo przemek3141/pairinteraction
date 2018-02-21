@@ -16,8 +16,11 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="39.5,-78.5 39.5,-97.5 68.5,-97.5 68.5,-78.5 39.5,-78.5"/>
+<g id="a_node2"><a xlink:href="classint.html" target="_top" xlink:title="int">
+<polygon fill="none" stroke="black" points="39.5,-78.5 39.5,-97.5 68.5,-97.5 68.5,-78.5 39.5,-78.5"/>
 <text text-anchor="middle" x="54" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
+</a>
+</g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>

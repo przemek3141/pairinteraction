@@ -1,5 +1,0 @@
-<map id="Eigen::internal::CompressedStorage::append" name="Eigen::internal::CompressedStorage::append">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrix.html#aae45e3b5fec7f6a0cdd10eec7c6d3666" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::insert" alt="" coords="278,5,427,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrix.html#a0ed7b169210d6a1189f6066f0c69fba4" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::insertBackBy\lOuterInner" alt="" coords="256,71,449,127"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseMatrix.html#a813f143769608dbe9b0973e6134261b9" title="Eigen::SparseMatrix\l\&lt; scalar_t \&gt;::insertBackBy\lOuterInnerUnordered" alt="" coords="256,151,449,207"/>
-</map>

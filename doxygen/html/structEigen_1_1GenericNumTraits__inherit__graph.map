@@ -1,7 +1,0 @@
-<map id="Eigen::GenericNumTraits&lt; T &gt;" name="Eigen::GenericNumTraits&lt; T &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1NumTraits.html" title="Holds information about the various numeric (i.e. scalar) types allowed by Eigen. ..." alt="" coords="278,5,445,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1NumTraits.html" title="NumTraits\&lt; NumTraits\l\&lt; internal::remove_all\l\&lt; DerType \&gt;::type::Scalar\l \&gt;::Real \&gt;" alt="" coords="268,57,455,127"/>
-<area shape="rect" id="node5" href="$structEigen_1_1NumTraits.html" title="NumTraits\&lt; Scalar \&gt;" alt="" coords="283,152,439,179"/>
-<area shape="rect" id="node6" href="$structEigen_1_1NumTraits.html" title="NumTraits\&lt; typename\l MatrixType::Scalar \&gt;" alt="" coords="278,203,445,245"/>
-<area shape="rect" id="node4" href="$structEigen_1_1NumTraits_3_01AutoDiffScalar_3_01DerType_01_4_01_4.html" title="Eigen::NumTraits\&lt; AutoDiff\lScalar\&lt; DerType \&gt; \&gt;" alt="" coords="503,71,697,113"/>
-</map>

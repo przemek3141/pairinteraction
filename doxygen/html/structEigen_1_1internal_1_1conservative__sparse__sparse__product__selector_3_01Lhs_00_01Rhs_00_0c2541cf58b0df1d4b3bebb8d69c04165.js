@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1conservative__sparse__sparse__product__selector_3_01Lhs_00_01Rhs_00_0c2541cf58b0df1d4b3bebb8d69c04165 =
-[
-    [ "LhsCleaned", "structEigen_1_1internal_1_1conservative__sparse__sparse__product__selector_3_01Lhs_00_01Rhs_00_0c2541cf58b0df1d4b3bebb8d69c04165.html#aa70e3b07c735731b96c8dddbf3f29ade", null ],
-    [ "Scalar", "structEigen_1_1internal_1_1conservative__sparse__sparse__product__selector_3_01Lhs_00_01Rhs_00_0c2541cf58b0df1d4b3bebb8d69c04165.html#a42443d6e0197e9e270de6eae45118f69", null ]
-];

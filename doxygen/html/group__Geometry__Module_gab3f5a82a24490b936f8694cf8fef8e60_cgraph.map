@@ -1,8 +1,0 @@
-<map id="Eigen::umeyama" name="Eigen::umeyama">
-<area shape="rect" id="node2" href="$classEigen_1_1DenseBase.html#a978724c07b70cb9b8fdef67a4de08788" title="Eigen::DenseBase::colwise" alt="" coords="203,5,394,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SVDBase.html#afc7fe1546b0f6e1801b86f22f5664cb8" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::matrixU" alt="" coords="184,56,413,112"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SVDBase.html#a245a453b5e7347f737295c23133238c4" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::matrixV" alt="" coords="184,136,413,192"/>
-<area shape="rect" id="node5" href="$classEigen_1_1DenseBase.html#af9662cd704ffc16c5b88c7b2d331576f" title="Eigen::DenseBase::rowwise" alt="" coords="201,216,396,243"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SVDBase.html#a4e7bac123570c348f7ed6be909e1e474" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::singularValues" alt="" coords="184,267,413,323"/>
-<area shape="rect" id="node7" href="$JacobiSVD__basic_8cpp.html#a8c2eee92a525e7841f9014ea113ef50a" title="svd" alt="" coords="277,347,321,373"/>
-</map>

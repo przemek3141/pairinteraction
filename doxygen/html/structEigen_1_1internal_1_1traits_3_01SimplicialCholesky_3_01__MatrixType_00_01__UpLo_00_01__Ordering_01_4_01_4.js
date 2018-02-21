@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01SimplicialCholesky_3_01__MatrixType_00_01__UpLo_00_01__Ordering_01_4_01_4 =
-[
-    [ "MatrixType", "structEigen_1_1internal_1_1traits_3_01SimplicialCholesky_3_01__MatrixType_00_01__UpLo_00_01__Ordering_01_4_01_4.html#a1c214738e9757344ce70a32118b08628", null ],
-    [ "OrderingType", "structEigen_1_1internal_1_1traits_3_01SimplicialCholesky_3_01__MatrixType_00_01__UpLo_00_01__Ordering_01_4_01_4.html#a36a8c1dd5aa30d04be1839a9741ebf9c", null ],
-    [ "UpLo", "structEigen_1_1internal_1_1traits_3_01SimplicialCholesky_3_01__MatrixType_00_01__UpLo_00_01__Ordering_01_4_01_4.html#a74ef7f980e7b61db973d4a6b1df4cb54a02b2c4595745e9c45dff9ffb474f2056", null ]
-];

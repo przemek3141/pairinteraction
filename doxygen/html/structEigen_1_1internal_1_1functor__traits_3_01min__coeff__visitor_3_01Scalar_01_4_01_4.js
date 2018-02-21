@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01min__coeff__visitor_3_01Scalar_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01min__coeff__visitor_3_01Scalar_01_4_01_4.html#a96937cd88333ed636b1f6c2f755a3575a1046bfbcc93b9f9ad4d910ebdfd4f31b", null ]
-];

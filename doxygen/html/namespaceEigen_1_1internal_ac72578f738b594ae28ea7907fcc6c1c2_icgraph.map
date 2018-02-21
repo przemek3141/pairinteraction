@@ -1,5 +1,0 @@
-<map id="Eigen::internal::bruteforce_det4_helper" name="Eigen::internal::bruteforce_det4_helper">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a181974fd132805d09b70eb561a4a858f" title="Eigen::internal::bruteforce\l_det3_helper" alt="" coords="247,5,433,47"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1determinant__impl_3_01Derived_00_014_01_4.html#adb5a6a0cdda4664a8dd38c348411ee03" title="Eigen::internal::determinant\l_impl\&lt; Derived, 4 \&gt;::run" alt="" coords="240,71,440,112"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1determinant__impl_3_01Derived_00_013_01_4.html#ac268a58e38b0278820e9e5f470740cd7" title="Eigen::internal::determinant\l_impl\&lt; Derived, 3 \&gt;::run" alt="" coords="488,5,688,47"/>
-</map>

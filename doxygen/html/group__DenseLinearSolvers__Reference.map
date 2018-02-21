@@ -1,8 +1,0 @@
-<map id="Reference" name="Reference">
-<area shape="rect" id="node2" href="$group__QR__Module.html" title="QR_Module" alt="" coords="382,5,475,32"/>
-<area shape="rect" id="node4" href="$group__LU__Module.html" title="LU_Module" alt="" coords="383,56,474,83"/>
-<area shape="rect" id="node5" href="$group__Eigenvalues__Module.html" title="Eigenvalues_Module" alt="" coords="353,107,504,133"/>
-<area shape="rect" id="node6" href="$group__Cholesky__Module.html" title="Cholesky_Module" alt="" coords="363,157,495,184"/>
-<area shape="rect" id="node7" href="$group__SVD__Module.html" title="SVD_Module" alt="" coords="377,208,480,235"/>
-<area shape="rect" id="node3" href="$group__DenseLinearSolvers__chapter.html" title="Dense linear problems\l and decompositions" alt="" coords="5,99,172,141"/>
-</map>

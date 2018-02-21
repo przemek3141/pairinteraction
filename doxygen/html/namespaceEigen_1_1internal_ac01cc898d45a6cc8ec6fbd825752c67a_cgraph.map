@@ -1,7 +1,0 @@
-<map id="Eigen::internal::qrsolv" name="Eigen::internal::qrsolv">
-<area shape="rect" id="node2" href="$classEigen_1_1JacobiRotation.html#af1c132146bc93a872b799bc57d9ced50" title="Eigen::JacobiRotation::c" alt="" coords="212,5,381,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1PlainObjectBase.html#a10b8b33b7587da564415561aa246f78f" title="Eigen::PlainObjectBase\l::cols" alt="" coords="213,57,381,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1JacobiRotation.html#af73c81e9cc139b7e0d877ce553b02ec0" title="Eigen::JacobiRotation\l::makeGivens" alt="" coords="219,122,374,163"/>
-<area shape="rect" id="node5" href="$classEigen_1_1JacobiRotation.html#a2c7a08e2d27875fd770d489317746969" title="Eigen::JacobiRotation::s" alt="" coords="212,188,381,215"/>
-<area shape="rect" id="node6" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l::setZero" alt="" coords="213,239,381,281"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1TensorSycl_1_1internal_1_1ExtractAccessor_3_01TensorEvaluator_3_01const_01UnaryCa604e1da49051b5a348a2f10866224654.html" title="Eigen::TensorSycl::\linternal::ExtractAccessor\l\&lt; TensorEvaluator\&lt; const\l UnaryCategory\&lt; OP, RHSExpr\l \&gt;, Dev \&gt; \&gt;" alt="" coords="5,5,224,91"/>
-<area shape="rect" id="node2" href="$structEigen_1_1TensorSycl_1_1internal_1_1ExtractAccessor_3_01TensorEvaluator_3_01UnaryCategory_3e8f502a7e5b06ee0eab1626e3e4660d0.html" title="specialisation of the ExtractAccessor struct when the node type is TensorCwiseNullaryOp, TensorCwiseUnaryOp and TensorBroadcastingOp " alt="" coords="272,13,521,83"/>
-</map>

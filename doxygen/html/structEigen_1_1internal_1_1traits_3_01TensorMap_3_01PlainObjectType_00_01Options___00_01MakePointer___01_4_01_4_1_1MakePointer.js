@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01TensorMap_3_01PlainObjectType_00_01Options___00_01MakePointer___01_4_01_4_1_1MakePointer =
-[
-    [ "MakePointerT", "structEigen_1_1internal_1_1traits_3_01TensorMap_3_01PlainObjectType_00_01Options___00_01MakePointer___01_4_01_4_1_1MakePointer.html#a36f1717a0c60f8a47ebef619fd64ff43", null ],
-    [ "Type", "structEigen_1_1internal_1_1traits_3_01TensorMap_3_01PlainObjectType_00_01Options___00_01MakePointer___01_4_01_4_1_1MakePointer.html#ab661268584b47804419556d313da725e", null ]
-];

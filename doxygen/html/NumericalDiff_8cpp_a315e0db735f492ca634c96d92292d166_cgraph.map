@@ -1,7 +1,0 @@
-<map id="test_central" name="test_central">
-<area shape="rect" id="node2" href="$structmy__functor.html#ae9b15901b23e3b0e04d37cb6b70db82d" title="my_functor::actual_df" alt="" coords="157,5,317,32"/>
-<area shape="rect" id="node4" href="$classEigen_1_1NumericalDiff.html#a8fc63f1c3307cc6e61dc4d70c57b5037" title="Eigen::NumericalDiff::df" alt="" coords="152,56,323,83"/>
-<area shape="rect" id="node3" href="$structFunctor.html#af869ac9e668e12e78a7e82a219263e31" title="Functor::values" alt="" coords="371,5,489,32"/>
-<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="407,56,453,83"/>
-<area shape="rect" id="node6" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="407,107,453,133"/>
-</map>

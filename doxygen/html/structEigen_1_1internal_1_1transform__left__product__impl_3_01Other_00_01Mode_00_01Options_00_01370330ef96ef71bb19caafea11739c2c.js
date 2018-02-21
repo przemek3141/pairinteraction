@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01Mode_00_01Options_00_01370330ef96ef71bb19caafea11739c2c =
-[
-    [ "MatrixType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01Mode_00_01Options_00_01370330ef96ef71bb19caafea11739c2c.html#a2f3e715a9d5f75c06a8bbf3b8da97a35", null ],
-    [ "ResultType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01Mode_00_01Options_00_01370330ef96ef71bb19caafea11739c2c.html#a38cc6c0dabbab7549c37bd8c1fbfbd18", null ],
-    [ "TransformType", "structEigen_1_1internal_1_1transform__left__product__impl_3_01Other_00_01Mode_00_01Options_00_01370330ef96ef71bb19caafea11739c2c.html#a42e7b92624668c31f9256178adda0ffd", null ]
-];

@@ -1,6 +1,0 @@
-<map id="lu" name="lu">
-<area shape="rect" id="node2" href="$dense__solvers_8cpp.html#a578ba2d5aea4aaa8751e7311d8384181" title="bench" alt="" coords="160,5,221,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1partial__lu__impl.html#ab66f4cb2c3942d9c5a09aa4a26a15349" title="Eigen::internal::partial\l_lu_impl::blocked_lu" alt="" coords="110,57,271,98"/>
-<area shape="rect" id="node4" href="$structEigen_1_1SplineFitting.html#a0317c97f2b57ccf5dcf077409d51e54d" title="Fits an interpolating spline to the given data points and derivatives. " alt="" coords="92,122,289,163"/>
-<area shape="rect" id="node5" href="$TutorialInplaceLU_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="163,188,218,215"/>
-</map>

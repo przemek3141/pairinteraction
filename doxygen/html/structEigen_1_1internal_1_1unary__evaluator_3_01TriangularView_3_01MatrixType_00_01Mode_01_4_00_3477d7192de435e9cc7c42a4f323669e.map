@@ -1,4 +1,0 @@
-<map id="Eigen::internal::unary_evaluator&lt; TriangularView&lt; MatrixType, Mode &gt;, IndexBased &gt;" name="Eigen::internal::unary_evaluator&lt; TriangularView&lt; MatrixType, Mode &gt;, IndexBased &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; internal::remove_all\&lt;\l MatrixType \&gt;::type \&gt;" alt="" coords="44,124,225,180"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; internal::\lremove_all\&lt; MatrixType\l \&gt;::type \&gt;" alt="" coords="47,5,222,76"/>
-</map>

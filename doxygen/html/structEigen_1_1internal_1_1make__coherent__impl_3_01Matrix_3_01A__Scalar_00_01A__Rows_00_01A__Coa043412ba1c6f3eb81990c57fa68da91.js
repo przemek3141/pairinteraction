@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1make__coherent__impl_3_01Matrix_3_01A__Scalar_00_01A__Rows_00_01A__Coa043412ba1c6f3eb81990c57fa68da91 =
-[
-    [ "A", "structEigen_1_1internal_1_1make__coherent__impl_3_01Matrix_3_01A__Scalar_00_01A__Rows_00_01A__Coa043412ba1c6f3eb81990c57fa68da91.html#a4f14df60079e0a62ff60db3b1ced5893", null ],
-    [ "B", "structEigen_1_1internal_1_1make__coherent__impl_3_01Matrix_3_01A__Scalar_00_01A__Rows_00_01A__Coa043412ba1c6f3eb81990c57fa68da91.html#adad7107b006e6205a74e332850e6f12d", null ]
-];

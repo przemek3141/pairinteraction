@@ -116,31 +116,31 @@ Data Structures</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acc81390cd65f5b3641ad2c15fe1549c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:acc81390cd65f5b3641ad2c15fe1549c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#acc81390cd65f5b3641ad2c15fe1549c6">check_array_sanity</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> len, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> nd, std::initializer_list&lt; <a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &gt; dims)</td></tr>
+<tr class="memitem:acc81390cd65f5b3641ad2c15fe1549c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#acc81390cd65f5b3641ad2c15fe1549c6">check_array_sanity</a> (<a class="el" href="classint.html">int</a> len, <a class="el" href="classint.html">int</a> nd, std::initializer_list&lt; T &gt; dims)</td></tr>
 <tr class="memdesc:acc81390cd65f5b3641ad2c15fe1549c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform sanity checks for convert.  <a href="#acc81390cd65f5b3641ad2c15fe1549c6">More...</a><br /></td></tr>
 <tr class="separator:acc81390cd65f5b3641ad2c15fe1549c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531a068b7918e3706cf0ea9f06b26db6"><td class="memTemplParams" colspan="2">template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </td></tr>
-<tr class="memitem:a531a068b7918e3706cf0ea9f06b26db6"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; <a class="el" href="MatrixBase__isOrthogonal_8cpp.html#a6ee409cfdca8577a72873ce7105dfce7">v</a>==<a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8abe80b21a63c3a2a3ce2d9f37a0c62b87">numpy::view</a>, PyObject *&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a531a068b7918e3706cf0ea9f06b26db6">convert_impl</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> nd, npy_intp *dim, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> dtype, void *<a class="el" href="Map__placement__new_8cpp.html#abe49a82806b5db2e012bc33839af03e6">data</a>, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>)</td></tr>
+<tr class="memitem:a531a068b7918e3706cf0ea9f06b26db6"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; v==<a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8abe80b21a63c3a2a3ce2d9f37a0c62b87">numpy::view</a>, PyObject *&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a531a068b7918e3706cf0ea9f06b26db6">convert_impl</a> (<a class="el" href="classint.html">int</a> nd, npy_intp *dim, <a class="el" href="classint.html">int</a> dtype, void *data, <a class="el" href="classint.html">int</a>)</td></tr>
 <tr class="memdesc:a531a068b7918e3706cf0ea9f06b26db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Numpy view of an iterator (implementation)  <a href="#a531a068b7918e3706cf0ea9f06b26db6">More...</a><br /></td></tr>
 <tr class="separator:a531a068b7918e3706cf0ea9f06b26db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652f0ba310632b7c69922f21c61f17e2"><td class="memTemplParams" colspan="2">template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </td></tr>
-<tr class="memitem:a652f0ba310632b7c69922f21c61f17e2"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; <a class="el" href="MatrixBase__isOrthogonal_8cpp.html#a6ee409cfdca8577a72873ce7105dfce7">v</a>==<a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8aa66f9fab761283c08285395a1a64c840">numpy::copy</a>, PyObject *&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a652f0ba310632b7c69922f21c61f17e2">convert_impl</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> nd, npy_intp *dim, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> dtype, void *<a class="el" href="Map__placement__new_8cpp.html#abe49a82806b5db2e012bc33839af03e6">data</a>, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> len)</td></tr>
+<tr class="memitem:a652f0ba310632b7c69922f21c61f17e2"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; v==<a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8aa66f9fab761283c08285395a1a64c840">numpy::copy</a>, PyObject *&gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a652f0ba310632b7c69922f21c61f17e2">convert_impl</a> (<a class="el" href="classint.html">int</a> nd, npy_intp *dim, <a class="el" href="classint.html">int</a> dtype, void *data, <a class="el" href="classint.html">int</a> len)</td></tr>
 <tr class="memdesc:a652f0ba310632b7c69922f21c61f17e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Numpy copy of an iterator (implementation)  <a href="#a652f0ba310632b7c69922f21c61f17e2">More...</a><br /></td></tr>
 <tr class="separator:a652f0ba310632b7c69922f21c61f17e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b103fd073111d6f1b37e2760ea1b10d"><td class="memTemplParams" colspan="2">template&lt;view_or_copy v, typename RAIter , typename T &gt; </td></tr>
-<tr class="memitem:a1b103fd073111d6f1b37e2760ea1b10d"><td class="memTemplItemLeft" align="right" valign="top">PyObject *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a1b103fd073111d6f1b37e2760ea1b10d">convert</a> (RAIter begin, RAIter end, <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> nd, std::initializer_list&lt; <a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &gt; dims, std::random_access_iterator_tag)</td></tr>
+<tr class="memitem:a1b103fd073111d6f1b37e2760ea1b10d"><td class="memTemplItemLeft" align="right" valign="top">PyObject *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a1b103fd073111d6f1b37e2760ea1b10d">convert</a> (RAIter begin, RAIter end, <a class="el" href="classint.html">int</a> nd, std::initializer_list&lt; T &gt; dims, std::random_access_iterator_tag)</td></tr>
 <tr class="memdesc:a1b103fd073111d6f1b37e2760ea1b10d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Numpy array from an iterator (implementation)  <a href="#a1b103fd073111d6f1b37e2760ea1b10d">More...</a><br /></td></tr>
 <tr class="separator:a1b103fd073111d6f1b37e2760ea1b10d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb31f2e1232dca02ec8ef76917d2297a"><td class="memTemplParams" colspan="2">template&lt;view_or_copy v, typename T &gt; </td></tr>
-<tr class="memitem:adb31f2e1232dca02ec8ef76917d2297a"><td class="memTemplItemLeft" align="right" valign="top">PyObject *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#adb31f2e1232dca02ec8ef76917d2297a">sparse_impl</a> (<a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &amp;&amp;sm)</td></tr>
-<tr class="memdesc:adb31f2e1232dca02ec8ef76917d2297a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Numpy array from an <a class="el" href="classEigen_1_1SparseMatrix.html" title="A versatible sparse matrix representation. ">Eigen::SparseMatrix</a>.  <a href="#adb31f2e1232dca02ec8ef76917d2297a">More...</a><br /></td></tr>
+<tr class="memitem:adb31f2e1232dca02ec8ef76917d2297a"><td class="memTemplItemLeft" align="right" valign="top">PyObject *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#adb31f2e1232dca02ec8ef76917d2297a">sparse_impl</a> (T &amp;&amp;sm)</td></tr>
+<tr class="memdesc:adb31f2e1232dca02ec8ef76917d2297a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Numpy array from an Eigen::SparseMatrix.  <a href="#adb31f2e1232dca02ec8ef76917d2297a">More...</a><br /></td></tr>
 <tr class="separator:adb31f2e1232dca02ec8ef76917d2297a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb4afef31ae2c4b0e1bcd6742a4c898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#aadb4afef31ae2c4b0e1bcd6742a4c898">check_order_and_alignment</a> (PyArrayObject *ndarray)</td></tr>
 <tr class="memdesc:aadb4afef31ae2c4b0e1bcd6742a4c898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a Numpy has given storage order and alignment.  <a href="#aadb4afef31ae2c4b0e1bcd6742a4c898">More...</a><br /></td></tr>
 <tr class="separator:aadb4afef31ae2c4b0e1bcd6742a4c898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d12943d90137c9c91dceeb4775f1b14"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Scalar  = typename T::Scalar&gt; </td></tr>
-<tr class="memitem:a9d12943d90137c9c91dceeb4775f1b14"><td class="memTemplItemLeft" align="right" valign="top">std::tuple&lt; <a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>, npy_intp *, <a class="el" href="bench__gemm_8cpp.html#a052eb942d12b6404aade6fae4b075fb9">Scalar</a> * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a9d12943d90137c9c91dceeb4775f1b14">as_dense_impl</a> (<a class="el" href="namespacenumpy.html#a437a952433cd6a2f1b40b895c2d4b7bc">numpy::array</a> ndarray_)</td></tr>
-<tr class="memdesc:a9d12943d90137c9c91dceeb4775f1b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a numpy array for conversion to dense <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library. ">Eigen</a> type.  <a href="#a9d12943d90137c9c91dceeb4775f1b14">More...</a><br /></td></tr>
+<tr class="memitem:a9d12943d90137c9c91dceeb4775f1b14"><td class="memTemplItemLeft" align="right" valign="top">std::tuple&lt; <a class="el" href="classint.html">int</a>, npy_intp *, Scalar * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacenumpy_1_1internal.html#a9d12943d90137c9c91dceeb4775f1b14">as_dense_impl</a> (<a class="el" href="namespacenumpy.html#a437a952433cd6a2f1b40b895c2d4b7bc">numpy::array</a> ndarray_)</td></tr>
+<tr class="memdesc:a9d12943d90137c9c91dceeb4775f1b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconstruct a numpy array for conversion to dense Eigen type.  <a href="#a9d12943d90137c9c91dceeb4775f1b14">More...</a><br /></td></tr>
 <tr class="separator:a9d12943d90137c9c91dceeb4775f1b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -153,7 +153,7 @@ Functions</h2></td></tr>
 template&lt;typename T , typename Scalar  = typename T::Scalar&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::tuple&lt;<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>, npy_intp *, <a class="el" href="bench__gemm_8cpp.html#a052eb942d12b6404aade6fae4b075fb9">Scalar</a> *&gt; numpy::internal::as_dense_impl </td>
+          <td class="memname">std::tuple&lt;<a class="el" href="classint.html">int</a>, npy_intp *, Scalar *&gt; numpy::internal::as_dense_impl </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacenumpy.html#a437a952433cd6a2f1b40b895c2d4b7bc">numpy::array</a>&#160;</td>
           <td class="paramname"><em>ndarray_</em></td><td>)</td>
@@ -162,7 +162,7 @@ template&lt;typename T , typename Scalar  = typename T::Scalar&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Deconstruct a numpy array for conversion to dense <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library. ">Eigen</a> type. </p>
+<p>Deconstruct a numpy array for conversion to dense Eigen type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">ndarray_</td><td>Numpy array</td></tr>
@@ -173,13 +173,13 @@ template&lt;typename T , typename Scalar  = typename T::Scalar&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="NumpyUtils_8h_source.html#l00383">383</a> of file <a class="el" href="NumpyUtils_8h_source.html">NumpyUtils.h</a>.</p>
 
-<p class="reference">References <a class="el" href="NumpyUtils_8h_source.html#l00364">check_order_and_alignment()</a>, <a class="el" href="Map__placement__new_8cpp_source.html#l00001">data</a>, <a class="el" href="Constants_8h_source.html#l00021">Eigen::Dynamic</a>, and <a class="el" href="TensorSyclTuple_8h_source.html#l00121">utility::tuple::make_tuple()</a>.</p>
+<p class="reference">References <a class="el" href="NumpyUtils_8h_source.html#l00364">check_order_and_alignment()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenumpy_1_1internal_a9d12943d90137c9c91dceeb4775f1b14_cgraph.svg" width="370" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenumpy_1_1internal_a9d12943d90137c9c91dceeb4775f1b14_cgraph.svg" width="370" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -196,19 +196,19 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void numpy::internal::check_array_sanity </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>nd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::initializer_list&lt; <a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &gt;&#160;</td>
+          <td class="paramtype">std::initializer_list&lt; T &gt;&#160;</td>
           <td class="paramname"><em>dims</em>&#160;</td>
         </tr>
         <tr>
@@ -232,8 +232,6 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>The total length of the array </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="NumpyUtils_8h_source.html#l00101">101</a> of file <a class="el" href="NumpyUtils_8h_source.html">NumpyUtils.h</a>.</p>
-
-<p class="reference">References <a class="el" href="Cwise__product_8cpp_source.html#l00001">a</a>, and <a class="el" href="benchVecAdd_8cpp_source.html#l00017">b</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="NumpyUtils_8h_source.html#l00184">convert()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -264,7 +262,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Check if a Numpy has given storage order and alignment. </p>
-<p>To be convertible to an <a class="el" href="namespaceEigen.html" title="Namespace containing all symbols from the Eigen library. ">Eigen</a> matrix type the memory of a Numpy array has to be FORTRAN style contiguous and has to be aligned.</p>
+<p>To be convertible to an Eigen matrix type the memory of a Numpy array has to be FORTRAN style contiguous and has to be aligned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">ndarray</td><td>Numpy array </td></tr>
@@ -309,13 +307,13 @@ template&lt;view_or_copy v, typename RAIter , typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>nd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::initializer_list&lt; <a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &gt;&#160;</td>
+          <td class="paramtype">std::initializer_list&lt; T &gt;&#160;</td>
           <td class="paramname"><em>dims</em>, </td>
         </tr>
         <tr>
@@ -347,13 +345,13 @@ template&lt;view_or_copy v, typename RAIter , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="NumpyUtils_8h_source.html#l00184">184</a> of file <a class="el" href="NumpyUtils_8h_source.html">NumpyUtils.h</a>.</p>
 
-<p class="reference">References <a class="el" href="NumpyUtils_8h_source.html#l00101">check_array_sanity()</a>, <a class="el" href="Map__placement__new_8cpp_source.html#l00001">data</a>, and <a class="el" href="mpreal_8h_source.html#l02201">mpfr::dim()</a>.</p>
+<p class="reference">References <a class="el" href="NumpyUtils_8h_source.html#l00101">check_array_sanity()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenumpy_1_1internal_a1b103fd073111d6f1b37e2760ea1b10d_cgraph.svg" width="619" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespacenumpy_1_1internal_a1b103fd073111d6f1b37e2760ea1b10d_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -368,9 +366,9 @@ template&lt;view_or_copy v, typename RAIter , typename T &gt; </div>
 template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt; <a class="el" href="MatrixBase__isOrthogonal_8cpp.html#a6ee409cfdca8577a72873ce7105dfce7">v</a> == <a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8abe80b21a63c3a2a3ce2d9f37a0c62b87">numpy::view</a>, PyObject * &gt;::type numpy::internal::convert_impl </td>
+          <td class="memname">std::enable_if&lt; v == <a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8abe80b21a63c3a2a3ce2d9f37a0c62b87">numpy::view</a>, PyObject * &gt;::type numpy::internal::convert_impl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>nd</em>, </td>
         </tr>
         <tr>
@@ -382,7 +380,7 @@ template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>dtype</em>, </td>
         </tr>
         <tr>
@@ -394,7 +392,7 @@ template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -431,9 +429,9 @@ template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
 template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt; <a class="el" href="MatrixBase__isOrthogonal_8cpp.html#a6ee409cfdca8577a72873ce7105dfce7">v</a> == <a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8aa66f9fab761283c08285395a1a64c840">numpy::copy</a>, PyObject * &gt;::type numpy::internal::convert_impl </td>
+          <td class="memname">std::enable_if&lt; v == <a class="el" href="namespacenumpy.html#adb46bf70564cdd5c1175a9c6050262c8aa66f9fab761283c08285395a1a64c840">numpy::copy</a>, PyObject * &gt;::type numpy::internal::convert_impl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>nd</em>, </td>
         </tr>
         <tr>
@@ -445,7 +443,7 @@ template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>dtype</em>, </td>
         </tr>
         <tr>
@@ -457,7 +455,7 @@ template&lt;view_or_copy v, bool const_tag, typename value_type &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -497,15 +495,15 @@ template&lt;view_or_copy v, typename T &gt; </div>
         <tr>
           <td class="memname">PyObject* numpy::internal::sparse_impl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> &amp;&amp;&#160;</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
           <td class="paramname"><em>sm</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create a Numpy array from an <a class="el" href="classEigen_1_1SparseMatrix.html" title="A versatible sparse matrix representation. ">Eigen::SparseMatrix</a>. </p>
-<p>This is the implementation for the conversion of an <a class="el" href="classEigen_1_1SparseMatrix.html" title="A versatible sparse matrix representation. ">Eigen::SparseMatrix</a> to a scipy.sparse.csc_matrix. We load the scipy.sparse module and call the constructor for the csc_matrix which we populate with numpy arrays.</p>
+<p>Create a Numpy array from an Eigen::SparseMatrix. </p>
+<p>This is the implementation for the conversion of an Eigen::SparseMatrix to a scipy.sparse.csc_matrix. We load the scipy.sparse module and call the constructor for the csc_matrix which we populate with numpy arrays.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">sm</td><td>T&amp;&amp;</td></tr>
@@ -516,8 +514,6 @@ template&lt;view_or_copy v, typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="NumpyUtils_8h_source.html#l00304">304</a> of file <a class="el" href="NumpyUtils_8h_source.html">NumpyUtils.h</a>.</p>
 
-<p class="reference">References <a class="el" href="Map__placement__new_8cpp_source.html#l00001">data</a>, and <a class="el" href="Tutorial__AdvancedInitialization__CommaTemporary_8cpp_source.html#l00001">mat</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -526,7 +522,7 @@ template&lt;view_or_copy v, typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacenumpy.html">numpy</a></li><li class="navelem"><a class="el" href="namespacenumpy_1_1internal.html">internal</a></li>
-    <li class="footer">Generated on Wed Feb 21 2018 04:54:47 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 21 2018 22:29:43 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

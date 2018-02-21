@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01HessenbergDecompositionMatrixHReturnType_3_01MatrixType_01_4_01_4 =
-[
-    [ "ReturnType", "structEigen_1_1internal_1_1traits_3_01HessenbergDecompositionMatrixHReturnType_3_01MatrixType_01_4_01_4.html#a61ecfbcb348b94ba026196609af64ca4", null ]
-];

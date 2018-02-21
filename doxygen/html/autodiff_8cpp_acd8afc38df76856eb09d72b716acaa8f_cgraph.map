@@ -1,8 +1,0 @@
-<map id="test_autodiff_scalar" name="test_autodiff_scalar">
-<area shape="rect" id="node2" href="$autodiff_8cpp.html#a93d63b9247250950e6a658b1de04306c" title="foo" alt="" coords="200,107,243,133"/>
-<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a92b03396990b0e9eea0731aa406e31a4" title="cos" alt="" coords="346,5,390,32"/>
-<area shape="rect" id="node4" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="345,56,391,83"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="291,107,445,133"/>
-<area shape="rect" id="node6" href="$ArrayCwiseUnaryOps_8h.html#a9cfb0ea58bd813510a9e2db18a5e49f0" title="sin" alt="" coords="348,157,388,184"/>
-<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="345,208,391,235"/>
-</map>

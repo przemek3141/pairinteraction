@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01TensorFixedSize_3_01Scalar___00_01Dimensions_00_01Options_26f03482d51f0d8675bc27deba20d794 =
-[
-    [ "Type", "structEigen_1_1internal_1_1traits_3_01TensorFixedSize_3_01Scalar___00_01Dimensions_00_01Options_26f03482d51f0d8675bc27deba20d794.html#ab9c45d0086ae383d6407ac6d0d9e4e94", null ]
-];

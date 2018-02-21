@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1cross3__impl_3_01Architecture_1_1SSE_00_01VectorLhs_00_01VectorRhs_00_01float_00_01true_01_4 =
-[
-    [ "ResAlignment", "structEigen_1_1internal_1_1cross3__impl_3_01Architecture_1_1SSE_00_01VectorLhs_00_01VectorRhs_00_01float_00_01true_01_4.html#aeaa92c2f1edb2c6ab64189313e5eb8d7a722a83ce68eb592a9708c4688ba20d3c", null ]
-];

@@ -1,7 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$namespaceEigen.html#adb64ffddaa9e83634e3ab0e3fd3664f5" title="Eigen::poly_eval" alt="" coords="163,56,287,83"/>
-<area shape="rect" id="node6" href="$namespaceEigen.html#afbc3648f7ef67db3d5d04454fc1257fd" title="Eigen::roots_to_monicPolynomial" alt="" coords="108,107,341,133"/>
-<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a4921dbe62d034394f6fa7810e8711356" title="abs2" alt="" coords="449,5,503,32"/>
-<area shape="rect" id="node4" href="$namespaceEigen.html#aadbf059bc28ce1cf94c57c1454633d40" title="Eigen::poly_eval_horner" alt="" coords="389,56,563,83"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="399,107,553,133"/>
-</map>

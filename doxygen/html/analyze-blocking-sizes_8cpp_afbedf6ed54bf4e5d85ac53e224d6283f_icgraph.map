@@ -1,6 +1,0 @@
-<map id="log2_pot" name="log2_pot">
-<area shape="rect" id="node2" href="$analyze-blocking-sizes_8cpp.html#a06ea40e359ccd57825c2ccf61f086843" title="compact_size_triple" alt="" coords="142,5,291,32"/>
-<area shape="rect" id="node3" href="$analyze-blocking-sizes_8cpp.html#aad9fe69ae63901e8c9db2a0cc1cbc3e0" title="dump_table_for_subset" alt="" coords="131,56,303,83"/>
-<area shape="rect" id="node4" href="$analyze-blocking-sizes_8cpp.html#ab7c534592b27494e4cdd1ac357ce0481" title="print_partition" alt="" coords="351,56,461,83"/>
-<area shape="rect" id="node5" href="$structpartition__action__t.html#a92678937e9eff8b5843e294ced4c29d8" title="partition_action_t::run" alt="" coords="509,56,672,83"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Eigen::HouseholderQR::computeInPlace" name="Eigen::HouseholderQR::computeInPlace">
-<area shape="rect" id="node2" href="$classEigen_1_1HouseholderQR.html#ab9ae903a54d86452afaf77531396fc27" title="Eigen::HouseholderQR\l\&lt; TransposeTypeWithSameStorage\lOrder \&gt;::check_template_parameters" alt="" coords="217,5,483,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1HouseholderQR.html#aa8c555a962ee6fc24387696980d3068b" title="Eigen::HouseholderQR\l\&lt; TransposeTypeWithSameStorage\lOrder \&gt;::compute" alt="" coords="227,85,473,141"/>
-<area shape="rect" id="node4" href="$classEigen_1_1HouseholderQR.html#a95a53f8479ee147d7b0ccab71c13e45d" title="Constructs a QR factorization from a given matrix. " alt="" coords="227,165,473,221"/>
-</map>

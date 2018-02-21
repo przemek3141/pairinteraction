@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePoi67cc8c4b5017f1cdab316929cfc5fde3 =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorReductionOp_3_01Op_00_01Dims_00_01XprType_00_01MakePoi67cc8c4b5017f1cdab316929cfc5fde3.html#a32b65e36873e4dbea8a1eadbe13f3e09", null ]
-];

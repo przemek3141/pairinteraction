@@ -1,5 +1,0 @@
-<map id="Eigen::TransposeImpl&lt; MatrixType, Sparse &gt;" name="Eigen::TransposeImpl&lt; MatrixType, Sparse &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1SparseTransposeImpl.html" title="Eigen::internal::SparseTranspose\lImpl\&lt; MatrixType \&gt;" alt="" coords="5,184,236,225"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html" title="Eigen::SparseMatrixBase\l\&lt; Transpose\&lt; MatrixType \&gt; \&gt;" alt="" coords="14,95,227,136"/>
-<area shape="rect" id="node4" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Transpose\l\&lt; MatrixType \&gt; \&gt;" alt="" coords="15,5,226,47"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="Eigen::internal::pset1&lt; Packet2cf &gt;" name="Eigen::internal::pset1&lt; Packet2cf &gt;">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a3a8c9a3f6c0beacc89b92bca87be0c81" title="Eigen::internal::ploaddup\l\&lt; Packet2cf \&gt;" alt="" coords="211,20,391,61"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#afc41c0196b601e87b2123adfee80c65f" title="Eigen::internal::pscatter\l\&lt; std::complex\&lt; double\l \&gt;, Packet1cd \&gt;" alt="" coords="440,71,617,127"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#a9641211c8ee7110d30ddf79ea34502ed" title="Eigen::internal::ploaddup\l\&lt; Packet4cf \&gt;" alt="" coords="439,5,619,47"/>
-</map>

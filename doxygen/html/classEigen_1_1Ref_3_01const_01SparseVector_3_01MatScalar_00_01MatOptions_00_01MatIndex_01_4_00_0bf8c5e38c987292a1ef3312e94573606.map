@@ -1,6 +1,0 @@
-<map id="Eigen::Ref&lt; const SparseVector&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt;" name="Eigen::Ref&lt; const SparseVector&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1internal_1_1SparseRefBase.html" title="Eigen::internal::SparseRef\lBase\&lt; Ref\&lt; const SparseVector\l\&lt; MatScalar, MatOptions, MatIndex\l \&gt;, Options, StrideType \&gt; \&gt;" alt="" coords="315,5,563,76"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMapBase.html" title="Eigen::SparseMapBase\l\&lt; Ref\&lt; const SparseVector\l\&lt; MatScalar, MatOptions,\l MatIndex \&gt;, Options, StrideType \&gt; \&gt;" alt="" coords="5,5,265,76"/>
-<area shape="rect" id="node4" href="$classchar.html" title="char" alt="" coords="413,101,464,127"/>
-<area shape="rect" id="node5" href="$classbool.html" title="bool" alt="" coords="414,151,463,178"/>
-</map>

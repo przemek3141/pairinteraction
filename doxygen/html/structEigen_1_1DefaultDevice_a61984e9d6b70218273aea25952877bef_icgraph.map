@@ -1,4 +1,0 @@
-<map id="Eigen::DefaultDevice::memcpy" name="Eigen::DefaultDevice::memcpy">
-<area shape="rect" id="node2" href="$structEigen_1_1DefaultDevice.html#a4be26c1b7f78e27670975bafdfc75e68" title="Eigen::DefaultDevice\l::memcpyDeviceToHost" alt="" coords="208,5,380,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1DefaultDevice.html#a978f0e67b69d1142d28c7c314c71ea9d" title="Eigen::DefaultDevice\l::memcpyHostToDevice" alt="" coords="208,71,380,112"/>
-</map>

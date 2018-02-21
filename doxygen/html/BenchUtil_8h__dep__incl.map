@@ -1,8 +1,0 @@
-<map id="/travis/libpairinteraction/eigen/bench/BenchUtil.h" name="/travis/libpairinteraction/eigen/bench/BenchUtil.h">
-<area shape="rect" id="node2" href="$basicbenchmark_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/basicbenchmark.cpp" alt="" coords="5,95,245,136"/>
-<area shape="rect" id="node3" href="$bench__reverse_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/bench_reverse.cpp" alt="" coords="269,95,499,136"/>
-<area shape="rect" id="node4" href="$benchCholesky_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/benchCholesky.cpp" alt="" coords="523,95,752,136"/>
-<area shape="rect" id="node5" href="$benchEigenSolver_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/benchEigenSolver.cpp" alt="" coords="776,95,1024,136"/>
-<area shape="rect" id="node6" href="$benchFFT_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/benchFFT.cpp" alt="" coords="1049,95,1242,136"/>
-<area shape="rect" id="node7" href="$bench_2sparse__product_8cpp.html" title="/travis/libpairinteraction\l/eigen/bench/sparse_product.cpp" alt="" coords="1267,95,1501,136"/>
-</map>

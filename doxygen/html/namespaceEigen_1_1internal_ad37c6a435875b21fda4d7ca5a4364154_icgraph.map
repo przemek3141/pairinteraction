@@ -1,5 +1,0 @@
-<map id="Eigen::internal::call_assignment_no_alias_no_transpose" name="Eigen::internal::call_assignment_no_alias_no_transpose">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a29a5ab3dff368b97b02bc85877353d27" title="Eigen::internal::call\l_assignment_no_alias\l_no_transpose" alt="" coords="280,5,443,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseSelfAdjointView.html#af2a90db8d1332dc854c798044de2d0ad" title="Eigen::SparseSelfAdjoint\lView::operator=" alt="" coords="272,86,451,127"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01SparseSelfAdjoint2Sparse_01_4.html#a77cd302a30c64789f91ba23771433091" title="Eigen::internal::Assignment\l\&lt; DstXprType, SrcXprType,\l Functor, SparseSelfAdjoint2Sparse \&gt;::run" alt="" coords="216,152,507,208"/>
-</map>

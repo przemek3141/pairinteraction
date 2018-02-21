@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1conservative__sparse__sparse__product__selector_3_01Lhs_00_01Rhs_00_0a3cd037fe7a9178422ec01c57e8cb1de =
-[
-    [ "Scalar", "structEigen_1_1internal_1_1conservative__sparse__sparse__product__selector_3_01Lhs_00_01Rhs_00_0a3cd037fe7a9178422ec01c57e8cb1de.html#a8e51d4364ddc415e957c749ac5f7dd1c", null ]
-];

@@ -1,6 +1,0 @@
-<map id="Eigen::internal::sparse_time_dense_product_impl&lt; SparseLhsType, DenseRhsType, DenseResType, typename DenseResType::Scalar, RowMajor, true &gt;::run" name="Eigen::internal::sparse_time_dense_product_impl&lt; SparseLhsType, DenseRhsType, DenseResType, typename DenseResType::Scalar, RowMajor, true &gt;::run">
-<area shape="rect" id="node2" href="$namespaceEigen.html#a820c0e0460934cc17eb6dacbad54a9f5" title="Eigen::initParallel" alt="" coords="340,27,469,54"/>
-<area shape="rect" id="node5" href="$namespaceEigen.html#a9aca97d83e21b91a04ec079360dfffeb" title="Eigen::nbThreads" alt="" coords="339,78,471,105"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#aa32f9fb4cd20f86ef87d00db101e2f7c" title="Eigen::internal::manage\l_caching_sizes" alt="" coords="519,5,693,47"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#a6e841e3c4f4914cf1e06704ec8537db3" title="Eigen::internal::manage\l_multi_threading" alt="" coords="519,71,693,112"/>
-</map>

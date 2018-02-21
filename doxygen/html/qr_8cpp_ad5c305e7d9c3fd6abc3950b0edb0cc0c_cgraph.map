@@ -1,7 +1,0 @@
-<map id="qr_fixedsize" name="qr_fixedsize">
-<area shape="rect" id="node2" href="$classEigen_1_1HouseholderQR.html#affd506c10ef2d25f56e7b1f9f25ff885" title="Eigen::HouseholderQR\l::householderQ" alt="" coords="363,8,527,49"/>
-<area shape="rect" id="node3" href="$Tutorial__Map__using_8cpp.html#ab3a01b595d22393ace0d30d5fa299f76" title="m2" alt="" coords="211,35,254,62"/>
-<area shape="rect" id="node4" href="$classEigen_1_1HouseholderQR.html#ae837f2fb30099212c53b3042c7d699c9" title="Eigen::HouseholderQR\l::matrixQR" alt="" coords="363,104,527,145"/>
-<area shape="rect" id="node5" href="$qr_8cpp.html#a1f7ecb677226c5e3b96a2c8bd67c0324" title="qr" alt="" coords="213,86,252,113"/>
-<area shape="rect" id="node6" href="$classEigen_1_1HouseholderQR.html#a3e8e56769bbaaed0616ad98c4ff99c7b" title="Eigen::HouseholderQR\l::solve" alt="" coords="151,188,315,229"/>
-</map>

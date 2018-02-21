@@ -1,4 +1,0 @@
-<map id="Eigen::internal::check_for_aliasing" name="Eigen::internal::check_for_aliasing">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a29a5ab3dff368b97b02bc85877353d27" title="Eigen::internal::call\l_assignment_no_alias\l_no_transpose" alt="" coords="259,5,421,61"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01Dense2Dense_00_01Weak_01_4.html#a23b7a4281a249055ccd7f123144a3a84" title="Eigen::internal::Assignment\l\&lt; DstXprType, SrcXprType,\l Functor, Dense2Dense, Weak \&gt;::run" alt="" coords="212,85,468,141"/>
-</map>

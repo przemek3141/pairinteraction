@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1sparse__sparse__product__with__pruning__selector_3_01Lhs_00_01Rhs_00_f96a1f31d7c531bcb062e19aed640a1a =
-[
-    [ "RealScalar", "structEigen_1_1internal_1_1sparse__sparse__product__with__pruning__selector_3_01Lhs_00_01Rhs_00_f96a1f31d7c531bcb062e19aed640a1a.html#a3a8a46c6024254eaa4c126ad137f016c", null ]
-];

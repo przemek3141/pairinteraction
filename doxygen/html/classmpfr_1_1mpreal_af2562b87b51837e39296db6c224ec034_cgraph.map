@@ -1,8 +1,0 @@
-<map id="mpfr::mpreal::fits_in_bits" name="mpfr::mpreal::fits_in_bits">
-<area shape="rect" id="node2" href="$namespacempfr.html#abdb6197c40bc63bf3ad4892d9608d052" title="mpfr::frexp" alt="" coords="187,21,279,47"/>
-<area shape="rect" id="node5" href="$namespacempfr.html#a0183f8cadde6442a5dfb40140409a5e0" title="mpfr::ldexp" alt="" coords="185,71,280,98"/>
-<area shape="rect" id="node7" href="$namespacempfr.html#ab3d576a0281f699cfe1aa186dd95522f" title="mpfr::modf" alt="" coords="186,122,279,149"/>
-<area shape="rect" id="node3" href="$classmpfr_1_1mpreal.html#af4e3b56888463376c675cac70b6ceca3" title="mpfr::mpreal::mpfr_ptr" alt="" coords="351,71,519,98"/>
-<area shape="rect" id="node4" href="$classmpfr_1_1mpreal.html#a566f64ca066c54923d19c11d6c3d15cd" title="mpfr::mpreal::mpfr\l_srcptr" alt="" coords="363,5,506,47"/>
-<area shape="rect" id="node6" href="$classmpfr_1_1mpreal.html#ae0bdf9ca1838bd5851ac1c7c6b360553" title="mpfr::mpreal::get_default_rnd" alt="" coords="328,122,541,149"/>
-</map>

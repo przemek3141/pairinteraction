@@ -1,8 +1,0 @@
-<map id="Eigen::internal::sparse_conjunction_evaluator&lt; XprType, IteratorBased, IteratorBased &gt;" name="Eigen::internal::sparse_conjunction_evaluator&lt; XprType, IteratorBased, IteratorBased &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; XprType \&gt;" alt="" coords="257,5,439,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,13,208,39"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; LhsArg \&gt;" alt="" coords="257,71,439,112"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; LhsArg \&gt;" alt="" coords="25,71,188,112"/>
-<area shape="rect" id="node7" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; RhsArg \&gt;" alt="" coords="257,188,439,229"/>
-<area shape="rect" id="node8" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; RhsArg \&gt;" alt="" coords="25,188,189,229"/>
-</map>

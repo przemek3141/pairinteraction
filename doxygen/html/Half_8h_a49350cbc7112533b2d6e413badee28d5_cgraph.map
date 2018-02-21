@@ -1,6 +1,0 @@
-<map id="ceilh" name="ceilh">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1half__impl.html#a5e660e0a9173497ab02d0ca29dae0e09" title="Eigen::half_impl::isfinite" alt="" coords="104,35,275,62"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1half__impl.html#afa296a2520c61a285163d86f359f323d" title="Eigen::half_impl::isinf" alt="" coords="327,10,482,37"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1half__impl.html#a31fc23af6cbc62986b248c4f4717a772" title="Eigen::half_impl::isnan" alt="" coords="323,73,487,99"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1half__impl.html#a3369c49b5485894dc328c77df9189178" title="Eigen::half_impl::raw\l_uint16_to_half" alt="" coords="113,137,265,179"/>
-</map>

@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1gemm__pack__lhs_3_01Scalar_00_01Index_00_01DataMapper_00_01Pack1_00_02096896f571e4dfaad2de53af9b13499 =
-[
-    [ "LinearMapper", "structEigen_1_1internal_1_1gemm__pack__lhs_3_01Scalar_00_01Index_00_01DataMapper_00_01Pack1_00_02096896f571e4dfaad2de53af9b13499.html#ac65cbbf4ddb84aa94acf52e1f1d356cb", null ],
-    [ "operator()", "structEigen_1_1internal_1_1gemm__pack__lhs_3_01Scalar_00_01Index_00_01DataMapper_00_01Pack1_00_02096896f571e4dfaad2de53af9b13499.html#af0f474d4d31213df020ad25af0c482d3", null ]
-];

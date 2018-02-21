@@ -1,5 +1,0 @@
-<map id="Eigen::TensorStorage&lt; T, DSizes&lt; IndexType, NumIndices_ &gt;, Options_ &gt;::swap" name="Eigen::TensorStorage&lt; T, DSizes&lt; IndexType, NumIndices_ &gt;, Options_ &gt;::swap">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1numext.html#a3b617b6220683f86218071c40c41d381" title="Eigen::numext::swap" alt="" coords="233,27,388,54"/>
-<area shape="rect" id="node3" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="436,27,519,54"/>
-<area shape="rect" id="node4" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="567,27,659,54"/>
-</map>

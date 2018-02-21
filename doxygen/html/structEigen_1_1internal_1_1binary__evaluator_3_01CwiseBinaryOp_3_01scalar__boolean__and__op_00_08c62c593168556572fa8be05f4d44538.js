@@ -1,6 +1,0 @@
-var structEigen_1_1internal_1_1binary__evaluator_3_01CwiseBinaryOp_3_01scalar__boolean__and__op_00_08c62c593168556572fa8be05f4d44538 =
-[
-    [ "Base", "structEigen_1_1internal_1_1binary__evaluator_3_01CwiseBinaryOp_3_01scalar__boolean__and__op_00_08c62c593168556572fa8be05f4d44538.html#a993955e35964a2108462990f0df9f047", null ],
-    [ "XprType", "structEigen_1_1internal_1_1binary__evaluator_3_01CwiseBinaryOp_3_01scalar__boolean__and__op_00_08c62c593168556572fa8be05f4d44538.html#aae75565ff2eef6dcd3cdb26247dca232", null ],
-    [ "binary_evaluator", "structEigen_1_1internal_1_1binary__evaluator_3_01CwiseBinaryOp_3_01scalar__boolean__and__op_00_08c62c593168556572fa8be05f4d44538.html#a92a63ea9d84cb5fa395ef722c620fbbc", null ]
-];

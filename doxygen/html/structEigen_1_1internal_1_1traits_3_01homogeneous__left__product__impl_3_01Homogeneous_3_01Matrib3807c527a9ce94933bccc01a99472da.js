@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da =
-[
-    [ "LhsMatrixType", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da.html#a595c32d9896fc2f15a47df3abd723427", null ],
-    [ "LhsMatrixTypeCleaned", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da.html#a43d1b178bc4d950cb11352deab9fda12", null ],
-    [ "MatrixTypeCleaned", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da.html#a44842fe354bb9881d2a2eaa09d33b6df", null ],
-    [ "ReturnType", "structEigen_1_1internal_1_1traits_3_01homogeneous__left__product__impl_3_01Homogeneous_3_01Matrib3807c527a9ce94933bccc01a99472da.html#ac715b005ae93d6769c5c2d41ffa3f18b", null ]
-];

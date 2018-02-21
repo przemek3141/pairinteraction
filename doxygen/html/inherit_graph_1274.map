@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1internal_1_1product__triangular__matrix__matrix.html" title="Eigen::internal::product\l_triangular_matrix_matrix\l\&lt; Scalar, Index, Mode, LhsIsTriangular,\l LhsStorageOrder, ConjugateLhs, RhsStorageOrder,\l ConjugateRhs, ResStorageOrder, BuiltIn \&gt;" alt="" coords="5,13,357,98"/>
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1product__triangular__matrix__matrix__trmm.html" title="Eigen::internal::product\l_triangular_matrix_matrix\l_trmm\&lt; Scalar, Index, Mode,\l LhsIsTriangular, LhsStorageOrder,\l ConjugateLhs, RhsStorageOrder,\l ConjugateRhs, ResStorageOrder \&gt;" alt="" coords="405,5,652,105"/>
-</map>

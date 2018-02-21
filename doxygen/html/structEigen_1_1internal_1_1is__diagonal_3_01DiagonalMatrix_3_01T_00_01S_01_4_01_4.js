@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1is__diagonal_3_01DiagonalMatrix_3_01T_00_01S_01_4_01_4 =
-[
-    [ "ret", "structEigen_1_1internal_1_1is__diagonal_3_01DiagonalMatrix_3_01T_00_01S_01_4_01_4.html#ada6b1a2bf56711e859181f0a2ca84c7fa8970c76c171531782093f599e19eca45", null ]
-];

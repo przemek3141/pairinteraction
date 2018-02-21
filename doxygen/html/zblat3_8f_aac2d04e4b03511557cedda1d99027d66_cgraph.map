@@ -1,6 +1,0 @@
-<map id="zchk1" name="zchk1">
-<area shape="rect" id="node2" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aecd3aa81b8c13b279f5430cc58f4aa4f" title="zgemm" alt="" coords="112,5,183,32"/>
-<area shape="rect" id="node3" href="$zblat2_8f.html#adedd6c58099503010cc6951c138fa2b6" title="zmake" alt="" coords="115,56,180,83"/>
-<area shape="rect" id="node4" href="$zblat3_8f.html#aa3b6f173885a4f541795864085fadd4d" title="zmmch" alt="" coords="112,107,183,133"/>
-<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="231,107,277,133"/>
-</map>

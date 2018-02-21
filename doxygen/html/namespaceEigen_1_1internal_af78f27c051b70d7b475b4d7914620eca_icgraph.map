@@ -1,6 +1,0 @@
-<map id="Eigen::internal::fftw_cast" name="Eigen::internal::fftw_cast">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1fftw__impl.html#a05501269081c686ab80e5c8c5bcab72f" title="Eigen::internal::fftw\l_impl::fwd" alt="" coords="231,5,373,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1fftw__impl.html#a671245ef0355ec65de96dcdef10bf669" title="Eigen::internal::fftw\l_impl::fwd2" alt="" coords="231,71,373,112"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1fftw__impl.html#a76148ef976cee611506b6f30147eb427" title="Eigen::internal::fftw\l_impl::inv" alt="" coords="231,136,373,177"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1fftw__impl.html#a774406207808bedb1dcce992a446ffdd" title="Eigen::internal::fftw\l_impl::inv2" alt="" coords="231,201,373,243"/>
-</map>

@@ -1,7 +1,4 @@
 <map id="Hamiltonianmatrix::getBlock" name="Hamiltonianmatrix::getBlock">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html#adab34202f9694f1085b78850ea3dcb44" title="Eigen::SparseMatrixBase\l::adjoint" alt="" coords="201,5,383,47"/>
-<area shape="rect" id="node3" href="$classHamiltonianmatrix.html#abee2f1bfc2b5239e366a59d1f96ba03e" title="Hamiltonianmatrix::\lHamiltonianmatrix" alt="" coords="218,71,366,112"/>
-<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="218,136,366,177"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html#acc35051d698e3973f1de5b9b78dbe345" title="Eigen::SparseMatrix\l::setFromTriplets" alt="" coords="217,201,367,243"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="431,136,580,177"/>
+<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#abee2f1bfc2b5239e366a59d1f96ba03e" title="Hamiltonianmatrix::\lHamiltonianmatrix" alt="" coords="201,5,349,47"/>
+<area shape="rect" id="node3" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="201,71,349,112"/>
 </map>

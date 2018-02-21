@@ -1,9 +1,0 @@
-<map id="Trackball::setCamera" name="Trackball::setCamera">
-<area shape="rect" id="node2" href="$classTrackball.html#a03355a08684ac21f9cff48454b240cab" title="Trackball::mapToSphere" alt="" coords="208,81,380,108"/>
-<area shape="rect" id="node6" href="$classTrackball.html#a25a5be033630b6ed3209ff6388887b1a" title="Trackball::track" alt="" coords="236,157,352,184"/>
-<area shape="rect" id="node3" href="$level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b" title="int" alt="" coords="435,5,473,32"/>
-<area shape="rect" id="node4" href="$ArrayCwiseUnaryOps_8h.html#a9cfb0ea58bd813510a9e2db18a5e49f0" title="sin" alt="" coords="434,56,474,83"/>
-<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="431,107,477,133"/>
-<area shape="rect" id="node7" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="431,157,477,184"/>
-<area shape="rect" id="node8" href="$ArrayCwiseUnaryOps_8h.html#a4ae93c48c742ccd51e0ec59fa85b49bd" title="acos" alt="" coords="428,208,480,235"/>
-</map>

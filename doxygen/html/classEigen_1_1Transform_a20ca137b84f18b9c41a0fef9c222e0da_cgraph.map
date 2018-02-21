@@ -1,5 +1,0 @@
-<map id="Eigen::Transform::inverse" name="Eigen::Transform::inverse">
-<area shape="rect" id="node2" href="$classEigen_1_1Transform.html#a18580c6c151bac89f03818164dd19632" title="Eigen::Transform::makeAffine" alt="" coords="236,5,444,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Transform.html#aec8168000a88a807130d41020af98d47" title="Eigen::Transform::matrix" alt="" coords="251,56,429,83"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1projective__transform__inverse.html#adf4ddcf803974e309b1e280c19da56c1" title="Eigen::internal::projective\l_transform_inverse::run" alt="" coords="249,107,431,149"/>
-</map>

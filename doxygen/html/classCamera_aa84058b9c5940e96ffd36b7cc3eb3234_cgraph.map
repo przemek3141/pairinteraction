@@ -1,6 +1,0 @@
-<map id="Camera::zoom" name="Camera::zoom">
-<area shape="rect" id="node2" href="$classCamera.html#aae4b943f1e8d26086029abdd6c13b148" title="Camera::direction" alt="" coords="178,5,314,32"/>
-<area shape="rect" id="node4" href="$classCamera.html#ac5e39b63430bbcdc52d42e7c69374efe" title="Camera::position" alt="" coords="181,56,311,83"/>
-<area shape="rect" id="node5" href="$classCamera.html#a96515ee1c016f5e94a80c4808a6111b1" title="Camera::setPosition" alt="" coords="171,107,321,133"/>
-<area shape="rect" id="node3" href="$classCamera.html#a87dcab091782b992386fc0fa30d77f46" title="Camera::orientation" alt="" coords="369,5,520,32"/>
-</map>

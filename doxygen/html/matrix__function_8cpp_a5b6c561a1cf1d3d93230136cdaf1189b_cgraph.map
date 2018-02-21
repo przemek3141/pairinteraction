@@ -1,7 +1,0 @@
-<map id="testMatrix" name="testMatrix">
-<area shape="rect" id="node2" href="$matrix__function_8cpp.html#ac74b8e486e1108cb63a39530afdfc627" title="testGonioFunctions" alt="" coords="155,5,299,32"/>
-<area shape="rect" id="node4" href="$matrix__function_8cpp.html#a310232bdb13746bbc5c55d8d751b0550" title="testHyperbolicFunctions" alt="" coords="140,56,315,83"/>
-<area shape="rect" id="node5" href="$matrix__function_8cpp.html#a333dbcca94bb50609dc41f8e7b0a9993" title="testMatrixExponential" alt="" coords="147,107,307,133"/>
-<area shape="rect" id="node6" href="$matrix__function_8cpp.html#a1c946ac9bc8a30e0fa3f9721764ea1d7" title="testMatrixLogarithm" alt="" coords="152,157,303,184"/>
-<area shape="rect" id="node3" href="$ArrayCwiseUnaryOps_8h.html#a2500b5d4f377a445cb98d3f1facfa1cf" title="exp" alt="" coords="363,31,408,57"/>
-</map>

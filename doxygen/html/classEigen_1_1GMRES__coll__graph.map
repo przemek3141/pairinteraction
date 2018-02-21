@@ -1,8 +1,0 @@
-<map id="Eigen::GMRES&lt; _MatrixType, _Preconditioner &gt;" name="Eigen::GMRES&lt; _MatrixType, _Preconditioner &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1IterativeSolverBase.html" title="Eigen::IterativeSolverBase\l\&lt; GMRES\&lt; _MatrixType, _Preconditioner \&gt; \&gt;" alt="" coords="740,234,1049,275"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseSolverBase.html" title="Eigen::SparseSolverBase\l\&lt; GMRES\&lt; _MatrixType,\l _Preconditioner \&gt; \&gt;" alt="" coords="371,5,553,61"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,20,208,47"/>
-<area shape="rect" id="node5" href="$classbool.html" title="bool" alt="" coords="82,85,131,112"/>
-<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1traits_3_01GMRES_3_01__MatrixType_00_01__Preconditioner_01_4_01_4.html" title="Eigen::internal::traits\l\&lt; GMRES\&lt; _MatrixType,\l _Preconditioner \&gt; \&gt;" alt="" coords="374,163,550,219"/>
-<area shape="rect" id="node9" href="$classEigen_1_1internal_1_1generic__matrix__wrapper.html" title="Eigen::internal::generic\l_matrix_wrapper\&lt; MatrixType \&gt;" alt="" coords="349,359,575,401"/>
-</map>

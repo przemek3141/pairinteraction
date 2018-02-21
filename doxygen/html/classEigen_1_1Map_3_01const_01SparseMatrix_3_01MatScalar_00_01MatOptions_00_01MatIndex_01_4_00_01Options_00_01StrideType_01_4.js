@@ -1,7 +1,0 @@
-var classEigen_1_1Map_3_01const_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01MatIndex_01_4_00_01Options_00_01StrideType_01_4 =
-[
-    [ "Base", "classEigen_1_1Map_3_01const_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01MatIndex_01_4_00_01Options_00_01StrideType_01_4.html#a4f77a5f03f27d99e8b23ab2cf2141c7a", null ],
-    [ "IsRowMajor", "classEigen_1_1Map_3_01const_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01MatIndex_01_4_00_01Options_00_01StrideType_01_4.html#a6a75b739cf4dc3bad6667c579027ab66a0afead0dd18165461fc7a09012f1e7bc", null ],
-    [ "Map", "classEigen_1_1Map_3_01const_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01MatIndex_01_4_00_01Options_00_01StrideType_01_4.html#a8075e61ba51d1aa5858b0163e80eca8b", null ],
-    [ "~Map", "classEigen_1_1Map_3_01const_01SparseMatrix_3_01MatScalar_00_01MatOptions_00_01MatIndex_01_4_00_01Options_00_01StrideType_01_4.html#aa4b0d0dd528fef0e1f8ce8c043d42b21", null ]
-];

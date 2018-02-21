@@ -8,21 +8,21 @@
  viewBox="0.00 0.00 284.00 28.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 24)">
 <title>SystemOne::setBfield</title>
-<!-- Node55 -->
-<g id="node1" class="node"><title>Node55</title>
+<!-- Node43 -->
+<g id="node1" class="node"><title>Node43</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 120,-19.5 120,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="60" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SystemOne::setBfield</text>
 </g>
-<!-- Node56 -->
-<g id="node2" class="node"><title>Node56</title>
+<!-- Node44 -->
+<g id="node2" class="node"><title>Node44</title>
 <g id="a_node2"><a xlink:href="classSystemOne.html#aa0beafb6fce37f60c13c330abc241069" target="_top" xlink:title="SystemOne::setBfield">
 <polygon fill="none" stroke="black" points="156,-0.5 156,-19.5 276,-19.5 276,-0.5 156,-0.5"/>
 <text text-anchor="middle" x="216" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">SystemOne::setBfield</text>
 </a>
 </g>
 </g>
-<!-- Node55&#45;&gt;Node56 -->
-<g id="edge1" class="edge"><title>Node55&#45;&gt;Node56</title>
+<!-- Node43&#45;&gt;Node44 -->
+<g id="edge1" class="edge"><title>Node43&#45;&gt;Node44</title>
 <path fill="none" stroke="midnightblue" d="M130.369,-10C138.862,-10 147.48,-10 155.804,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="130.1,-6.5001 120.1,-10 130.1,-13.5001 130.1,-6.5001"/>
 </g>

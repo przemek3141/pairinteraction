@@ -1,5 +1,0 @@
-<map id="Eigen::DenseBase::col" name="Eigen::DenseBase::col">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseLU.html#aca57d33f0acf9d0d4fcf85c715b73cc6" title="Eigen::SparseLU::_solve_impl" alt="" coords="217,5,425,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1UmfPackLU.html#a83a5aa7038e4920b79fefff82f49f610" title="Eigen::UmfPackLU::\l_solve_impl" alt="" coords="249,57,394,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1UmfPackLU.html#a82497bbf75d995a6d4ae7e9191f79525" title="Eigen::UmfPackLU::umfpack\lReportStatus" alt="" coords="473,57,673,98"/>
-</map>

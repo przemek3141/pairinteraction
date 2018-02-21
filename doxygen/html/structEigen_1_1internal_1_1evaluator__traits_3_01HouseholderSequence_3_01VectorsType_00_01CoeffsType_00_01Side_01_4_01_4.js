@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1evaluator__traits_3_01HouseholderSequence_3_01VectorsType_00_01CoeffsType_00_01Side_01_4_01_4 =
-[
-    [ "Shape", "structEigen_1_1internal_1_1evaluator__traits_3_01HouseholderSequence_3_01VectorsType_00_01CoeffsType_00_01Side_01_4_01_4.html#abbf16f651753ca94ef4b580ed6589381", null ]
-];

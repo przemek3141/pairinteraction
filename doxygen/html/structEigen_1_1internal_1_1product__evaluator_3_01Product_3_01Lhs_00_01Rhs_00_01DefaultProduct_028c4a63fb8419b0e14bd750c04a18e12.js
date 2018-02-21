@@ -1,8 +1,0 @@
-var structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12 =
-[
-    [ "Base", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12.html#a44afddb651876d7c3e52a7e77fcc97fd", null ],
-    [ "BaseProduct", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12.html#a78be811c75efb34e56c943c631af9a50", null ],
-    [ "XprType", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12.html#a815a2244975b9299915a773b7ccb3d74", null ],
-    [ "Flags", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12.html#af9eef7d4605c9e8d140b840f6d866cd1a6def48c14dd9fd3c8397849fd43d73e7", null ],
-    [ "product_evaluator", "structEigen_1_1internal_1_1product__evaluator_3_01Product_3_01Lhs_00_01Rhs_00_01DefaultProduct_028c4a63fb8419b0e14bd750c04a18e12.html#a49e30ab3bd6c6cecebdbd4e97f24a824", null ]
-];

@@ -1,6 +1,0 @@
-var structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01Tensor7493357084df582feecec0683604b2e5 =
-[
-    [ "FunctorExtractor", "structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01Tensor7493357084df582feecec0683604b2e5.html#ac19ffcdf446d1f0a066681ebb43643fa", null ],
-    [ "lhsExpr", "structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01Tensor7493357084df582feecec0683604b2e5.html#a15c606dedb7b0f3bf453c580087a6a12", null ],
-    [ "rhsExpr", "structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01Tensor7493357084df582feecec0683604b2e5.html#a45e10335184533ebc7d3a7bd20c593a3", null ]
-];

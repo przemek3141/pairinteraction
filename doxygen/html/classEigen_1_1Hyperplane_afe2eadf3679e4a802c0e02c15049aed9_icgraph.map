@@ -1,9 +1,0 @@
-<map id="Eigen::Hyperplane::offset" name="Eigen::Hyperplane::offset">
-<area shape="rect" id="node2" href="$classEigen_1_1Hyperplane.html#a4ffbf274b428ed80ccb1041db753df74" title="Eigen::Hyperplane::\lHyperplane" alt="" coords="215,5,361,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1ParametrizedLine.html#ad476025bb806ab3c8fd14d2381139dbc" title="Eigen::ParametrizedLine\l::intersectionParameter" alt="" coords="200,71,376,112"/>
-<area shape="rect" id="node4" href="$classEigen_1_1ParametrizedLine.html#a6b4a0e4a98ea57f3a2b2d5669d24e909" title="Eigen::ParametrizedLine\l::ParametrizedLine" alt="" coords="200,136,376,177"/>
-<area shape="rect" id="node5" href="$classEigen_1_1Hyperplane.html#a928f4f8a7c2eb339fe8c931824d0a8c8" title="Eigen::Hyperplane::\lsignedDistance" alt="" coords="215,201,361,243"/>
-<area shape="rect" id="node8" href="$classEigen_1_1Hyperplane.html#a1705f330bad337dc4a62814b5f9c4af1" title="Eigen::Hyperplane::\ltransform" alt="" coords="215,267,361,308"/>
-<area shape="rect" id="node6" href="$classEigen_1_1Hyperplane.html#a95047840f0caed0bcb4f3ead9215d7b8" title="Eigen::Hyperplane::\labsDistance" alt="" coords="424,169,571,211"/>
-<area shape="rect" id="node7" href="$classEigen_1_1Hyperplane.html#af74c608806686a6bd2a96a8d7e5e0247" title="Eigen::Hyperplane::\lprojection" alt="" coords="424,235,571,276"/>
-</map>

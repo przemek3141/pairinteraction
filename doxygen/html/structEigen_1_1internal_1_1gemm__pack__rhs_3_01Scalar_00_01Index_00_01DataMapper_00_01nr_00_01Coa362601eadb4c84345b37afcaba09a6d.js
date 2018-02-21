@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1gemm__pack__rhs_3_01Scalar_00_01Index_00_01DataMapper_00_01nr_00_01Coa362601eadb4c84345b37afcaba09a6d =
-[
-    [ "LinearMapper", "structEigen_1_1internal_1_1gemm__pack__rhs_3_01Scalar_00_01Index_00_01DataMapper_00_01nr_00_01Coa362601eadb4c84345b37afcaba09a6d.html#a2b1b83935a24f8fb9eeefe131ea9a670", null ],
-    [ "Packet", "structEigen_1_1internal_1_1gemm__pack__rhs_3_01Scalar_00_01Index_00_01DataMapper_00_01nr_00_01Coa362601eadb4c84345b37afcaba09a6d.html#aadc963b20fd13acc2dc5831c2fc40a97", null ],
-    [ "PacketSize", "structEigen_1_1internal_1_1gemm__pack__rhs_3_01Scalar_00_01Index_00_01DataMapper_00_01nr_00_01Coa362601eadb4c84345b37afcaba09a6d.html#a6ea43c94511b4da8b0b5ceb4c410d46bafddaf3f1db8929a4dc244afe8ee9d4b0", null ],
-    [ "operator()", "structEigen_1_1internal_1_1gemm__pack__rhs_3_01Scalar_00_01Index_00_01DataMapper_00_01nr_00_01Coa362601eadb4c84345b37afcaba09a6d.html#adecc1d0ef7d3a37b141ab64bd56feaf0", null ]
-];

@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__log1p__op_3_01Scalar_01_4_01_4 =
-[
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__log1p__op_3_01Scalar_01_4_01_4.html#aa32f48dd584b54fdfdb177d13205ed67a0f3c9610be4cc591718bb14434f8eb77", null ],
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__log1p__op_3_01Scalar_01_4_01_4.html#aa32f48dd584b54fdfdb177d13205ed67a851489354614028f7dd1fd1cbd0dd9be", null ]
-];

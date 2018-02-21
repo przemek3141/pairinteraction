@@ -1,5 +1,0 @@
-<map id="Eigen::SparseVector::swap" name="Eigen::SparseVector::swap">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrix.html#a4e5f706cfae14d2eaec1ea1e234905f1" title="Eigen::SparseMatrix\l::outerSize" alt="" coords="204,5,353,47"/>
-<area shape="rect" id="node3" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="237,71,320,98"/>
-<area shape="rect" id="node4" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="401,71,493,98"/>
-</map>

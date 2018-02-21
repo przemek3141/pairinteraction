@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1general__matrix__matrix__triangular__product_3_01Index_00_01LhsScalarb2f96120363ab8ea61cc36042d42321c =
-[
-    [ "ResScalar", "structEigen_1_1internal_1_1general__matrix__matrix__triangular__product_3_01Index_00_01LhsScalarb2f96120363ab8ea61cc36042d42321c.html#adbc87d60ab316ca17ebc55ab8f3d3b0c", null ]
-];

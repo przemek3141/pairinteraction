@@ -1,6 +1,0 @@
-<map id="Eigen::internal::resize_if_allowed" name="Eigen::internal::resize_if_allowed">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#acad2d3161008ad15e0d086b71783de25" title="Eigen::internal::call\l_dense_assignment_loop" alt="" coords="229,43,413,84"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01Sparse2Dense_01_4.html#ab9b166c76885ff13090942424e88db79" title="Eigen::internal::Assignment\l\&lt; DstXprType, SrcXprType,\l Functor, Sparse2Dense \&gt;::run" alt="" coords="212,109,431,165"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#ac2c8860de31cf24c929f08fb6629eea2" title="Eigen::internal::call\l_dense_assignment_loop" alt="" coords="515,5,699,47"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1Assignment_3_01DstXprType_00_01SrcXprType_00_01Functor_00_01Dense2Dense_00_01Weak_01_4.html#a23b7a4281a249055ccd7f123144a3a84" title="Eigen::internal::Assignment\l\&lt; DstXprType, SrcXprType,\l Functor, Dense2Dense, Weak \&gt;::run" alt="" coords="479,71,735,127"/>
-</map>

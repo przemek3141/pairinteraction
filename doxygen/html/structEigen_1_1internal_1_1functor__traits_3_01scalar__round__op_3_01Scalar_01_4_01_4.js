@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__round__op_3_01Scalar_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__round__op_3_01Scalar_01_4_01_4.html#af1565cba823ebf18c1f3a143ba25bf5baaf60b8a3ccfdf3f8b130beac76e774ae", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__round__op_3_01Scalar_01_4_01_4.html#af1565cba823ebf18c1f3a143ba25bf5ba9b7ee212917d495eb2f788d4befbe3ad", null ]
-];

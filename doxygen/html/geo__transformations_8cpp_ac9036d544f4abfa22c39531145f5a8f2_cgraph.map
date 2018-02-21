@@ -1,9 +1,0 @@
-<map id="transform_associativity2" name="transform_associativity2">
-<area shape="rect" id="node2" href="$geo__homogeneous_8cpp.html#aff5e99c31c243023ef64d37c97d94003" title="homogeneous" alt="" coords="273,79,388,105"/>
-<area shape="rect" id="node8" href="$geo__transformations_8cpp.html#aa4965a652bc16b2863bfd75394c150ec" title="transform_associativity_left" alt="" coords="232,129,429,156"/>
-<area shape="rect" id="node3" href="$sparse__permutations_8cpp.html#ad87822100feba90851ac71ba08fce30b" title="eval" alt="" coords="553,5,601,32"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html#af0e576a0e1aefc9ee346de44cc352ba3" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setRandom" alt="" coords="477,57,677,127"/>
-<area shape="rect" id="node7" href="$lapack_2cholesky_8cpp.html#accba35e157cff07f839ca4634f76c472" title="triangularView\&lt; Lower \&gt;" alt="" coords="488,152,667,179"/>
-<area shape="rect" id="node5" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="743,53,803,80"/>
-<area shape="rect" id="node6" href="$HouseholderQR__householderQ_8cpp.html#a7bddadaf72fd7356fb04dd15cf547bc2" title="setRandom" alt="" coords="725,104,820,131"/>
-</map>

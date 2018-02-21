@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1eval_3_01TensorContractionOp_3_01Dimensions_00_01LhsXprType_00_01RhsXeeca136d0e57e2ff46bb06aa09436c6b =
-[
-    [ "type", "structEigen_1_1internal_1_1eval_3_01TensorContractionOp_3_01Dimensions_00_01LhsXprType_00_01RhsXeeca136d0e57e2ff46bb06aa09436c6b.html#a97c99a8e8d4ac8fd84e5ef777a0b3c89", null ]
-];

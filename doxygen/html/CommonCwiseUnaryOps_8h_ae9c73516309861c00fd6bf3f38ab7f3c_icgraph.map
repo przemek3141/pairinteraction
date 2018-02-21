@@ -1,6 +1,0 @@
-<map id="cast" name="cast">
-<area shape="rect" id="node2" href="$mixingtypes_8cpp.html#a937af3ff3178e01576af7e1d3449ab8b" title="mixingtypes" alt="" coords="159,5,257,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1HouseholderSequence.html#ac57e5a22f1646e04a4f8b4cba3825928" title="Computes the product of a Householder sequence with a matrix. " alt="" coords="103,57,313,98"/>
-<area shape="rect" id="node4" href="$namespaceEigen.html#a634bfd5e206a2e77f799b4c3956ea49e" title="Computes the product of a matrix with a Householder sequence. " alt="" coords="145,123,271,149"/>
-<area shape="rect" id="node5" href="$polynomialsolver_8cpp.html#aa31392b2b1866f21188da5a672c9b9ba" title="polynomialsolver" alt="" coords="143,173,273,200"/>
-</map>

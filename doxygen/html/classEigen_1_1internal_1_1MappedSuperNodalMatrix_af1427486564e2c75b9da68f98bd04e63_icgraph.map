@@ -1,7 +1,0 @@
-<map id="Eigen::internal::MappedSuperNodalMatrix::setInfos" name="Eigen::internal::MappedSuperNodalMatrix::setInfos">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseLU.html#a39858b0e72f2659d596364e252b34cbc" title="Eigen::SparseLU::factorize" alt="" coords="293,31,482,57"/>
-<area shape="rect" id="node6" href="$classEigen_1_1internal_1_1MappedSuperNodalMatrix.html#a3bd8587a1c75dc90e5403322ee85bd7f" title="Eigen::internal::MappedSuper\lNodalMatrix\&lt; Scalar, StorageIndex\l \&gt;::MappedSuperNodalMatrix" alt="" coords="264,81,511,137"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseLU.html#a96a8dcb02015ab9be5777d4ba9173266" title="Eigen::SparseLU::compute" alt="" coords="567,5,757,32"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseLU.html#a9f8d0e64ae5bb5568ca091a0dbc8c9dd" title="Eigen::SparseLU::~SparseLU" alt="" coords="559,56,765,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseLU.html#ac1678e57af46b42561cea4f149861164" title="Eigen::SparseLU::SparseLU" alt="" coords="813,5,1008,32"/>
-</map>

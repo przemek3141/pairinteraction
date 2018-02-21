@@ -1,5 +1,0 @@
-<map id="Eigen::InnerIterator&lt; XprType &gt;" name="Eigen::InnerIterator&lt; XprType &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; XprType \&gt;" alt="" coords="237,5,419,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; XprType \&gt;" alt="" coords="5,5,173,47"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1inner__iterator__selector.html" title="Eigen::internal::inner\l_iterator_selector\&lt; XprType,\l typename internal::evaluator\l_traits\&lt; XprType \&gt;::Kind \&gt;" alt="" coords="223,71,433,141"/>
-</map>

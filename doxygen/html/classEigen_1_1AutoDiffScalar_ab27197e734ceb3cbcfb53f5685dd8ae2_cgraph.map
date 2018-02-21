@@ -1,6 +1,0 @@
-<map id="Eigen::AutoDiffScalar::operator&#45;" name="Eigen::AutoDiffScalar::operator&#45;">
-<area shape="rect" id="node2" href="$classEigen_1_1AutoDiffScalar.html#a751db20e34259b41b88a6358ef20e857" title="Eigen::AutoDiffScalar\l::derivatives" alt="" coords="210,5,366,47"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#ab388be0e6798d521da02cb9dd5ab9f5f" title="Eigen::internal::make\l_coherent" alt="" coords="209,71,367,112"/>
-<area shape="rect" id="node5" href="$classEigen_1_1AutoDiffScalar.html#a3fb25233941b46affc60c9569829656b" title="Eigen::AutoDiffScalar\l::value" alt="" coords="210,136,366,177"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1make__coherent__impl.html#a1ab9909f24a2b569359f3baa6a38d1df" title="Eigen::internal::make\l_coherent_impl::run" alt="" coords="415,71,572,112"/>
-</map>

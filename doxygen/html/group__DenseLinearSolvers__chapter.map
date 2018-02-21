@@ -1,8 +1,0 @@
-<map id="Dense linear problems and decompositions" name="Dense linear problems and decompositions">
-<area shape="rect" id="node1" href="$group__InplaceDecomposition.html" title="InplaceDecomposition" alt="" coords="261,5,423,32"/>
-<area shape="rect" id="node2" href="$group__LeastSquares.html" title="LeastSquares" alt="" coords="287,56,397,83"/>
-<area shape="rect" id="node3" href="$group__DenseDecompositionBenchmark.html" title="DenseDecompositionBenchmark" alt="" coords="226,107,458,133"/>
-<area shape="rect" id="node4" href="$group__DenseLinearSolvers__Reference.html" title="Reference" alt="" coords="299,157,385,184"/>
-<area shape="rect" id="node6" href="$group__TopicLinearAlgebraDecompositions.html" title="TopicLinearAlgebraDecompositions" alt="" coords="220,208,464,235"/>
-<area shape="rect" id="node7" href="$group__TutorialLinearAlgebra.html" title="TutorialLinearAlgebra" alt="" coords="265,259,419,285"/>
-</map>

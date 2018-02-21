@@ -1,5 +1,0 @@
-<map id="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, Rhs, ProductKind &gt;, ProductTag, DiagonalShape, DenseShape &gt;" name="Eigen::internal::product_evaluator&lt; Product&lt; Lhs, Rhs, ProductKind &gt;, ProductTag, DiagonalShape, DenseShape &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1diagonal__product__evaluator__base.html" title="Eigen::internal::diagonal\l_product_evaluator_base\l\&lt; Rhs, Lhs::DiagonalVectorType,\l Product\&lt; Lhs, Rhs, LazyProduct\l \&gt;, OnTheLeft \&gt;" alt="" coords="500,5,729,91"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; Product\&lt; Lhs, Rhs,\l LazyProduct \&gt; \&gt;" alt="" coords="256,20,452,76"/>
-<area shape="rect" id="node4" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,35,208,61"/>
-</map>

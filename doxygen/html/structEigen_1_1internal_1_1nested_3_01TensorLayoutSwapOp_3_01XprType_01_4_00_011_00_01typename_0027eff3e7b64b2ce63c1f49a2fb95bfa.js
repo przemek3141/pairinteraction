@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01TensorLayoutSwapOp_3_01XprType_01_4_00_011_00_01typename_0027eff3e7b64b2ce63c1f49a2fb95bfa =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01TensorLayoutSwapOp_3_01XprType_01_4_00_011_00_01typename_0027eff3e7b64b2ce63c1f49a2fb95bfa.html#ac2324daebe3f12e8c933608619be9c5d", null ]
-];

@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1TensorSycl_1_1internal_1_1CategoryCount.html" title="Eigen::TensorSycl::\linternal::CategoryCount\l\&lt; LHSExpr, RHSExpr \&gt;" alt="" coords="5,13,180,69"/>
-<area shape="rect" id="node2" href="$structEigen_1_1TensorSycl_1_1internal_1_1LeafCount_3_01const_01TensorAssignOp_3_01LHSExpr_00_01RHSExpr_01_4_01_4.html" title="specialisation of the LeafCount struct when the node type is const TensorAssignOp ..." alt="" coords="228,5,412,76"/>
-<area shape="rect" id="node3" href="$structEigen_1_1TensorSycl_1_1internal_1_1LeafCount_3_01TensorAssignOp_3_01LHSExpr_00_01RHSExpr_01_4_01_4.html" title="Eigen::TensorSycl::\linternal::LeafCount\l\&lt; TensorAssignOp\&lt; LHSExpr,\l RHSExpr \&gt; \&gt;" alt="" coords="460,5,671,76"/>
-</map>

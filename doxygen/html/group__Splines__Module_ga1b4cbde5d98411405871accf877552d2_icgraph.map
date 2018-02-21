@@ -1,7 +1,0 @@
-<map id="Eigen::ChordLengths" name="Eigen::ChordLengths">
-<area shape="rect" id="node2" href="$splines_8cpp.html#a77f0fc9d98ed14abf8a32e543f74e152" title="check_global_interpolation2d" alt="" coords="453,36,660,63"/>
-<area shape="rect" id="node4" href="$splines_8cpp.html#a6cf977c6acde0519c1f7f5e7f428d0aa" title="check_global_interpolation\l_with_derivatives2d" alt="" coords="461,88,652,129"/>
-<area shape="rect" id="node5" href="$structEigen_1_1SplineFitting.html#adc80b6f0dd0dbbea28130fb254626874" title="Fits an interpolating Spline to the given data points. " alt="" coords="235,29,378,70"/>
-<area shape="rect" id="node6" href="$structEigen_1_1SplineFitting.html#a7bd937fdcfa168dbdc27932886a4da9f" title="Fits an interpolating spline to the given data points and derivatives. " alt="" coords="208,146,405,188"/>
-<area shape="rect" id="node3" href="$splines_8cpp.html#a57b2505a0c99a367836411dc4e1546e2" title="test_splines" alt="" coords="708,66,807,92"/>
-</map>

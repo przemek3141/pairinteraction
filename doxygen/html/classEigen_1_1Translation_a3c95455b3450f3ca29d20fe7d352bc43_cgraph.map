@@ -1,7 +1,0 @@
-<map id="Eigen::Translation::operator*" name="Eigen::Translation::operator*">
-<area shape="rect" id="node2" href="$structEigen_1_1EigenBase.html#a324b16961a11d2ecfd2d1b7dd7946545" title="Eigen::EigenBase::derived" alt="" coords="195,5,382,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Transform.html#a535bd63d047c2a36585c3f9b62219a1e" title="Eigen::Transform::linear" alt="" coords="203,56,374,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Transform.html#aec8168000a88a807130d41020af98d47" title="Eigen::Transform::matrix" alt="" coords="200,107,377,133"/>
-<area shape="rect" id="node5" href="$classEigen_1_1PlainObjectBase.html#ac21ad5f989f320e46958b75ac8d9a1da" title="Eigen::PlainObjectBase\l::setZero" alt="" coords="205,158,373,199"/>
-<area shape="rect" id="node6" href="$classEigen_1_1Transform.html#afa93ba97d26912bb3d8777cbed102045" title="Eigen::Transform::translation" alt="" coords="187,224,391,251"/>
-</map>

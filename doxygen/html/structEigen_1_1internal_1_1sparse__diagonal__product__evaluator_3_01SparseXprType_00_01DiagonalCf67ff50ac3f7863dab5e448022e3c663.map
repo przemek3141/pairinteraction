@@ -1,6 +1,0 @@
-<map id="Eigen::internal::sparse_diagonal_product_evaluator&lt; SparseXprType, DiagonalCoeffType, SDP_AsScalarProduct &gt;" name="Eigen::internal::sparse_diagonal_product_evaluator&lt; SparseXprType, DiagonalCoeffType, SDP_AsScalarProduct &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; DiagonalCoeffType \&gt;" alt="" coords="291,5,472,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; DiagonalCoeffType \&gt;" alt="" coords="5,5,241,47"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; SparseXprType \&gt;" alt="" coords="291,71,472,112"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; SparseXprType \&gt;" alt="" coords="17,71,230,112"/>
-</map>

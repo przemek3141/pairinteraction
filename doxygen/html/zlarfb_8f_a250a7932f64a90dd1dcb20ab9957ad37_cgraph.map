@@ -1,6 +1,0 @@
-<map id="zlarfb" name="zlarfb">
-<area shape="rect" id="node2" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#ab61229c4b4616d23a30379a7926aad2e" title="zcopy" alt="" coords="117,5,175,32"/>
-<area shape="rect" id="node3" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#aecd3aa81b8c13b279f5430cc58f4aa4f" title="zgemm" alt="" coords="111,56,181,83"/>
-<area shape="rect" id="node4" href="$zlacgv_8f.html#ad2595ab7c6b89e1ff2e9d05542431719" title="ZLACGV " alt="" coords="115,107,177,133"/>
-<area shape="rect" id="node5" href="$bench_2btl_2libs_2BLAS_2blas_8h.html#a037038706a531d5f31b0f7584d9f47d9" title="ztrmm" alt="" coords="113,157,179,184"/>
-</map>

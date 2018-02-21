@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1product__type__selector_3_01Small_00_01Small_00_011_01_4 =
-[
-    [ "ret", "structEigen_1_1internal_1_1product__type__selector_3_01Small_00_01Small_00_011_01_4.html#a83659a4dfeaf144af4aae61d732504b5a84547e1d38b4ca8d45c0f263c5fe3e2d", null ]
-];

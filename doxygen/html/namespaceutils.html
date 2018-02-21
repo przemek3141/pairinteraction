@@ -108,10 +108,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4637fd751127afd70d2dbc1d9356a73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread-local static random engine.  <a href="#a4637fd751127afd70d2dbc1d9356a73f">More...</a><br /></td></tr>
 <tr class="separator:a4637fd751127afd70d2dbc1d9356a73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8f48fccbe0565c3be15777badb4f4a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ace8f48fccbe0565c3be15777badb4f4a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceutils.html#ace8f48fccbe0565c3be15777badb4f4a">randint</a> (<a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> <a class="el" href="tut__matrix__assignment__resizing_8cpp.html#a06f66ffb5ef9dbf95ea99789429851d3">a</a>, <a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> <a class="el" href="BiCGSTAB__step__by__step_8cpp.html#a9d82f3af1459c1efc910b77f3ccd3180">b</a>)</td></tr>
+<tr class="memitem:ace8f48fccbe0565c3be15777badb4f4a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceutils.html#ace8f48fccbe0565c3be15777badb4f4a">randint</a> (T a, T b)</td></tr>
 <tr class="memdesc:ace8f48fccbe0565c3be15777badb4f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random integer.  <a href="#ace8f48fccbe0565c3be15777badb4f4a">More...</a><br /></td></tr>
 <tr class="separator:ace8f48fccbe0565c3be15777badb4f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a573e0740cd287b0c1d138054b980cfca"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutils.html#a573e0740cd287b0c1d138054b980cfca">FNV64</a> (uint8_t *<a class="el" href="level1__cplx__impl_8h.html#a462761ca92ad97a9a705cb875828b0b8">s</a>, <a class="el" href="classsize__t.html">size_t</a> sz)</td></tr>
+<tr class="memitem:a573e0740cd287b0c1d138054b980cfca"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceutils.html#a573e0740cd287b0c1d138054b980cfca">FNV64</a> (uint8_t *s, <a class="el" href="classsize__t.html">size_t</a> sz)</td></tr>
 <tr class="separator:a573e0740cd287b0c1d138054b980cfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -151,8 +151,6 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="utils_8h_source.html#l00071">71</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
-<p class="reference">References <a class="el" href="BiCGSTAB__step__by__step_8cpp_source.html#l00009">i</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00421">Hamiltonianmatrix::hashBasis()</a>, and <a class="el" href="Hamiltonianmatrix_8cpp_source.html#l00415">Hamiltonianmatrix::hashEntries()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -177,15 +175,15 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a> utils::randint </td>
+          <td class="memname">T utils::randint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a>&#160;</td>
+          <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Tutorial__sparse__example_8cpp.html#af639fb96631ba0018f0b2259fc95edfb">T</a>&#160;</td>
+          <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -215,7 +213,7 @@ template&lt;typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="utils_8h_source.html#l00063">63</a> of file <a class="el" href="utils_8h_source.html">utils.h</a>.</p>
 
-<p class="reference">References <a class="el" href="Cwise__product_8cpp_source.html#l00001">a</a>, <a class="el" href="benchVecAdd_8cpp_source.html#l00017">b</a>, and <a class="el" href="utils_8h_source.html#l00043">randint_engine()</a>.</p>
+<p class="reference">References <a class="el" href="utils_8h_source.html#l00043">randint_engine()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -274,7 +272,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutils.html">utils</a></li>
-    <li class="footer">Generated on Wed Feb 21 2018 04:54:47 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 21 2018 22:29:43 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,4 +1,0 @@
-<map id="Eigen::internal::tensor_index_linearization_helper::run" name="Eigen::internal::tensor_index_linearization_helper::run">
-<area shape="rect" id="node2" href="$structEigen_1_1DSizes.html#ab782efe1803d83cca93eb7efb942f5b9" title="Eigen::DSizes\&lt; Index,\l NumDims \&gt;::IndexOfColMajor" alt="" coords="278,5,494,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1DSizes.html#af393d79554f9015bf9b20862b876db3d" title="Eigen::DSizes\&lt; Index,\l NumDims \&gt;::IndexOfRowMajor" alt="" coords="276,71,496,112"/>
-</map>

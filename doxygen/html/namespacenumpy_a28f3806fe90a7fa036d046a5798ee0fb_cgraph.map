@@ -1,8 +1,0 @@
-<map id="numpy::convert" name="numpy::convert">
-<area shape="rect" id="node2" href="$classEigen_1_1PlainObjectBase.html#a10b8b33b7587da564415561aa246f78f" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::cols" alt="" coords="175,5,375,76"/>
-<area shape="rect" id="node4" href="$classEigen_1_1PlainObjectBase.html#ac25699535374b1854cf8494e44ad31b2" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::data" alt="" coords="175,100,375,171"/>
-<area shape="rect" id="node6" href="$classEigen_1_1PlainObjectBase.html#aba7a925ce36c08ba2a08c90086f34718" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::rows" alt="" coords="175,195,375,265"/>
-<area shape="rect" id="node3" href="$classEigen_1_1DenseStorage.html#aef23781f9dc545e8b3f6b75d6c05d777" title="Eigen::DenseStorage\l::cols" alt="" coords="423,20,580,61"/>
-<area shape="rect" id="node5" href="$classEigen_1_1DenseStorage.html#a5b5984857e0f9091125bc75acc6f770f" title="Eigen::DenseStorage\l::data" alt="" coords="423,115,580,156"/>
-<area shape="rect" id="node7" href="$classEigen_1_1DenseStorage.html#a14b68f709f5fb46eeebb203266cc29b2" title="Eigen::DenseStorage\l::rows" alt="" coords="423,209,580,251"/>
-</map>

@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1nested_3_01const_01Tensor_3_01Scalar___00_01NumIndices___00_01Options___00_01IndexType___01_4_01_4 =
-[
-    [ "type", "structEigen_1_1internal_1_1nested_3_01const_01Tensor_3_01Scalar___00_01NumIndices___00_01Options___00_01IndexType___01_4_01_4.html#ab5db80a2669a7173a47c62c63979fa15", null ]
-];

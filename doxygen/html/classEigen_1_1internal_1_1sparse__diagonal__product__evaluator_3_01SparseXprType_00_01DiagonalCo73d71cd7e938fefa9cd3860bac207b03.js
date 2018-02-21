@@ -1,6 +1,0 @@
-var classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagonalCo73d71cd7e938fefa9cd3860bac207b03 =
-[
-    [ "InnerIterator", "classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagonalCo73d71cd7e938fefa9cd3860bac207b03.html#a0009088b546fdb4f261d1c91553f9824", null ],
-    [ "value", "classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagonalCo73d71cd7e938fefa9cd3860bac207b03.html#ac10ad8f6ab6f49094bae27a2fda77ce0", null ],
-    [ "m_coeff", "classEigen_1_1internal_1_1sparse__diagonal__product__evaluator_3_01SparseXprType_00_01DiagonalCo73d71cd7e938fefa9cd3860bac207b03.html#af65efa4ced355177b7f8d9f5c3ae75ae", null ]
-];

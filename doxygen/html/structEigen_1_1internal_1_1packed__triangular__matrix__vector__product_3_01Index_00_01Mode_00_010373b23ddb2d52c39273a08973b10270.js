@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1packed__triangular__matrix__vector__product_3_01Index_00_01Mode_00_010373b23ddb2d52c39273a08973b10270 =
-[
-    [ "ResScalar", "structEigen_1_1internal_1_1packed__triangular__matrix__vector__product_3_01Index_00_01Mode_00_010373b23ddb2d52c39273a08973b10270.html#a234b457120cea455a9f7c0981bb82343", null ],
-    [ "IsLower", "structEigen_1_1internal_1_1packed__triangular__matrix__vector__product_3_01Index_00_01Mode_00_010373b23ddb2d52c39273a08973b10270.html#acd0dd480705e2e7d1903b897e2d8e3cfa644066e11dc9d77730018a50fdfb8853", null ],
-    [ "HasUnitDiag", "structEigen_1_1internal_1_1packed__triangular__matrix__vector__product_3_01Index_00_01Mode_00_010373b23ddb2d52c39273a08973b10270.html#acd0dd480705e2e7d1903b897e2d8e3cfa5c860f353ac950252700b03c5ba0cd4b", null ],
-    [ "HasZeroDiag", "structEigen_1_1internal_1_1packed__triangular__matrix__vector__product_3_01Index_00_01Mode_00_010373b23ddb2d52c39273a08973b10270.html#acd0dd480705e2e7d1903b897e2d8e3cfa82d7d12d9d559fa3a3a1699daaad58a3", null ]
-];

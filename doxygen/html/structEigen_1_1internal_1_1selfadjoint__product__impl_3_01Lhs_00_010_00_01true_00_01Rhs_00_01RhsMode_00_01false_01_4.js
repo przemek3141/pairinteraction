@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1selfadjoint__product__impl_3_01Lhs_00_010_00_01true_00_01Rhs_00_01RhsMode_00_01false_01_4 =
-[
-    [ "Scalar", "structEigen_1_1internal_1_1selfadjoint__product__impl_3_01Lhs_00_010_00_01true_00_01Rhs_00_01RhsMode_00_01false_01_4.html#a892de9df7cc9490ebe251092ae68445c", null ],
-    [ "RhsUpLo", "structEigen_1_1internal_1_1selfadjoint__product__impl_3_01Lhs_00_010_00_01true_00_01Rhs_00_01RhsMode_00_01false_01_4.html#a68bd26bda8d891451f23906f7f62ada5a3219d42aa33d013b22e85bbd931f3bbe", null ]
-];

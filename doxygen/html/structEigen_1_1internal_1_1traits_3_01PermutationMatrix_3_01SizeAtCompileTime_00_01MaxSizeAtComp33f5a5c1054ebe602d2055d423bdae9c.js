@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1traits_3_01PermutationMatrix_3_01SizeAtCompileTime_00_01MaxSizeAtComp33f5a5c1054ebe602d2055d423bdae9c =
-[
-    [ "IndicesType", "structEigen_1_1internal_1_1traits_3_01PermutationMatrix_3_01SizeAtCompileTime_00_01MaxSizeAtComp33f5a5c1054ebe602d2055d423bdae9c.html#ae1a4a00b2b672bb90f5fa2865a685089", null ],
-    [ "Scalar", "structEigen_1_1internal_1_1traits_3_01PermutationMatrix_3_01SizeAtCompileTime_00_01MaxSizeAtComp33f5a5c1054ebe602d2055d423bdae9c.html#aed1bb3143b5cb628201bd7dab896a797", null ],
-    [ "StorageIndex", "structEigen_1_1internal_1_1traits_3_01PermutationMatrix_3_01SizeAtCompileTime_00_01MaxSizeAtComp33f5a5c1054ebe602d2055d423bdae9c.html#a3b0de4f65dbfa61abb07e006b2961804", null ],
-    [ "StorageKind", "structEigen_1_1internal_1_1traits_3_01PermutationMatrix_3_01SizeAtCompileTime_00_01MaxSizeAtComp33f5a5c1054ebe602d2055d423bdae9c.html#aacb0bfda5e0099c12ba651125823f7ce", null ]
-];

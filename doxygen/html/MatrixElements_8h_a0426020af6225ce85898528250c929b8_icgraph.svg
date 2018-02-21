@@ -48,84 +48,84 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 552;
 var viewHeight = 230;
-var sectionId = 'dynsection-6';
+var sectionId = 'dynsection-3';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>selectionRulesMultipole</title>
-<!-- Node16 -->
-<g id="node1" class="node"><title>Node16</title>
+<!-- Node10 -->
+<g id="node1" class="node"><title>Node10</title>
 <polygon fill="#bfbfbf" stroke="black" points="5.68434e-14,-107 5.68434e-14,-126 127,-126 127,-107 5.68434e-14,-107"/>
 <text text-anchor="middle" x="63.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">selectionRulesMultipole</text>
 </g>
-<!-- Node17 -->
-<g id="node2" class="node"><title>Node17</title>
+<!-- Node11 -->
+<g id="node2" class="node"><title>Node11</title>
 <g id="a_node2"><a xlink:href="classHamiltonianOne.html#a9cb71dcb34ab9f0779c0bd66b758185e" target="_top" xlink:title="HamiltonianOne::build">
 <polygon fill="none" stroke="black" points="186,-202 186,-221 308,-221 308,-202 186,-202"/>
 <text text-anchor="middle" x="247" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::build</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
-<g id="edge1" class="edge"><title>Node16&#45;&gt;Node17</title>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge1" class="edge"><title>Node10&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M81.1888,-133.107C99.6423,-150.517 131.014,-177.398 163,-192.5 171.154,-196.35 180.135,-199.444 189.085,-201.923"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="83.5144,-130.487 73.8849,-126.069 78.6572,-135.528 83.5144,-130.487"/>
 </g>
-<!-- Node19 -->
-<g id="node4" class="node"><title>Node19</title>
+<!-- Node13 -->
+<g id="node4" class="node"><title>Node13</title>
 <g id="a_node4"><a xlink:href="classHamiltonianTwo.html#a6ca0a318f25170b69e571a07064a5afb" target="_top" xlink:title="HamiltonianTwo::calculate">
 <polygon fill="none" stroke="black" points="177,-164 177,-183 317,-183 317,-164 177,-164"/>
 <text text-anchor="middle" x="247" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::calculate</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node19 -->
-<g id="edge3" class="edge"><title>Node16&#45;&gt;Node19</title>
+<!-- Node10&#45;&gt;Node13 -->
+<g id="edge3" class="edge"><title>Node10&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M95.9077,-129.941C115.057,-137.802 140.162,-147.52 163,-154.5 174.451,-158 186.965,-161.187 198.723,-163.909"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="97.0579,-126.629 86.4804,-126.024 94.3719,-133.093 97.0579,-126.629"/>
 </g>
-<!-- Node21 -->
-<g id="node6" class="node"><title>Node21</title>
+<!-- Node15 -->
+<g id="node6" class="node"><title>Node15</title>
 <g id="a_node6"><a xlink:href="classMatrixElements.html#a5352b0d0dc75bb41105e40e02c271130" target="_top" xlink:title="MatrixElements::getRadial">
 <polygon fill="none" stroke="black" points="176.5,-126 176.5,-145 317.5,-145 317.5,-126 176.5,-126"/>
 <text text-anchor="middle" x="247" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::getRadial</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node21 -->
-<g id="edge5" class="edge"><title>Node16&#45;&gt;Node21</title>
+<!-- Node10&#45;&gt;Node15 -->
+<g id="edge5" class="edge"><title>Node10&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M137.415,-124.133C150.292,-125.481 163.667,-126.881 176.448,-128.219"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="137.526,-120.626 127.216,-123.065 136.797,-127.588 137.526,-120.626"/>
 </g>
-<!-- Node22 -->
-<g id="node7" class="node"><title>Node22</title>
+<!-- Node16 -->
+<g id="node7" class="node"><title>Node16</title>
 <g id="a_node7"><a xlink:href="classSystemTwo.html#a5cc89c42ab8066027b0c375b818c8333" target="_top" xlink:title="Method that allows base class to calculate the interaction /////. ">
 <polygon fill="none" stroke="black" points="164.5,-88 164.5,-107 329.5,-107 329.5,-88 164.5,-88"/>
 <text text-anchor="middle" x="247" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">SystemTwo::initializeInteraction</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node22 -->
-<g id="edge6" class="edge"><title>Node16&#45;&gt;Node22</title>
+<!-- Node10&#45;&gt;Node16 -->
+<g id="edge6" class="edge"><title>Node10&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M137.193,-108.89C146.139,-107.954 155.329,-106.992 164.396,-106.043"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="136.797,-105.412 127.216,-109.935 137.526,-112.374 136.797,-105.412"/>
 </g>
-<!-- Node23 -->
-<g id="node8" class="node"><title>Node23</title>
+<!-- Node17 -->
+<g id="node8" class="node"><title>Node17</title>
 <g id="a_node8"><a xlink:href="classSystemOne.html#abf6d26d44765fa787251956c128644a7" target="_top" xlink:title="Method that allows base class to calculate the interaction /////. ">
 <polygon fill="none" stroke="black" points="163,-50 163,-69 331,-69 331,-50 163,-50"/>
 <text text-anchor="middle" x="247" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">SystemOne::initializeInteraction</text>
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node23 -->
-<g id="edge7" class="edge"><title>Node16&#45;&gt;Node23</title>
+<!-- Node10&#45;&gt;Node17 -->
+<g id="edge7" class="edge"><title>Node10&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M95.9077,-103.059C115.057,-95.198 140.162,-85.48 163,-78.5 174.451,-75.0002 186.965,-71.813 198.723,-69.0909"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="94.3719,-99.907 86.4804,-106.976 97.0579,-106.371 94.3719,-99.907"/>
 </g>
-<!-- Node24 -->
-<g id="node9" class="node"><title>Node24</title>
+<!-- Node18 -->
+<g id="node9" class="node"><title>Node18</title>
 <g id="a_node9"><a xlink:href="classMatrixElements.html#adebeaf2c43204d0ed2f5d36b3ef9846b" target="_top" xlink:title="MatrixElements::precalculate\lDiamagnetism">
 <polygon fill="none" stroke="black" points="169.5,-0.5 169.5,-30.5 324.5,-30.5 324.5,-0.5 169.5,-0.5"/>
 <text text-anchor="start" x="177.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">MatrixElements::precalculate</text>
@@ -133,34 +133,34 @@ var sectionId = 'dynsection-6';
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node24 -->
-<g id="edge8" class="edge"><title>Node16&#45;&gt;Node24</title>
+<!-- Node10&#45;&gt;Node18 -->
+<g id="edge8" class="edge"><title>Node10&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M81.6927,-100.038C100.358,-82.9726 131.709,-56.5867 163,-40.5 170.361,-36.7156 178.391,-33.4033 186.461,-30.5351"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="79.2154,-97.5619 74.281,-106.938 83.9852,-102.685 79.2154,-97.5619"/>
 </g>
-<!-- Node18 -->
-<g id="node3" class="node"><title>Node18</title>
+<!-- Node12 -->
+<g id="node3" class="node"><title>Node12</title>
 <g id="a_node3"><a xlink:href="classHamiltonianOne.html#ad3ba2d70879a60c9f065b5a2545dfe36" target="_top" xlink:title="HamiltonianOne::HamiltonianOne">
 <polygon fill="none" stroke="black" points="367,-202 367,-221 544,-221 544,-202 367,-202"/>
 <text text-anchor="middle" x="455.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianOne::HamiltonianOne</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge2" class="edge"><title>Node17&#45;&gt;Node18</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge2" class="edge"><title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M318.089,-211.5C333.708,-211.5 350.46,-211.5 366.69,-211.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="318.006,-208 308.006,-211.5 318.006,-215 318.006,-208"/>
 </g>
-<!-- Node20 -->
-<g id="node5" class="node"><title>Node20</title>
+<!-- Node14 -->
+<g id="node5" class="node"><title>Node14</title>
 <g id="a_node5"><a xlink:href="classHamiltonianTwo.html#a8d51d632bd7862cf1e566f6faf9ccc8c" target="_top" xlink:title="HamiltonianTwo::HamiltonianTwo">
 <polygon fill="none" stroke="black" points="370,-164 370,-183 541,-183 541,-164 370,-164"/>
 <text text-anchor="middle" x="455.5" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00">HamiltonianTwo::HamiltonianTwo</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
-<g id="edge4" class="edge"><title>Node19&#45;&gt;Node20</title>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge4" class="edge"><title>Node13&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M327.083,-173.5C341.037,-173.5 355.615,-173.5 369.717,-173.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="327.049,-170 317.049,-173.5 327.049,-177 327.049,-170"/>
 </g>

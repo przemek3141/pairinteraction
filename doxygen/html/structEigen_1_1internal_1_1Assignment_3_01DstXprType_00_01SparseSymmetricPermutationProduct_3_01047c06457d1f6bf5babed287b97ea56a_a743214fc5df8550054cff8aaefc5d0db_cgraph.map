@@ -1,6 +1,0 @@
-<map id="Eigen::internal::Assignment&lt; DstXprType, SparseSymmetricPermutationProduct&lt; MatrixType, Mode &gt;, internal::assign_op&lt; Scalar, typename MatrixType::Scalar &gt;, Sparse2Sparse &gt;::run" name="Eigen::internal::Assignment&lt; DstXprType, SparseSymmetricPermutationProduct&lt; MatrixType, Mode &gt;, internal::assign_op&lt; Scalar, typename MatrixType::Scalar &gt;, Sparse2Sparse &gt;::run">
-<area shape="rect" id="node2" href="$classEigen_1_1PermutationMatrix.html#a2f1ab379207fcd1ceb33941e25cf50c2" title="Eigen::PermutationMatrix\l::indices" alt="" coords="402,5,585,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseSelfAdjointView.html#aae5005166b1bc1a4a35642b0c243a533" title="Eigen::SparseSelfAdjoint\lView::matrix" alt="" coords="404,71,583,112"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseSymmetricPermutationProduct.html#a4e413e198db04775095f311b387fb115" title="Eigen::SparseSymmetricPermutation\lProduct::matrix" alt="" coords="364,136,623,177"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseSymmetricPermutationProduct.html#a3b40313534a1f298e47bf4619891cd5f" title="Eigen::SparseSymmetricPermutation\lProduct::perm" alt="" coords="364,201,623,243"/>
-</map>

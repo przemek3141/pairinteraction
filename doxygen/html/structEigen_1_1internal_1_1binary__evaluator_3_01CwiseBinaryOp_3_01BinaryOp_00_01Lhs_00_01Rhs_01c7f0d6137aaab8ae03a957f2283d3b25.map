@@ -1,8 +1,0 @@
-<map id="Eigen::internal::binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, IndexBased, IndexBased &gt;" name="Eigen::internal::binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, IndexBased, IndexBased &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator__base.html" title="Eigen::internal::evaluator\l_base\&lt; CwiseBinaryOp\&lt; BinaryOp,\l Lhs, Rhs \&gt; \&gt;" alt="" coords="257,5,504,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1noncopyable.html" title="Eigen::internal::noncopyable" alt="" coords="5,20,208,47"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; Rhs \&gt;" alt="" coords="290,137,471,178"/>
-<area shape="rect" id="node6" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; Rhs \&gt;" alt="" coords="28,137,185,178"/>
-<area shape="rect" id="node7" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; Lhs \&gt;" alt="" coords="290,202,471,243"/>
-<area shape="rect" id="node8" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; Lhs \&gt;" alt="" coords="28,202,185,243"/>
-</map>

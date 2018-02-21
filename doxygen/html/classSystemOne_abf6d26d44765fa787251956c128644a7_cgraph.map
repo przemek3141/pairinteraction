@@ -1,9 +1,5 @@
 <map id="SystemOne::initializeInteraction" name="SystemOne::initializeInteraction">
-<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="715,191,760,218"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html#adab34202f9694f1085b78850ea3dcb44" title="Eigen::SparseMatrixBase\l::adjoint" alt="" coords="280,37,461,78"/>
-<area shape="rect" id="node4" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="351,103,390,130"/>
-<area shape="rect" id="node5" href="$classSystemBase.html#a47c10153452fc59ad1932e68de506234" title="Methods to get properties of the system ////////////////////////. " alt="" coords="281,154,460,196"/>
-<area shape="rect" id="node6" href="$MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061" title="selectionRulesMomentum" alt="" coords="277,220,464,247"/>
-<area shape="rect" id="node8" href="$MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8" title="selectionRulesMultipole" alt="" coords="286,271,455,298"/>
-<area shape="rect" id="node7" href="$namespaceboost_1_1multiprecision.html#ab6f80ccf8e1d88df8a8e3acd039d63eb" title="boost::multiprecision\l::fabs" alt="" coords="512,213,667,254"/>
+<area shape="rect" id="node2" href="$classSystemBase.html#a47c10153452fc59ad1932e68de506234" title="Methods to get properties of the system ////////////////////////. " alt="" coords="281,5,460,47"/>
+<area shape="rect" id="node3" href="$MatrixElements_8cpp.html#af52815f624512751601fb56a7316f061" title="selectionRulesMomentum" alt="" coords="277,71,464,98"/>
+<area shape="rect" id="node4" href="$MatrixElements_8cpp.html#a0426020af6225ce85898528250c929b8" title="selectionRulesMultipole" alt="" coords="286,122,455,149"/>
 </map>

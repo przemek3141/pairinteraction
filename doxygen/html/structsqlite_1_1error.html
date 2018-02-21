@@ -117,16 +117,16 @@ $(document).ready(function(){initNavTree('structsqlite_1_1error.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a259c09c0c2e37d1f13ac8bc91e3daf10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsqlite_1_1error.html#a259c09c0c2e37d1f13ac8bc91e3daf10">error</a> (<a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a> err, std::string const &amp;msg)</td></tr>
+<tr class="memitem:a259c09c0c2e37d1f13ac8bc91e3daf10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsqlite_1_1error.html#a259c09c0c2e37d1f13ac8bc91e3daf10">error</a> (<a class="el" href="classint.html">int</a> err, std::string const &amp;msg)</td></tr>
 <tr class="memdesc:a259c09c0c2e37d1f13ac8bc91e3daf10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a259c09c0c2e37d1f13ac8bc91e3daf10">More...</a><br /></td></tr>
 <tr class="separator:a259c09c0c2e37d1f13ac8bc91e3daf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e226609347d99e66c9c85d78fcf7dd2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classchar.html">char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsqlite_1_1error.html#a9e226609347d99e66c9c85d78fcf7dd2">what</a> () const noexcept</td></tr>
+<tr class="memitem:a9e226609347d99e66c9c85d78fcf7dd2"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsqlite_1_1error.html#a9e226609347d99e66c9c85d78fcf7dd2">what</a> () const noexcept</td></tr>
 <tr class="memdesc:a9e226609347d99e66c9c85d78fcf7dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">what() function  <a href="#a9e226609347d99e66c9c85d78fcf7dd2">More...</a><br /></td></tr>
 <tr class="separator:a9e226609347d99e66c9c85d78fcf7dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>SQLite error. </p>
-<p>Exception to identify SQLite errors. </p><div class="fragment"><div class="line"><span class="keywordflow">try</span></div><div class="line">{</div><div class="line">  <span class="comment">// code with sqlite</span></div><div class="line">}</div><div class="line"><span class="keywordflow">catch</span> (<a class="code" href="structsqlite_1_1error.html">sqlite::error</a> &amp;<a class="code" href="Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710">e</a>)</div><div class="line">{</div><div class="line">  <span class="comment">// handle exception</span></div><div class="line">}</div></div><!-- fragment --> 
+<p>Exception to identify SQLite errors. </p><div class="fragment"><div class="line"><span class="keywordflow">try</span></div><div class="line">{</div><div class="line">  <span class="comment">// code with sqlite</span></div><div class="line">}</div><div class="line"><span class="keywordflow">catch</span> (<a class="code" href="structsqlite_1_1error.html">sqlite::error</a> &amp;e)</div><div class="line">{</div><div class="line">  <span class="comment">// handle exception</span></div><div class="line">}</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="SQLite_8h_source.html#l00050">50</a> of file <a class="el" href="SQLite_8h_source.html">SQLite.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a259c09c0c2e37d1f13ac8bc91e3daf10"></a>
@@ -141,7 +141,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">sqlite::error::error </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="level1__impl_8h.html#a4e8e1c1bb9d4e05fc671fc133ec9dc9b">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
           <td class="paramname"><em>err</em>, </td>
         </tr>
         <tr>
@@ -197,7 +197,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classchar.html">char</a>* sqlite::error::what </td>
+          <td class="memname">const char* sqlite::error::what </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -226,7 +226,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacesqlite.html">sqlite</a></li><li class="navelem"><a class="el" href="structsqlite_1_1error.html">error</a></li>
-    <li class="footer">Generated on Wed Feb 21 2018 04:54:47 for pairinteraction by
+    <li class="footer">Generated on Wed Feb 21 2018 22:29:43 for pairinteraction by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

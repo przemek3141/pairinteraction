@@ -1,5 +1,0 @@
-<map id="Eigen::internal::scalar_conjugate_op::packetOp" name="Eigen::internal::scalar_conjugate_op::packetOp">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a09d3857508ad226b1c3fb2b8053a9857" title="Eigen::internal::pconj" alt="" coords="237,46,392,73"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1Packet2cf.html#a711d3d975ff2d7978f3098c8b11a68f6" title="Eigen::internal::Packet2cf\l::Packet2cf" alt="" coords="440,5,623,47"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#ab0a58ebc61dd0462933b4596c80eb2c9" title="Eigen::internal::pxor\l\&lt; Packet4f \&gt;" alt="" coords="457,71,606,112"/>
-</map>

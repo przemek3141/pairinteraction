@@ -1,8 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$geometry_8cpp.html#a9f16acb964c9684be7d2c7d75d1c7b15" title="bench" alt="" coords="177,5,239,32"/>
-<area shape="rect" id="node4" href="$classEigen_1_1QuaternionBase.html#a113a5ffea680c7427dc1144d7c66efe9" title="Eigen::QuaternionBase\l\&lt; Quaternion\&lt; _Scalar,\l _Options \&gt; \&gt;::setIdentity" alt="" coords="115,56,301,112"/>
-<area shape="rect" id="node5" href="$classEigen_1_1PlainObjectBase.html#af0e576a0e1aefc9ee346de44cc352ba3" title="Eigen::PlainObjectBase\l\&lt; Matrix\&lt; _Scalar, _Rows,\l _Cols, _Options, _MaxRows,\l _MaxCols \&gt; \&gt;::setRandom" alt="" coords="108,137,308,207"/>
-<area shape="rect" id="node3" href="$structbench__impl.html#abc05a5252aadc0e08decb704cb4250f8" title="bench_impl::run" alt="" coords="356,5,480,32"/>
-<area shape="rect" id="node6" href="$Matrix__resize__int_8cpp.html#a768dd1b4259f262bcd4cab5e61afcea1" title="resize" alt="" coords="388,133,448,160"/>
-<area shape="rect" id="node7" href="$HouseholderQR__householderQ_8cpp.html#a7bddadaf72fd7356fb04dd15cf547bc2" title="setRandom" alt="" coords="371,184,465,211"/>
-</map>

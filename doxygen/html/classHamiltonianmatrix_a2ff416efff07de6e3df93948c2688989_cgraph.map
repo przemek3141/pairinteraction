@@ -1,11 +1,3 @@
 <map id="Hamiltonianmatrix::removeUnnecessaryBasisvectors" name="Hamiltonianmatrix::removeUnnecessaryBasisvectors">
-<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="356,5,401,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html#adab34202f9694f1085b78850ea3dcb44" title="Eigen::SparseMatrixBase\l::adjoint" alt="" coords="288,57,469,98"/>
-<area shape="rect" id="node4" href="$MatrixBase__col_8cpp.html#aa168d9544aa6d49fce0cbfc0bec849b0" title="col" alt="" coords="359,123,399,149"/>
-<area shape="rect" id="node5" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="305,174,453,215"/>
-<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#a4e5f706cfae14d2eaec1ea1e234905f1" title="Eigen::SparseMatrix\l::outerSize" alt="" coords="304,239,453,281"/>
-<area shape="rect" id="node8" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="301,305,456,332"/>
-<area shape="rect" id="node9" href="$MatrixBase__row_8cpp.html#a64ef8efef59f875033a27e7cbbc879ec" title="row" alt="" coords="357,356,401,383"/>
-<area shape="rect" id="node10" href="$classEigen_1_1SparseMatrix.html#acc35051d698e3973f1de5b9b78dbe345" title="Eigen::SparseMatrix\l::setFromTriplets" alt="" coords="304,407,453,449"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html#aa391750e3c530227e4a5c3c52e959975" title="Eigen::SparseMatrix\l::cols" alt="" coords="517,174,667,215"/>
+<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#a4069febf25da1723d9cc8e27cd2cd669" title="Hamiltonianmatrix::\lnum_basisvectors" alt="" coords="288,5,436,47"/>
 </map>

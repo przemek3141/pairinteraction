@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classEigen_1_1TensorBase.html" title="Eigen::TensorBase\&lt;\l TensorAssignOp\&lt; LhsXprType,\l RhsXprType \&gt; \&gt;" alt="" coords="5,5,223,61"/>
-<area shape="rect" id="node2" href="$classEigen_1_1TensorAssignOp.html" title="Eigen::TensorAssignOp\l\&lt; LhsXprType, RhsXprType \&gt;" alt="" coords="271,13,473,54"/>
-</map>

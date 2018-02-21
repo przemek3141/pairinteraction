@@ -1,8 +1,0 @@
-<map id="quaternion" name="quaternion">
-<area shape="rect" id="node2" href="$ArrayCwiseUnaryOps_8h.html#a35560f7dbf19244fda7e463d14157c43" title="abs" alt="" coords="289,6,335,32"/>
-<area shape="rect" id="node3" href="$geo__quaternion_8cpp.html#ab4f3cd5ec91f39867267eb9fdd9bccbe" title="check_slerp" alt="" coords="144,31,241,58"/>
-<area shape="rect" id="node4" href="$Cwise__array__power__array_8cpp.html#aa9e3025f5efca2c2a39d785652f2d710" title="e" alt="" coords="173,82,212,108"/>
-<area shape="rect" id="node5" href="$common_8h.html#a94360d20ee722c1bcb23e5b2fbba8554" title="matrix" alt="" coords="161,132,224,159"/>
-<area shape="rect" id="node6" href="$Tutorial__ReshapeMat2Vec_8cpp.html#ab9625a9870f2caafab58a03342febdff" title="v1" alt="" coords="173,183,212,210"/>
-<area shape="rect" id="node7" href="$Tutorial__ReshapeMat2Vec_8cpp.html#aadb36892292ac81ba8d5a277e5fdd83d" title="v2" alt="" coords="173,234,212,260"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01const_01UnaryC110bea3d3d3db667c392bef14f65620b.html" title="Eigen::TensorSycl::\linternal::FunctorExtractor\l\&lt; TensorEvaluator\&lt; const\l UnaryCategory\&lt; OP, RHSExpr\l \&gt;, Dev \&gt; \&gt;" alt="" coords="5,5,224,91"/>
-<area shape="rect" id="node2" href="$structEigen_1_1TensorSycl_1_1internal_1_1FunctorExtractor_3_01TensorEvaluator_3_01UnaryCategory_a9ff2435c570c5248c08b41b4216b545.html" title="Eigen::TensorSycl::\linternal::FunctorExtractor\l\&lt; TensorEvaluator\&lt; UnaryCategory\l\&lt; OP, RHSExpr \&gt;, Dev \&gt; \&gt;" alt="" coords="272,13,521,83"/>
-</map>

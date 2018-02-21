@@ -1,4 +1,0 @@
-<map id="Eigen::internal::matrix_log_get_pade_degree" name="Eigen::internal::matrix_log_get_pade_degree">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#ac2de7acbbff34ec236ee5e9fdb2eee38" title="Compute logarithm of triangular matrices with size &gt; 2. " alt="" coords="220,5,383,47"/>
-<area shape="rect" id="node3" href="$classEigen_1_1internal_1_1MatrixLogarithmAtomic.html#a14d76ac8fb2bc662a9560a76f7df4fe7" title="Compute matrix logarithm of atomic matrix. " alt="" coords="431,5,656,47"/>
-</map>

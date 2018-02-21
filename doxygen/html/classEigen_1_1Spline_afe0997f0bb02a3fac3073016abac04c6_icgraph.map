@@ -1,4 +1,0 @@
-<map id="Eigen::Spline::basisFunctions" name="Eigen::Spline::basisFunctions">
-<area shape="rect" id="node2" href="$classEigen_1_1Spline.html#a0fc81e475d3a0ba34da1bd97f2e8fbc7" title="Returns the ctrls of the underlying spline. " alt="" coords="259,5,397,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Spline.html#a3c7e1838eae4ee7e341ef9d3dbf9ba45" title="Returns the spline value at a given site . " alt="" coords="445,5,623,32"/>
-</map>

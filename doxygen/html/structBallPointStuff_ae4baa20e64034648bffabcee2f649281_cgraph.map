@@ -1,5 +1,0 @@
-<map id="BallPointStuff::intersectVolumeObject" name="BallPointStuff::intersectVolumeObject">
-<area shape="rect" id="node2" href="$BVH_8cpp.html#a008137b55395036613fb97c40e7ba8b5" title="SQR" alt="" coords="289,5,338,32"/>
-<area shape="rect" id="node3" href="$classEigen_1_1AlignedBox.html#aa6d9ffc81bd77da631fef6559f45cf13" title="Eigen::AlignedBox::\lsquaredExteriorDistance" alt="" coords="224,57,403,98"/>
-<area shape="rect" id="node4" href="$classEigen_1_1AlignedBox.html#ab774df3608d0be913a3aa5d67476a521" title="Eigen::AlignedBox::dim" alt="" coords="451,64,619,91"/>
-</map>

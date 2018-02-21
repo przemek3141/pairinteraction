@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1make__coherent__impl_3_01A_00_01Matrix_3_01B__Scalar_00_01B__Rows_00_4137d1e9eddd7bc6003bd375f95bd6e5 =
-[
-    [ "B", "structEigen_1_1internal_1_1make__coherent__impl_3_01A_00_01Matrix_3_01B__Scalar_00_01B__Rows_00_4137d1e9eddd7bc6003bd375f95bd6e5.html#a0911a904a9e79c2ae16f5f7925bf9be5", null ]
-];

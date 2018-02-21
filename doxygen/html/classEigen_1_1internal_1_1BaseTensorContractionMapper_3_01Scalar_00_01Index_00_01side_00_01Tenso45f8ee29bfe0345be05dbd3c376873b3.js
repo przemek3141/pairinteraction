@@ -1,8 +1,0 @@
-var classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3 =
-[
-    [ "Packet", "classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3.html#aff43325ebca196bf0b5a0f865466452d", null ],
-    [ "ParentMapper", "classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3.html#a11fcd46a9b439898d04aacab2695a115", null ],
-    [ "BaseTensorContractionMapper", "classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3.html#a545fb30e6d97ebe62beb82d23f67a045", null ],
-    [ "loadHalfPacket", "classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3.html#ad5541b1c9ad2606364bd6cbbe1822388", null ],
-    [ "loadPacket", "classEigen_1_1internal_1_1BaseTensorContractionMapper_3_01Scalar_00_01Index_00_01side_00_01Tenso45f8ee29bfe0345be05dbd3c376873b3.html#a7ef2916430d4f9383738f62f570a12d4", null ]
-];

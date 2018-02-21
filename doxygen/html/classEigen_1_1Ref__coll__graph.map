@@ -1,7 +1,0 @@
-<map id="Eigen::Ref&lt; PlainObjectType, Options, StrideType &gt;" name="Eigen::Ref&lt; PlainObjectType, Options, StrideType &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1RefBase.html" title="Eigen::RefBase\&lt; Ref\l\&lt; PlainObjectType, Options,\l StrideType \&gt; \&gt;" alt="" coords="732,35,929,91"/>
-<area shape="rect" id="node3" href="$classEigen_1_1MapBase.html" title="Eigen::MapBase\&lt; Ref\l\&lt; PlainObjectType, Options,\l StrideType \&gt; \&gt;" alt="" coords="383,5,580,61"/>
-<area shape="rect" id="node4" href="$classEigen_1_1Stride.html" title="Eigen::Stride\&lt; StrideType\l::OuterStrideAtCompileTime,\l StrideType::InnerStrideAtCompileTime \&gt;" alt="" coords="340,85,623,141"/>
-<area shape="rect" id="node5" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, OuterStride\lAtCompileTime \&gt;" alt="" coords="5,45,233,101"/>
-<area shape="rect" id="node6" href="$classEigen_1_1internal_1_1variable__if__dynamic.html" title="Eigen::internal::variable\l_if_dynamic\&lt; Index, InnerStride\lAtCompileTime \&gt;" alt="" coords="7,125,231,181"/>
-</map>

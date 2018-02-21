@@ -1,6 +1,0 @@
-<map id="Eigen::internal::SparseLUImpl::copy_to_ucol" name="Eigen::internal::SparseLUImpl::copy_to_ucol">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseLU.html#a39858b0e72f2659d596364e252b34cbc" title="Eigen::SparseLU::factorize" alt="" coords="263,31,452,57"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseLU.html#a96a8dcb02015ab9be5777d4ba9173266" title="Eigen::SparseLU::compute" alt="" coords="508,5,699,32"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseLU.html#a9f8d0e64ae5bb5568ca091a0dbc8c9dd" title="Eigen::SparseLU::~SparseLU" alt="" coords="500,56,707,83"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SparseLU.html#ac1678e57af46b42561cea4f149861164" title="Eigen::SparseLU::SparseLU" alt="" coords="755,5,949,32"/>
-</map>

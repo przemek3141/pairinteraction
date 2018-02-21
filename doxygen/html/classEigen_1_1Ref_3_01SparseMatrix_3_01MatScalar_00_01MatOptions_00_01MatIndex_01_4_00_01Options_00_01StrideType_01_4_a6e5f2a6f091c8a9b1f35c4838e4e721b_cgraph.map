@@ -1,4 +1,0 @@
-<map id="Eigen::Ref&lt; SparseMatrix&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt;::Ref" name="Eigen::Ref&lt; SparseMatrix&lt; MatScalar, MatOptions, MatIndex &gt;, Options, StrideType &gt;::Ref">
-<area shape="rect" id="node2" href="$classEigen_1_1SparseMatrixBase.html#aa75a5f413b9c78b4ff906091cc9706a5" title="Eigen::SparseMatrixBase\l\&lt; SparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex\l \&gt; \&gt;::derived" alt="" coords="343,5,530,76"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseCompressedBase.html#a837934b33a80fe996ff20500373d3a61" title="Eigen::SparseCompressedBase\l\&lt; SparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex\l \&gt; \&gt;::isCompressed" alt="" coords="325,100,548,171"/>
-</map>

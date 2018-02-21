@@ -1,7 +1,0 @@
-var structEigen_1_1internal_1_1evaluator_3_01Ref_3_01PlainObjectType_00_01RefOptions_00_01StrideType_01_4_01_4 =
-[
-    [ "XprType", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01PlainObjectType_00_01RefOptions_00_01StrideType_01_4_01_4.html#a49f98301ac153b880b54008edd822e9e", null ],
-    [ "Flags", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01PlainObjectType_00_01RefOptions_00_01StrideType_01_4_01_4.html#a74a3b643f607d81c1a1ca0218bf2b509a2521a406ca64c56b95850a3287022e0d", null ],
-    [ "Alignment", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01PlainObjectType_00_01RefOptions_00_01StrideType_01_4_01_4.html#a74a3b643f607d81c1a1ca0218bf2b509acd9b441f18ebfd089284fa151e3335b9", null ],
-    [ "evaluator", "structEigen_1_1internal_1_1evaluator_3_01Ref_3_01PlainObjectType_00_01RefOptions_00_01StrideType_01_4_01_4.html#aa40eaa3e61a3df553e893fcf4bc0c837", null ]
-];

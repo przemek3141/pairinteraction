@@ -1,11 +1,5 @@
 <map id="Hamiltonianmatrix::deserialize" name="Hamiltonianmatrix::deserialize">
-<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db" title="Hamiltonianmatrix::\ldoDeserialization" alt="" coords="201,221,349,262"/>
-<area shape="rect" id="node3" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="414,5,530,32"/>
-<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="398,57,546,98"/>
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMatrix.html#a5ff54ffc10296f9466dc81fa888733fd" title="Eigen::SparseMatrix\l::makeCompressed" alt="" coords="397,122,547,163"/>
-<area shape="rect" id="node6" href="$classEigen_1_1SparseMatrix.html#a3a60ad3fcc5941f5a1272e0d13d89fbf" title="Eigen::SparseMatrix\l::resizeNonZeros" alt="" coords="397,187,547,229"/>
-<area shape="rect" id="node7" href="$classEigen_1_1SparseMatrix.html#a9d4354d3f4d121d764bbed33cac05329" title="Eigen::SparseMatrix\l::valuePtr" alt="" coords="397,253,547,294"/>
-<area shape="rect" id="node8" href="$classEigen_1_1SparseMatrix.html#ae7b804bd39745156d20ca1611a296b67" title="Eigen::SparseMatrix\l::innerIndexPtr" alt="" coords="397,318,547,359"/>
-<area shape="rect" id="node9" href="$classEigen_1_1SparseMatrix.html#a75506964d86d6badb32d0b4917acf2e2" title="Eigen::SparseMatrix\l::outerIndexPtr" alt="" coords="397,383,547,425"/>
-<area shape="rect" id="node10" href="$classEigen_1_1SparseMatrix.html#a505802f4dd45f7c036ad28261f065610" title="Eigen::SparseMatrix\l::finalize" alt="" coords="397,449,547,490"/>
+<area shape="rect" id="node2" href="$classHamiltonianmatrix.html#a15bc9c823975f5395112432c5b8507db" title="Hamiltonianmatrix::\ldoDeserialization" alt="" coords="201,27,349,69"/>
+<area shape="rect" id="node3" href="$classSerializer.html#a26e560124d2dd1daa304ac8e878db630" title="Serializer::load" alt="" coords="413,5,529,32"/>
+<area shape="rect" id="node4" href="$classHamiltonianmatrix.html#a37cc79dcec0f0d81265870a34517a225" title="Hamiltonianmatrix::\lmergeComplex" alt="" coords="397,57,545,98"/>
 </map>

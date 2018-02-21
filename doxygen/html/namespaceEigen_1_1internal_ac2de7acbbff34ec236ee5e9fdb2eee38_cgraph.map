@@ -1,7 +1,0 @@
-<map id="Eigen::internal::matrix_log_compute_big" name="Eigen::internal::matrix_log_compute_big">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#a366cdd93d3035b0053cc8b3bff77f2a4" title="Eigen::internal::matrix\l_log_compute_pade" alt="" coords="218,5,381,47"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#ae0091d6d89ad60b1117bbb1b4b9901d0" title="Eigen::internal::matrix\l_log_get_pade_degree" alt="" coords="216,71,383,112"/>
-<area shape="rect" id="node4" href="$namespaceEigen.html#ae51c91f920f6ea4a7f6f72caa1e8249f" title="Compute matrix square root of triangular matrix. " alt="" coords="230,136,369,177"/>
-<area shape="rect" id="node6" href="$namespaceEigen_1_1half__impl.html#a829ad00a9c93131d5a8342b4ee29d83d" title="Eigen::half_impl::pow" alt="" coords="222,202,377,229"/>
-<area shape="rect" id="node5" href="$ArrayCwiseUnaryOps_8h.html#a656b9217a2fcb6de59dc8d1eb3079cc7" title="sqrt" alt="" coords="431,143,477,170"/>
-</map>

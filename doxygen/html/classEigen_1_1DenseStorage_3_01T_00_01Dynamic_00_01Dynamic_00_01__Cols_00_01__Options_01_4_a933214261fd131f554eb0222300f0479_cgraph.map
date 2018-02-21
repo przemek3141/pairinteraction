@@ -1,6 +1,0 @@
-<map id="Eigen::DenseStorage&lt; T, Dynamic, Dynamic, _Cols, _Options &gt;::operator=" name="Eigen::DenseStorage&lt; T, Dynamic, Dynamic, _Cols, _Options &gt;::operator=">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1internal.html#aefb14fc87518cc6b91063a820a66a21b" title="Eigen::internal::swap" alt="" coords="267,56,420,83"/>
-<area shape="rect" id="node3" href="$namespacestd.html#ad33a269e67f055aaa18f57f76b015387" title="std::swap" alt="" coords="510,5,593,32"/>
-<area shape="rect" id="node5" href="$classEigen_1_1internal_1_1scoped__array.html#a53e524d42e288b9117a59f5aded705dd" title="Eigen::internal::scoped\l_array::ptr" alt="" coords="468,57,635,98"/>
-<area shape="rect" id="node4" href="$namespacempfr.html#aa617cb4d22ad8120d69f10b306b97f19" title="mpfr::swap" alt="" coords="683,5,775,32"/>
-</map>

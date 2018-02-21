@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structEigen_1_1GenericNumTraits.html" title="Eigen::GenericNumTraits\&lt; T \&gt;" alt="" coords="5,116,220,143"/>
-<area shape="rect" id="node2" href="$structEigen_1_1NumTraits.html" title="Holds information about the various numeric (i.e. scalar) types allowed by Eigen. ..." alt="" coords="289,5,456,32"/>
-<area shape="rect" id="node3" href="$structEigen_1_1NumTraits.html" title="Eigen::NumTraits\&lt; NumTraits\l\&lt; internal::remove_all\&lt;\l DerType \&gt;::type::Scalar\l \&gt;::Real \&gt;" alt="" coords="269,57,477,127"/>
-<area shape="rect" id="node5" href="$structEigen_1_1NumTraits.html" title="Eigen::NumTraits\&lt; Scalar \&gt;" alt="" coords="273,152,472,179"/>
-<area shape="rect" id="node6" href="$structEigen_1_1NumTraits.html" title="Eigen::NumTraits\&lt; typename\l MatrixType::Scalar \&gt;" alt="" coords="268,203,477,245"/>
-<area shape="rect" id="node4" href="$structEigen_1_1NumTraits_3_01AutoDiffScalar_3_01DerType_01_4_01_4.html" title="Eigen::NumTraits\&lt; AutoDiff\lScalar\&lt; DerType \&gt; \&gt;" alt="" coords="525,71,720,113"/>
-</map>

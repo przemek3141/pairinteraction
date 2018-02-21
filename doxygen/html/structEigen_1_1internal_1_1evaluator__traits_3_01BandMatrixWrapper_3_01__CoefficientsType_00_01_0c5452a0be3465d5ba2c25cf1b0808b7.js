@@ -1,4 +1,0 @@
-var structEigen_1_1internal_1_1evaluator__traits_3_01BandMatrixWrapper_3_01__CoefficientsType_00_01_0c5452a0be3465d5ba2c25cf1b0808b7 =
-[
-    [ "Shape", "structEigen_1_1internal_1_1evaluator__traits_3_01BandMatrixWrapper_3_01__CoefficientsType_00_01_0c5452a0be3465d5ba2c25cf1b0808b7.html#a4c8104880ecefd0e1b820cfe7d980af3", null ]
-];

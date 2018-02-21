@@ -1,6 +1,0 @@
-<map id="Eigen::zeta" name="Eigen::zeta">
-<area shape="rect" id="node2" href="$namespaceEigen_1_1numext.html#a557d45501f25432e8d032fccb1c7ef86" title="Eigen::numext::EIGEN\l_MATHFUNC_RETVAL" alt="" coords="147,5,308,47"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1scalar__zeta__op.html#aff9f3c6a47117364cf8dd8d176eb88ff" title="Eigen::internal::scalar\l_zeta_op::operator()" alt="" coords="148,71,307,112"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#ad94cae7622231a44fd9d428eb6b39769" title="Eigen::internal::pzeta" alt="" coords="149,137,306,163"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1scalar__zeta__op.html#a25854b992c6fdc70164f04c3096371d7" title="Eigen::internal::scalar\l_zeta_op::packetOp" alt="" coords="356,129,515,171"/>
-</map>

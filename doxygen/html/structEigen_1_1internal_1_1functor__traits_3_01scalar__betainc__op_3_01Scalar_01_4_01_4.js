@@ -1,5 +1,0 @@
-var structEigen_1_1internal_1_1functor__traits_3_01scalar__betainc__op_3_01Scalar_01_4_01_4 =
-[
-    [ "Cost", "structEigen_1_1internal_1_1functor__traits_3_01scalar__betainc__op_3_01Scalar_01_4_01_4.html#aa89adf80d849299b1110e44b5680a957acecb7846847afd1b37b57f0ad2cf813f", null ],
-    [ "PacketAccess", "structEigen_1_1internal_1_1functor__traits_3_01scalar__betainc__op_3_01Scalar_01_4_01_4.html#aa89adf80d849299b1110e44b5680a957a66ece46f82e79f8eee11a7110e32b233", null ]
-];

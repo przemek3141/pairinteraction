@@ -1,4 +1,0 @@
-<map id="Eigen::internal::InnerMostDimPreserver::reduce" name="Eigen::internal::InnerMostDimPreserver::reduce">
-<area shape="rect" id="node2" href="$structEigen_1_1TensorEvaluator_3_01const_01TensorReductionOp_3_01Op_00_01Dims_00_01ArgType_00_014168a2bb10f12dfe0dec31809c49959b.html#a5cd885d9a9dcb7109d22b7b48967f228" title="Eigen::TensorEvaluator\l\&lt; const TensorReductionOp\l\&lt; Op, Dims, ArgType, MakePointer\l_ \&gt;, Device \&gt;::packet" alt="" coords="237,5,479,76"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1InnerMostDimPreserver_3_01DimIndex_00_01Self_00_01Op_00_01true_01_4.html#ae50bbff1e15661f9d984ecc5583469ce" title="Eigen::internal::InnerMost\lDimPreserver\&lt; DimIndex,\l Self, Op, true \&gt;::reduce" alt="" coords="264,101,452,157"/>
-</map>

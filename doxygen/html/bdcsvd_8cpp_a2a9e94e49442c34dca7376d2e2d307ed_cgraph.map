@@ -1,5 +1,0 @@
-<map id="compare_bdc_jacobi" name="compare_bdc_jacobi">
-<area shape="rect" id="node2" href="$classEigen_1_1SVDBase.html#afc7fe1546b0f6e1801b86f22f5664cb8" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::matrixU" alt="" coords="207,5,436,61"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SVDBase.html#a245a453b5e7347f737295c23133238c4" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::matrixV" alt="" coords="207,85,436,141"/>
-<area shape="rect" id="node4" href="$classEigen_1_1SVDBase.html#a4e7bac123570c348f7ed6be909e1e474" title="Eigen::SVDBase\&lt; JacobiSVD\l\&lt; _MatrixType, QRPreconditioner\l \&gt; \&gt;::singularValues" alt="" coords="207,165,436,221"/>
-</map>

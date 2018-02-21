@@ -1,5 +1,0 @@
-<map id="test_cxx11_tensor_forced_eval_sycl" name="test_cxx11_tensor_forced_eval_sycl">
-<area shape="rect" id="node2" href="$cxx11__tensor__forced__eval__sycl_8cpp.html#ab06a92d1f0698ae6bf6f65c2cf0eee11" title="test_forced_eval_sycl" alt="" coords="240,31,399,57"/>
-<area shape="rect" id="node3" href="$classEigen_1_1Tensor.html#a2aae1ea69ec73eab862d4534ee00dac6" title="Eigen::Tensor::dimensions" alt="" coords="447,5,633,32"/>
-<area shape="rect" id="node4" href="$structEigen_1_1DSizes.html#aaa880c9fd53051ef158094e1e529e1f0" title="Eigen::DSizes::TotalSize" alt="" coords="453,56,627,83"/>
-</map>

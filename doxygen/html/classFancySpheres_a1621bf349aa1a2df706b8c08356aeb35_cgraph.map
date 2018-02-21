@@ -1,6 +1,0 @@
-<map id="FancySpheres::draw" name="FancySpheres::draw">
-<area shape="rect" id="node2" href="$classGpuHelper.html#a3abb45392e7dcf6450fa94bd345d9096" title="GpuHelper::multMatrix" alt="" coords="203,5,370,32"/>
-<area shape="rect" id="node3" href="$classGpuHelper.html#aad0cc23c2eaf0dcc610b180e5c8b195e" title="GpuHelper::popMatrix" alt="" coords="206,56,367,83"/>
-<area shape="rect" id="node4" href="$classGpuHelper.html#ac51c8b669a80ca6e4338c87136fb991e" title="GpuHelper::pushMatrix" alt="" coords="203,107,371,133"/>
-<area shape="rect" id="node5" href="$group__Geometry__Module.html#ga02918175ff75e5df9fd291cf5fc3fd1b" title="Eigen::Scaling" alt="" coords="231,157,342,184"/>
-</map>

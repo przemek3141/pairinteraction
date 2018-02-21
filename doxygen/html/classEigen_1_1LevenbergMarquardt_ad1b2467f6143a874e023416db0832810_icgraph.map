@@ -1,6 +1,0 @@
-<map id="Eigen::LevenbergMarquardt::minimizeInit" name="Eigen::LevenbergMarquardt::minimizeInit">
-<area shape="rect" id="node2" href="$classEigen_1_1LevenbergMarquardt.html#a8cb0d7b10c479262e643a9d2b83ce144" title="Eigen::LevenbergMarquardt\l::lm_param" alt="" coords="252,5,451,47"/>
-<area shape="rect" id="node3" href="$denseLM_8cpp.html#a6ed5f0b92b25beb947d4dfc4d5870de1" title="test_minimizeSteps" alt="" coords="277,71,426,98"/>
-<area shape="rect" id="node5" href="$sparseLM_8cpp.html#ae1dd8f19efddb2e30317b3e27fd5497b" title="test_sparseLM_T" alt="" coords="287,122,416,149"/>
-<area shape="rect" id="node4" href="$denseLM_8cpp.html#a074d14838d2f3870982feacbf1657d71" title="test_denseLM_T" alt="" coords="499,71,624,98"/>
-</map>

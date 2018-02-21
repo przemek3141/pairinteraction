@@ -1,7 +1,0 @@
-<map id="generate_sparse_spd_problem" name="generate_sparse_spd_problem">
-<area shape="rect" id="node2" href="$sparse__solver_8h.html#a4ab206481ed9b282ac77a44ad3bf7293" title="check_sparse_spd_determinant" alt="" coords="213,31,439,57"/>
-<area shape="rect" id="node3" href="$cholmod__support_8cpp.html#a661abccfc0ba4a3094264910790878b9" title="test_cholmod_T" alt="" coords="519,5,642,32"/>
-<area shape="rect" id="node5" href="$simplicial__cholesky_8cpp.html#af2ec3135bc8cae00c2a51a816ecff12f" title="test_simplicial_cholesky_T" alt="" coords="487,56,675,83"/>
-<area shape="rect" id="node4" href="$cholmod__support_8cpp.html#a7b7e52183fac724aee8d9d827082c68c" title="test_cholmod_support" alt="" coords="727,5,893,32"/>
-<area shape="rect" id="node6" href="$simplicial__cholesky_8cpp.html#a543f8549a1f829537f7b435c5109d784" title="test_simplicial_cholesky" alt="" coords="723,56,897,83"/>
-</map>

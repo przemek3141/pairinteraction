@@ -1,8 +1,0 @@
-<map id="Eigen::internal::conj_helper&lt; Packet2cf, Packet4f, false, false &gt;::pmul" name="Eigen::internal::conj_helper&lt; Packet2cf, Packet4f, false, false &gt;::pmul">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1Packet2cf.html#a711d3d975ff2d7978f3098c8b11a68f6" title="Eigen::internal::Packet2cf\l::Packet2cf" alt="" coords="459,5,641,47"/>
-<area shape="rect" id="node3" href="$namespaceEigen_1_1internal.html#a88acae19dd76daa8a376f7eea84c3e61" title="Eigen::internal::pdiv\l\&lt; Packet2cf \&gt;" alt="" coords="264,123,411,164"/>
-<area shape="rect" id="node6" href="$namespaceEigen_1_1internal.html#a776f5f4b514ecaed2a98db928b8f745f" title="Eigen::internal::pmul" alt="" coords="473,189,627,215"/>
-<area shape="rect" id="node7" href="$namespaceEigen_1_1internal.html#a5828d050de45a585645f9a959b52a10c" title="Eigen::internal::pmul\l\&lt; Packet4f \&gt;" alt="" coords="473,240,627,281"/>
-<area shape="rect" id="node4" href="$namespaceEigen_1_1internal.html#a1b00ef4c11d9b491edfbee232e5bea00" title="Eigen::internal::padd\l\&lt; Packet4f \&gt;" alt="" coords="473,123,627,164"/>
-<area shape="rect" id="node5" href="$namespaceEigen_1_1internal.html#a462e918f3381d435028a0decd5485844" title="Eigen::internal::pdiv" alt="" coords="477,71,623,98"/>
-</map>

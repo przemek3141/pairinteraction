@@ -1,7 +1,0 @@
-<map id="Portable_Timer::stop" name="Portable_Timer::stop">
-<area shape="rect" id="node2" href="$classAction__lu__solve.html#a2b2f7f4438bfc0947d54d0d485069e6c" title="Action_lu_solve::calculate" alt="" coords="208,5,393,32"/>
-<area shape="rect" id="node3" href="$classPortable__Perf__Analyzer.html#a79a8450d03fa507442062882b4ef864f" title="Portable_Perf_Analyzer\l::time_calculate" alt="" coords="216,57,385,98"/>
-<area shape="rect" id="node5" href="$classPortable__Perf__Analyzer.html#a71b2de0ccfa0ab1ef2e59821331821af" title="Portable_Perf_Analyzer\l::time_init" alt="" coords="216,122,385,163"/>
-<area shape="rect" id="node4" href="$classPortable__Perf__Analyzer.html#a03155b3441f25085e43cb322be9937af" title="Portable_Perf_Analyzer\l::eval_mflops" alt="" coords="441,57,611,98"/>
-<area shape="rect" id="node6" href="$classPortable__Perf__Analyzer.html#a10688ff64fdaf9bcd34b7beec0a6ba3f" title="Portable_Perf_Analyzer\l::eval_mflops" alt="" coords="441,122,611,163"/>
-</map>

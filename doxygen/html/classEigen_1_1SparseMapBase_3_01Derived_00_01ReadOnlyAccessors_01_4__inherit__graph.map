@@ -1,6 +1,0 @@
-<map id="Eigen::SparseMapBase&lt; Derived, ReadOnlyAccessors &gt;" name="Eigen::SparseMapBase&lt; Derived, ReadOnlyAccessors &gt;">
-<area shape="rect" id="node5" href="$classEigen_1_1SparseMapBase_3_01Derived_00_01WriteAccessors_01_4.html" title="Common base class for writable Map and Ref instance of sparse matrix and vector. " alt="" coords="19,348,225,389"/>
-<area shape="rect" id="node2" href="$classEigen_1_1SparseCompressedBase.html" title="Common base class for sparse [compressed]&#45;{row|column}&#45;storage format. " alt="" coords="11,169,233,211"/>
-<area shape="rect" id="node3" href="$classEigen_1_1SparseMatrixBase.html" title="Base class of any sparse matrices or sparse expressions. " alt="" coords="31,80,213,121"/>
-<area shape="rect" id="node4" href="$structEigen_1_1EigenBase.html" title="Eigen::EigenBase\&lt; Derived \&gt;" alt="" coords="17,5,227,32"/>
-</map>

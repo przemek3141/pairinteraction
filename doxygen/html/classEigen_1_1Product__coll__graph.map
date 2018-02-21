@@ -1,5 +1,0 @@
-<map id="Eigen::Product&lt; _Lhs, _Rhs, Option &gt;" name="Eigen::Product&lt; _Lhs, _Rhs, Option &gt;">
-<area shape="rect" id="node2" href="$classEigen_1_1ProductImpl.html" title="Eigen::ProductImpl\l\&lt; _Lhs, _Rhs, Option,\l internal::product_promote\l_storage_type\&lt; internal::\ltraits\&lt; _Lhs \&gt;::StorageKind,\l internal::traits\&lt; _Rhs \&gt;::StorageKind,\l internal::product_type\&lt; _Lhs, _Rhs\l \&gt;::ret \&gt;::ret \&gt;" alt="" coords="269,20,535,149"/>
-<area shape="rect" id="node4" href="$structEigen_1_1internal_1_1ref__selector.html" title="Eigen::internal::ref\l_selector\&lt; Rhs \&gt;" alt="" coords="333,173,471,215"/>
-<area shape="rect" id="node5" href="$structEigen_1_1internal_1_1ref__selector.html" title="Eigen::internal::ref\l_selector\&lt; Lhs \&gt;" alt="" coords="333,239,471,280"/>
-</map>

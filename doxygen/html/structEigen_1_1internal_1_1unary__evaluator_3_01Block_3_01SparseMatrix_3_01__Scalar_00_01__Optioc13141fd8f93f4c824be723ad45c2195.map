@@ -1,4 +1,0 @@
-<map id="Eigen::internal::unary_evaluator&lt; Block&lt; SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true &gt;, IteratorBased &gt;" name="Eigen::internal::unary_evaluator&lt; Block&lt; SparseMatrix&lt; _Scalar, _Options, _StorageIndex &gt;, BlockRows, BlockCols, true &gt;, IteratorBased &gt;">
-<area shape="rect" id="node2" href="$structEigen_1_1internal_1_1evaluator.html" title="Eigen::internal::evaluator\l\&lt; SparseCompressedBase\&lt;\l Block\&lt; SparseMatrix\&lt; _Scalar,\l _Options, _StorageIndex \&gt;,\l BlockRows, BlockCols, true \&gt; \&gt; \&gt;" alt="" coords="312,5,551,91"/>
-<area shape="rect" id="node3" href="$structEigen_1_1internal_1_1unary__evaluator.html" title="Eigen::internal::unary\l_evaluator\&lt; SparseCompressed\lBase\&lt; Block\&lt; SparseMatrix\l\&lt; _Scalar, _Options, _StorageIndex\l \&gt;, BlockRows, BlockCols, true \&gt; \&gt; \&gt;" alt="" coords="5,5,264,91"/>
-</map>

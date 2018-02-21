@@ -1,7 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node2" href="$structloop__on__k.html#a4b8d2b5597f1b6b17c70ab298d957319" title="loop_on_k::run" alt="" coords="108,31,223,57"/>
-<area shape="rect" id="node3" href="$structprint__n.html#a41bc42fbcbd14219f15ccb6afa9c4f62" title="print_n::run" alt="" coords="284,5,379,32"/>
-<area shape="rect" id="node4" href="$structloop__on__m.html#a698c429512af6e3916dd4ffbc715061a" title="loop_on_m::run" alt="" coords="271,56,392,83"/>
-<area shape="rect" id="node5" href="$structloop__on__n.html#a5b37014688c83c2c42383a2d0165d586" title="loop_on_n::run" alt="" coords="440,56,556,83"/>
-<area shape="rect" id="node6" href="$product__threshold_8cpp.html#ab169b0450a59ab1c7fbdbc76dd7dafe0" title="bench_prod" alt="" coords="604,56,701,83"/>
-</map>

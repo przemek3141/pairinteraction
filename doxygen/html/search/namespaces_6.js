@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['relicense',['relicense',['../namespacerelicense.html',1,'']]]
+  ['whittaker_5ffunctions',['whittaker_functions',['../namespacewhittaker__functions.html',1,'']]]
 ];

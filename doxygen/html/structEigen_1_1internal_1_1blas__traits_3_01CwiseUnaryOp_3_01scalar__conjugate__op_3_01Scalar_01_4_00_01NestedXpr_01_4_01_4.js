@@ -1,8 +1,0 @@
-var structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4 =
-[
-    [ "Base", "structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4.html#aacef013bcf0786ae648c43747b65f2b7", null ],
-    [ "ExtractType", "structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4.html#ad5d64836de0bd79d6c6ca3cea647d27b", null ],
-    [ "XprType", "structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4.html#a424e24e7403aae75d6c5dc539fb85b90", null ],
-    [ "IsComplex", "structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4.html#adfdc88b61ca9795b2ad90d6ea91b431ea1e996cb17690872de9e2fda1bcedbdbd", null ],
-    [ "NeedToConjugate", "structEigen_1_1internal_1_1blas__traits_3_01CwiseUnaryOp_3_01scalar__conjugate__op_3_01Scalar_01_4_00_01NestedXpr_01_4_01_4.html#adfdc88b61ca9795b2ad90d6ea91b431ea834653093b890d8b6281b441f280777d", null ]
-];
